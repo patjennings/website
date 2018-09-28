@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="post">
+
+  <div class="container post-header no-cover" aria-label="Header">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <header>
+          <h1 class="post-title">{{ page.title | escape }}</h1>
+        </header>
+      </div>
+    </div>
+  </div>
+
+  <div class="container post-content" aria-label="Content">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+</article>

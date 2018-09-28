@@ -1,0 +1,41 @@
+// @font-face { font-family: "arnhem"; font-style: normal; font-weight: 700; src:url("http://localhost/blog/assets/fonts/NittiGrotesk-Normal.otf") format("otf"); }
+
+html{
+  // font-size: 1.2rem;
+}
+
+body{
+  font-family: var(--font-family-serif);
+  background: var(--light);
+}
+
+p{
+  line-height: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	margin-bottom: 1rem;
+}
+
+
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+  // font-family: "arnhem", serif;
+  font-weight: 700;
+}
+
+h6, .h6{
+  font-weight: 600;
+}
+h5, .h5{
+  font-weight: 400;
+}
+
+small, .small{
+  font-size: 90%;
+  color: var(--gray);
+}
+code, kbd, pre, samp{
+  font-family: var(--font-family-monospace);
+}
