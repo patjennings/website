@@ -8082,13 +8082,26 @@ code, kbd, pre, samp {
 .site-header .navbar {
   font-family: var(--font-family-sans-serif);
   background-color: none; }
-  .site-header .navbar .navbar-text a.nav-link {
-    transition: all, 0.2s, ease-out; }
+  .site-header .navbar a.nav-link {
+    transition: all, 0.2s, ease-out;
+    color: rgba(0, 0, 0, 0.7); }
     @media screen and (prefers-reduced-motion: reduce) {
-      .site-header .navbar .navbar-text a.nav-link {
+      .site-header .navbar a.nav-link {
         transition: none; } }
-    .site-header .navbar .navbar-text a.nav-link:hover {
+    .site-header .navbar a.nav-link:hover {
       opacity: 0.5; }
+  .site-header .navbar li.active a.nav-link {
+    color: rgba(0, 0, 0, 0.9); }
+  .site-header .navbar.navbar-dark a.nav-link {
+    transition: all, 0.2s, ease-out;
+    color: rgba(255, 255, 255, 0.7); }
+    @media screen and (prefers-reduced-motion: reduce) {
+      .site-header .navbar.navbar-dark a.nav-link {
+        transition: none; } }
+    .site-header .navbar.navbar-dark a.nav-link:hover {
+      opacity: 0.5; }
+  .site-header .navbar.navbar-dark li.active a.nav-link {
+    color: rgba(255, 255, 255, 0.9); }
 
 /* FUNCTIONS */
 .home {
