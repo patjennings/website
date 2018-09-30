@@ -8128,29 +8128,32 @@ code, kbd, pre, samp {
 @media (min-width: 2048px) {
   .grid-item, .grid-sizer {
     width: 14.2857%; } }
-.grid-item .card {
-  border: 0;
-  margin-bottom: 1.5rem;
-  margin-right: 1rem;
-  overflow: hidden; }
-  .grid-item .card .card-cover {
-    height: 160px;
-    background-size: cover;
-    transform: scale(1.2) translateY(-16px); }
 .grid-item a.card {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  color: inherit; }
+  color: inherit;
+  border: 0;
+  margin-bottom: 1.5rem;
+  margin-right: 1rem;
+  overflow: hidden; }
   .grid-item a.card img {
     opacity: 1; }
+  .grid-item a.card .text-muted {
+    color: rgba(0, 0, 0, 0.5) !important; }
+  .grid-item a.card .card-cover {
+    height: 160px;
+    background-size: cover;
+    transform: scale(1.2) translateY(-16px); }
   .grid-item a.card:hover {
     text-decoration: none;
     color: #FFF;
     background: var(--primary); }
     .grid-item a.card:hover img {
       opacity: 0.5; }
+    .grid-item a.card:hover .text-muted {
+      color: rgba(255, 255, 255, 0.5) !important; }
 
 .container--home {
   padding: 2rem; }
@@ -8212,3 +8215,5 @@ article .post-content {
       margin-left: 2rem;
       font-style: italic;
       color: var(--gray); }
+  article .post-content .small {
+    margin-bottom: 2rem; }
