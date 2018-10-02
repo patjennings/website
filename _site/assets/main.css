@@ -8189,7 +8189,8 @@ article .post-header {
     article .post-header.no-cover p.post-meta {
       color: var(--gray); }
 article .post-content {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
   article .post-content iframe {
     margin: 0 auto 2rem auto; }
   article .post-content p, article .post-content pre code, article .post-content ul li, article .post-content ol li {
