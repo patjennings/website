@@ -81,32 +81,32 @@
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
           <div class="e-content" itemprop="articleBody">
-            <p>Ces derniers temps, je produis pas mal de vidéos qui simulent une utilisation d’interface. Et je le fais dans After Effects. Quand j’ai commencé à faire cela, c’est ce qui m’a paru le plus évident.<!--more--> Je travaille dans Illustrator, le transfert est facile grâce à la compatibilité entre les softs de la suite Adobe. L’animation se fait donc en full GUI, dans un soft où l’on manipule des images-clés. Le résultat est rapidement visible, le temps de production est ridicule par rapport à un vrai prototype vivant. Tout le monde est content.
+            <p>Ces derniers temps, je produis pas mal de vidéos qui simulent une utilisation d’interface. Le but est de pouvoir simuler, rapidement, des interactions, des comportements, dans une interface qui n’est pas réellement développée. Et je fais ça dans After Effects. Quand j’ai commencé à faire cela, c’est ce qui m’a paru le plus évident.<!--more--> Je travaille dans Illustrator, le transfert est facile grâce à la compatibilité entre les softs de la suite Adobe. L’animation se fait donc en full GUI, dans un soft où l’on manipule des images-clés. Le résultat est rapidement visible, le temps de production est ridicule par rapport à un vrai prototype vivant. Tout le monde est content.
 Au bout de quelques projets, outre l’aspect ball-break de la suite Adobe, quelques aspects m’ont quand même interpellé :</p>
 
-<h3 id="les-expressions">Les expressions</h3>
+<h5 id="les-expressions">Les expressions</h5>
 
 <p>J’en utilise de plus en plus, et il m’a semblé qu’on répétait souvent les mêmes choses. Assez dur (impossible ?) de factoriser le tout en une fonction, qu’on pourrait appeler en passant des paramètres e.g.</p>
 
-<h2 id="la-composition-est-une-boîte-noire">La composition est une boîte noire</h2>
+<h5 id="la-composition-est-une-boîte-noire">La composition est une boîte noire</h5>
 
 <p>Pas de passages de valeurs. La composition, pierre angulaire de la conception dans Ae, est une boite noire : rien n’y rentre n’y n’en sort dynamiquement. Donc, on ne peut pas passer de paramètres à l’intérieur, ou faire s’afficher des informations différentes en fonction du contexte.</p>
 
-<h3 id="une-interface-dans-un-outil-de-compositing">Une interface dans un outil de compositing</h3>
+<h5 id="une-interface-dans-un-outil-de-compositing">Une interface dans un outil de compositing</h5>
 
 <p>Ça semble idiot de produire une interface, même si elle n’est que simulée, dans un outil qui est plutôt conçu pour faire du compositing. Je n’utilise que très peu d’effets, certains sont même assez lourdingues à mettre en place (tracer une ligne entre deux objets avec l’effet <em>Beam</em>) pour un truc quand même trivial ― des coordonnées <code class="highlighter-rouge">x,y</code> de départ, des <code class="highlighter-rouge">x,y</code> d’arrivées, et une ligne qui s’actualise à mesure que ces deux points bougent.</p>
 
-<h3 id="gestion-de-la-cartographie">Gestion de la cartographie</h3>
+<h5 id="gestion-de-la-cartographie">Gestion de la cartographie</h5>
 
 <p>C’est un peu particulier, mais j’ai souvent à intégrer de la map dans ces anims (pour des simulations de softs de supervision, e.g.). La gestion des niveaux de zoom est bien pénible à mettre en place, là où des tas de librairies js font le boulot en temps réel (OpenLayers, Mapbox). Et le fait d’intégrer des cartes à bonne résolution, à différents niveaux de rendus, allonge le temps de rendu de façon significative, à cause de tous ces pixels.</p>
 
-<h3 id="rendu-bitmap">Rendu bitmap</h3>
+<h5 id="rendu-bitmap">Rendu bitmap</h5>
 
 <p>Tout est traité en bitmap, pas de rendus vectoriels des comps, par exemple, donc pas moyen de les triturer et de les agrandir, par exemple, sans voir les pixels.</p>
 
 <h2 id="besoins-pistes">Besoins, pistes</h2>
 
-<p>Bon, tout ça pour dire que ça me parait un peu lourdingue de produire ça dans After Effects. Donc, je me mets en quête d’un nouvel outil pour ça. Le tryptique HTML/CSS/Js me paraît tout désigné. Dans le cadre d’un projet, la mise en route serait peut-être un peu plus longue, mais j’ai bon espoir de me rattraper sur le temps de traitement des différentes modifs, et sur… les temps de rendus.</p>
+<p>Bon, tout ça pour dire que ça me parait un peu lourdingue de produire de l’interface animée dans After Effects. Donc, je me mets en quête d’un nouvel outil pour mieux faire. Le tryptique HTML/CSS/Js me paraît tout désigné. Dans le cadre d’un projet, la mise en route serait peut-être un peu plus longue, mais j’ai bon espoir de me rattraper sur le temps de traitement des différentes modifs, et sur… les temps de rendus.</p>
 
 <p>Je note tous mes besoins ici, ce sont des notes de parcours qui tracent la démarche :</p>
 
