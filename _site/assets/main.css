@@ -8104,7 +8104,8 @@ small, .small {
   color: var(--gray); }
 
 code, kbd, pre, samp {
-  font-family: var(--font-family-monospace); }
+  font-family: var(--font-family-monospace);
+  line-height: 1.5rem; }
 
 .site-header .navbar {
   font-family: var(--font-family-monospace);
@@ -8174,6 +8175,8 @@ code, kbd, pre, samp {
     height: 160px;
     background-size: cover;
     transform: scale(1.2) translateY(-16px); }
+  .grid-item a.card h6, .grid-item a.card p {
+    line-height: 1.6rem; }
   .grid-item a.card:hover {
     text-decoration: none;
     color: #FFF;

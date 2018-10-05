@@ -36,5 +36,6 @@ small, .small{
   color: var(--gray);
 }
 code, kbd, pre, samp{
-  font-family: var(--font-family-monospace);
+    font-family: var(--font-family-monospace);
+    line-height: 1.5rem;
 }
