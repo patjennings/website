@@ -16,7 +16,8 @@ layout: default
       
 	<!-- <div class="card-deck"> -->
         {% if site.posts.size > 0 %}
-        {% for post in site.posts %}
+	
+         {% for post in site.categories.article %} 
 	<div class="grid-item">
 	  <a class="card" href="{{ post.url | relative_url }}">
 	    <!-- <img class="card-img-top" src="http://www.thomasguesnon.fr/data/files/thumbnails/avionics_2020.jpg" alt="Card image cap"> -->
