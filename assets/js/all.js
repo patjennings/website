@@ -27,6 +27,7 @@ function initMasonry(){
 }
 
 function initFade() {
+    console.log("here");
   $('#wrapper').fadeIn(); // on fadeIn le body quand le doc est chargé
   $('body').css("overflow", "scroll"); // on rétablit le overflow normal pour le body (désactivé dans CSS)
   $('.card').click(function(){
@@ -41,8 +42,16 @@ function initFade() {
 
 
 function loadPage(){
-  var items = new Array;
-  $('.projet--image').each(function(){
+    var items = new Array;
+    var i = 0;
+    $('.e-content p img').each(function(){
+	$(this).attr('id', 'item-'+i);
+	$(this).attr('class', 'projet--image');
+	i++;
+	console.log(this);
+    });
+    
+  $('.e-content p img').each(function(){
     //$(this).css("opacity", 0).css("position", "relative");
 
     // Waypoint est un plugin qui permet de déclencher une action quand l'élément est atteint dans le viewport

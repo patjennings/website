@@ -4,38 +4,34 @@ layout: default
 
 <div class="home">
   {% if page.title %}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1>
   {% endif %}
 
   {{ content }}
-
 
   <div class="container-fluid">
     <div class="grid">
       <div class="grid-sizer"></div>
       
-	<!-- <div class="card-deck"> -->
-        {% if site.posts.size > 0 %}
-	
-         {% for post in site.categories.article %} 
-	<div class="grid-item">
-	  <a class="card" href="{{ post.url | relative_url }}">
-	    <!-- <img class="card-img-top" src="http://www.thomasguesnon.fr/data/files/thumbnails/avionics_2020.jpg" alt="Card image cap"> -->
-	    <div class="card-cover" style="background-image: url({{ post.cover }})"></div>
-	    <div class="card-body">
-	      <h6 class="card-title">{{ post.title }}</h6>
-	      <p class="card-text">{{ post.excerpt | remove: '<p>' | remove: '</p>'}}...</p>
-	      <p class="card-text">
-		<small class="text-muted">Le {{ post.date | date: '%d/%m/%Y' }}, {{ post.author }}</small>
-	      </p>
-	    </div>
-	  </a>
-	</div>
-        {% endfor %}
-
-        {% endif %}
-	<!-- </div> -->
+      {% if site.projects.size > 0 %}
+      
+      {% for project in site.projects %} 
+      <div class="grid-item">
+	<a class="card" href="{{ project.url | relative_url }}">
+	  <div class="card-cover" style="background-image: url({{ project.cover }})"></div>
+	  <div class="card-body">
+	    <h6 class="card-title">{{ project.title }}</h6>
+	    <p class="card-text">{{ project.excerpt | remove: '<p>' | remove: '</p>'}}...</p>
+	    <p class="card-text">
+	      <small class="text-muted">Le {{ project.release-date }}</small>
+	    </p>
+	  </div>
+	</a>
       </div>
+      {% endfor %}
+
+      {% endif %}
+      <!-- </div> -->
     </div>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  </div>
 </div>

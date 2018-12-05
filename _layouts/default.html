@@ -4,8 +4,19 @@
   {% include head.html %}
 
   <body class="layout-{{ page.layout }}">
+
+    <div id="preloader">
+      <div class="loader" id="loader-6">
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+      </div>
+    </div>
+
+
     <div class="site-header">
-        {% include sidebar.html %}
+      {% include sidebar.html %}
     </div>
 
     {{ content }}
