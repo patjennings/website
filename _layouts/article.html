@@ -3,25 +3,23 @@ layout: default
 ---
 
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="article h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
     {% if page.cover %}
-    <div class="post-cover">
-      <div class="post-cover-image" style="background-image: url({{ page.cover }});"></div>
+    <div class="page-cover">
+      <div class="page-cover-image" style="background-image: url({{ page.cover }});"></div>
     </div>
     {% else %}
-    <div class="post-cover no-image">
+    <div class="page-cover no-image">
     </div>
     {% endif %}
 
-
-
-    <div class="container post-header {% if page.cover %}cover{% else %}no-cover{% endif %}" aria-label="Header">
+    <div class="container page-header {% if page.cover %}cover{% else %}no-cover{% endif %}" aria-label="Header">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
           <header>
-            <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-            <p class="post-meta">
+            <h1 class="page-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+            <p class="page-meta">
               <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                   Le {% assign date_format = site.minima.date_format | default: "%d/%m/%Y" %}
                   {{ page.date | date: date_format }}
@@ -33,7 +31,7 @@ layout: default
       </div>
     </div>
 
-    <div class="container post-content" aria-label="Content">
+    <div class="container page-content" aria-label="Content">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
           <div class="e-content" itemprop="articleBody">

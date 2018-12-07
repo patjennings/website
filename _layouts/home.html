@@ -1,29 +1,36 @@
 ---
 layout: default
 ---
-
-<div class="home">
-  {% if page.title %}
-  <h1 class="page-heading">{{ page.title }}</h1>
-  {% endif %}
-
-  {{ content }}
+<div class="projects">
 
   <div class="container-fluid">
     <div class="grid">
       <div class="grid-sizer"></div>
+
+      {% if page.url == "/" %} <!-- On affiche ce bloc seulement si c'est la home -->
+      <div class="grid-item grid-item--width2">
+	<a class="card" href="/about">
+	  <div class="card-body">
+	    <p class="card-text">
+	      <strong>Je suis Thomas Guesnon, directeur artistique & libriste.</strong><br/>
+	      J'interviens sur des projets de conception et de réalisation d'interfaces (ui), sur des vidéos, des installations numériques, en qualité de graphiste, motion designer, illustrateur ou développeur front. Je recoupe ces champs d'interventions pour ouvrir des perspectives et proposer des solutions ad hoc (…)
+	    </p>
+	  </div>
+	</a>
+      </div>
+      {% endif %}
       
       {% if site.projects.size > 0 %}
       
       {% for project in site.projects %} 
       <div class="grid-item">
 	<a class="card" href="{{ project.url | relative_url }}">
-	  <div class="card-cover" style="background-image: url({{ project.cover }})"></div>
+	  <div class="card-cover" style="background-image: url({{ project.thumbnail }})"></div>
 	  <div class="card-body">
 	    <h6 class="card-title">{{ project.title }}</h6>
 	    <p class="card-text">{{ project.excerpt | remove: '<p>' | remove: '</p>'}}...</p>
 	    <p class="card-text">
-	      <small class="text-muted">Le {{ project.release-date }}</small>
+	      <small class="text-muted">{{ project.release-date }}</small>
 	    </p>
 	  </div>
 	</a>
@@ -31,7 +38,6 @@ layout: default
       {% endfor %}
 
       {% endif %}
-      <!-- </div> -->
     </div>
   </div>
 </div>

@@ -1,3 +1,0 @@
-h1. Gouttes colorées
-
-Processing + synthétiseur + contrôleur midi. <a href="https://vimeo.com/181485135" target="_blank">La vidéo est ici</a>

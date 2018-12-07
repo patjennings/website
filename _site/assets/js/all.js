@@ -46,7 +46,7 @@ function loadPage(){
     var i = 0;
     $('.e-content p img').each(function(){
 	$(this).attr('id', 'item-'+i);
-	$(this).attr('class', 'projet--image');
+	$(this).attr('class', 'faded--image');
 	i++;
 	console.log(this);
     });

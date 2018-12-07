@@ -1,10 +1,10 @@
 toc:
-  - title: General
+  - title: Navigation
     pages:
       - title: Projets
-        url: /
+        url: /projets/
       - title: Articles
-        url: /category/articles.html
+        url: /articles/
       - title: Notes
         url: /notes/
       - title: À propos	

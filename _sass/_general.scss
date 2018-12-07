@@ -1,11 +1,12 @@
-// @font-face { font-family: "arnhem"; font-style: normal; font-weight: 700; src:url("http://localhost/blog/assets/fonts/NittiGrotesk-Normal.otf") format("otf"); }
+
 html{
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 body{
-  font-family: var(--font-family-serif);
-  background: var(--light);
+  font-family: var(--font-family-sans);
+    // font-family: circular;
+    background: var(--light);
 }
 
 p{
