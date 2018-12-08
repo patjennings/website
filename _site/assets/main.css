@@ -8265,7 +8265,6 @@ article .small {
 
 .faded--image {
   margin-top: 1.5rem;
-  opacity: 0;
   width: 100%; }
   .faded--image.-in-view {
     -webkit-animation: cardFadeIn 0.5s ease-out;
@@ -8301,6 +8300,9 @@ article .small {
   100% {
     opacity: 1;
     transform: translateY(0px); } }
+  .faded--image#item-0 {
+    opacity: 1; }
+
 .layout-project .faded--image {
   width: 150%;
   margin-left: -176px;

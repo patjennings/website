@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  Notes
+permalink: /notes/
 ---
 ###### 29/11/2018 ######
 - L'application [Shotgun Polly](https://blog.mapbox.com/announcing-the-winner-of-our-2018-vision-developer-contest-ff0aa42b6030) intrprète les panneaux routiers et les traduit dans toutes les langues. Le conducteur se concentre donc sur la route. Vu car élu par Mapbox app de l'année ou un truc comme ça . Extrait : _Shotgun Polly also helps new drivers, who tend to suffer from information overload while developing the essential “situational awareness” skills that experienced drivers take for granted. Having a buddy pointing out signs they might miss can be a life-saver._.

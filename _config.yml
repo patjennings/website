@@ -27,13 +27,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
+permalink: pretty
+
 collections:
   projects:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name:output_ext
   articles:
     output: true
-    permalink: /:collection/:year/:month/:day/:title
+    permalink: /:collection/:year/:month/:day/:name:output_ext
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
