@@ -8264,10 +8264,16 @@ nav.desktop {
     width: 40%; } }
 @media (min-width: 1921px) {
   .grid-item, .grid-sizer {
-    width: 16.667%; } }
+    width: 16.667%; }
+
+  .grid-item--width2 {
+    width: 33.334%; } }
 @media (min-width: 2048px) {
   .grid-item, .grid-sizer {
-    width: 14.2857%; } }
+    width: 14.2857%; }
+
+  .grid-item--width2 {
+    width: 28.5714%; } }
 .grid-item a.card {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -8288,8 +8294,11 @@ nav.desktop {
     background-position-x: center;
     background-position-y: center;
     transform: scale(1.2) translateY(-16px); }
-  .grid-item a.card h6, .grid-item a.card p {
+  .grid-item a.card p {
     line-height: 1.6rem; }
+  .grid-item a.card h6 {
+    font-size: 1.125rem;
+    line-height: 1.4rem; }
   .grid-item a.card:hover {
     text-decoration: none;
     color: #FFF;

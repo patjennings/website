@@ -14,10 +14,12 @@ title: Articles
       {% for article in site.articles reversed %} 
       <div class="grid-item">
 	<a class="card" href="{{ article.url | relative_url }}">
+	  {% if article.cover %}
 	  <div class="card-cover" style="background-image: url({{ article.cover }})"></div>
+	  {% endif %}
 	  <div class="card-body">
 	    <h6 class="card-title">{{ article.title }}</h6>
-	    <p class="card-text">{{ article.excerpt | remove: '<p>' | remove: '</p>'}}...</p>
+	    <p class="card-text">{{ article.excerpt | remove: '<p>' | remove: '</p>' }}...</p>
 	    <p class="card-text">
 	      <small class="text-muted">Le {{ article.date | date: "%d/%m/%Y" }}</small>
 	    </p>
