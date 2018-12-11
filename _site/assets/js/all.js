@@ -6,6 +6,9 @@ window.onload = function(){
     initMasonry();
     setTimeout(function(){
 	$grid.masonry('reloadItems');}, 200); // Force le reload pour remédier ua problème des cartes qui n'ont pas de height
+    $( ".toggler" ).click(function() {
+	$( ".navigation" ).toggleClass( "visible" );
+    });
 }
 
 // $(document).ready(function(){

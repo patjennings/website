@@ -16,6 +16,21 @@
   <script src="http://localhost:4000/assets/js/masonry.4.2.1.pkgd.min.js" type="text/javascript"></script>
   <script src="http://localhost:4000/assets/js/jquery.waypoints.4.0.1.min.js" type="text/javascript"></script>
   <script src="http://localhost:4000/assets/js/all.js" type="text/javascript"></script>
+  <!-- Matomo -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//www.thomasguesnon.net/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
 </head>
 
 
@@ -35,19 +50,13 @@
       <div class="container-fluid">
   
   
-      <nav class="navbar navbar-expand-lg navbar">
-	<a class="navbar-brand" href="http://localhost:4000/">
+      <nav class="navbar desktop">
+	<a class="logo" href="http://localhost:4000/">
 	  <img src="/assets/images/logo/eye_logo_dark.svg" alt="" width="30" height="30">
 	  
-	  
-	  
 	</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	  <span class="navbar-toggler-icon"></span>
-	</button>
-	
-	<div class="collapse navbar-collapse" id="navbarNav">
-	  <ul class="navbar-nav">
+	<div class="navigation">
+	  <ul class="items">
             
 	    <!-- <h4>Navigation</h4> -->
             
@@ -55,30 +64,68 @@
 	    
 	    <li class="nav-item"><a href="/projets/" class="nav-link">Projets</a></li>
 	    
-              <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
-              
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
 	    
 	    <li class="nav-item"><a href="/articles/" class="nav-link">Articles</a></li>
 	    
-              <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
-              
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
 	    
 	    <li class="nav-item"><a href="/notes/" class="nav-link">Notes</a></li>
 	    
-              <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
-              
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
 	    
 	    <li class="nav-item active"><a href="/about/" class="nav-link active">À propos</a></li>
 	    
-              <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
-              
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
 	    
 	  </ul>
 	</div>
-
-	
-
       </nav>
+
+      <!-- mobile nav -->
+  
+      <nav class="navbar mobile">
+	<a class="logo" href="http://localhost:4000/">
+	  <img src="/assets/images/logo/eye_logo_dark.svg" alt="" width="30" height="30">
+	  
+	</a>
+	<button class="toggler" value="show nav"><i class="ico">menu</i></button>
+	<div class="navigation">
+	  <ul class="items">
+            
+	    <!-- <h4>Navigation</h4> -->
+            
+            
+	    
+	    <li class="nav-item"><a href="/projets/" class="nav-link">Projets</a></li>
+	    
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
+	    
+	    <li class="nav-item"><a href="/articles/" class="nav-link">Articles</a></li>
+	    
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
+	    
+	    <li class="nav-item"><a href="/notes/" class="nav-link">Notes</a></li>
+	    
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
+	    
+	    <li class="nav-item active"><a href="/about/" class="nav-link active">À propos</a></li>
+	    
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
+	    
+	  </ul>
+	</div>
+      </nav>
+
+      
 </div>
 
     </div>

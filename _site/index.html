@@ -16,6 +16,21 @@
   <script src="http://localhost:4000/assets/js/masonry.4.2.1.pkgd.min.js" type="text/javascript"></script>
   <script src="http://localhost:4000/assets/js/jquery.waypoints.4.0.1.min.js" type="text/javascript"></script>
   <script src="http://localhost:4000/assets/js/all.js" type="text/javascript"></script>
+  <!-- Matomo -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//www.thomasguesnon.net/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
 </head>
 
 
@@ -35,19 +50,13 @@
       <div class="container-fluid">
   
   
-      <nav class="navbar navbar-expand-lg navbar">
-	<a class="navbar-brand" href="http://localhost:4000/">
+      <nav class="navbar desktop">
+	<a class="logo" href="http://localhost:4000/">
 	  <img src="/assets/images/logo/eye_logo_dark.svg" alt="" width="30" height="30">
 	  
-	  
-	  
 	</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	  <span class="navbar-toggler-icon"></span>
-	</button>
-	
-	<div class="collapse navbar-collapse" id="navbarNav">
-	  <ul class="navbar-nav">
+	<div class="navigation">
+	  <ul class="items">
             
 	    <!-- <h4>Navigation</h4> -->
             
@@ -55,30 +64,68 @@
 	    
 	    <li class="nav-item"><a href="/projets/" class="nav-link">Projets</a></li>
 	    
-              <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
-              
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
 	    
 	    <li class="nav-item"><a href="/articles/" class="nav-link">Articles</a></li>
 	    
-              <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
-              
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
 	    
 	    <li class="nav-item"><a href="/notes/" class="nav-link">Notes</a></li>
 	    
-              <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
-              
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
 	    
 	    <li class="nav-item"><a href="/about/" class="nav-link">À propos</a></li>
 	    
-              <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
-              
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
 	    
 	  </ul>
 	</div>
-
-	
-
       </nav>
+
+      <!-- mobile nav -->
+  
+      <nav class="navbar mobile">
+	<a class="logo" href="http://localhost:4000/">
+	  <img src="/assets/images/logo/eye_logo_dark.svg" alt="" width="30" height="30">
+	  
+	</a>
+	<button class="toggler" value="show nav"><i class="ico">menu</i></button>
+	<div class="navigation">
+	  <ul class="items">
+            
+	    <!-- <h4>Navigation</h4> -->
+            
+            
+	    
+	    <li class="nav-item"><a href="/projets/" class="nav-link">Projets</a></li>
+	    
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
+	    
+	    <li class="nav-item"><a href="/articles/" class="nav-link">Articles</a></li>
+	    
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
+	    
+	    <li class="nav-item"><a href="/notes/" class="nav-link">Notes</a></li>
+	    
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
+	    
+	    <li class="nav-item"><a href="/about/" class="nav-link">À propos</a></li>
+	    
+            <!-- <li class="nav-item"><a href="" class="nav-link" ></a></li> -->
+            
+	    
+	  </ul>
+	</div>
+      </nav>
+
+      
 </div>
 
     </div>
@@ -94,7 +141,7 @@
 	<a class="card" href="/about">
 	  <div class="card-body">
 	    <p class="card-text">
-	      <strong>Je suis Thomas Guesnon, directeur artistique & libriste.</strong><br/>
+	      <strong>Je suis Thomas Guesnon, directeur artistique.</strong><br/>
 	      J'interviens sur des projets de conception et de réalisation d'interfaces (ui), sur des vidéos, des installations numériques, en qualité de graphiste, motion designer, illustrateur ou développeur front. Je recoupe ces champs d'interventions pour ouvrir des perspectives et proposer des solutions ad hoc (…)
 	    </p>
 	  </div>
@@ -106,97 +153,7 @@
       
        
       <div class="grid-item">
-	<a class="card" href="/projects/avionics2020.html">
-	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/avionics_2020.jpg)"></div>
-	  <div class="card-body">
-	    <h6 class="card-title">Avionics 2020</h6>
-	    <p class="card-text">Ce projet de tableau de bord réalisé pour Thales tente d’intégrer toutes les fonctions de pilotage d’un avion de ligne dans un dispositif tactile
-
-...</p>
-	    <p class="card-text">
-	      <small class="text-muted">2013</small>
-	    </p>
-	  </div>
-	</a>
-      </div>
-       
-      <div class="grid-item">
-	<a class="card" href="/projects/beaugrenelle.html">
-	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/beaugrenelle.jpg)"></div>
-	  <div class="card-body">
-	    <h6 class="card-title">Beaugrenelle, vu d'en bas</h6>
-	    <p class="card-text"><em>Beaugrenelle vu d’en bas</em> est un film court sur ce quartier du XVème arrondissement de Paris
-
-...</p>
-	    <p class="card-text">
-	      <small class="text-muted">2013</small>
-	    </p>
-	  </div>
-	</a>
-      </div>
-       
-      <div class="grid-item">
-	<a class="card" href="/projects/geometry.html">
-	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/geometry.jpg)"></div>
-	  <div class="card-body">
-	    <h6 class="card-title">Geometry</h6>
-	    <p class="card-text">Crayon à papier et feutre sur papier ordinaire
-
-...</p>
-	    <p class="card-text">
-	      <small class="text-muted">2012</small>
-	    </p>
-	  </div>
-	</a>
-      </div>
-       
-      <div class="grid-item">
-	<a class="card" href="/projects/gouttes.html">
-	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/gouttes.jpg)"></div>
-	  <div class="card-body">
-	    <h6 class="card-title">Gouttes de pluie</h6>
-	    <p class="card-text">Une expérimentation visuelle et sonore : on produit des sons et des cercles
-
-...</p>
-	    <p class="card-text">
-	      <small class="text-muted">2016</small>
-	    </p>
-	  </div>
-	</a>
-      </div>
-       
-      <div class="grid-item">
-	<a class="card" href="/projects/hug.html">
-	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/hug.jpg)"></div>
-	  <div class="card-body">
-	    <h6 class="card-title">Hug</h6>
-	    <p class="card-text">Hug propose, grâce à des capteurs placés dans les éléments de la maison
-
-...</p>
-	    <p class="card-text">
-	      <small class="text-muted">2016</small>
-	    </p>
-	  </div>
-	</a>
-      </div>
-       
-      <div class="grid-item">
-	<a class="card" href="/projects/madon.html">
-	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/madon.jpg)"></div>
-	  <div class="card-body">
-	    <h6 class="card-title">Madon typeface</h6>
-	    <p class="card-text">Madon est un projet de police de caractère, principalement conçue pour fonctionner
-
-...</p>
-	    <p class="card-text">
-	      <small class="text-muted">2015</small>
-	    </p>
-	  </div>
-	</a>
-      </div>
-       
-      <div class="grid-item">
-	<a class="card" href="/projects/peleliu.html">
+	<a class="card" href="/projects/2012-40-peleliu.html">
 	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/peleliu.jpg)"></div>
 	  <div class="card-body">
 	    <h6 class="card-title">Bataille de Peleliu</h6>
@@ -211,7 +168,37 @@
       </div>
        
       <div class="grid-item">
-	<a class="card" href="/projects/restlet.html">
+	<a class="card" href="/projects/2013-01-avionics2020.html">
+	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/avionics_2020.jpg)"></div>
+	  <div class="card-body">
+	    <h6 class="card-title">Avionics 2020</h6>
+	    <p class="card-text">Ce projet de tableau de bord réalisé pour Thales tente d’intégrer toutes les fonctions de pilotage d’un avion de ligne dans un dispositif tactile
+
+...</p>
+	    <p class="card-text">
+	      <small class="text-muted">2013</small>
+	    </p>
+	  </div>
+	</a>
+      </div>
+       
+      <div class="grid-item">
+	<a class="card" href="/projects/2013-05-beaugrenelle.html">
+	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/beaugrenelle.jpg)"></div>
+	  <div class="card-body">
+	    <h6 class="card-title">Beaugrenelle, vu d'en bas</h6>
+	    <p class="card-text"><em>Beaugrenelle vu d’en bas</em> est un film court sur ce quartier du XVème arrondissement de Paris
+
+...</p>
+	    <p class="card-text">
+	      <small class="text-muted">2013</small>
+	    </p>
+	  </div>
+	</a>
+      </div>
+       
+      <div class="grid-item">
+	<a class="card" href="/projects/2015-00-restlet.html">
 	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/restlet_id.jpg)"></div>
 	  <div class="card-body">
 	    <h6 class="card-title">Restlet</h6>
@@ -220,6 +207,51 @@
 ...</p>
 	    <p class="card-text">
 	      <small class="text-muted">2015</small>
+	    </p>
+	  </div>
+	</a>
+      </div>
+       
+      <div class="grid-item">
+	<a class="card" href="/projects/2015-35-madon.html">
+	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/madon.jpg)"></div>
+	  <div class="card-body">
+	    <h6 class="card-title">Madon typeface</h6>
+	    <p class="card-text">Madon est un projet de police de caractère, principalement conçue pour fonctionner
+
+...</p>
+	    <p class="card-text">
+	      <small class="text-muted">2015</small>
+	    </p>
+	  </div>
+	</a>
+      </div>
+       
+      <div class="grid-item">
+	<a class="card" href="/projects/2016-06-gouttes.html">
+	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/gouttes.jpg)"></div>
+	  <div class="card-body">
+	    <h6 class="card-title">Gouttes de pluie</h6>
+	    <p class="card-text">Une expérimentation visuelle et sonore : on produit des sons et des cercles
+
+...</p>
+	    <p class="card-text">
+	      <small class="text-muted">2016</small>
+	    </p>
+	  </div>
+	</a>
+      </div>
+       
+      <div class="grid-item">
+	<a class="card" href="/projects/2016-30-hug.html">
+	  <div class="card-cover" style="background-image: url(/assets/images/projects-thumbnails/hug.jpg)"></div>
+	  <div class="card-body">
+	    <h6 class="card-title">Hug</h6>
+	    <p class="card-text">Hug propose, grâce à des capteurs placés dans les éléments de la maison
+
+...</p>
+	    <p class="card-text">
+	      <small class="text-muted">2016</small>
 	    </p>
 	  </div>
 	</a>
