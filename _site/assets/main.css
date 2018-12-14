@@ -8110,6 +8110,10 @@ code, kbd, pre, samp {
   font-family: var(--font-family-monospace);
   line-height: 1.5rem; }
 
+/* Layout */
+.container-fluid {
+  padding-right: 0; }
+
 /* FUNCTIONS */
 nav.mobile {
   display: flex; }
@@ -8166,6 +8170,17 @@ nav.desktop {
             opacity: 0.5; }
         .site-header .navbar .navigation ul.items li.nav-item.active a.nav-link {
           color: var(--blue); }
+  .site-header .navbar a.access-link {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 0.5rem;
+    margin-right: 0.75rem; }
+    .site-header .navbar a.access-link:hover {
+      color: #d1b200;
+      text-decoration: none; }
   .site-header .navbar.navbar-dark a.nav-link {
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -8206,11 +8221,13 @@ nav.desktop {
     margin-bottom: 0;
     width: 100%;
     padding-left: 0;
-    margin-top: 6rem; }
+    margin-top: 4.5rem; }
     .site-header nav.mobile .navigation ul.items li.nav-item {
       list-style-type: none;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-      .site-header nav.mobile .navigation ul.items li.nav-item a.nav-link {
+      .site-header nav.mobile .navigation ul.items li.nav-item a.nav-link,
+      .site-header nav.mobile .navigation ul.items li.nav-item a.access-link {
+        display: block;
         -webkit-transition: all 0.2s ease-out;
         -moz-transition: all 0.2s ease-out;
         -o-transition: all 0.2s ease-out;
@@ -8219,8 +8236,10 @@ nav.desktop {
         text-align: center;
         padding: 1.5rem 0;
         font-size: 1.125rem; }
-        .site-header nav.mobile .navigation ul.items li.nav-item a.nav-link:hover {
-          opacity: 0.5; }
+        .site-header nav.mobile .navigation ul.items li.nav-item a.nav-link:active,
+        .site-header nav.mobile .navigation ul.items li.nav-item a.access-link:active {
+          background-color: var(--blue);
+          color: white; }
       .site-header nav.mobile .navigation ul.items li.nav-item.active a.nav-link {
         color: var(--blue); }
   .site-header nav.mobile .navigation.visible {

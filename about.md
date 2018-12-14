@@ -4,7 +4,7 @@ title: Je m'appelle Thomas Guesnon
 permalink: /about/
 ---
 
-Je suis directeur artistique. J’interviens sur des projets de conception et de réalisation d’interfaces (ui), sur des vidéos, des installations numériques, en qualité de graphiste, motion designer, illustrateur ou développeur. Dans chaque projet, je recoupe ces champs et tente de trouver des solutions adaptées.
+Je suis designer. J’interviens sur des projets de conception et de réalisation d’interfaces (ui), sur des vidéos, des installations numériques, sur des aspects graphiques, de *motion design*, d'illustration ou de développement. Dans chaque projet, je recoupe ces champs et tente de trouver des solutions adaptées.
 
 Je suis également libriste, ce qui signifie que j’utilise des [logiciels libres](https://fr.wikipedia.org/wiki/Culture_libre#%C3%89mergence_du_mat%C3%A9riel_libre_?_(2010-)) dans ma pratique quotidienne, et je tente à mon niveau de respecter et encourager les notions d’ouverture et de liberté promues par la culture libre.
 

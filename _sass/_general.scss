@@ -40,3 +40,8 @@ code, kbd, pre, samp{
     font-family: var(--font-family-monospace);
     line-height: 1.5rem;
 }
+
+/* Layout */
+.container-fluid{
+    padding-right: 0;
+}
