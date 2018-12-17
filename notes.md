@@ -4,6 +4,11 @@ title:  Notes
 permalink: /notes/
 ---
 
+###### 17/12/2018 ######
+- Sur les fondations en décomposition de *l'informatique open source* : article de [Jarrod Overson sur Medium](https://medium.com/s/story/exploiting-developer-infrastructure-is-insanely-easy-9849937e81d4), à propos d'un problème de sécurité trouvé dans une couche profonde de dépendance (npm/nodeJs). Cet article se situe sans la continuité du livre de [Nadia Eghbal, *Sur quoi reposent nos infrastructures numériques*](https://books.openedition.org/oep/1797), que je viens de lire ; on parle ici du fait que le poids de toutes les apps, tous les services, reposent pour son écrasante majorité sur les épaules de bénévoles, dont on attend qu'ils maintiennent leur code *ad vitam aeternam*. L'auteur de l'article se veut alarmiste :
+> The open-source ecosystem is broken
+- [Intervention de Benjamin Bayart](https://video.lqdn.fr/videos/watch/88dbd3db-d47b-4296-978b-7fa2e7bbddfb) lors d'un faux procès de l'intelligence artificielle (Nuit du droit 2018) "*L'intelligence artificielle*" n'est-elle qu'un outil statistique ? A-t-elle une capacité de raisonnement ? Si c'est le cas, n'est-ce pas une forme de maltraitance extrême que d'enfermer un être conscient dans un objet que l'on peut éteindre ? Problèmes du code fermé (protégé par le secret des affaires) dans des cas de sécurité publics.
+
 ###### 10/12/2018 ######
 - Sur StackOverflow. [Réponse par l'exemple](https://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript#500459) sur la portée d'une variable javascript. En commentaire, un autre répond en disant qu'il ne comprend pas bien pourquoi cette réponse est aussi populaire. Il met une documentation complète mais dense sur le sujet du [périmètre des variables en Javascript](http://www.jibbering.com/faq/notes/closures/). Une discussion, et une forme de procès en légitimité de l'expert envers le vulgarisateur. L'expert refusant de voir, en l'espèce, le passage par un stade de compréhension intermédiaire quoiqu'incomplet. 
 
