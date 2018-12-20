@@ -1,0 +1,45 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+    <channel>
+        <title>{{ site.title }}</title>
+        <link>{{ site.url }}</link>
+        <description>{{ site.description }}</description>
+        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+        {% for article in site.articles %}
+        <item>
+            <title>{{ article.title }}</title>
+            <link>
+                {{ article.url | prepend: site.url }}
+            </link>
+            <description>
+              {{ article.content | xml_escape }}
+            </description>
+            <pubDate>{{ article.date | date_to_rfc822 }}</pubDate>
+            <guid>
+                {{ article.url | prepend: site.url }}
+            </guid>
+        </item>
+        {% endfor %}
+	
+	{% for project in site.projects %}
+        <item>
+            <title>{{ project.title }}</title>
+            <link>
+                {{ project.url | prepend: site.url }}
+            </link>
+            <description>
+                {{ project.content | xml_escape }}
+            </description>
+            <pubDate>{{ project.date | date_to_rfc822 }}</pubDate>
+            <guid>
+                {{ project.url | prepend: site.url }}
+            </guid>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>

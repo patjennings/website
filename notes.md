@@ -4,6 +4,14 @@ title:  Notes
 permalink: /notes/
 ---
 
+###### 19/12/2018 ######
+- Quand [une boite de design conçoit un système](https://www.takram.com/projects/heavy-load/) permettant à des employés de faire leurs besoins en travaillant, pour "*améliorer leur efficacité et rivaliser avec l'automatisation, mais aussi pour les libérer d'un des besoins humains les plus limitants : aller aux toilettes*". S'il devait exister l'exact opposé de l'idée que je me fais de cette discipline, ce ne serait pas loin de cela. Dans la veine de cette boîte [qui propose de se débarasser de la nourriture](https://soylent.com/). Dans [cette interview](https://www.inc.com/christine-lagorio/soylent-start-up-hacking-food.html), le créateur dit qu'acheter, préparer et manger ses repas l'empêchent de passer du temps à travailler.
+- Un utilisateur voit [son compte AirBnb supprimé](https://medium.com/@jacksoncunningham/digital-exile-how-i-got-banned-for-life-from-airbnb-615434c6eeba), la compagnie évoquant au passage le fait qu'elle n'a pas à se justifier. Là, c'est un client. Si l'intéressé gagne de l'argent grâce à cela ? Entre la brutalité aveugle d'une administration publique et celle d'une boite privée, laquelle est la plus inquiétante ?
+
+> Imagine waking up one day and no longer being able to check your Gmail, buy things on Amazon, or book an Uber.
+
+Question croustillante, réponse simple : ne pas utiliser ces services. Et tout ça pour dire plus loin "*It all feels very 1984*". Cet écrivain Medium© ne croit pas si bien dire.
+
 ###### 17/12/2018 ######
 - Sur les fondations en décomposition de *l'informatique open source* : article de [Jarrod Overson sur Medium](https://medium.com/s/story/exploiting-developer-infrastructure-is-insanely-easy-9849937e81d4), à propos d'un problème de sécurité trouvé dans une couche profonde de dépendance (npm/nodeJs). Cet article se situe sans la continuité du livre de [Nadia Eghbal, *Sur quoi reposent nos infrastructures numériques*](https://books.openedition.org/oep/1797), que je viens de lire ; on parle ici du fait que le poids de toutes les apps, tous les services, reposent pour son écrasante majorité sur les épaules de bénévoles, dont on attend qu'ils maintiennent leur code *ad vitam aeternam*. L'auteur de l'article se veut alarmiste :
 > The open-source ecosystem is broken
