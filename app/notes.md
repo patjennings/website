@@ -4,6 +4,9 @@ title:  Notes
 permalink: /notes/
 ---
 
+###### 10/01/2019 ######
+- Que signifie, dans certaines agences, l'apparition de titres de postes tels que *creative technologist* ou *design engineer* ? Sous cette apparente union sous le gui (G.U.I.), je sens la suite de l'annexion des métiers dits "créatifs" (le designer, quoi) par… Par qui ? Difficile d'être catégorique. En tout cas, tout le monde y perd, la partie artistique du métier du designer finie d'être vidée, et avec elle le potentiel d'innovation.
+
 ###### 19/12/2018 ######
 - Quand [une boite de design conçoit un système](https://www.takram.com/projects/heavy-load/) permettant à des employés de faire leurs besoins en travaillant, pour "*améliorer leur efficacité et rivaliser avec l'automatisation, mais aussi pour les libérer d'un des besoins humains les plus limitants : aller aux toilettes*". S'il devait exister l'exact opposé de l'idée que je me fais de cette discipline, ce ne serait pas loin de cela. Dans la veine de cette boîte [qui propose de se débarasser de la nourriture](https://soylent.com/). Dans [cette interview](https://www.inc.com/christine-lagorio/soylent-start-up-hacking-food.html), le créateur dit qu'acheter, préparer et manger ses repas l'empêchent de passer du temps à travailler.
 - Un utilisateur voit [son compte AirBnb supprimé](https://medium.com/@jacksoncunningham/digital-exile-how-i-got-banned-for-life-from-airbnb-615434c6eeba), la compagnie évoquant au passage le fait qu'elle n'a pas à se justifier. Là, c'est un client. Si l'intéressé gagne de l'argent grâce à cela ? Entre la brutalité aveugle d'une administration publique et celle d'une boite privée, laquelle est la plus inquiétante ?
