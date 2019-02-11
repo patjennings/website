@@ -4,6 +4,14 @@ title:  Notes
 permalink: /notes/
 ---
 
+###### 11/02/2019 ######
+- [Un article qui répertorie des solutions alternatives ](https://polylogue.org/addictions-sur-ordonnance-making-of-dune-collection-liberee/)à la mise en page, qui évoque HTML2Print, et détaille l'utilisation d'un outil nommé PagdJS. (source @polylogue@framapiaf.org)
+
+###### 17/01/2019 ######
+- J'ai vu hier soir le film de Chris Marker,[ _Le Joli Mai_ (1963)](https://fr.wikipedia.org/wiki/Le_Joli_Mai). On y parle, dans un résumé quelconque trouvé autour de ce film, du premier printemps de paix que ce printemps de 1962, après les affres de la seconde guerre mondiale et les conflits de décolonisation. Le progrès technique, l'idéologie du bonheur, semble ouvrir, derrière les visages de ces personnes interrogées, un gouffre qui a bien du mal à être refermé par les cautères matériels qu'exalte cette décennie. Un sentiment que la guerre civile est proche, un bouillonnement intellectuel dont une éruption spectaculaire a lieu en 1968. Violence omniprésente et recherche  effrénée du bonheur. Une décennie fascinante que ces années 60. Une accélération et un atterrissage, dans les vapeurs d'une _grandeur_ envolée.
+- [_Factory records, une anthologie graphique_](http://www.paris-art.com/factory-records-une-anthologie-graphique/), emprunté à la bibliothèque. On retrace la production graphique de ce label, chronologiquement, de 1978 à 1992. Une chose m'a frappé : la photo devient peu à peu l'axe autour duquel s'articule le travail graphique, elle s'impose comme l'élément graphique de base du travail et se pose en élément informatif. On y représente la tête du musicien, plus ou moins mis en scène, mais enfin, on montre sa trogne. Effacement des formes pures d'un jeu graphique éxubérant.
+- À mettre en relation avec une interview de Rohmer entendue à la radio ; il y disait que les premiers films qu'il vit furent des films muets. Il disait en garder une certaine idée de l'image, d'une image que l'on pouvait contempler, qui ne se présentait pas comme image chargée d'une _information_. (c'est à peu près ce dont je me souviens). 
+
 ###### 10/01/2019 ######
 - Que signifie, dans certaines agences, l'apparition de titres de postes tels que *creative technologist* ou *design engineer* ? Sous cette apparente union sous le gui (G.U.I.), je sens la suite de l'annexion des métiers dits "créatifs" (le designer, quoi) par… Par qui ? Difficile d'être catégorique. En tout cas, tout le monde y perd, la partie artistique du métier du designer finie d'être vidée, et avec elle le potentiel d'innovation.
 

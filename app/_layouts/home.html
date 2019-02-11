@@ -22,7 +22,7 @@ layout: default
       
       {% if site.projects.size > 0 %}
       
-      {% for project in site.projects %} 
+      {% for project in site.projects reversed %} 
       <div class="grid-item">
 	<a class="card" href="{{ project.url | relative_url }}">
 	  <div class="card-cover" style="background-image: url({{ project.thumbnail }})"></div>
