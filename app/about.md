@@ -12,9 +12,8 @@ J’ai une dizaine d’années d’expérience au sein de plusieurs agences de c
 
 Je vis et travaille à Quimper.
 
-- [Instagram](https://www.instagram.com/thomas.guesnon/)
 - [Mastodon](https://mastodon.social/@patjennings)
-- [Gitlab](https://gitlab.com/patjennings)
+- [Git](https://framagit.org/patjennings)
 
 ### Pour discuter ###
 
