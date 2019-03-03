@@ -3,6 +3,16 @@ layout: page
 title:  Notes
 permalink: /notes/
 ---
+28/02/2018
+- http://www.article11.info/?Fetichisme-de-la-marchandise
+> En réalité, il n’en est pas ainsi. S’il ne faisait pas partie d’un cycle qui prévoit la production dans des modalités fordistes de cent millions d’iPad, ce travail intellectuel n’engendrerait pratiquement aucune valeur. »
+> Mais cela n’est possible qu’en cessant de penser à la technologie comme une force autonome et en reconnaissant qu’elle est modelée par les rapports de propriété et de production, et orientée par les relations de pouvoir et de classe. Si la technologie s’imposait en dehors de tels rapports, simplement parce qu’elle est innovatrice, la machine à vapeur serait entrée en usage dès le 1er siècle après J. C., quand Héron d’Alexandrie inventa l’éolipyle (...) Mais le mode de production antique n’avait pas besoin de machines, parce que toute la force de travail nécessaire était fournie par les esclaves, et personne ne put ou ne voulut imaginer une application concrète.
+>  Tant qu’on ne se rendra pas compte qu’Apple est comme Monsanto, que Google est à l’image de Novarti, que l’apologie d’une firme est la pratique narrative la plus toxique qui existe, qu’il s’agisse de Google, de Fiat, de Facebook, de Disney ou de Nestlé… tant qu’on ne se rendra pas compte de cela, nous resterons pris dans la Toile comme dans un filet.
+> Au point que certains – on ne le rappellera jamais assez – ont eu la belle idée de poser la candidature d’Internet (qui,(…) sert (…) aussi à faire la guerre) au… Prix Nobel de la Paix. (…) Ce sont les rapports de classe, de propriété, de production qui sont occultés : on n’en voit que le fétiche. Le Karl Marx des pages sur le fétichisme de la marchandise s’avère alors précieux : « Ce qui revêt ici pour eux la forme fantastique d’un rapport des choses entre elles est seulement un rapport social déterminé des hommes entre eux.  »
+> La Toile se dresse sur de gigantesques colonnes de travail invisible, rendons-les visibles
+
+###### 27/02/2018 ######
+- “Sell your expertise and you have a limited repertoire. Sell your ignorance and you have an unlimited repertoire. He was selling his ignorance and his desire to learn about a subject. The journey of not knowing to knowing was his work.” — Richard Saul Wurman on Charles Eames
 
 ###### 11/02/2019 ######
 - [Un article qui répertorie des solutions alternatives ](https://polylogue.org/addictions-sur-ordonnance-making-of-dune-collection-liberee/)à la mise en page, qui évoque HTML2Print, et détaille l'utilisation d'un outil nommé PagdJS. (source @polylogue@framapiaf.org)
