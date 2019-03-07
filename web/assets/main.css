@@ -6802,6 +6802,11 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 500;
   src: url("fonts/NittiBasic-Normal.otf") format("opentype"); }
 @font-face {
+  font-family: arnhem;
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ArnhemDisplayPro-Bold.otf") format("opentype"), url("fonts/ArnhemDisplayPro-Bold.eot") format("eot"), url("fonts/ArnhemDisplayPro-Bold.woff") format("woff"); }
+@font-face {
   font-family: "_icons";
   font-style: normal;
   font-weight: 400;
@@ -8093,6 +8098,10 @@ p {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 1rem; }
 
+h1, .h1 {
+  font-family: "arnhem", serif;
+  font-weight: 700; }
+
 h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
   font-weight: 700; }
 
@@ -8345,7 +8354,7 @@ article .page-cover {
   article .page-cover.no-image {
     height: auto; }
   article .page-cover .page-cover-image {
-    opacity: 0.45;
+    opacity: 0.3;
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -8389,10 +8398,10 @@ article .page-content {
   article .page-content h6 {
     font-size: 1.2rem; }
   article .page-content .highlighter-rouge {
-    padding: 0.75rem 1.25rem;
     background: rgba(0, 0, 0, 0.025);
     margin-bottom: 1rem; }
     article .page-content .highlighter-rouge pre {
+      padding: 0.75rem 1.25rem;
       margin: 0; }
       article .page-content .highlighter-rouge pre code {
         font-size: 1rem;

@@ -22,3 +22,10 @@
     font-weight: 500;
     src:url("fonts/NittiBasic-Normal.otf") format("opentype");
 }
+@font-face {
+    font-family: arnhem;
+    font-style: normal;
+    font-weight: 700;
+    src:url("fonts/ArnhemDisplayPro-Bold.otf") format("opentype"), url("fonts/ArnhemDisplayPro-Bold.eot") format("eot"), url("fonts/ArnhemDisplayPro-Bold.woff") format("woff");
+}
+
