@@ -8,7 +8,8 @@ article{
     
     .page-cover{
 	width: 100%;
-	height: 480px;
+	// on définit cette hauteur en js, dynamiquement
+	// height: 480px;
 	position: absolute;
 	z-index: -2;
 	left: 0;
@@ -40,8 +41,8 @@ article{
 	p.page-meta{
 	    color: var(--white);
 	}
-
-	height: 480px;
+	// on définit cette hauteur en js, dynamiquement
+	// height: 416px;
 
 	&.no-cover{
 	    height: auto;

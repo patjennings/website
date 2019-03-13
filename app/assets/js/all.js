@@ -4,6 +4,7 @@ window.onload = function(){
     initFade();
     $("#preloader").fadeOut("slow");
     initMasonry();
+    adaptCoverHeight();
     setTimeout(function(){
 	$grid.masonry('reloadItems');}, 200); // Force le reload pour remédier ua problème des cartes qui n'ont pas de height
     $( ".toggler" ).click(function() {
@@ -69,4 +70,17 @@ function loadPage(){
 	
     });
 */
+}
+
+function adaptCoverHeight() {
+    pageHeader = $(".page-header"); // ce qui contient le titre (ajuster la hauteur)
+    title = $(".cover .row"); // le titre en lui-même (on prend sa hauteur);
+    coverImage = $(".page-cover"); //  ce qui contient l'image (ajuster la hauteur);
+
+    titleHeight = title.height();
+
+    pageHeader.css("height", titleHeight+96);
+    coverImage.css("height", titleHeight+144);
+
+    // console.log(elemTitle.height());
 }
