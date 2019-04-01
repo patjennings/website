@@ -3,6 +3,13 @@ layout: page
 title:  Notes
 permalink: /notes/
 ---
+###### 01/04/2019 ######
+- Et à la place du tout-est-politique entonné jadis par les jeunesses du monde, par les minorités de toutes sortes et, en face, par les gardiens de l’ordre social, c’est une forme de vie collective intégralement dépolitisée: la souffrance au travail est une affaire de psychologie individuelle, la catastrophe écologique une affaire de technique et de comportement, la bataille numérique des égos une affaire technique d’algorithmes et de tendances et, bien sûr, la pénurie d’eau ou la tragédie migratoire des problèmes moraux exigeant une réponse humanitaire.
+
+###### 28/03/2019 ######
+- Extrait d'un [article de Gauthier Roussilhe](https://medium.com/@Gauthier.Roussilhe/au-del%C3%A0-de-lautonomie-du-design-7ee1d7b8cf75) sur Medium :
+> Finalement il faut dissiper un des plus gros pièges du design : **“l’humain” pour lequel travaille le designer n’a jamais été humain, il ne s’agit que d’une persona fournie par la théorie économique néo-classique** : l’être calculateur et rationnel qui cherche à maximiser son bonheur. Depuis des dizaines d’années **le design a tenté de rendre cette persona humaine** en lui fournissant applications et services rationnels avec des indicateurs et objectifs à accomplir et à mesurer (quantified self). L’expérience sensible est toujours loin, me semble t-il, des champs du design ‘mainstream’.
+
 ###### 28/02/2019 ######
 - http://www.article11.info/?Fetichisme-de-la-marchandise
 > En réalité, il n’en est pas ainsi. S’il ne faisait pas partie d’un cycle qui prévoit la production dans des modalités fordistes de cent millions d’iPad, ce travail intellectuel n’engendrerait pratiquement aucune valeur. »

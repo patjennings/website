@@ -18,6 +18,8 @@ email: bonjour@thomasguesnon.fr
 description: Site web de Thomas Guesnon - design graphique, motion design, illustration, développement
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.thomasguesnon.net" # the base hostname & protocol for your site, e.g. http://example.com
+path_articles_covers: "/assets/images/blog-covers/"
+path_articles_thumbs: "/assets/images/blog-covers/thumbnails/"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 

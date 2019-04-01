@@ -7,7 +7,7 @@ layout: default
 
     {% if page.cover %}
     <div class="page-cover">
-      <div class="page-cover-image" style="background-image: url({{ page.cover }});"></div>
+      <div class="page-cover-image" style="background-image: url({{site.path_articles_covers}}{{ page.cover }});"></div>
     </div>
     {% else %}
     <div class="page-cover no-image">

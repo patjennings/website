@@ -3,7 +3,7 @@ layout: article
 title:  Jour de grève
 date:   2018-04-03 08:48:00 +0200
 categories: article
-cover: /assets/images/blog-covers/rail-toyota.jpg
+cover: rail-toyota.gif
 excerpt_separator: <!--more-->
 ---
 

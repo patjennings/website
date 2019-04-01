@@ -3,7 +3,7 @@ layout: article
 title: Le design graphique contre la recherche, vraiment ?
 date:   2016-01-01 08:48:00 +0200
 categories: article
-cover: /assets/images/blog-covers/rond-carre-table-chaise.jpg
+cover: rond-carre-table-chaise.gif
 excerpt_separator: <!--more-->
 ---
 En effectuant des recherches sur la refonte de l’identité graphique de l’université de Strasbourg (Unistra), j’ai atterri sur un article, posté<!--more--> sur un blog nommé Disensus (Défense et Information des Chercheurs et Enseignants Non Statutaires de l’Université de Strasbourg) dont on peut faire ainsi le résumé : l’article évoque la décision de l’Université de Strasbourg de déclencher un projet de refonte d’identité. Le rédacteur est très sceptique sur cette action, et plutôt agacé par la façon d’en informer les membres de l’université, qu’il apparente à une action de communication fumeuse. Je pense, comme le rédacteur, que cette novlangue emphatique et neutralisante déversée par les têtes pensantes est au mieux pesante, au pire suspecte. Mais il faut dépasser cet écran de fumée et déceler les vrais enjeux d’une refonte d’identité graphique. Opposer que l’argent serait mieux utilisé en crédit de recherche, par exemple, empêche d’embrasser l’ensemble du problème. J’ai réagi voici quelque temps à cet article par un commentaire, mais il n’a malheureusement jamais été publié. Je vous partage donc ma réponse ici, faute de mieux.

@@ -2,30 +2,35 @@
     font-family: nitti;
     font-style: normal;
     font-weight: 500;
-    src:url("fonts/NittiGrotesk-Normal.otf") format("opentype");
+    font-display: auto; // https://css-tricks.com/almanac/properties/f/font-display/
+    src:url("fonts/NittiGrotesk-Normal.woff") format("opentype");
 }
 @font-face {
     font-family: nitti;
     font-style: italic;
     font-weight: 500;
-    src:url("fonts/NittiGrotesk-NormalItalic.otf") format("opentype");
+    font-display: auto;
+    src:url("fonts/NittiGrotesk-NormalItalic.woff") format("opentype");
 }
 @font-face {
     font-family: nitti;
     font-style: normal;
     font-weight: 700;
-    src:url("fonts/NittiGrotesk-Bold.otf") format("opentype");
+    font-display: auto;
+    src:url("fonts/NittiGrotesk-Bold.woff") format("opentype");
 }
 @font-face {
     font-family: nitti-mono;
     font-style: normal;
     font-weight: 500;
-    src:url("fonts/NittiBasic-Normal.otf") format("opentype");
+    font-display: auto;    
+    src:url("fonts/NittiBasic-Normal.woff") format("opentype");
 }
 @font-face {
     font-family: arnhem;
     font-style: normal;
     font-weight: 700;
-    src:url("fonts/ArnhemDisplayPro-Bold.otf") format("opentype"), url("fonts/ArnhemDisplayPro-Bold.eot") format("eot"), url("fonts/ArnhemDisplayPro-Bold.woff") format("woff");
+    font-display: auto;
+    src:url("fonts/ArnhemDisplayPro-Bold.woff") format("opentype"), url("fonts/ArnhemDisplayPro-Bold.eot") format("eot"), url("fonts/ArnhemDisplayPro-Bold.woff") format("woff");
 }
 

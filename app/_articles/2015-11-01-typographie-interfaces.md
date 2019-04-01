@@ -3,7 +3,7 @@ layout: article
 title: Pourquoi investir dans une police de caractère ?
 date:   2015-11-01 08:48:00 +0200
 categories: article
-cover: /assets/images/blog-covers/vue-1916_sv-verdun.png
+cover: vue-1916_sv-verdun.gif
 excerpt_separator: <!--more-->
 ---
 
