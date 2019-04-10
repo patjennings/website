@@ -3,10 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Je suis Thomas Guesnon
+title: ◰ ▦ ici thomas guesnon
 ---
 
-Et je suis designer et développeur. Étrange, non ? Pas tant que ça, en fait. Après avoir passé une dizaine à pratiquer en tant que designer, dans des agences web ou de conseil en design d'interfaces, je me concentre désormais sur la façon de réaliser les choses. Je fais donc du développement Javascript, pur, ou bien avec des frameworks comme React ou Vue. J'utilise également PHP ou Python.
+Je suis designer et développeur. Après avoir passé une dizaine à pratiquer en tant que designer, dans des agences web ou de conseil en design d'interfaces, je me concentre désormais sur la façon de réaliser les choses. Je fais donc du développement Javascript, pur, ou bien avec des frameworks comme React ou Vue. J'utilise également PHP ou Python.
 
 En tant que designer, je suis intervenu sur des projets de conception et de réalisation d’interfaces (ui), sur des vidéos, des installations numériques, sur des aspects graphiques, de *motion design*, d'illustration.
 

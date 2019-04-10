@@ -29,9 +29,10 @@
 .site-header{
     .navbar{
 	font-family: var(--font-family-sans);
-	margin-top: 1.2rem;
+	// margin-top: 1.2rem;
 	background-color: none;
-
+	position: fixed;
+	top: 1rem;
 	// display: flex;
 	flex-direction: row;
 
@@ -39,40 +40,11 @@
 	    //
 	}
 
-	.navigation{
-	    //
-	    position: absolute;
-	    
-	    ul.items{
-		//
-		display: flex;
-		flex-direction: row;
-		margin-bottom: 0;
-		margin-left: 1rem;
-		
-		li.nav-item{
-		    //
-		    list-style-type: none;
-
-		    a.nav-link{
-			//
-			@include transition(all, 0.2s, ease-out);
-			color: rgba(0, 0, 0, 0.7);
-			padding: 0.5rem;
-			&:hover{
-			    opacity: 0.5;
-			    
-			}
-		    }
-
-		    &.active{
-			a.nav-link{
-			    color: var(--blue);
-			}
-		    }
-		}
-	    }  
+	a{
+	    color: var(--dark);
+	    border-bottom: 1px solid var(--dark);
 	}
+
 	a.access-link{
 	    @include transition(all, 0.2s, ease-out);
 	    color: rgba(0, 0, 0, 0.7);
