@@ -1,43 +1,43 @@
 
 html{
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
 body{
-  font-family: var(--font-family-sans);
+    font-family: var(--font-family-sans);
     // font-family: circular;
     background: var(--light);
 }
 
 p{
-  line-height: 1.7rem;
-  margin-bottom: 2rem;
+    line-height: 1.7rem;
+    margin-bottom: 2rem;
 }
-
+ul{
+    padding: 0;
+    li{
+	line-height: 1.7rem;
+    }
+}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	margin-bottom: 1rem;
-}
-
-h1, .h1 {
-  font-family: "arnhem", serif;
-  font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
-  // font-family: "arnhem", serif;
-  font-weight: 700;
+    // font-family: "arnhem", serif;
+    font-weight: 700;
 }
 
 h6, .h6{
-  font-weight: 600;
+    font-weight: 600;
 }
 h5, .h5{
-  font-weight: 400;
+    font-weight: 400;
 }
 
 small, .small{
-  font-size: 90%;
-  color: var(--gray);
+    font-size: 90%;
+    color: var(--gray);
 }
 code, kbd, pre, samp{
     font-family: var(--font-family-monospace);

@@ -1,18 +1,10 @@
 ---
 ---
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap-grid";
 @import "syntax.css";
 
-@import "fonts";
-@import "icons";
-@import "udwi";
 @import "variables";
-@import "preloader";
 
 @import "general";
 @import "navbar";
-
-@import "list";
 @import "page";
-
-@import "dark";
