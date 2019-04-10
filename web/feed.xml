@@ -5,7 +5,7 @@
         <title>Thomas Guesnon - design graphique, motion design, illustration, développement</title>
         <link>https://www.thomasguesnon.net</link>
         <description>Site web de Thomas Guesnon - design graphique, motion design, illustration, développement</description>
-        <lastBuildDate>Mon, 01 Apr 2019 12:36:53 +0200</lastBuildDate>
+        <lastBuildDate>Mon, 08 Apr 2019 20:29:09 +0200</lastBuildDate>
         
         <item>
             <title>Pourquoi investir dans une police de caractère ?</title>
@@ -583,6 +583,46 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
             </guid>
         </item>
         
+        <item>
+            <title>Une contribution</title>
+            <link>
+                https://www.thomasguesnon.net/articles/2019/04/04/2019-04-04-contribution.html
+            </link>
+            <description>
+              &lt;p&gt;L’histoire d’une contribution en 2019.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# mon idee de contribution&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;contribution&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;contenu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;mon idée&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;interet_suppose&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# l'idée que je me fais du débat en cours&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;debat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;contenu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;beaucoup de choses&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;interet_suppose&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;debat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;interet_suppose&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;contribution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;interet_suppose&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contribution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;interet_suppose&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;debat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;interet_suppose&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Pas de contribution au débat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;debat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;interet_suppose&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;contribution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;interet_suppose&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;debat_avant&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;debat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;contenu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;debat_maintenant&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;debat_avant&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot; &amp;amp; &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;contribution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;contenu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;debat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;contenu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;debat_maintenant&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;nouvel_interet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randrange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;debat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;interet_suppose&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nouvel_interet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;debat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+            </description>
+            <pubDate>Thu, 04 Apr 2019 08:48:00 +0200</pubDate>
+            <guid>
+                https://www.thomasguesnon.net/articles/2019/04/04/2019-04-04-contribution.html
+            </guid>
+        </item>
+        
 	
 	
         <item>
@@ -598,7 +638,7 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;img src=&quot;/assets/images/projects/peleliu/-t-close_02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
             </description>
-            <pubDate>Mon, 01 Apr 2019 12:36:53 +0200</pubDate>
+            <pubDate>Mon, 08 Apr 2019 20:29:09 +0200</pubDate>
             <guid>
                 https://www.thomasguesnon.net/projects/2012-40-peleliu.html
             </guid>
@@ -624,7 +664,7 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;img src=&quot;/assets/images/projects/avionics2020/avionics2020_7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
             </description>
-            <pubDate>Mon, 01 Apr 2019 12:36:53 +0200</pubDate>
+            <pubDate>Mon, 08 Apr 2019 20:29:09 +0200</pubDate>
             <guid>
                 https://www.thomasguesnon.net/projects/2013-01-avionics2020.html
             </guid>
@@ -647,7 +687,7 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;img src=&quot;/assets/images/projects/beaugrenelle/beaugrenelle_5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
             </description>
-            <pubDate>Mon, 01 Apr 2019 12:36:53 +0200</pubDate>
+            <pubDate>Mon, 08 Apr 2019 20:29:09 +0200</pubDate>
             <guid>
                 https://www.thomasguesnon.net/projects/2013-05-beaugrenelle.html
             </guid>
@@ -683,7 +723,7 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;p&gt;&lt;img src=&quot;/assets/images/projects/restlet_identity/restlet_id_00010.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
             </description>
-            <pubDate>Mon, 01 Apr 2019 12:36:53 +0200</pubDate>
+            <pubDate>Mon, 08 Apr 2019 20:29:09 +0200</pubDate>
             <guid>
                 https://www.thomasguesnon.net/projects/2015-00-restlet.html
             </guid>
@@ -705,7 +745,7 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;img src=&quot;/assets/images/projects/madon/madon_14.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
             </description>
-            <pubDate>Mon, 01 Apr 2019 12:36:53 +0200</pubDate>
+            <pubDate>Mon, 08 Apr 2019 20:29:09 +0200</pubDate>
             <guid>
                 https://www.thomasguesnon.net/projects/2015-35-madon.html
             </guid>
@@ -729,7 +769,7 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;img src=&quot;/assets/images/projects/gouttes/02_rain_drops.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
             </description>
-            <pubDate>Mon, 01 Apr 2019 12:36:53 +0200</pubDate>
+            <pubDate>Mon, 08 Apr 2019 20:29:09 +0200</pubDate>
             <guid>
                 https://www.thomasguesnon.net/projects/2016-06-gouttes.html
             </guid>
@@ -750,7 +790,7 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;/ul&gt;
 
             </description>
-            <pubDate>Mon, 01 Apr 2019 12:36:53 +0200</pubDate>
+            <pubDate>Mon, 08 Apr 2019 20:29:09 +0200</pubDate>
             <guid>
                 https://www.thomasguesnon.net/projects/2018-01-recherches.html
             </guid>
