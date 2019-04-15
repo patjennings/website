@@ -1444,12 +1444,6 @@ html {
   font-weight: 700;
   font-display: auto;
   src: url("fonts/CircularAir-Bold.woff") format("woff"); }
-@font-face {
-  font-family: arnhem;
-  font-style: normal;
-  font-weight: 700;
-  font-display: auto;
-  src: url("fonts/ArnhemDisplayPro-Bold.woff") format("opentype"), url("fonts/ArnhemDisplayPro-Bold.eot") format("eot"), url("fonts/ArnhemDisplayPro-Bold.woff") format("woff"); }
 :root {
   --font-family-sans: circular, Helvetica, Arial, sans-serif;
   --font-family-serif: serif;
@@ -1685,8 +1679,6 @@ article .page-content {
   margin-bottom: 4rem; }
   article .page-content iframe {
     margin: 0 auto 2rem auto; }
-  article .page-content img {
-    width: 100%; }
   article .page-content .highlighter-rouge {
     background: rgba(0, 0, 0, 0.025);
     margin-bottom: 1rem; }
@@ -1709,3 +1701,6 @@ article .small {
   width: 150%;
   margin-left: -176px;
   margin-bottom: 4rem; }
+
+.layout-article img {
+  width: 100%; }

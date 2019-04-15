@@ -23,9 +23,9 @@ article{
 	iframe{
 	    margin: 0 auto 2rem auto;
 	}
-	img{
-	    width: 100%;
-	}
+	// img{
+	//     width: 150%;
+	// }
 	
 	.highlighter-rouge{
 	    // padding: 0.75rem 1.25rem;
@@ -63,5 +63,12 @@ article{
 	width: 150%;
 	margin-left: -176px;
 	margin-bottom: 4rem;
+    }
+}
+.layout-article{
+    img{
+	width: 100%;
+	// margin-left: -176px;
+	// margin-bottom: 4rem;
     }
 }

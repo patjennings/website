@@ -5,7 +5,7 @@
         <title>Thomas Guesnon - design & développement</title>
         <link>http://localhost:4000</link>
         <description>Site web de Thomas Guesnon - design & développement</description>
-        <lastBuildDate>Thu, 11 Apr 2019 01:55:07 +0200</lastBuildDate>
+        <lastBuildDate>Fri, 12 Apr 2019 21:21:51 +0200</lastBuildDate>
         
         <item>
             <title>Pourquoi investir dans une police de caractère ?</title>
@@ -626,28 +626,24 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 	
 	
         <item>
-            <title>Bataille de Peleliu</title>
+            <title>Syotos - Juxta</title>
             <link>
-                http://localhost:4000/projects/2012-40-peleliu.html
+                http://localhost:4000/projects/syotos
             </link>
             <description>
-                &lt;p&gt;Quelques détails d’une carte retraçant la bataille de Peleliu&lt;!--more--&gt;, dans le Pacifique (septembre 1944).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/projects/peleliu/-t-all.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;/assets/images/projects/peleliu/-t-close_01.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;/assets/images/projects/peleliu/-t-close_02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+                
 
             </description>
-            <pubDate>Thu, 11 Apr 2019 01:55:07 +0200</pubDate>
+            <pubDate>Fri, 01 Jun 2012 00:00:00 +0200</pubDate>
             <guid>
-                http://localhost:4000/projects/2012-40-peleliu.html
+                http://localhost:4000/projects/syotos
             </guid>
         </item>
         
         <item>
-            <title>Avionics 2020</title>
+            <title>Avionics 2020 - Thales</title>
             <link>
-                http://localhost:4000/projects/2013-01-avionics2020.html
+                http://localhost:4000/projects/avionics-2020
             </link>
             <description>
                 &lt;p&gt;Ce projet de tableau de bord réalisé pour Thales tente d’intégrer toutes les fonctions de pilotage d’un avion de ligne dans un dispositif tactile&lt;!--more--&gt;. La notion d’espace tactile &lt;em&gt;seamless&lt;/em&gt; (littéralement sans bordures, continu) permet aux informations de se déplacer sur tout l’espace de l’interface. Certaines peuvent être mises en regard, là où, dans un avion de ligne en 2013, chacune est placée dans son composant, dans son espace propre.&lt;/p&gt;
@@ -664,16 +660,16 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;img src=&quot;/assets/images/projects/avionics2020/avionics2020_7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
             </description>
-            <pubDate>Thu, 11 Apr 2019 01:55:07 +0200</pubDate>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
             <guid>
-                http://localhost:4000/projects/2013-01-avionics2020.html
+                http://localhost:4000/projects/avionics-2020
             </guid>
         </item>
         
         <item>
             <title>Beaugrenelle, vu d'en bas</title>
             <link>
-                http://localhost:4000/projects/2013-05-beaugrenelle.html
+                http://localhost:4000/projects/beaugrenelle
             </link>
             <description>
                 &lt;p&gt;&lt;em&gt;Beaugrenelle vu d’en bas&lt;/em&gt; est un film court sur ce quartier du XVème arrondissement de Paris&lt;!--more--&gt;. J’ai également composé et joué la bande sonore.&lt;/p&gt;
@@ -687,16 +683,50 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;img src=&quot;/assets/images/projects/beaugrenelle/beaugrenelle_5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
             </description>
-            <pubDate>Thu, 11 Apr 2019 01:55:07 +0200</pubDate>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
             <guid>
-                http://localhost:4000/projects/2013-05-beaugrenelle.html
+                http://localhost:4000/projects/beaugrenelle
             </guid>
         </item>
         
         <item>
-            <title>Restlet</title>
+            <title>Helicopter 2020</title>
             <link>
-                http://localhost:4000/projects/2015-00-restlet.html
+                http://localhost:4000/projects/helicopter-2020
+            </link>
+            <description>
+                &lt;p&gt;projet développé en interne chez Thales
+Plusieurs éléments à passer en revue.&lt;/p&gt;
+
+&lt;p&gt;L’enjeu est donc d’auditer l’interface, puis de livrer des recommandations.&lt;/p&gt;
+
+
+            </description>
+            <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+            <guid>
+                http://localhost:4000/projects/helicopter-2020
+            </guid>
+        </item>
+        
+        <item>
+            <title>Electronic Flight bag</title>
+            <link>
+                http://localhost:4000/projects/efb
+            </link>
+            <description>
+                
+
+            </description>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
+            <guid>
+                http://localhost:4000/projects/efb
+            </guid>
+        </item>
+        
+        <item>
+            <title>Restlet, identité visuelle</title>
+            <link>
+                http://localhost:4000/projects/restlet-identity
             </link>
             <description>
                 &lt;p&gt;Restlet développe des outils de conception et de gestion des APIs&lt;!--more--&gt;. L’identité est améliorée en 2016 pour aider Restlet à imposer sa présence dans le paysage protéiforme de l’API web. Réalisé @ Use Design – 2016 
@@ -723,16 +753,31 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;p&gt;&lt;img src=&quot;/assets/images/projects/restlet_identity/restlet_id_00010.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
             </description>
-            <pubDate>Thu, 11 Apr 2019 01:55:07 +0200</pubDate>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
             <guid>
-                http://localhost:4000/projects/2015-00-restlet.html
+                http://localhost:4000/projects/restlet-identity
+            </guid>
+        </item>
+        
+        <item>
+            <title>Restlet Studio</title>
+            <link>
+                http://localhost:4000/projects/restlet-studio
+            </link>
+            <description>
+                
+
+            </description>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
+            <guid>
+                http://localhost:4000/projects/restlet-studio
             </guid>
         </item>
         
         <item>
             <title>Madon typeface</title>
             <link>
-                http://localhost:4000/projects/2015-35-madon.html
+                http://localhost:4000/projects/madon-typeface
             </link>
             <description>
                 &lt;p&gt;Madon est un projet de police de caractère, principalement conçue pour fonctionner&lt;!--more--&gt; dans des interfaces graphiques de dispositifs embarqués (e.g. tableau de bord ou _dispoditif tête-haute ― hud i.e.).&lt;/p&gt;
@@ -745,16 +790,16 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;img src=&quot;/assets/images/projects/madon/madon_14.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
             </description>
-            <pubDate>Thu, 11 Apr 2019 01:55:07 +0200</pubDate>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
             <guid>
-                http://localhost:4000/projects/2015-35-madon.html
+                http://localhost:4000/projects/madon-typeface
             </guid>
         </item>
         
         <item>
             <title>Gouttes de pluie</title>
             <link>
-                http://localhost:4000/projects/2016-06-gouttes.html
+                http://localhost:4000/projects/gouttes-de-pluie
             </link>
             <description>
                 &lt;p&gt;Une expérimentation visuelle et sonore : on produit des sons et des cercles&lt;!--more--&gt;. Le contrôle de la couleur et de l’épaisseur des cercles s’effectue grâce aux glissières du contrôleur midi. La position des formes est aléatoire.&lt;/p&gt;
@@ -769,16 +814,136 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;img src=&quot;/assets/images/projects/gouttes/02_rain_drops.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
             </description>
-            <pubDate>Thu, 11 Apr 2019 01:55:07 +0200</pubDate>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
             <guid>
-                http://localhost:4000/projects/2016-06-gouttes.html
+                http://localhost:4000/projects/gouttes-de-pluie
+            </guid>
+        </item>
+        
+        <item>
+            <title>Airel</title>
+            <link>
+                http://localhost:4000/projects/airel
+            </link>
+            <description>
+                
+
+            </description>
+            <pubDate>Sun, 01 May 2016 00:00:00 +0200</pubDate>
+            <guid>
+                http://localhost:4000/projects/airel
+            </guid>
+        </item>
+        
+        <item>
+            <title>Espace social - Mairie de Paris</title>
+            <link>
+                http://localhost:4000/projects/espace-social-paris
+            </link>
+            <description>
+                
+
+            </description>
+            <pubDate>Mon, 01 Aug 2016 00:00:00 +0200</pubDate>
+            <guid>
+                http://localhost:4000/projects/espace-social-paris
+            </guid>
+        </item>
+        
+        <item>
+            <title>Hug</title>
+            <link>
+                http://localhost:4000/projects/hug
+            </link>
+            <description>
+                &lt;p&gt;Hug propose, grâce à des capteurs placés dans les éléments de la maison&lt;!--more--&gt;, de contrôler la configuration et la programmation de ceux-ci grâce à une application mobile. Réalisé @Use-Design - 2016&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projects/hug/hug_001.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/assets/images/projects/hug/hug_002.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/assets/images/projects/hug/hug_003.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/assets/images/projects/hug/hug_004.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/assets/images/projects/hug/hug_005.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+            </description>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
+            <guid>
+                http://localhost:4000/projects/hug
+            </guid>
+        </item>
+        
+        <item>
+            <title>Restlet website</title>
+            <link>
+                http://localhost:4000/projects/restlet-website
+            </link>
+            <description>
+                
+
+            </description>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
+            <guid>
+                http://localhost:4000/projects/restlet-website
+            </guid>
+        </item>
+        
+        <item>
+            <title>Use Design website 2017</title>
+            <link>
+                http://localhost:4000/projects/use-design-website
+            </link>
+            <description>
+                &lt;p&gt;Le site web de Use Design et Use Code&lt;/p&gt;
+
+&lt;p&gt;Les animations&lt;/p&gt;
+
+&lt;p&gt;Le dégradé&lt;/p&gt;
+
+            </description>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
+            <guid>
+                http://localhost:4000/projects/use-design-website
+            </guid>
+        </item>
+        
+        <item>
+            <title>Motion in 2018</title>
+            <link>
+                http://localhost:4000/projects/motion-2018
+            </link>
+            <description>
+                &lt;p&gt;Quelques extraits de travaux d’animation sur interfaces, réalisés au cours des dernières années.&lt;/p&gt;
+
+            </description>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
+            <guid>
+                http://localhost:4000/projects/motion-2018
+            </guid>
+        </item>
+        
+        <item>
+            <title>Ez Go - Renault</title>
+            <link>
+                http://localhost:4000/projects/ez-go-renault
+            </link>
+            <description>
+                &lt;p&gt;Prototypes pour Renault.&lt;/p&gt;
+
+&lt;p&gt;Animation mobile, cartographie. Iconographie.&lt;/p&gt;
+
+&lt;p&gt;Animation véhicule, recherches. Communication client, contraintes, prototype prévisu html&lt;/p&gt;
+
+
+            </description>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
+            <guid>
+                http://localhost:4000/projects/ez-go-renault
             </guid>
         </item>
         
         <item>
             <title>Recherches</title>
             <link>
-                http://localhost:4000/projects/2018-01-recherches.html
+                http://localhost:4000/projects/recherches-graphiques
             </link>
             <description>
                 &lt;p&gt;Des photos prises au fil de l’eau, rassemblées en galeries. Elles me servent de matière plastique et graphique&lt;!--more--&gt;.&lt;/p&gt;
@@ -790,9 +955,24 @@ J’ai acheté, avec Ableton Live, un logiciel de production musicale, un jeu de
 &lt;/ul&gt;
 
             </description>
-            <pubDate>Thu, 11 Apr 2019 01:55:07 +0200</pubDate>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
             <guid>
-                http://localhost:4000/projects/2018-01-recherches.html
+                http://localhost:4000/projects/recherches-graphiques
+            </guid>
+        </item>
+        
+        <item>
+            <title>Yoodo</title>
+            <link>
+                http://localhost:4000/projects/yoodo
+            </link>
+            <description>
+                
+
+            </description>
+            <pubDate>Fri, 12 Apr 2019 21:21:51 +0200</pubDate>
+            <guid>
+                http://localhost:4000/projects/yoodo
             </guid>
         </item>
         

@@ -1,35 +1,33 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
-title: ◰ ▦ ici thomas guesnon
+title: thomas guesnon, designer & développeur
 ---
+### ◑ ◎ ◉ ###
 
-Je suis designer et développeur. Après avoir passé une dizaine à pratiquer en tant que designer, dans des agences web ou de conseil en design d'interfaces, je me concentre désormais sur la façon de réaliser les choses. Je fais donc du développement Javascript, pur, ou bien avec des frameworks comme React ou Vue. J'utilise également PHP ou Python.
+**Et je suis designer et développeur**. Je conçois et réalise des applications et des sites web, avec Javascript et des frameworks comme React. Je crée également des sites web avec des CMS comme Drupal ou Wordpress. J'accorde une importance centrale à l'ergonomie, la lisibilité et la hiérarchie des informations.
 
-En tant que designer, je suis intervenu sur des projets de conception et de réalisation d’interfaces (ui), sur des vidéos, des installations numériques, sur des aspects graphiques, de *motion design*, d'illustration.
+En tant que designer, j'ai participé à la conception d’interfaces (ui) pour des application [web]({{site.url}}/projects/yoodo "Yoodo pour Arkadin"), [mobiles]({{site.url}}/projects/efb "Electronic Flight bag") ou [embarquées]({{site.url}}/projects/airel "Airel"), sur des [vidéos]({{sites.url}}/projects/motion-2018 "Motion 2018"), des [sites web]({{site.url}}/projects/restlet-website "Restlet website"), des [installations]({{sites.url}}/projects/ez-go-renault "Ez Go pour Renault"), sur des aspects graphiques, ergonomiques et fonctionnels. Auparavant, j'ai passé cinq ans à l'école des beaux-arts de Caen.
 
-[Je consigne des notes]({{site.url}}/notes/) relatives à des ressources ou des articles que j'ai pu glaner sur les internets, et qui influencent ma pratique.
+Je passe du temps à concevoir mes outils, quand je ne trouve pas ce que je cherche ailleurs. J'ai ainsi conçu un [set d'icônes](http://www.thomasguesnon.fr/tools/pajeweic/) que j'utilise dans les interfaces que je développe. J'ai également créé un outil, [SVGSpecs](https://framagit.org/patjennings/svg-specifications "SVG Speccs"), permettant de communiquer des spécifications graphiques sur des interfaces graphiques à destination des développeurs front-end.
 
-Je suis également libriste, ce qui signifie que j’utilise des [logiciels libres](https://fr.wikipedia.org/wiki/Culture_libre#%C3%89mergence_du_mat%C3%A9riel_libre_?_(2010-)) dans ma pratique quotidienne, et je tente à mon niveau de respecter et encourager les notions d’ouverture et de liberté promues par la culture libre.
-
-Après avoir passé cinq ans au sein de l'école des beaux-arts de Caen, je cumule une dizaine d’années d’expérience au sein de plusieurs agences de communication, de web ou de conseil en design d’interfaces. J’y ai travaillé sur des projets d’interfaces mobiles ou embarqués, sur des applications professionnelles ou grand public, sur des sites web, des identités graphiques, des [design systems](https://apptitude.ch/developpement/design-system-et-collaboration/) ou des films d’animation.
+[Je consigne des notes]({{site.url}}/notes) relatives à des ressources ou des articles que j'ai pu glaner sur les internets, et qui influencent ma pratique.
 
 Je vis et travaille à Quimper.
 
-## Projets en cours ##
-- Un time tracker
-- Tyto, un 
+### C'est en cours ###
 
-### Travaux ###
+- [TimeTracker]({{site.url}}/time-tracker "Time Tracker"), un gestionnaire de temps passé
+- [Tyto]({{site.url}}/tyto "Tyto") est un outil de visualisation de données, basé sur markdown et la cartographie
+- [SVGSpecs]({{site.url}}/svg-specs "SVG Specs") permet de récupérer des spécifications graphiques
+
+### Projets auxquels j'ai participé ###
 {% for project in site.projects reversed %}
-- [{{ project.title }}]({{ project.url | relative_url }}) {{ project.date | date: "%Y" }}{% endfor %}
+- [{{ project.title }}]({{ project.url | relative_url }}) <sup>{{ project.release-date }}</sup>{% endfor %}
 
 
 ### Articles ###
   {% for article in site.articles reversed %}
-- [{{ article.title }}]({{ article.url | relative_url }}) {{ article.date | date: "%d/%m/%Y" }}{% endfor %}
+- [{{ article.title }}]({{ article.url | relative_url }}) <sup>{{ article.date | date: "%d/%m/%Y" }}</sup>{% endfor %}
 
 ### D'autres endroits ###
 - [Mastodon](https://mastodon.social/@patjennings)

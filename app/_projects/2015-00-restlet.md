@@ -1,8 +1,8 @@
 ---
 layout: project
-title:  Restlet
+title:  Restlet, identité visuelle
 release-date: 2015
-thumbnail: /assets/images/projects-thumbnails/restlet_id.jpg
+permalink: /projects/restlet-identity
 excerpt_separator: <!--more-->
 ---
 Restlet développe des outils de conception et de gestion des APIs<!--more-->. L’identité est améliorée en 2016 pour aider Restlet à imposer sa présence dans le paysage protéiforme de l’API web. Réalisé @ Use Design – 2016 

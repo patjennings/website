@@ -41,6 +41,9 @@ collections:
   articles:
     output: true
     permalink: /:collection/:year/:month/:day/:name:output_ext
+  pages:
+    output: true
+    permalink: /:collection/:name:output_ext
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
