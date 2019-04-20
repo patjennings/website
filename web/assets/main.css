@@ -1673,6 +1673,8 @@ article .page-header {
     margin-top: 4rem;
     margin-bottom: 3rem;
     font-size: 2.5rem; }
+    article .page-header h1.page-title .subtitle {
+      opacity: 0.75; }
   article .page-header p.page-meta {
     color: var(--gray); }
 article .page-content {
@@ -1696,6 +1698,9 @@ article blockquote {
     color: var(--gray); }
 article .small {
   margin-bottom: 2rem; }
+
+.layout-home h3:first-child {
+  margin-bottom: 3rem; }
 
 .layout-project img {
   width: 150%;

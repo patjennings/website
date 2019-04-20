@@ -6,7 +6,10 @@ layout: simple
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
           <header>
-            <h1 class="page-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+            <h1 class="page-title p-name" itemprop="name headline">
+	      {{ page.title | escape }}<br/>
+	      <span class="subtitle">{{ page.subtitle | escape}}</span>
+	    </h1>
           </header>
 	  <div class="content">
 	    {{content}}

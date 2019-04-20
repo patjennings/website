@@ -1,10 +1,12 @@
 ---
 layout: home
-title: thomas guesnon, designer & développeur
+title: thomas guesnon
+subtitle: design + développement
 ---
+
 ### ◑ ◎ ◉ ###
 
-**Et je suis designer et développeur**. Je conçois et réalise des applications et des sites web, avec Javascript et des frameworks comme React. Je crée également des sites web avec des CMS comme Drupal ou Wordpress. J'accorde une importance centrale à l'ergonomie, la lisibilité et la hiérarchie des informations.
+Je conçois et réalise des applications et des sites web, avec Javascript et des frameworks comme React. Je crée également des sites web avec des CMS comme Drupal ou Wordpress. J'accorde une importance centrale à l'ergonomie, la lisibilité et la hiérarchie des informations.
 
 En tant que designer, j'ai participé à la conception d’interfaces (ui) pour des application [web]({{site.url}}/projects/yoodo "Yoodo pour Arkadin"), [mobiles]({{site.url}}/projects/efb "Electronic Flight bag") ou [embarquées]({{site.url}}/projects/airel "Airel"), sur des [vidéos]({{sites.url}}/projects/motion-2018 "Motion 2018"), des [sites web]({{site.url}}/projects/restlet-website "Restlet website"), des [installations]({{sites.url}}/projects/ez-go-renault "Ez Go pour Renault"), sur des aspects graphiques, ergonomiques et fonctionnels. Auparavant, j'ai passé cinq ans à l'école des beaux-arts de Caen.
 
