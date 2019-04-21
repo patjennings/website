@@ -31,6 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+encoding: utf-8
 
 permalink: pretty
 
