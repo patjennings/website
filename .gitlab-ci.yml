@@ -20,8 +20,8 @@ build:
 deploy:
   stage: build
   script:
-    - apt-get update -qq && apt-get install -y -qq lftp
-    - lftp -c "set ftp:ssl-allow yes; open -u $USERNAME,$PASSWORD $HOST; mirror -Rev web/ ./thomasguesnon.net/ci-test  --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/"
+    - apt-get update && apt-get install sshpass
+    - sshpass -p "ctVic2011" scp -r web patjennings@86.229.179.47:/var/www/thomasguesnon.net/ci-test
   only:
     - master
 
