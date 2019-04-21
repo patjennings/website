@@ -10,7 +10,7 @@ before_script:
 build:
   stage: build
   script:
-    - JEKYLL_ENV=production bundle exec jekyll build -d public/
+    - JEKYLL_ENV=production bundle exec jekyll build -d web/
   artifacts:
     paths:
-      - public
+      - web
