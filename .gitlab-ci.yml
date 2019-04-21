@@ -8,6 +8,8 @@ before_script:
   - bundle install --path vendor
 
 build:
+  only:
+    - master
   stage: build
   script:
     - JEKYLL_ENV=production bundle exec jekyll build -d web
@@ -15,7 +17,17 @@ build:
     paths:
       - web
 
+deploy:
+  script:
+    - apt-get update -qq && apt-get install -y -qq lftp
+    - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; mirror -Rev web/ ./thomasguesnon.net/ci-test  --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/"
+  only:
+    - master
+
 variables:
   LC_ALL: "C.UTF-8"
   LANG: "en_US.UTF-8"
   LANGUAGE: "en_US.UTF-8"
+  USERNAME: "patjennet"
+  $PASSWORD: "quRYNMFJu"
+  $HOST: "86.229.179.47"
