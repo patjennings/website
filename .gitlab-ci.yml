@@ -29,5 +29,5 @@ variables:
   LANG: "en_US.UTF-8"
   LANGUAGE: "en_US.UTF-8"
   USERNAME: "patjennet"
-  $PASSWORD: "quRYNMFJu"
-  $HOST: "86.229.179.47"
+  PASSWORD: "quRYNMFJu"
+  HOST: "86.229.179.47"
