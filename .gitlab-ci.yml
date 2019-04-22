@@ -28,7 +28,7 @@ build:
 deploy:
   stage: build
   script:
-    - scp -r web/* patjennings@86.229.179.47:/var/www/thomasguesnon.net
+    - scp -rp web/* patjennings@86.229.179.47:/var/www/thomasguesnon.net
   only:
     - master
 
