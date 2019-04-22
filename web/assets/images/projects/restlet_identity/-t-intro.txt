@@ -1,5 +1,0 @@
-h1. Restlet — identité graphique
-
-Restlet développe des outils de conception et de gestion des APIs. L'identité est améliorée en 2016 pour aider Restlet à imposer sa présence dans le paysage protéiforme de l'API web.
-
-Réalisé @ Use Design - 2016

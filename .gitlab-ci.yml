@@ -43,3 +43,5 @@ variables:
   USERNAME: "patjennet"
   PASSWORD: "quRYNMFJu"
   HOST: "86.229.179.47"
+
+# phase build : création d'un artifact public/, que l'on utilise dans le job deploy. Cet artifact public/ n'est utilisable que dans le contexte du build. On y accède, dans deploy, grâce à dependencies: - build
