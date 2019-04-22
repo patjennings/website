@@ -27,7 +27,8 @@ build:
 deploy:
   stage: build
   script:
-    - scp -r web/ patjennings@86.229.179.47:/var/www/thomasguesnon.net
+    - apt-get update && apt-get install rsync 
+    - rsync -r web/ patjennings@86.229.179.47:/var/www/thomasguesnon.net
   only:
     - master
 
