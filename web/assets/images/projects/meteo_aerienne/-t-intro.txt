@@ -1,3 +1,0 @@
-h1. Météo aérienne
-
-Réalisé avec  @Use Design
