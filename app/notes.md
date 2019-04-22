@@ -5,7 +5,7 @@ permalink: /notes/
 ---
 
 ###### 22/04/2019 ######
-- Aujourd'hui est un grand jour. J'ai configuré le déploiement automatique de ce site avec l'intégration continue de Gitlab. Le commit par lequel cette entrée apparait sera le premier à l'utiliser.
+- Aujourd'hui est un grand jour. J'ai configuré le déploiement automatique de ce site avec l'intégration continue de Gitlab. Le commit par lequel cette entrée apparait sera le premier à l'utiliser. ☑
 
 ###### 15/04/2019 ######
 - La dispute, sur France Culture, parle de Jean-Luc Godard, ce soir. "On crée avec ses mains". Les mains qui pensent. Opposition célèbre avec Bazin, dans les cahiers du cinéma, qui fait l'éloge du plan-séquence, et donc d'une absence de montage. Pour Godard, c'est le montage, la main, qui fait le film, plus que l'Oeil. Y réfléchir quand il s'agit de créer des images ou de la musique (des sons ?)
