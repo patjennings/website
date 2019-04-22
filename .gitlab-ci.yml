@@ -20,15 +20,15 @@ build:
     - master
   stage: build
   script:
-    - JEKYLL_ENV=production bundle exec jekyll build -d web
+    - JEKYLL_ENV=production bundle exec jekyll build -d public
   artifacts:
     paths:
-      - web
+      - public
 
 deploy:
   stage: build
   script:
-    - scp -rp web/* patjennings@86.229.179.47:/var/www/thomasguesnon.net
+    - scp -rp public/* patjennings@86.229.179.47:/var/www/thomasguesnon.net
   only:
     - master
 
