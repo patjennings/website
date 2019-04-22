@@ -28,7 +28,7 @@ build:
 deploy:
   stage: build
   script:
-    - rsync -r web/ patjennings@86.229.179.47:/var/www/thomasguesnon.net
+    - scp -r web/* patjennings@86.229.179.47:/var/www/thomasguesnon.net
   only:
     - master
 
