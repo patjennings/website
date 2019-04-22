@@ -6,6 +6,13 @@ cache:
 
 before_script:
   - bundle install --path vendor
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - eval $(ssh-agent -s)
+  - echo "$SSH_PUBLIC_KEY" | tr -d '\r' | ssh-add - > /dev/null
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
+  - echo "$SSH_SERVER_HOSTKEYS" > ~/.ssh/known_hosts
+  - chmod 644 ~/.ssh/known_hosts
 
 build:
   only:
@@ -20,8 +27,7 @@ build:
 deploy:
   stage: build
   script:
-    - apt-get update && apt-get install sshpass
-    - sshpass -p "ctVic2011" scp -r web patjennings@86.229.179.47:/var/www/thomasguesnon.net/ci-test
+    - scp -r web patjennings@86.229.179.47:/var/www/thomasguesnon.net/ci-test
   only:
     - master
 
