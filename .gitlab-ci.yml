@@ -28,7 +28,7 @@ build:
 
 deploy:
   stage: deploy
-  dependency:
+  dependencies:
     - build
   script:
     - scp -rp ./public/* patjennings@86.229.179.47:/var/www/thomasguesnon.net
