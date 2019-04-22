@@ -1,0 +1,4 @@
+h1. Hug
+
+Ce service propose, grâce à des capteurs placés dans les éléments de la maison, de contrôler via l'application mobile la configuration et la programmation de ces éléments.
+Réalisé @Use-Design - 2016

@@ -1,0 +1,3 @@
+h1. Madon typeface
+
+Madon est un projet de police de caractère. Elle est principalement conçue pour fonctionner dans des interfaces graphiques de dispositifs embarqués (e.g. HUD ou tableau de bord).
