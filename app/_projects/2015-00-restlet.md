@@ -8,6 +8,14 @@ excerpt_separator: <!--more-->
 Restlet développe des outils de conception et de gestion des APIs<!--more-->. L’identité est améliorée en 2016 pour aider Restlet à imposer sa présence dans le paysage protéiforme de l’API web. Réalisé @ Use Design – 2016 
 <br/><br/>
 
+logo + identité
+
+illustration, sparky
+
+icones application
+
+lien vers site web
+
 ![](/assets/images/projects/restlet_identity/restlet_id_00001.png)
 
 ![](/assets/images/projects/restlet_identity/restlet_id_00002.png)
