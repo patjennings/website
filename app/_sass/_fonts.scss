@@ -1,36 +1,14 @@
 @font-face {
-    font-family: nitti;
+    font-family: circular;
     font-style: normal;
     font-weight: 500;
     font-display: auto; // https://css-tricks.com/almanac/properties/f/font-display/
-    src:url("fonts/NittiGrotesk-Normal.woff") format("opentype");
+    src:url("fonts/CircularAir-Book.woff") format("woff");
 }
 @font-face {
-    font-family: nitti;
-    font-style: italic;
-    font-weight: 500;
-    font-display: auto;
-    src:url("fonts/NittiGrotesk-NormalItalic.woff") format("opentype");
-}
-@font-face {
-    font-family: nitti;
+    font-family: circular;
     font-style: normal;
     font-weight: 700;
     font-display: auto;
-    src:url("fonts/NittiGrotesk-Bold.woff") format("opentype");
+    src:url("fonts/CircularAir-Bold.woff") format("woff");
 }
-@font-face {
-    font-family: nitti-mono;
-    font-style: normal;
-    font-weight: 500;
-    font-display: auto;    
-    src:url("fonts/NittiBasic-Normal.woff") format("opentype");
-}
-@font-face {
-    font-family: arnhem;
-    font-style: normal;
-    font-weight: 700;
-    font-display: auto;
-    src:url("fonts/ArnhemDisplayPro-Bold.woff") format("opentype"), url("fonts/ArnhemDisplayPro-Bold.eot") format("eot"), url("fonts/ArnhemDisplayPro-Bold.woff") format("woff");
-}
-

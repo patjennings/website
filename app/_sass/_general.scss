@@ -1,43 +1,72 @@
 
 html{
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
 body{
-  font-family: var(--font-family-sans);
-    // font-family: circular;
+    font-family: var(--font-family-sans);
     background: var(--light);
 }
 
-p{
-  line-height: 1.7rem;
-  margin-bottom: 2rem;
-}
+h1{font-size: 3rem;}
+h2{font-size: 2.4rem;}
+h3{font-size: 2.1rem;}
+h4{font-size: 1.8rem;}
+h5{font-size: 1.5rem;}
+h6{font-size: 1.2rem;}
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	margin-bottom: 1rem;
-}
-
-h1, .h1 {
-  font-family: "arnhem", serif;
-  font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
-  // font-family: "arnhem", serif;
-  font-weight: 700;
+    font-weight: 700;
 }
 
 h6, .h6{
-  font-weight: 600;
+    font-weight: 600;
 }
 h5, .h5{
-  font-weight: 400;
+    font-weight: 400;
+}
+
+p, pre code, ul{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+ul{
+    margin-left: 0;
+    padding-left: 0;
+    
+    li{
+	line-height: 1.8rem;
+    }
+
+    ul{
+	margin-left: 1rem;
+    }
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 1px solid blue;
+    background: none;
+    color: blue;
+
+    @include transition(all, 0.25s, ease-out);
+    
+    &:hover{
+	background: yellow;
+	color: rgba(0,0,0,0.75);
+	border-bottom: 1px solid rgba(0,0,0,0.15)
+    }
 }
 
 small, .small{
-  font-size: 90%;
-  color: var(--gray);
+    font-size: 90%;
+    color: var(--gray);
 }
 code, kbd, pre, samp{
     font-family: var(--font-family-monospace);
@@ -47,4 +76,42 @@ code, kbd, pre, samp{
 /* Layout */
 .container-fluid{
     padding-right: 0;
+}
+
+table{
+    border-collapse: collapse;
+    tr{
+	border-bottom: 1px solid var(--gray-light);
+
+	th, td{
+	    padding: 1rem 0.5rem 1rem 0;
+	    vertical-align: top;
+	    font-size: 1rem;
+	    line-height: 1.6rem;
+
+	}
+	td:first-child{
+	    opacity: 0.65;
+	    // color: blue;
+	}
+
+    }
+}
+
+.site-menu{
+    position: fixed;
+    top: 40%;
+    left: 16px;
+
+    .menu-main{
+	.menu{
+	    list-style-type: none;
+	    margin: 0;
+	    li{
+		a{
+		    
+		}
+	    }
+	}
+    }
 }

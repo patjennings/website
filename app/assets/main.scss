@@ -1,20 +1,12 @@
 ---
 ---
-// @charset "utf-8";
-
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap-grid";
+@import "fonts";
 @import "syntax.css";
 
-@import "fonts";
-@import "icons";
-@import "udwi";
 @import "variables";
-@import "preloader";
+@import "mixins";
 
 @import "general";
 @import "navbar";
-
-@import "list";
 @import "page";
-
-@import "dark";

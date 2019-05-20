@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Thomas Guesnon - design graphique, motion design, illustration, développement
+title: Thomas Guesnon - design & développement
 email: bonjour@thomasguesnon.fr
-description: Site web de Thomas Guesnon - design graphique, motion design, illustration, développement
+description: Site web de Thomas Guesnon - design & développement
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.thomasguesnon.net" # the base hostname & protocol for your site, e.g. http://example.com
 path_articles_covers: "/assets/images/blog-covers/"
@@ -31,7 +31,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-encoding: utf-8
 
 permalink: pretty
 
@@ -42,6 +41,9 @@ collections:
   articles:
     output: true
     permalink: /:collection/:year/:month/:day/:name:output_ext
+  pages:
+    output: true
+    permalink: /:collection/:name:output_ext
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
