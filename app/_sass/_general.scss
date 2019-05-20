@@ -97,3 +97,21 @@ table{
 
     }
 }
+
+.site-menu{
+    position: fixed;
+    top: 40%;
+    left: 16px;
+
+    .menu-main{
+	.menu{
+	    list-style-type: none;
+	    margin: 0;
+	    li{
+		a{
+		    
+		}
+	    }
+	}
+    }
+}
