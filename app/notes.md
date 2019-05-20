@@ -1,8 +1,11 @@
----
+	---
 layout: page
 title:  Notes
 permalink: /notes
 ---
+
+###### 22/04/2019 ######
+- Aujourd’hui est un grand jour. J’ai configuré le déploiement automatique de ce site avec l’intégration continue de Gitlab. Le commit par lequel cette entrée apparait sera le premier à l’utiliser. ☑ ⍄ .
 
 ###### 02/04/2019 ######
 - [Présentation de Maciej Ceglowski](https://www.webdirections.org/blog/the-website-obesity-crisis/), sur l'obésité des sites webs contemporains. Analyse du poids croissant des sites webs. Un passage sur le design d'interfaces m'a interpellé. Sur l'exemple de l'évolution de l'interface de Paypal (liste triable, configuration vers profil avec id_photo + grand bandeau + liste aux fonctionnalités triviales), " *Sites that used to show useful data now look like cartoons.* ". Pas faux. Qu'est-ce qui nous a poussé à ainsi utiliser des espaces à outrance, de grosses icones, une emphase sur des informations peu utiles... Une distance avec l'usage. Je soupçonne une volonté de produire un acte graphique fort à l'endroit où une économie de parole/d'action serait attendue de la part de designer. L'étau des frameworks fronts qui font le boulot et les injonctions des commanditaires au *sexy* (et aussi un peu le panurgisme), ont peut-être contribués à cette dérive.

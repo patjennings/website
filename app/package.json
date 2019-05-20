@@ -1,5 +1,5 @@
 {
-  "name": "exercices-isometriques",
+  "name": "thomas-guesnon-website",
   "version": "0.1.0",
   "scripts": {
     "start": "bundle exec jekyll serve"
@@ -9,7 +9,7 @@
     "jquery": "^3.3.1"
   },
   "author": "thomas <bonjour@thomasguesnon.fr>",
-  "description": "Blog Matthieu Davy + Thomas Guesnon",
+  "description": "Thomas Guesnon",
   "repository": "",
   "license": "GNU GPLv3"
 }
