@@ -1,1 +1,13 @@
 ErrorDocument 404 /404.html
+
+# Options -Indexes
+# Options -FollowSymlinks
+# Options -MultiViews
+# 
+# RewriteEngine on
+# RewriteBase /
+
+# Remove the .html extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([a-zA-Z0-9\-]+)\/?$ $1.html [NC,L]

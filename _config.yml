@@ -16,12 +16,8 @@
 title: Thomas Guesnon - design & développement
 email: bonjour@thomasguesnon.fr
 description: Site web de Thomas Guesnon - design & développement
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.thomasguesnon.net" # the base hostname & protocol for your site, e.g. http://example.com
-path_articles_covers: "/assets/images/blog-covers/"
-path_articles_thumbs: "/assets/images/blog-covers/thumbnails/"
-# twitter_username: jekyllrb
-# github_username:  jekyll
 
 # Build settings
 source: app
@@ -48,11 +44,11 @@ collections:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
