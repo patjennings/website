@@ -10,4 +10,4 @@ ErrorDocument 404 /404/
 # Remove the .html extension
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([a-zA-Z0-9\-]+)\/?$ $1.html [NC,L]
+RewriteRule ^([a-zA-Z0-9\-\/]+)?$ $1.html [NC,L]
