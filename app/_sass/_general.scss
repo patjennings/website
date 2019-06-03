@@ -16,6 +16,7 @@ h5{font-size: 1.5rem;}
 h6{font-size: 1.2rem;}
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -42,7 +43,15 @@ ul{
     
     li{
 	line-height: 1.8rem;
+	list-style-type: none;
+
+	&:before {
+	    content: "⎯"; /* on affiche une chaîne de caractère */
+	    margin-left: -1.875rem;
+	    margin-right: 0.775rem;
+	}
     }
+    
 
     ul{
 	margin-left: 1rem;
@@ -108,6 +117,9 @@ table{
 	    list-style-type: none;
 	    margin: 0;
 	    li{
+		&:before{
+		    content: none;
+		}
 		a{
 		    
 		}
