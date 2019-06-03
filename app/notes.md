@@ -7,6 +7,9 @@ permalink: /notes
 ###### 22/04/2019 ######
 - Aujourd’hui est un grand jour. J’ai configuré le déploiement automatique de ce site avec l’intégration continue de Gitlab. Le commit par lequel cette entrée apparait sera le premier à l’utiliser. ☑ ⍄ .
 
+###### 15/04/2019 ######
+- La dispute, sur France Culture, parle de Jean-Luc Godard, ce soir. "On crée avec ses mains". Les mains qui pensent. Opposition célèbre avec Bazin, dans les cahiers du cinéma, qui fait l'éloge du plan-séquence, et donc d'une absence de montage. Pour Godard, c'est le montage, la main, qui fait le film, plus que l'oeil. Y réfléchir quand il s'agit de créer des images ou de la musique (des sons ?). En musique, lutte entre la main qui pense (création) et la main qui joue (improvisation, jeu)
+
 ###### 02/04/2019 ######
 - [Présentation de Maciej Ceglowski](https://www.webdirections.org/blog/the-website-obesity-crisis/), sur l'obésité des sites webs contemporains. Analyse du poids croissant des sites webs. Un passage sur le design d'interfaces m'a interpellé. Sur l'exemple de l'évolution de l'interface de Paypal (liste triable, configuration vers profil avec id_photo + grand bandeau + liste aux fonctionnalités triviales), " *Sites that used to show useful data now look like cartoons.* ". Pas faux. Qu'est-ce qui nous a poussé à ainsi utiliser des espaces à outrance, de grosses icones, une emphase sur des informations peu utiles... Une distance avec l'usage. Je soupçonne une volonté de produire un acte graphique fort à l'endroit où une économie de parole/d'action serait attendue de la part de designer. L'étau des frameworks fronts qui font le boulot et les injonctions des commanditaires au *sexy* (et aussi un peu le panurgisme), ont peut-être contribués à cette dérive.
 
@@ -19,15 +22,20 @@ permalink: /notes
 > Finalement il faut dissiper un des plus gros pièges du design : **“l’humain” pour lequel travaille le designer n’a jamais été humain, il ne s’agit que d’une persona fournie par la théorie économique néo-classique** : l’être calculateur et rationnel qui cherche à maximiser son bonheur. Depuis des dizaines d’années **le design a tenté de rendre cette persona humaine** en lui fournissant applications et services rationnels avec des indicateurs et objectifs à accomplir et à mesurer (quantified self). L’expérience sensible est toujours loin, me semble t-il, des champs du design ‘mainstream’.
 
 ###### 28/02/2019 ######
-- http://www.article11.info/?Fetichisme-de-la-marchandise
-> En réalité, il n’en est pas ainsi. S’il ne faisait pas partie d’un cycle qui prévoit la production dans des modalités fordistes de cent millions d’iPad, ce travail intellectuel n’engendrerait pratiquement aucune valeur. »
-> Mais cela n’est possible qu’en cessant de penser à la technologie comme une force autonome et en reconnaissant qu’elle est modelée par les rapports de propriété et de production, et orientée par les relations de pouvoir et de classe. Si la technologie s’imposait en dehors de tels rapports, simplement parce qu’elle est innovatrice, la machine à vapeur serait entrée en usage dès le 1er siècle après J. C., quand Héron d’Alexandrie inventa l’éolipyle (...) Mais le mode de production antique n’avait pas besoin de machines, parce que toute la force de travail nécessaire était fournie par les esclaves, et personne ne put ou ne voulut imaginer une application concrète.
->  Tant qu’on ne se rendra pas compte qu’Apple est comme Monsanto, que Google est à l’image de Novarti, que l’apologie d’une firme est la pratique narrative la plus toxique qui existe, qu’il s’agisse de Google, de Fiat, de Facebook, de Disney ou de Nestlé… tant qu’on ne se rendra pas compte de cela, nous resterons pris dans la Toile comme dans un filet.
-> Au point que certains – on ne le rappellera jamais assez – ont eu la belle idée de poser la candidature d’Internet (qui,(…) sert (…) aussi à faire la guerre) au… Prix Nobel de la Paix. (…) Ce sont les rapports de classe, de propriété, de production qui sont occultés : on n’en voit que le fétiche. Le Karl Marx des pages sur le fétichisme de la marchandise s’avère alors précieux : « Ce qui revêt ici pour eux la forme fantastique d’un rapport des choses entre elles est seulement un rapport social déterminé des hommes entre eux.  »
-> La Toile se dresse sur de gigantesques colonnes de travail invisible, rendons-les visibles
+- <http://www.article11.info/?Fetichisme-de-la-marchandise>
+> (…) À première vue, il pourrait sembler que le travail intellectuel nécessaire pour développer le logiciel de l’iPad engendre par lui-même de la valeur, indépendamment du reste du cycle productif. Mais cela voudrait dire que la **valeur engendrée par ce travail intellectuel** est indépendante du nombre d’iPad qui sont produits. En réalité, il n’en est pas ainsi. **S’il ne faisait pas partie d’un cycle qui prévoit la production dans des modalités fordistes de cent millions d’iPad, ce travail intellectuel n’engendrerait pratiquement aucune valeur**.
+
+> (…) Mais cela n’est possible qu’en cessant de penser à la technologie comme une force autonome et en reconnaissant qu’elle est modelée par les rapports de propriété et de production, et orientée par les relations de pouvoir et de classe. **Si la technologie s’imposait en dehors de tels rapports, simplement parce qu’elle est innovatrice, la machine à vapeur serait entrée en usage dès le 1er siècle après J. C.**, quand Héron d’Alexandrie inventa l’éolipyle (…) Mais le mode de production antique n’avait pas besoin de machines, parce que toute la force de travail nécessaire était fournie par les esclaves, et personne ne put ou ne voulut imaginer une application concrète.
+
+>  Tant qu’on ne se rendra pas compte qu’Apple est comme Monsanto, que Google est à l’image de Novarti, que **l’apologie d’une firme est la pratique narrative la plus toxique qui existe**, qu’il s’agisse de Google, de Fiat, de Facebook, de Disney ou de Nestlé… tant qu’on ne se rendra pas compte de cela, nous resterons pris dans la Toile comme dans un filet.
+
+> Au point que certains – on ne le rappellera jamais assez – ont eu la belle idée de poser la candidature d’Internet (…) au… Prix Nobel de la Paix. **Ce sont les rapports de classe, de propriété, de production qui sont occultés : on n’en voit que le fétiche**. Le Karl Marx des pages sur le fétichisme de la marchandise s’avère alors précieux : « Ce qui revêt ici pour eux la forme fantastique d’un rapport des choses entre elles est seulement un rapport social déterminé des hommes entre eux.  »
+
+> La Toile se dresse sur de gigantesques colonnes de travail invisible, rendons-les visibles.
 
 ###### 27/02/2019 ######
-- “Sell your expertise and you have a limited repertoire. Sell your ignorance and you have an unlimited repertoire. He was selling his ignorance and his desire to learn about a subject. The journey of not knowing to knowing was his work.” — Richard Saul Wurman on Charles Eames
+- Richard Saul Wurman on Charles Eames
+> Sell your expertise and you have a limited repertoire. Sell your ignorance and you have an unlimited repertoire. He was selling his ignorance and his desire to learn about a subject. The journey of not knowing to knowing was his work.
 
 ###### 11/02/2019 ######
 - [Un article qui répertorie des solutions alternatives ](https://polylogue.org/addictions-sur-ordonnance-making-of-dune-collection-liberee/)à la mise en page, qui évoque HTML2Print, et détaille l'utilisation d'un outil nommé PagdJS. (source @polylogue@framapiaf.org)
