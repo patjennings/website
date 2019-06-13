@@ -6,9 +6,9 @@ subtitle: design + développement
 
 ### ◑ ◎ ◉ ###
 
-Mon travail consiste à concevoir et à réaliser des applications et des sites web. J'interviens sur les aspects visuels et ergonomiques (ux), puis sur le développement de l'application (front-end).
+Mon travail consiste à concevoir et à réaliser des applications web ou mobiles, des identités graphiques ou des sites web. Je résous des problèmes visuels et ergonomiques, et j'interviens sur le développement de l'application (front-end).
 
-En tant que designer, j'ai participé à la conception d’interfaces (ui) pour des application [web]({{site.url}}# "Yoodo pour Arkadin"), [mobiles]({{site.url}}# "Electronic Flight bag") ou [embarquées]({{site.url}}# "Airel"), sur des [vidéos]({{sites.url}}# "Motion 2018"), des [sites web]({{site.url}}# "Restlet website"), des [installations]({{sites.url}}# "Ez Go pour Renault"), sur des aspects graphiques, ergonomiques et fonctionnels. Auparavant, j'ai passé cinq ans à l'école des beaux-arts de Caen.
+En tant que designer, j'ai participé à la conception d’interfaces (ui) pour des application _[web]({{site.url}}# "Suez Aquadvanced")_, [mobiles]({{site.url}}# "Electronic Flight bag"), _[responsive]({{site.url}}# "Yoodo pour Arkadin")_ ou [embarquées]({{site.url}}# "Airel"), sur des [vidéos]({{sites.url}}# "Motion 2018"), des [sites web]({{site.url}}# "Restlet website"), des [installations]({{sites.url}}# "Ez Go pour Renault"), sur des aspects graphiques, ergonomiques et fonctionnels. Auparavant, j'ai passé cinq ans à l'école des beaux-arts de Caen.
 
 Je passe du temps à concevoir mes outils, quand je ne trouve pas ce que je cherche ailleurs. J'ai ainsi conçu un [set d'icônes](http://platform.thomasguesnon.net/pajeweic/) que j'utilise dans les interfaces que je développe. J'ai également créé un outil, [SVGSpecs](https://framagit.org/patjennings/svg-specifications "SVG Speccs"), permettant de communiquer des spécifications graphiques sur des interfaces graphiques à destination des développeurs front-end.
 
