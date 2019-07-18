@@ -38,7 +38,7 @@ permalink: /notes
 > Sell your expertise and you have a limited repertoire. Sell your ignorance and you have an unlimited repertoire. He was selling his ignorance and his desire to learn about a subject. The journey of not knowing to knowing was his work.
 
 ###### 11/02/2019 ######
-- [Un article qui répertorie des solutions alternatives ](https://polylogue.org/addictions-sur-ordonnance-making-of-dune-collection-liberee/)à la mise en page, qui évoque HTML2Print, et détaille l'utilisation d'un outil nommé PagdJS. (source @polylogue@framapiaf.org)
+- [Un article qui répertorie des solutions alternatives ](https://polylogue.org/addictions-sur-ordonnance-making-of-dune-collection-liberee/)à la mise en page, qui évoque HTML2Print, et détaille l'utilisation d'un outil nommé PagedJS. (source @polylogue@framapiaf.org)
 
 ###### 17/01/2019 ######
 - J'ai vu hier soir le film de Chris Marker,[ _Le Joli Mai_ (1963)](https://fr.wikipedia.org/wiki/Le_Joli_Mai). On y parle, dans un résumé quelconque trouvé autour de ce film, du premier printemps de paix que ce printemps de 1962, après les affres de la seconde guerre mondiale et les conflits de décolonisation. Le progrès technique, l'idéologie du bonheur, semble ouvrir, derrière les visages de ces personnes interrogées, un gouffre qui a bien du mal à être refermé par les cautères matériels qu'exalte cette décennie. Un sentiment que la guerre civile est proche, un bouillonnement intellectuel dont une éruption spectaculaire a lieu en 1968. Violence omniprésente et recherche  effrénée du bonheur. Une décennie fascinante que ces années 60. Une accélération et un atterrissage, dans les vapeurs d'une _grandeur_ envolée.

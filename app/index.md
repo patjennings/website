@@ -12,7 +12,7 @@ En tant que designer, j'ai participé à la conception d’interfaces (ui) pour 
 
 Je passe du temps à concevoir mes outils, quand je ne trouve pas ce que je cherche ailleurs. J'ai ainsi conçu un [set d'icônes](http://platform.thomasguesnon.net/pajeweic/) que j'utilise dans les interfaces que je développe. J'ai également créé un outil, [SVGSpecs](https://framagit.org/patjennings/svg-specifications "SVG Speccs"), permettant de communiquer des spécifications graphiques sur des interfaces graphiques à destination des développeurs front-end.
 
-[Je consigne des notes]({{site.url}}/notes) relatives à des ressources ou des articles que j'ai pu glaner sur les internets, et qui influencent ma pratique.
+[Je consigne des notes]({{site.url}}/notes) issues d'articles, de livres, d'émissions de radios, d'échanges, de films, choses vues ou entendues, et qui nourrissent ma pratique.
 
 Je vis et travaille à Quimper.
 
