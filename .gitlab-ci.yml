@@ -8,7 +8,6 @@ before_script:
   - bundle install --path vendor
   - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
   - eval $(ssh-agent -s)
-  - echo "$SSH_PRIVATE_KEY"
   - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
   - mkdir -p ~/.ssh
   - chmod 700 ~/.ssh
@@ -31,7 +30,7 @@ deploy:
   dependencies:
     - build
   script:
-    - scp -rp ./public/* patjennings@81.53.198.226:/var/www/thomasguesnon.net
+    - scp -rp ./public/* patjennings@92.139.41.114:/var/www/thomasguesnon.net
   only:
     - master
 
@@ -42,6 +41,6 @@ variables:
   LANGUAGE: "en_US.UTF-8"
   USERNAME: "patjennet"
   PASSWORD: "quRYNMFJu"
-  HOST: "81.53.198.226"
+  HOST: "92.139.41.114"
 
 # phase build : création d'un artifact public/, que l'on utilise dans le job deploy. Cet artifact public/ n'est utilisable que dans le contexte du build. On y accède, dans deploy, grâce à dependencies: - build
