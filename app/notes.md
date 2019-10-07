@@ -3,6 +3,8 @@ layout: page
 title: Notes
 permalink: /notes
 ---
+###### 07/10/2019 ######
+- L'art, le discours, l'acte, le dispositif, l'artiste, la contradiction, sa maîtrise : [Vincent Macaigne et Les intermittent·es du désordre](https://lundi.am/Vincent-Macaigne-n-a-pas-joue-au-Theatre-de-la-Colline)
 
 ###### 22/04/2019 ######
 - Aujourd’hui est un grand jour. J’ai configuré le déploiement automatique de ce site avec l’intégration continue de Gitlab. Le commit par lequel cette entrée apparait sera le premier à l’utiliser. ☑ ⍄ .
