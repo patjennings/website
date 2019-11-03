@@ -30,7 +30,7 @@ deploy:
   dependencies:
     - build
   script:
-    - scp -rp ./public/* patjennings@92.139.41.114:/var/www/thomasguesnon.net
+    - scp -rp ./public/* patjennings@83.205.151.87:/var/www/thomasguesnon.net
   only:
     - master
 
@@ -41,6 +41,6 @@ variables:
   LANGUAGE: "en_US.UTF-8"
   USERNAME: "patjennet"
   PASSWORD: "quRYNMFJu"
-  HOST: "92.139.41.114"
+  HOST: "83.205.151.87"
 
 # phase build : création d'un artifact public/, que l'on utilise dans le job deploy. Cet artifact public/ n'est utilisable que dans le contexte du build. On y accède, dans deploy, grâce à dependencies: - build
