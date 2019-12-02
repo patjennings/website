@@ -117,7 +117,7 @@ table{
     }
 }
 
-.site-menu{
+#site-menu{
     position: fixed;
     z-index: 999;
     width: 56px;
@@ -137,7 +137,7 @@ table{
 	}
     }
 
-    &:hover{
+    &.visible{
 	width: 320px;
 	padding: 16px 32px;
 
@@ -149,6 +149,10 @@ table{
 
 	.menu-main{
 	    opacity: 1;
+
+	    a{
+		display: block;
+	    }
 	}
     }
 
@@ -159,7 +163,7 @@ table{
 
 	a{
 	    color: #FFF;
-	    display: block;
+	    display: none;
 	    text-decoration: none;
 	    border-bottom: none;
 	    margin-bottom: 0.5rem;

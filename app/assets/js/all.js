@@ -1,7 +1,9 @@
+let menuIsVisible = false;
+
 window.onload = function(){
     const homeLayout = document.querySelector(".layout-home")
     mosaicHandler();
-    homeLayout !== null ? introHandler() : null;
+    menuHandler();
 
     window.onresize = function() {
 	mosaicHandler();
@@ -9,6 +11,35 @@ window.onload = function(){
     }
     
     homeLayout !== null ? introImagesSlider() : null;
+}
+
+function menuHandler() // Gestion des cells de la mosaïque
+{
+    const menu = document.getElementById("site-menu");
+
+    menu.onclick = function(e){
+	e.stopPropagation();
+	if(menuIsVisible){
+	    setTimeout(function(){
+		menu.setAttribute("class", "hidden");
+		menuIsVisible = false;
+	    }, 75);
+	} else {
+	    menu.setAttribute("class", "visible");
+	    menuIsVisible = true;
+	}
+
+    }
+
+    window.onclick = function(){
+    	if(menuIsVisible){
+	    setTimeout(function(){
+		menu.setAttribute("class", "hidden");
+    		menuIsVisible = false;
+	    }, 75)
+
+    	} 
+    }
 }
 
 function mosaicHandler() // Gestion des cells de la mosaïque

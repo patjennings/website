@@ -12,7 +12,15 @@ project_font: "#FFFFFF"
 
 La cartographie aérienne propose un défi de design intéressant : il s'agit de rendre lisible des informations très diverses. Les routes aériennes, les aéroports, les balises de différentes types. À cela, s'ajoutent des données météo, qui sont une typologie à part entière, et qui vont varier dans le temps. Voici le solutions qui ont été proposées pour un client aéronautique.
 
+![efb-map-4](/assets/images/projects/efb-map/efb-map-4.jpg)
+![efb-map-5](/assets/images/projects/efb-map/efb-map-5.jpg)
+![efb-map-6](/assets/images/projects/efb-map/efb-map-6.jpg)
+![efb-map-7](/assets/images/projects/efb-map/efb-map-7.jpg)
 ![efb-map-2](/assets/images/projects/efb-map/efb-map-2.jpg)
-![efb-map-clouds](/assets/images/projects/efb-map/efb-map-clouds-wide.jpg)
+![efb-map-8](/assets/images/projects/efb-map/efb-map-8.jpg)
+![efb-map-9](/assets/images/projects/efb-map/efb-map-9.jpg)
+![efb-map-10](/assets/images/projects/efb-map/efb-map-10.jpg)
+![efb-map-11](/assets/images/projects/efb-map/efb-map-11.jpg)
 ![efb-map-3](/assets/images/projects/efb-map/efb-map-3.jpg)
-![efb-map-3](/assets/images/projects/efb-map/efb-map-anim.gif)
+
+<video src="/assets/images/projects/efb-map/efb-radar.m4v" autoplay loop width="1280">
