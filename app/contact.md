@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: Contactez-moi
 permalink: /contact
 ---
 
@@ -9,7 +9,8 @@ permalink: /contact
 - Skype : thomas.guesnon32
 - Jabber : thomasguesnon@im.apinc.org
 
-### D'autres endroits ###
+#### Ailleurs sur le web ####
+
 - [Mastodon](https://mastodon.social/@patjennings)
 - [Git](https://framagit.org/patjennings)
 - [LinkedIn](https://www.linkedin.com/in/thomas-guesnon/)
