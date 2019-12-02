@@ -29,12 +29,11 @@
 .site-header{
     .navbar{
 	font-family: var(--font-family-sans);
-	// margin-top: 1.2rem;
 	background-color: none;
 	position: fixed;
 	top: 1rem;
-	// display: flex;
 	flex-direction: row;
+	left: 4rem;
 
 	.logo{
 	    //
@@ -42,6 +41,7 @@
 
 	a{
 	    color: var(--dark);
+	    padding: 8px 0;
 	    border-bottom: 1px solid var(--dark);
 	}
 

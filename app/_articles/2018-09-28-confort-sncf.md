@@ -3,7 +3,8 @@ layout: article
 title:  Le confort et la SNCF
 date:   2018-04-13 08:48:00 +0200
 categories: article
-cover: dcb699613957429f9a8b33ee87cb3cd0.gif
+cover: dcb699613957429f9a8b33ee87cb3cd0.gi
+author: Thomas
 excerpt_separator: <!--more-->
 ---
 En ces temps de grève, mes petites habitudes sont chamboulées. D’ordinaire, je suis à Paris les lundi et mardi, une fois toutes les deux semaines. Mais cette fois-ci, la SNCF est en grève <!--more-->; et celle-ci est “perlée”, comme on dit : les jours de grève sont établis à l’avance, morcelant les semaines à la faveur du travail effectué ou suspendu, et indiqués sur le site de l’entreprise. Comme ces jours correspondent, cette semaine, aux lundi et mardi, j’ai donc décalé ma venue aux mercredi et jeudi. J’arrive donc mercredi à Paris : tout se passe comme il faut, le train part à 5h15 de Quimper et arrive à 9h04 à Paris. Après une nuit à Paris, je vais de nouveau à l’agence le lendemain, pour une journée de travail, avant de partir retrouver ma famille le soir, et de terminer la semaine à Quimper. À ce moment-là, quelque chose avait bien attiré mon attention, mais sans que j’en fasse grand cas : la SNCF ne m’avait pas envoyé de SMS, comme elle le fait la veille de chaque voyage, pour me confirmer mon voyage du lendemain, me rappelant ma voiture et ma place. Je m’en sers d’ailleurs, depuis les plusieurs mois que ce système est en place, pour trouver mon siège, systématiquement, au lieu du e-billet pdf imprimé, ou de l’application sur feu le smartphone, depuis écrabouillé et remplacé par ce bon vieux mobile à batterie et à coque amovible. Donc, je ne reçois rien, mais ça ne me préoccupe pas. Le jeudi, donc, sur les coups de 17h00, un peu avant de reprendre le métro pour gagner la gare, je vérifie l’heure de départ de mon train. Horreur ! Il était déjà parti !

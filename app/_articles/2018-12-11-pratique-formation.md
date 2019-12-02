@@ -4,7 +4,7 @@ title:  Spectacle du logiciel et formation(s)
 date:   2018-12-11 12:58:00 +0200
 categories: article
 excerpt_separator: <!--more-->
-author: thomas
+author: Thomas
 cover: spectacle.gif
 ---
 Ce matin, je tombe, sur Instagram, sur une citation de Carolina de Bartolo, sur le fil de Eye Magazine. 

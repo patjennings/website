@@ -4,6 +4,7 @@ title: La clairière
 date: 2018-10-20 09:32:00 +0200
 categories: article
 cover: Citroen_type_H_van.gif
+author: Thomas
 excerpt_separator: <!--more-->
 ---
 Ce matin, je suis arrivé dans une clairière. Au lever du jour ; soleil rasant qui passe à travers les arbres. Une clairière de conte, un truc parfait, comme on n'en voit que sur Flickr<!--more-->. Au dessus de cet espace bordé d'arbre grondait les sons croisés de deux axes très empruntés le matin. Là, les routes sont à cent ou deux cent mètres, dans au moins deux directions. Un rond-point très emprunté, des quatre-voies remplies de camions chargés et de salariés ou d'étudiants en transit. Le son passe au dessus de la clairière, l'enveloppe, sans que l'on n'aperçoive sa source, et cet instant m'a rappelé une sensation.

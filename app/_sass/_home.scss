@@ -1,0 +1,183 @@
+.layout-home{
+    // color: #e0e0e0;
+    // background-color: #342a32;
+
+    // a{
+    // 	color: yellow;
+    // }
+    .content{
+	padding: 48px;
+	
+	img[alt="hello"]{
+	    width: 48px;
+	    margin: 16px 0;
+	}
+	blockquote p{
+	    display: flex;
+	    color: blue;
+	    
+	    img{
+		width: 320px;
+		height: 320px;
+		border: 15px solid #FFF;
+		margin: 56px auto;
+	    }
+
+	}
+
+    }
+
+    .intro{
+	margin-left: 56px;
+	height: 100vh; // pour éviter que ça ne saute avant que js ne resize la hauteur dynamiquement.
+	color: #FFF;
+	display: flex;
+
+	background: #000;
+	
+	transition: all 0.25s ease-in;
+
+	.slides{
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    // top: -64px;
+	    // left: -64px;
+	    z-index: 0;
+	    
+	    width: 100vw;
+	    height: 100vh;
+	    
+	    .slide{
+		background-size: cover;
+		position: absolute;
+		
+		width: 100%;
+		height: 100%;
+	    	transition: all 0.75s ease-in-out;
+
+		&#slide-1{
+		    background-image: url(/assets/images/intro-1.jpg);
+		}
+		&#slide-2{
+		    background-image: url(/assets/images/intro-2.jpg);
+		}
+		&#slide-3{
+		    background-image: url(/assets/images/intro-3.jpg);
+		}
+		&#slide-4{
+		    background-image: url(/assets/images/intro-4.jpg);
+		}
+
+		&.hidden{
+		    opacity: 0;
+		}
+		&.visible{
+		    opacity: 1;
+		}
+	    }
+	}
+	
+	.intro--content{
+	    margin: auto 0 auto 64px;
+	    z-index:3;
+	    
+	    h1{
+		a{
+		    color: #FFF;
+		    text-decoration: none;
+		    border-bottom: none;
+
+		    &:hover{
+			color: #000;
+			background: yellow;
+		    }
+		}	
+	    }
+	    p{
+		a{
+		    color: #FFF;
+		    text-decoration: none;
+		    border-bottom: 1px solid #FFF;
+		    font-size: 1.1rem;
+
+		    &:hover{
+			color: #000;
+			background: yellow;
+			border-bottom: 1px solid yellow;
+		    }
+		}
+	    }
+	    
+
+	}
+	.details{
+	    position: absolute;
+	    z-index: 10;
+	    right: 56px;
+	    bottom: 80px;
+	    text-align: right;
+	    width: 50vw;
+	    display: flex;
+	    justify-content: flex-end;
+	    
+	    p.slide-details{
+		color: rgba(255,255,255,0.75);
+		transition: all 0.25s ease-in;
+		position: absolute;
+		font-size: 0.875rem;
+
+		a{
+		    color: #FFF;
+		    border-bottom: 1px solid #FFF;
+
+		    &:hover{
+			color: #000;
+		    }
+		}
+		&.hidden{
+		    opacity: 0;
+		}
+		&.visible{
+		    opacity: 1;
+		}
+	    }
+	}
+	.more{
+	    z-index: 4;
+	    animation: moreContent 1.5s ease-in-out;
+	    animation-iteration-count: 3;
+	    animation-delay: 2s;
+	    position: absolute;
+	    bottom: 64px;
+	    margin: 0 auto 0 64px;
+
+	    @keyframes moreContent {
+		0% {
+		    bottom: 64px;
+		}
+		50% {
+		    bottom: 96px;
+		}
+		100% {
+		    bottom: 64px;
+		}
+	    }
+	}
+
+	.overlay{
+	    width: 100vw;
+	    height: 100vh;
+	    background-color: #000;
+	    opacity: 0.5;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    z-index:1;
+	}
+    }
+    
+    
+
+}
+

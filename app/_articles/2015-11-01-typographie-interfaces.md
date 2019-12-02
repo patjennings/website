@@ -4,6 +4,7 @@ title: Pourquoi investir dans une police de caractère ?
 date:   2015-11-01 08:48:00 +0200
 categories: article
 cover: vue-1916_sv-verdun.gif
+author: Thomas
 excerpt_separator: <!--more-->
 ---
 

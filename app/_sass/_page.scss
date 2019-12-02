@@ -68,17 +68,40 @@ article{
 }
 // exceptions
 .layout-project{
-    img{
-	width: 150%;
-	margin-left: -176px;
-	margin-top: 2rem;
-	margin-bottom: 4rem;
+    article{
+	img{
+	    width: 150%;
+	    margin-left: -176px;
+	    margin-top: 2rem;
+	    margin-bottom: 4rem;
+	}
+	
     }
 }
 .layout-article{
-    img{
-	width: 100%;
-	// margin-left: -176px;
-	// margin-bottom: 4rem;
+    article{
+	img{
+	    width: 100%;
+	    // margin-left: -176px;
+	    // margin-bottom: 4rem;
+	}
+    }
+
+}
+
+// references
+table{
+    tr{
+	td{
+	    img{
+		margin: 0 !important;
+		height: 96px !important;
+		width: 96px !important;
+	    }
+	    &:nth-child(1),
+	    &:nth-child(2){
+		color: #707374;
+	    }
+	}
     }
 }

@@ -4,6 +4,7 @@ title: Convivialité, low-tech
 date:  2018-12-01 08:48:00 +0200
 categories: article
 cover: 
+author: Thomas
 excerpt_separator: <!--more-->
 ---
 Cet article retrace une présentation faite en début d'année. Elle met en perspective quelques idées issues de deux livres, *la convivialité* d'Ivan Illich (1973) et *L'âge des low tech* de Philippe Bihouix (2014), avec la pratique du design<!--more-->. Le [pdf qui a servi de suppport visuel est à télécharger ici.](/assets/files/convivialite_low_tech_design_presentation.pdf)

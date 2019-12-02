@@ -22,8 +22,7 @@ layout: default
             <p class="page-meta">
               <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                   Le {% assign date_format = site.minima.date_format | default: "%d/%m/%Y" %}
-                  {{ page.date | date: date_format }}
-                </time> {% if page.author %}, <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+                  {{ page.date | date: date_format }}</time>{% if page.author %}, <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">par {{ page.author }}</span></span>
               {% endif %}
             </p>
           </header>

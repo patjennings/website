@@ -3,14 +3,10 @@
 
   {% include head.html %}
 
-  <body class="layout-{{ page.layout }}">
+  <body class="layout-{{ page.layout }}" style="background-color: {{page.project_bg}};">
 
     <div class="site-menu">
       {% include menu.html %}
-    </div>
-
-    <div class="site-header">
-      {% include navbar.html %}
     </div>
 
     {{ content }}

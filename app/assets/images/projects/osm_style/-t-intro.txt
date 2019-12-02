@@ -1,4 +1,0 @@
-h1. Style Openstreetmap
-
-Avec ce thème de carte (basé sur les données d'OpenStreetMap), l'intention de traiter des informations de cartes sur un fond sombre est poussée à l'extrême.
-Un contraste fort entre le fond et les informations textuelles et graphiques est mis en place : les éléments physiques (eau, terrain, forêts, constructions) apparaissent en faible luminosité, les noms de villes, rues, routes se détachent en pointes lumineuses.

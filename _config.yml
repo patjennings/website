@@ -17,7 +17,7 @@ title: Thomas Guesnon - design & développement
 email: bonjour@thomasguesnon.fr
 description: Site web de Thomas Guesnon - design & développement
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.thomasguesnon.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.thomasguesnon.fr" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 source: app
