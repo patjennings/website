@@ -124,7 +124,7 @@ table{
     top: 0;
     left: 0;
     height: 100%;
-    background: #201a1f;
+    background: #0b090a;
     padding: 16px;
 
     transition: all 0.2s ease-in-out;
@@ -133,7 +133,15 @@ table{
     .header{
 	color: #FFFFFF;
 	.ico{
+	    cursor: pointer;
 	    opacity: 1;
+	    transform: scale(1, 1);
+	    transition: all 0.2s ease-in-out;
+
+	    &:hover{
+		transform: scale(1.25, 1);
+		color: yellow;
+	    }
 	}
     }
 
@@ -143,6 +151,7 @@ table{
 
 	.header{
 	    .ico{
+		cursor: pointer;
 		opacity: 0;
 	    }
 	}
