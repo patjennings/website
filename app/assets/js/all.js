@@ -28,7 +28,6 @@ function menuHandler() // Gestion des cells de la mosaïque
 	    menu.setAttribute("class", "visible");
 	    menuIsVisible = true;
 	}
-
     }
 
     window.onclick = function(){

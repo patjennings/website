@@ -132,7 +132,7 @@ table{
 
     .header{
 	color: #FFFFFF;
-	.ico{
+	#menu-ico{
 	    cursor: pointer;
 	    opacity: 1;
 	    transform: scale(1, 1);
@@ -150,7 +150,7 @@ table{
 	padding: 16px 32px;
 
 	.header{
-	    .ico{
+	    #menu-ico{
 		cursor: pointer;
 		opacity: 0;
 	    }
@@ -160,9 +160,13 @@ table{
 	    opacity: 1;
 
 	    a{
+		margin-bottom: 0.5rem;
 		display: block;
+		opacity: 1;
+		visibility: visible;
 	    }
 	}
+	
     }
 
     .menu-main{
@@ -171,11 +175,13 @@ table{
 	overflow: hidden;
 
 	a{
+	    opacity: 0;
+	    visibility: hidden;
 	    color: #FFF;
-	    display: none;
+	    margin-bottom: 0.5rem;
+	    display: block;
 	    text-decoration: none;
 	    border-bottom: none;
-	    margin-bottom: 0.5rem;
 
 	    &:hover{
 		background: none;
@@ -188,10 +194,11 @@ table{
 	    margin: 0;
 
 	    hr{
-		border: none;
-		height: 1px;
-		background: rgba(255,255,255,0.15);
+		// border: none;
+		// height: 1px;
+		// background: rgba(255,255,255,0.15);
 		margin: 1.125rem 0;
+		opacity:0;
 	    }
 	    
 	    li{
