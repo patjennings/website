@@ -1,10 +1,12 @@
-<div id="mosaique"><ul>
-    {% assign projectsArray = "" | split:"|"  %}
-    {% for project in site.projects %}
-    {% if project.project_weight %}
-    {% assign projectsArray = projectsArray | push: project %}
-    {% endif %}
+<div id="mosaique">
+  <ul>
+    {% for p in site.projects %}
+    <li class="mosaic-item">
+      <a href="{{p.permalink | relative}}" style="background-image: url({{p.project_thumbnail}});"><div class="card">	      
+	  <div class="card--title">{{p.title | escape}}</div>
+	</div>	    
+      </a>
+    </li>
     {% endfor %}
-    {% assign projectsArray = projectsArray | sort: 'project_weight' %}
-    {% for p in projectsArray %}
-    <li class="mosaic-item"><a href="{{p.permalink | relative}}" style="background-image: url({{p.project_thumbnail}});"><div class="card"><div class="card--title">{{p.title | escape}}</div></div></a></li>{% endfor %}</ul></div>
+  </ul>
+</div>

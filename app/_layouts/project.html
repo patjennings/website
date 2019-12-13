@@ -2,27 +2,39 @@
 layout: default
 ---
 <article class="project h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="container page-header" aria-label="Header">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <header>
-            <h1 class="page-title p-name" itemprop="name headline" style="color:{{ page.project_font }};">{{ page.title | escape }}</h1>
-          </header>
-        </div>
+  <div class="container page-header" aria-label="Header">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <header>
+          <h1 class="page-title p-name" itemprop="name headline" style="color:{{ page.project_font }};">{{ page.title | escape }}</h1>
+        </header>
       </div>
     </div>
+  </div>
 
-    <div class="container page-content" aria-label="Content">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="e-content" itemprop="articleBody" style="color:{{ page.project_font }};">
-            {{ content }}
-          </div>
-	  <div class="separator--end"></div>
-          {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
-
-          <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <div class="container page-content" aria-label="Content">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="e-content" itemprop="articleBody" style="color:{{ page.project_font }};">
+          {{ content }}
         </div>
+	<div class="separator--end"></div>
+        {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
+        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       </div>
     </div>
+  </div>
+  <div class="post-nav">
+    <div class="post-nav-item post-nav--prev">
+      {% if page.previous %}
+      <a href="{{page.previous.url}}" style="color:{{ page.project_font }};">{{page.previous.title}}</a>
+      {% endif %}
+    </div>
+    <div class="post-nav-item post-nav--next">
+      {% if page.next %}
+      <a href="{{page.next.url}}" style="color:{{ page.project_font }};">{{page.next.title}}</a>
+      {% endif %}
+    </div>
+  </div>
+
 </article>

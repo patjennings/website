@@ -1,5 +1,5 @@
 article{
-
+    margin-left: 56px;
     header{
 
     }
@@ -48,6 +48,56 @@ article{
 	}
 
     }
+    .post-nav{
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+	z-index: 998;
+	
+	.post-nav-item{
+	    pointer-events: auto;
+	    position: absolute;
+	    height: 100%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    width: 128px;
+	    opacity: 0;
+	    background: rgba(0,0,0,0.15);
+	    transition: all 0.25s ease-out;
+
+	    a{
+		height: 100%;
+		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		text-decoration: none !important;
+
+		&:hover{
+		    background: rgba(0,0,0,0.15);
+		    
+		}
+	    }
+
+	    &.post-nav--prev{
+		left: 0;
+		// opacity: 0;
+	    }
+	    &.post-nav--next{
+		right: 56px;
+	    }
+
+	    &:hover{
+		width: 208px;
+		opacity: 1;
+		transition: all 0.25s ease-in;
+	    }
+	}
+    }
     blockquote{
 	border-left: 4px solid var(--gray);
 	p{
@@ -70,7 +120,7 @@ article{
 .layout-project{
     article{
 	img, video{
-	    width: 150%;
+	    width: 1280px;
 	    margin-left: -176px;
 	    margin-top: 2rem;
 	    margin-bottom: 4rem;

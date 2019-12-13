@@ -1,0 +1,21 @@
+---
+layout: project
+title:  UD illustrations
+release-date: 2018
+permalink: /projects/ud-illustrations
+excerpt_separator: <!--more-->
+project_thumbnail: /assets/images/projects-thumbnails/thumb-3.jpg
+project_weight: 4
+project_bg: "#EBF6F8"
+project_font: "#1435AB"
+---
+Des illustrations qui évoquent de façon directe, ou plus métaphorique, certains aspects de la pratique de design.
+<video src="/assets/images/projects/ud-illustrations/ud-1.m4v" autoplay width="1280"></video>
+![ud-illustration](/assets/images/projects/ud-illustrations/ud-illustrations-woman.jpg)
+<video src="/assets/images/projects/ud-illustrations/ud-2.m4v" autoplay loop width="1280"></video>
+![ud-illustration](/assets/images/projects/ud-illustrations/ud-illustrations-dev.jpg)
+<video src="/assets/images/projects/ud-illustrations/ud-3.m4v" autoplay loop width="1280"></video>
+![ud-illustration](/assets/images/projects/ud-illustrations/ud-illustrations-punk.jpg)
+<video src="/assets/images/projects/ud-illustrations/ud-4.m4v" autoplay loop width="1280"></video>
+<video src="/assets/images/projects/ud-illustrations/ud-boats.m4v" autoplay loop width="1280"></video>
+![ud-illustration](/assets/images/projects/ud-illustrations/ud-illustrations-sheets.jpg)
