@@ -2,7 +2,7 @@
 layout: project
 title:  Restlet website
 release-date: 2016
-permalink: /projects/restlet-apps
+permalink: /projects/restlet-website
 excerpt_separator: <!--more-->
 project_thumbnail: /assets/images/projects-thumbnails/thumb-restlet.jpg
 project_weight: 9

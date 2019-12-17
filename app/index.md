@@ -5,7 +5,7 @@ title: thomas guesnon
 
 Mon travail consiste à concevoir et à réaliser des applications web ou mobiles, des identités graphiques ou des sites web. Je résous des problèmes visuels et ergonomiques, et j'interviens sur le développement de l'application (front-end).
 
-En tant que designer, j'ai participé à la conception d’interfaces (ui) pour des application _[web]({{site.url}}# "Suez Aquadvanced")_, [mobiles]({{site.url}}# "Electronic Flight bag"), _[responsive]({{site.url}}# "Yoodo pour Arkadin")_ ou [embarquées]({{site.url}}# "Airel"), sur des [vidéos]({{sites.url}}# "Motion 2018"), des [sites web]({{site.url}}# "Restlet website"), des [installations]({{sites.url}}# "Ez Go pour Renault"), sur des aspects graphiques, ergonomiques et fonctionnels. Auparavant, j'ai passé cinq ans à l'école des beaux-arts de Caen. 
+En tant que designer, j'ai participé à la conception d’interfaces (ui) pour des applications [*web*]({{site.url}}/projects/suez-design-system "Suez Aquadvanced"), [mobiles]({{site.url}}/projects/efb "Electronic Flight bag"), [*responsive*]({{site.url}}/projects/hug "Yoodo pour Arkadin") ou [embarquées]({{site.url}}/projects/avionics-2020 "Avionics 2020"), sur des [vidéos]({{sites.url}}/projects/motion "Motion 2018"), des [sites *web*]({{site.url}}/projects/restlet-website "Restlet website"), des [installations]({{sites.url}}/projects/ez-go "Ez Go pour Renault"), sur des aspects graphiques, ergonomiques et fonctionnels. Auparavant, j'ai passé cinq ans à l'école des beaux-arts de Caen. 
 
 [<i class="ico ico-medium">arrowright</i>&nbsp;Voir les références](/references)
 

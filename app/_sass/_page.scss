@@ -55,6 +55,7 @@ article{
 	height: 100vh;
 	pointer-events: none;
 	z-index: 998;
+	visibility: visible;
 	
 	.post-nav-item{
 	    pointer-events: auto;
@@ -116,18 +117,6 @@ article{
 	margin-bottom: 3rem;
     }
 }
-// exceptions
-.layout-project{
-    article{
-	img, video{
-	    width: 1280px;
-	    margin-left: -176px;
-	    margin-top: 2rem;
-	    margin-bottom: 4rem;
-	}
-	
-    }
-}
 .layout-article{
     article{
 	img{
@@ -152,6 +141,87 @@ table{
 	    &:nth-child(2){
 		color: #707374;
 	    }
+	}
+    }
+}
+
+
+
+
+
+
+// The zero
+@media (min-width: 0) {
+    .layout-project{
+	article{
+	    img, video{
+		width: 150%;
+		margin-left: -25%;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+	    }
+	    .post-nav{
+		visibility: hidden;
+	    }
+	}
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .layout-project{
+	article{
+	    img, video{
+		width: 150%;
+		margin-left: -25%;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+	    }
+	    .post-nav{
+		visibility: visible;
+	    }
+	}
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .layout-project{
+	article{
+	    img, video{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+	    }	
+	}
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .layout-project{
+	article{
+	    img, video{
+		width: 1280px;
+		margin-left: -335px;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+	    }	
+	}
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .layout-project{
+	article{
+	    img, video{
+		width: 1280px;
+		margin-left: -260px;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+	    }	
 	}
     }
 }

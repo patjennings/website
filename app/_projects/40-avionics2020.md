@@ -6,8 +6,8 @@ permalink: /projects/avionics-2020
 excerpt_separator: <!--more-->
 project_thumbnail: /assets/images/projects-thumbnails/thumb-19.jpg
 project_weight: 40
-project_bg: "#FFFFFF"
-project_font: "#333333"
+project_bg: "#101010"
+project_font: "#FFFFFF"
 ---
 Ce projet de tableau de bord réalisé pour Thales tente d'intégrer toutes les fonctions de pilotage d'un avion de ligne dans un dispositif tactile<!--more-->. La notion d'espace tactile _seamless_ (littéralement sans bordures, continu) permet aux informations de se déplacer sur tout l'espace de l'interface. Certaines peuvent être mises en regard, là où, dans un avion de ligne en 2013, chacune est placée dans son composant, dans son espace propre.
 
@@ -15,9 +15,13 @@ Interface graphique, réalisé avec Matthieu Davy De Virville @ [Use Design](htt
 
 Design du cockpit par _Felix+Associés_
 
-![](/assets/images/projects/avionics2020/avionics2020_1.png)
-![](/assets/images/projects/avionics2020/avionics2020_2.png)
-![](/assets/images/projects/avionics2020/avionics2020_3.png)
-![](/assets/images/projects/avionics2020/avionics2020_5.png)
-![](/assets/images/projects/avionics2020/avionics2020_6.png)
-![](/assets/images/projects/avionics2020/avionics2020_7.png)
+![](/assets/images/projects/avionics2020/proteus-1.jpg)
+![](/assets/images/projects/avionics2020/proteus-2.jpg)
+![](/assets/images/projects/avionics2020/proteus-3.jpg)
+![](/assets/images/projects/avionics2020/proteus-4.jpg)
+![](/assets/images/projects/avionics2020/proteus-5.jpg)
+![](/assets/images/projects/avionics2020/proteus-6.jpg)
+![](/assets/images/projects/avionics2020/proteus-7.jpg)
+![](/assets/images/projects/avionics2020/proteus-8.jpg)
+![](/assets/images/projects/avionics2020/proteus-9.jpg)
+![](/assets/images/projects/avionics2020/proteus-10.jpg)

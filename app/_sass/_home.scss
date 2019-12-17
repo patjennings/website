@@ -1,10 +1,4 @@
 .layout-home{
-    // color: #e0e0e0;
-    // background-color: #342a32;
-
-    // a{
-    // 	color: yellow;
-    // }
     .content{
 	padding: 48px;
 	
@@ -41,8 +35,6 @@
 	    position: absolute;
 	    top: 0;
 	    left: 0;
-	    // top: -64px;
-	    // left: -64px;
 	    z-index: 0;
 	    
 	    width: 100vw;
@@ -176,8 +168,23 @@
 	    z-index:1;
 	}
     }
-    
-    
-
 }
 
+// mobile
+@media (max-width: 575px) {
+    .layout-home{
+	.intro{
+	    .intro--content{
+		margin: auto 0 auto 0;
+
+		h1{
+		    font-size: 2.5rem;
+		    margin-right: 32px;
+		}
+	    }
+	}
+    }
+}
+
+// tablet, laptop and up
+@media (min-width: 576px) {}

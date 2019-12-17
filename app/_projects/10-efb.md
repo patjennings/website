@@ -2,7 +2,7 @@
 layout: project
 title:  Sacoche de vol électronique
 release-date: 2013
-permalink: /projects/thales-efb
+permalink: /projects/efb
 excerpt_separator: <!--more-->
 project_thumbnail: /assets/images/projects-thumbnails/thumb-9.jpg
 project_weight: 10
