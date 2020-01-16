@@ -1,6 +1,6 @@
 ---
 layout: project
-title: EFB design system
+title: Un design system
 release-date: 2016
 permalink: /projects/efb-design-system
 excerpt_separator: <!--more-->
@@ -11,8 +11,8 @@ project_font: "#ffffff"
 ---
 
 Un *design system* pour un EFB (Electronic Flight Bag) disponible sur tablette. Les usagers, des pilotes, co-pilotes ou personnel navigant, voient leur valise de cartes et de procédures disponibles dans une unique application. Une documentation graphique conséquente est produite pour les équipes de développement du client.
-
-Réalisé w/ Use Design, 2014.
+<br/><br/>
+*Réalisé pour [Use Design](http://www.use-design.com) en 2014*
 
 ![athena-2](/assets/images/projects/athena/athena-2.jpg)
 ![athena-4](/assets/images/projects/athena/athena-4.jpg)

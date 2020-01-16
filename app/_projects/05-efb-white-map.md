@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  EFB white map
+title:  Cartographie aérienne
 release-date: 2016
 permalink: /projects/efb-white-map
 excerpt_separator: <!--more-->
@@ -9,6 +9,9 @@ project_weight: 5
 project_bg: "#eeeeee"
 project_font: "#080b10"
 ---
+La représentation des informations à différents niveaux de zoom constitue le principal enjeu de cet exercice.
+<br/><br/>
+*Réalisé pour [Use Design](http://www.use-design.com) en 2015*
 ![map-white-2](/assets/images/projects/map-white/map-white-2.jpg)
 ![map-white-2](/assets/images/projects/map-white/map-white-3.jpg)
 ![map-white-2](/assets/images/projects/map-white/map-white-4.jpg)

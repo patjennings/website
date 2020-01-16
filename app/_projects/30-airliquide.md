@@ -10,7 +10,8 @@ project_bg: "#e9f3fd"
 project_font: "#078cd6"
 ---
 Jeu d'illustrations destinées à représenter différents types d'outillage de chantier, sur un site de e-commerce.
-
+<br/><br/>
+*Réalisé pour [Use Design](http://www.use-design.com) en 2018*
 ![kxiop icone](/assets/images/projects/kxiop/kxiop-0.jpg)
 ![kxiop icone](/assets/images/projects/kxiop/kxiop-1.jpg)
 ![kxiop icone](/assets/images/projects/kxiop/kxiop-2.jpg)

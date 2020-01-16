@@ -70,9 +70,9 @@ ul{
 
 a{
     text-decoration: none;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #686280;
     background: none;
-    color: blue;
+    color: #686280;
 
     @include transition(all, 0.25s, ease-out);
     
