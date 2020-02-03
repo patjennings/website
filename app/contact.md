@@ -5,7 +5,7 @@ permalink: /contact
 ---
 Pour se rencontrer, pour parler d'un projet ou pour discuter.
 
-- Le plus efficace, c'est le mail : hello(arobase)thomasguesnon(point)fr
+- Le plus efficace, c'est le mail : [hello@thomasguesnon.fr](mailto:hello@thomasguesnon.fr)
 
 #### Ailleurs sur le web ####
 
