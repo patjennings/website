@@ -154,7 +154,7 @@ table{
 @media (min-width: 0) {
     .layout-project{
 	article{
-	    img, video{
+	    img, video, .vimeo-insert{
 		width: 150%;
 		margin-left: -25%;
 		margin-top: 2rem;
@@ -171,7 +171,7 @@ table{
 @media (min-width: 576px) {
     .layout-project{
 	article{
-	    img, video{
+	    img, video, .vimeo-insert{
 		width: 150%;
 		margin-left: -25%;
 		margin-top: 2rem;
@@ -188,7 +188,7 @@ table{
 @media (min-width: 768px) {
     .layout-project{
 	article{
-	    img, video{
+	    img, video, .vimeo-insert{
 		width: 100%;
 		margin-left: 0;
 		margin-top: 2rem;
@@ -202,7 +202,7 @@ table{
 @media (min-width: 992px) {
     .layout-project{
 	article{
-	    img, video{
+	    img, video, .vimeo-insert{
 		width: 1280px;
 		margin-left: -335px;
 		margin-top: 2rem;
@@ -216,7 +216,7 @@ table{
 @media (min-width: 1200px) {
     .layout-project{
 	article{
-	    img, video{
+	    img, video, .vimeo-insert{
 		width: 1280px;
 		margin-left: -260px;
 		margin-top: 2rem;
