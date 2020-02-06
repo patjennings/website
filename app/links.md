@@ -3,6 +3,8 @@ layout: page
 title: Liens
 permalink: /links
 ---
+- <https://solar.lowtechmagazine.com/fr/> Site qui parle de low-tech et qui fonctionne à l'énergis solaire #low-tech #solaire
+
 ###### 03/01/2020 ######
 - Sites de revente d'articles reconditionnés : <https://www.backmarket.fr> ou <https://www.afbshop.fr/> #refurbish, #reconditionné, #occasion
 - <https://www.bookstackapp.com/>, un outil de wiki (plutôt type readme.io), à installer chez soi #documentation, #wiki
