@@ -3,14 +3,18 @@ layout: page
 title: Liens
 permalink: /links
 ---
+
+###### 06/02/2020 ######
+
 - <https://solar.lowtechmagazine.com/fr/> Site qui parle de low-tech et qui fonctionne à l'énergis solaire #low-tech #solaire
+- <https://www.websitecarbon.com/> Testeur de coût carbone de site web #ecologie #co2
 
 ###### 03/01/2020 ######
 - Sites de revente d'articles reconditionnés : <https://www.backmarket.fr> ou <https://www.afbshop.fr/> #refurbish, #reconditionné, #occasion
 - <https://www.bookstackapp.com/>, un outil de wiki (plutôt type readme.io), à installer chez soi #documentation, #wiki
 
 ###### 01/01/2020 ######
-- calcul de tjm > <https://www.kob-one.com/calcul-salaire-freelance/> #freelance #independant #tjm #prix
+- calcul de tjm : <https://www.kob-one.com/calcul-salaire-freelance/> #freelance #independant #tjm #prix
 
 ###### 30/01/2020 ######
 - Se déplacer en Normandie #orne, #bus, #normandie <https://www.commentjyvais.fr/fr/>

@@ -8,7 +8,7 @@ permalink: /references
 |:--|:--|:--|:--|
 | 2018 | ![](/assets/images/logo/thales.svg) | Conception d'un outil de surveillance d'un espace aérien. Scénarisation et production d'un film de simulation d'usages de l'outil&nbsp;<sup>1</sup> | *UI, motion, CesiumJS, cartographie* |
 | 2018 | ![](/assets/images/logo/suez.svg) | Design system pour un ensemble d'applications de supervision des réseaux d'eau, utilisé dans plusieurs pays&nbsp;<sup>1</sup> | *UI, spécifications&nbsp;<sup>4</sup>* |
-| 2018 | ![renault](/assets/images/logo/renault.svg) | élaboration des écrans destinés à être embarqués dans les prototypes Ez-Go (Salon de Genève 2018), Ez-Pro (Salon de Francort) et Ez-?? Conception des animations embarquées sur les éléments LED des véhicules&nbsp;<sup>1</sup> | *UI, motion, HTML, CSS, Javascript* |
+| 2018 | ![renault](/assets/images/logo/renault.svg) | élaboration des écrans destinés à être embarqués dans les prototypes Ez-Go (Salon de Genève 2018), Ez-Pro (Salon de Francort). Conception des animations embarquées sur les éléments LED des véhicules&nbsp;<sup>1</sup> | *UI, motion, HTML, CSS, Javascript* |
 | 2017 | ![](/assets/images/logo/arkadin.svg) | conception d'un outil de communication et de partage de fichiers en Saas&nbsp;<sup>1</sup> | *UI, spécifications&nbsp;<sup>4</sup>* |
 | 2017 | ![](/assets/images/logo/ud.svg) | conception du site web de l'agence&nbsp;<sup>1</sup> | *UI, illustration, HTML, CSS, motion* |
 | 2017 | Cobble | conception d'un outil de mise en place de documentation pour les fabricants, et de pas-à-pas de résolution de pannes pour les clients finaux&nbsp;<sup>1</sup> | *UI, spécifications&nbsp;<sup>4</sup>* |
