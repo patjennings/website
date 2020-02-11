@@ -62,5 +62,4 @@ _Sur mon passeport, j’avais écrit graphiste et designer et c’est Rothko qui
 
 _Votre palais est plus petit qu'une cabane, et votre public est moins qu'une personne_ Tous les matins du monde
 
-
-
+_Avec l'arrivée de systèmes 64 bits, il sera possible de stocker des dates à plus de 250 milliards d'années dans le futur. Or, d'après les scientifiques, notre planète disparaîtra dans environ 4,5 milliards d'années, en même temps que le Soleil, ce qui résout donc largement le problème du stockage des dates en cette norme._ [Article du bug de l'an 2000, Wikipédia](https://fr.wikipedia.org/wiki/Passage_informatique_%C3%A0_l'an_2000#Avenir)
