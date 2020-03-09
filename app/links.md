@@ -3,6 +3,15 @@ layout: page
 title: Liens
 permalink: /links
 ---
+###### 09/03/2020 ######
+- <https://estcequecestdutravail.xyz/parcours/> parcours d'un couple qui part voir des tiers-lieux, des trucs avec des initiatives dedans. France, Angleterre
+- <https://hackmd.io/7PpzJI9YRiqzqGUeBfA3DQ?view#3-Notes-de-l%E2%80%99apr%C3%A8s-midi> Compte-rendu de la recontre Common future(s) de 2018 - "On n’a jamais été aussi utiles dans notre quartier que depuis qu’on a arrêté à tout prix de vouloir créer quelque chose."
+- <https://gitlab.pagedmedia.org/tools/pagedjs> PagedJS, outil pour faire de la mise en page avec CSS, dans le navigateur
+- <http://recherche.julie-blanc.fr/timeline-publishing/> Timeline des technologies de publications (1963-2018)
+- <https://css-tricks.com/build-a-state-management-system-with-vanilla-javascript/> Build a state system with Vanilla Javascript. Remplacer React ou Vue.
+- <https://www.designkit.org/methods> Des méthodes de design thinking
+- <https://wiki.pluxml.org/personnaliser/personnalisation/> CMS sans base de données
+
 
 ###### 06/02/2020 ######
 
