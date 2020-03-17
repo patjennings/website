@@ -3,6 +3,12 @@ layout: page
 title: Liens
 permalink: /links
 ---
+
+###### 17/03/2020 ######
+- <https://usemodify.com/page6> Une liste de fontes gratuites récoltées par Rapahaël Bastide #fonts #typography
+- <http://www.superbad.com/1/fall/piano.html> Une succession de pages web à regarder et à cliquer #html #css #art 
+- <https://jitsi.org/> Solution de réunion en ligne #foss #joinme #skype #confcall
+
 ###### 09/03/2020 ######
 - <https://estcequecestdutravail.xyz/parcours/> parcours d'un couple qui part voir des tiers-lieux, des trucs avec des initiatives dedans. France, Angleterre
 - <https://hackmd.io/7PpzJI9YRiqzqGUeBfA3DQ?view#3-Notes-de-l%E2%80%99apr%C3%A8s-midi> Compte-rendu de la recontre Common future(s) de 2018 - "On n’a jamais été aussi utiles dans notre quartier que depuis qu’on a arrêté à tout prix de vouloir créer quelque chose."
