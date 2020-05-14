@@ -4,6 +4,9 @@ title: Liens
 permalink: /links
 ---
 
+###### 14/05/2020 ######
+- <https://www.nosdeputes.fr/> Observatoire de l'activité des députés à l'Assemblée #france #assemblee #deputes
+
 ###### 17/03/2020 ######
 - <https://usemodify.com/page6> Une liste de fontes gratuites récoltées par Rapahaël Bastide #fonts #typography
 - <http://www.superbad.com/1/fall/piano.html> Une succession de pages web à regarder et à cliquer #html #css #art 
@@ -171,6 +174,7 @@ permalink: /links
 - <https://whatosm.pavie.info/> Liste d'outils OSM
 - <https://www.raphaelbastide.com/talks/imal-2018/> Un modèle de présentation comme je l'imaginais > page html, tu cliques pour scroller plus bas. ça peut être généré à partir de markdown
 - Putain, trop beau > <http://x20xx.com/networked.html>
+
 ###### 12/12/2018 ######
 - jeu de go, exercices : <http://jeudego.org/_php/sgfPlayer.php?t=jdg-exos&f=mori/exercices/P10-02-43K.sgf>
 - <https://www.monde-diplomatique.fr/carnet/2018-12-05-gilets-jaunes-Paris-lieux-pouvoir> Carte des lieux de pouvoir.
@@ -181,7 +185,6 @@ permalink: /links
 - Carte de l'art et des fablabs <http://www.makery.info/map-men/>
 
 ###### 29/11/2018 ######
-
 - <https://www.fdn.fr/> Fournisseur d'accès associatif
 - <https://blog.genma.fr/?L-elitisme-de-l-auto-hebergement> Blog d'un type qui parle d'auto-hébergement w/ Yunohost (entre autres). L'article en lien est un retour d'expérience.
 
@@ -268,10 +271,6 @@ Pelican Static Site Generator, Powered by Python
 Gilbert Simondon — Wikipédia
 - <https://fr.wikipedia.org/wiki/Transduction_>(Simondon)
 Transduction (Simondon) — Wikipédia
-- <https://fr.wikipedia.org/wiki/La_Chambre_du_fils>
-La Chambre du fils — Wikipédia
-- <http://cmad.quimper.bzh/>
-Accueil - Conservatoire de musiques et d'art dramatique de Quimper
 - <https://www.youtube.com/watch?v=3hV4bdTLK14>
 Natron Compositor - Installing Over 250 Free Community Plugins - YouTube
 - <https://www.mediapart.fr/journal/culture-idees/170518/colette-magny-une-voix-pleine-d-issues-de-secours>
