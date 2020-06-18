@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /notes/
+Disallow: /links/
+Sitemap: https://www.thomasguesnon.fr/sitemap.xml
