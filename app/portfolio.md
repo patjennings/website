@@ -1,6 +1,6 @@
 ---
 layout: default
 title: thomas guesnon
-permalink: /portfolio
+permalink: /projets
 ---
 {% include mosaique.html %}
