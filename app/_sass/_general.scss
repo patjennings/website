@@ -91,6 +91,9 @@ a{
     padding: 8px 14px;
     font-family: var(--font-family-sans);
     font-size: 1rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+
     @include transition(all, 0.25s, ease-out);
     @include border-radius(4px);
 
