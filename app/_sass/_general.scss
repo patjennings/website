@@ -68,6 +68,8 @@ ul{
     }
 }
 
+
+// links & buttons
 a{
     text-decoration: none;
     border-bottom: 1px solid #686280;
@@ -82,6 +84,27 @@ a{
 	border-bottom: 1px solid rgba(0,0,0,0.15)
     }
 }
+.btn{
+    border: 1px solid #686280;
+    color:#686280;
+    background-color: #FFFFFF;
+    padding: 8px 14px;
+    font-family: var(--font-family-sans);
+    font-size: 1rem;
+    @include transition(all, 0.25s, ease-out);
+    @include border-radius(4px);
+
+    &:hover{
+	background-color: #686280;
+	color: #FFFFFF;
+    }
+    &:focus{
+	box-shadow: 0 0 0 .2rem yellow;
+    }
+}
+
+
+//
 
 small, .small{
     font-size: 90%;
@@ -130,3 +153,4 @@ table{
     height: 24px;
     margin: 48px 0;
 }
+
