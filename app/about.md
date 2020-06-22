@@ -17,6 +17,9 @@ Je conçois des interfaces utilisateur pour des applications [*web*]({{site.url}
 
 En parallèle, je passe du temps à concevoir mes outils, quand je ne trouve pas ce que je cherche ailleurs. J'ai ainsi conçu un [set d'icônes](http://platform.thomasguesnon.net/pajeweic/) que j'utilise dans les interfaces que je conçois. J'ai également créé un outil, [SVGSpecs](https://framagit.org/patjennings/svg-specifications "SVG Speccs"), permettant de communiquer des spécifications graphiques sur des interfaces graphiques à destination des développeurs front-end.
 
+Je vis et travaille à Quimper, Finistère, Bretagne.
+
 <div style="width:100%; text-align:center; margin:3rem 0;">
 <a type="button" class="btn btn-outline-primary" href="/contact">Contactez-moi</a>
 </div>
+

@@ -19,7 +19,9 @@ layout: default
           {{ content }}
         </div>
 	<div class="separator--end"></div>
-        {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
+	<div class="back-work">
+	  <a type="button" class="btn btn-outline-primary" href="/projets"><i class="ico ico-medium">grid</i>Retour aux projets</a>
+	</div>
         <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       </div>
     </div>
@@ -27,12 +29,16 @@ layout: default
   <div class="post-nav">
     <div class="post-nav-item post-nav--prev">
       {% if page.previous %}
-      <a href="{{page.previous.url}}" style="color:{{ page.project_font }};">{{page.previous.title}}</a>
+      <div class="post-nav-item--inner">
+	<a href="{{page.previous.url}}" style="color:{{ page.project_font }};"><i class="ico ico-medium">arrowleft</i><br/>{{page.previous.title}}</a>
+      </div>
       {% endif %}
     </div>
     <div class="post-nav-item post-nav--next">
       {% if page.next %}
-      <a href="{{page.next.url}}" style="color:{{ page.project_font }};">{{page.next.title}}</a>
+      <div class="post-nav-item--inner">
+	<a href="{{page.next.url}}" style="color:{{ page.project_font }};"><i class="ico ico-medium">arrowright</i><br/>{{page.next.title}}</a>
+      </div>
       {% endif %}
     </div>
   </div>
