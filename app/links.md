@@ -3,6 +3,10 @@ layout: page
 title: Liens
 permalink: /links
 ---
+
+###### 23/06/2020 ######
+- <https://la-plume-francophone.com/2015/04/11/edgar-p-jacobs-la-marque-jaune/> La folie d’un savant en concurrence. À travers le Dr Septimus, regard sur la science et ses dangers. Discours sur La Marque Jaune, Blake & Mortimer. #edgarpjacobs #bd
+
 ###### 19/06/2020 ######
 - <https://audiologie-demain.com/silence-ca-bosse> Retours statistiques sur la gêne causée par le bruit au travail
 
