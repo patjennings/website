@@ -3,9 +3,12 @@ layout: home
 title: thomas guesnon
 ---
 
-**Je suis designer. Mon travail consiste à résoudre des problèmes visuels, ergonomiques et fonctionnels sur des interfaces utilisateur, afin d'aider un utilisateur à se servir d'un produit et à y trouver confort et efficacité.**
+**Je suis <u>designer</u>. Mon travail consiste à résoudre des problèmes visuels, ergonomiques et fonctionnels sur des <u>interfaces utilisateur</u>, afin d'aider un utilisateur à se servir d'un produit et à y trouver confort et efficacité.**
 
-Je conçois des interfaces utilisateur pour des applications [*web*]({{site.url}}/projects/suez-design-system "Suez Aquadvanced"), [mobiles]({{site.url}}/projects/efb "Electronic Flight bag"), [*responsive*]({{site.url}}/projects/hug "Hug"), [embarquées]({{site.url}}/projects/avionics-2020 "Avionics 2020"). Je réalise des [vidéos]({{sites.url}}/projects/motion "Motion 2018"), des illustrations, des icones. Je participe à la réalisation [d'installations]({{sites.url}}/projects/ez-go "Ez Go pour Renault").
+J'utilise mes compétences pour concevoir des applications web ou natives, créer des prototypes ou des animations vidéos de concepts d'applications, hiérarchiser l'information et documenter la conception.<br/>
+J'aide les parties prenantes à définir la vision prospective d'un projet d'application.
+
+J'ai travaillé, notamment, pour des projets aéronautiques, de transport, pour la santé, l'éducation ou l'automobile.
 
 <div style="width:100%; text-align:center; margin:3rem 0;">
 <a type="button" class="btn btn-outline-primary" href="/references">Les références</a>
