@@ -3,6 +3,8 @@ layout: page
 title: Liens
 permalink: /links
 ---
+###### 29/08/2020 ######
+- developper a été pwned : l'article, <https://www.journalduhacker.net/s/ej67zq/i_have_been_powned>, les réactions <https://metrodore.fr/i-have-been-powned.html>
 
 ###### 23/06/2020 ######
 - <https://la-plume-francophone.com/2015/04/11/edgar-p-jacobs-la-marque-jaune/> La folie d’un savant en concurrence. À travers le Dr Septimus, regard sur la science et ses dangers. Discours sur La Marque Jaune, Blake & Mortimer. #edgarpjacobs #bd
