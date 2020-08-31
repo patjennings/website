@@ -30,7 +30,6 @@ deploy:
   dependencies:
     - build
   script:
-    # - scp -rp ./public/* thomasgur@ssh.cluster010.hosting.ovh.net:/homez.676/thomasgur/www/main
       - scp -rp ./public/* debian@51.210.101.191:/var/www/thomasguesnon.fr
   only:
     - master
