@@ -6,6 +6,7 @@ permalink: /contact
 Pour se rencontrer, pour parler d'un projet ou pour discuter.
 
 - Le plus efficace, c'est le mail : [hello@thomasguesnon.fr](mailto:hello@thomasguesnon.fr)
+- La clé public, pour les échanges sécurisés : <https://platform.thomasguesnon.net/gpg/>
 
 #### Ailleurs sur le web ####
 
@@ -14,11 +15,5 @@ Pour se rencontrer, pour parler d'un projet ou pour discuter.
 - [Instagram](https://www.instagram.com/thomas.guesnon/)
 - [Mastodon](https://mastodon.social/@patjennings)
 - [Git](https://framagit.org/patjennings)
-
-###### Pour communiquer ######
-
-- Discord : patjennings / `#3482`
-- IRC : <thomasguesnon@chat.freenode.net>
-
 
 
