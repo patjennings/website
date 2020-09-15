@@ -8,6 +8,7 @@ project_thumbnail: /assets/images/projects-thumbnails/thumb-20.jpg
 project_weight: 45
 project_bg: "#000000"
 project_font: "#FFFFFF"
+layout_type: "dark"
 ---
 Madon est un projet de police de caractère, principalement conçue pour fonctionner<!--more--> dans des interfaces graphiques de dispositifs embarqués, e.g. tableau de bord ou _dispositif d'affichage tête-haute_ (HUD) i.e.
 

@@ -55,10 +55,14 @@ article{
 	}
 
     }
+
+    /////////////////////////////////
+    // Navigation interne à l'article
+    /////////////////////////////////
     .post-nav{
 	position: fixed;
 	top: 0;
-	width: 100vw;
+	width: calc(100% - 56px);
 	height: 100vh;
 	pointer-events: none;
 	z-index: 998;
@@ -73,13 +77,11 @@ article{
 	    justify-content: center;
 	    width: 128px;
 	    opacity: 0;
-	    background: rgba(0,0,0,0.15);
-	    transition: all 0.25s ease-out;
+	    transition: all 0.25s cubic-bezier(1, 0, 1, 1);
 	    overflow: hidden;
 
 	    .post-nav-item--inner{
-
-		width: 208px;
+		width: 256px;
 		height: 100%;
 		
 		a{
@@ -91,27 +93,26 @@ article{
 		    text-align: center;
 		    text-decoration: none !important;
 		    padding: 1rem;
-
-		    &:hover{
-			background: rgba(0,0,0,0.15);
-		    }
 		}
-		
-		
 	    }
 	    &.post-nav--prev{
-		left: 0;
+		left: -56px;
+
+		&:hover{
+		    left: 0;
+		}
 	    }
 	    &.post-nav--next{
-		right: 56px;
+		right: 0;
 	    }
 	    &:hover{
-		width: 208px;
+		width: 256px;
 		opacity: 1;
-		transition: all 0.25s ease-in;
+		transition: all 0.15s ease-in-out;
 	    }
 	}
     }
+
     blockquote{
 	border-left: 4px solid var(--gray);
 	p{
@@ -124,6 +125,64 @@ article{
 	margin-bottom: 2rem;
     }
 }
+
+// couleur de fond de la nav interne aux articles
+.project-light{
+    article{
+	.post-nav{
+	    .post-nav-item{
+		.post-nav-item--inner{
+		    a{
+			background: rgba(255,255,255,0.85);
+			&:hover{
+			    background: rgba(255,255,255,0.85);
+			}
+		    }
+		    
+		}
+		&.post-nav--prev{
+		    a{
+			border-right: 1px solid rgba(0,0,0,0.05);   
+		    }
+		}
+		&.post-nav--next{
+		    a{
+			border-left: 1px solid rgba(0,0,0,0.05);   
+		    }
+		} 
+	    }
+	}
+    }    
+}
+.project-dark{
+    article{
+	.post-nav{
+	    .post-nav-item{
+		.post-nav-item--inner{
+		    a{
+			background: rgba(0,0,0,0.85);
+			color: #FFF;
+			&:hover{
+			    background: rgba(0,0,0,0.85);
+			}
+		    }
+		    
+		}
+		&.post-nav--prev{
+		    a{
+			border-right: 1px solid rgba(255,255,255,0.25);   
+		    }
+		}
+		&.post-nav--next{
+		    a{
+			border-left: 1px solid rgba(255,255,255,0.25);   
+		    }
+		} 
+	    }
+	}
+    }    
+}
+
 
 .layout-home{
     h3:first-child{

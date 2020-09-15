@@ -30,14 +30,14 @@ layout: default
     <div class="post-nav-item post-nav--prev">
       {% if page.previous %}
       <div class="post-nav-item--inner">
-	<a href="{{page.previous.url}}" style="color:{{ page.project_font }};"><i class="ico ico-medium">arrowleft</i><br/>{{page.previous.title}}</a>
+	<a href="{{page.previous.url}}"><i class="ico ico-medium">arrowleft</i><br/>{{page.previous.title}}</a>
       </div>
       {% endif %}
     </div>
     <div class="post-nav-item post-nav--next">
       {% if page.next %}
       <div class="post-nav-item--inner">
-	<a href="{{page.next.url}}" style="color:{{ page.project_font }};"><i class="ico ico-medium">arrowright</i><br/>{{page.next.title}}</a>
+	<a href="{{page.next.url}}"><i class="ico ico-medium">arrowright</i><br/>{{page.next.title}}</a>
       </div>
       {% endif %}
     </div>

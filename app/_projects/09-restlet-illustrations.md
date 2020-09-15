@@ -8,6 +8,7 @@ project_thumbnail: /assets/images/projects-thumbnails/thumb-8.jpg
 project_weight: 9
 project_bg: "#FFFFFF"
 project_font: "#333333"
+layout_type: "light"
 ---
 Ces illustrations accompagnent la communication de la startup Restlet. Restlet produit des outils de gestion d'APIs, et utilise ces images sur son site web, dans sa documentation ou dans ses applications.
 <br/><br/>

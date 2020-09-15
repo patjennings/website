@@ -8,6 +8,7 @@ project_thumbnail: /assets/images/projects-thumbnails/thumb-5.jpg
 project_weight: 6
 project_bg: "#000000"
 project_font: "#FFFFFF"
+layout_type: "dark"
 ---
 Ez Go est un prototype de robot-taxi autonome [conçu par Renault](https://www.renault.fr/vehicules/concept-car/ez-go-concept.html), et présenté au salon de l'automobile en 2018. Sur le véhicule, une bande lumineuse informe les usagers, à l'extérieur du taxi, de son comportement : quand la porte s'ouvre, quand un obstacle est repéré, quand le véhicule s'apprête à repartir, etc.
 

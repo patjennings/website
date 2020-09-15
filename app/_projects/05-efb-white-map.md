@@ -8,6 +8,7 @@ project_thumbnail: /assets/images/projects-thumbnails/thumb-4.jpg
 project_weight: 5
 project_bg: "#eeeeee"
 project_font: "#080b10"
+layout_type: "light"
 ---
 La représentation des informations à différents niveaux de zoom constitue le principal enjeu de cet exercice.
 <br/><br/>

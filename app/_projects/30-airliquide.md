@@ -8,6 +8,7 @@ project_thumbnail: /assets/images/projects-thumbnails/thumb-17.jpg
 project_weight: 30
 project_bg: "#e9f3fd"
 project_font: "#078cd6"
+layout_type: "light"
 ---
 Jeu d'illustrations destinées à représenter différents types d'outillage de chantier, sur un site de e-commerce.
 <br/><br/>

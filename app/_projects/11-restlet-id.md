@@ -8,6 +8,7 @@ project_thumbnail: /assets/images/projects-thumbnails/thumb-10.jpg
 project_weight: 11
 project_bg: "#FFFFFF"
 project_font: "#333333"
+layout_type: "light"
 ---
 Restlet produit des outils de gestion d'APIs. L'identité graphique de cette startup est refondu en 2015, afin de consolider sa présence et d'harmoniser l'aspect visuel de ses différents outils.
 <br/><br/>
