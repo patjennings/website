@@ -71,6 +71,7 @@
 	.menu{
 	    list-style-type: none;
 	    margin: 0;
+	    // padding-bottom: 6rem;
 
 	    hr{
 		// border: none;
@@ -92,6 +93,19 @@
 	footer{
 	    position: absolute;
 	    bottom: 0;
+	    // height: 80px;
+	    background: #0b090a;
+
+	    ul{
+		list-style-type: none;
+		li{
+		    &:before {
+			display: none;
+			content: ""; /* on affiche une chaîne de caractère */
+			
+		    }
+		}
+	    }
 	    
 	    p{
 		width: 100vh;
@@ -100,11 +114,14 @@
 		font-size: 0.875rem;
 		line-height: 1.4rem;
 
-		.cc{
+		.cc{		    
 		    margin-left: 0.275rem;
 		    opacity: 0.5;
 		    position: relative;
 		    top: 3px;
+		}
+		&.made-by{
+		    margin-top: 0;
 		}
 	    }
 	}
@@ -118,14 +135,11 @@
 	background: rgba(0,0,0,0);
 	
 	.header{
-	    background: rgba(255,255,255,0.75);
-	    padding:6px 8px;
-	    width: 36px;
-	    height: 36px;
-	    border-radius: 18px;
+	    position: fixed;
+	    right: 24px;
 	    
 	    #menu-ico{
-		color: #333;	 
+		color: #666;	 
 	    }
 	}
 

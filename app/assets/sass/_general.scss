@@ -94,7 +94,8 @@ a{
     font-size: 1rem;
     display: inline-block;
     margin-right: 0.5rem;
-
+    margin-bottom:1rem;
+    
     @include transition(all, 0.25s, ease-out);
     @include border-radius(4px);
 
