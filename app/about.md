@@ -4,8 +4,6 @@ title: À propos
 permalink: /about
 ---
 
-<img src="/assets/images/profile-pic-2020.jpg" style="width: 192px; margin: 0 auto 3rem auto; display: block; border-radius: 96px;"/>
-
 **Je suis <u>designer</u>. Mon travail consiste à résoudre des problèmes visuels, ergonomiques et fonctionnels sur des <u>interfaces utilisateur</u>, afin d'aider un utilisateur à se servir d'un produit et à y trouver confort et efficacité.**
 
 J'utilise mes compétences pour concevoir des applications web ou natives, créer des prototypes ou des animations vidéos de concepts d'applications, hiérarchiser l'information et documenter la conception.<br/>
@@ -22,7 +20,9 @@ En parallèle, je passe du temps à concevoir mes outils, quand je ne trouve pas
 
 Je vis et travaille à Quimper, Finistère, Bretagne.
 
+<img src="/assets/images/profile-pic-2020.jpg" style="width: 128px; margin: 0 auto 3rem auto; display: block; border-radius: 96px;"/>
+
 <div style="width:100%; text-align:center; margin:3rem 0;">
-<a type="button" class="btn btn-outline-primary" href="/contact">Contactez-moi</a>
+<a type="button" class="btn btn-outline-primary" href="/contact" style="margin-right: 0;">Contactez-moi</a>
 </div>
 
