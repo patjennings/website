@@ -3,7 +3,7 @@ layout: home
 title: thomas guesnon
 ---
 
-**Je suis <u>designer</u>. Mon travail consiste à résoudre des problèmes visuels, ergonomiques et fonctionnels sur des <u>interfaces utilisateur</u>, afin d'aider un utilisateur à se servir d'un produit et à y trouver confort et efficacité.**
+**Je suis designer. Mon travail consiste à résoudre des problèmes visuels, ergonomiques et fonctionnels sur des interfaces utilisateur, afin d'aider un utilisateur à se servir d'un produit et à y trouver confort et efficacité.**
 
 J'utilise mes compétences pour concevoir des applications web ou natives, créer des prototypes ou des animations vidéos de concepts d'applications, hiérarchiser l'information et documenter la conception.<br/>
 J'aide les parties prenantes à définir leur vision d'un projet d'application.

@@ -13,7 +13,7 @@ window.onload = function(){
     homeLayout !== null ? introImagesSlider() : null;
 }
 
-function menuHandler() // Gestion des cells de la mosaïque
+function menuHandler() // Gestion du menu
 {
     const menu = document.getElementById("site-menu");
 
