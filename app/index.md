@@ -17,9 +17,6 @@ J'ai travaillé, notamment, pour des projets aéronautiques, de transport, pour 
 
 En parallèle, je passe du temps à concevoir mes outils, quand je ne trouve pas ce que je cherche ailleurs. J'ai ainsi conçu un [set d'icônes](http://platform.thomasguesnon.net/pajeweic/) que j'utilise dans les interfaces que je conçois. J'ai également créé un outil, [SVGSpecs](https://framagit.org/patjennings/svg-specifications "SVG Speccs"), permettant de communiquer des spécifications graphiques sur des interfaces graphiques à destination des développeurs front-end.
 
-> ![profile pic](/assets/images/profile-picture.jpg)
-
-
 ### Quelques projets ###
 <br/>
 {% include mosaique.html %}
