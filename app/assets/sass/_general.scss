@@ -6,8 +6,19 @@ html{
 body{
     font-family: var(--font-family-sans);
     background: var(--light);
+    color: var(--dark);
     margin: 0;
     overflow-x: hidden;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: var(--dark);
+  background: var(--yellow);
+}
+
+::selection {
+  color: var(--dark);
+  background: var(--yellow);
 }
 
 h1{font-size: 3rem;}
@@ -79,14 +90,14 @@ a{
     @include transition(all, 0.25s, ease-out);
     
     &:hover{
-	background: yellow;
-	color: rgba(0,0,0,0.75);
+	background: var(--yellow);
+	color: var(--dark);
 	border-bottom: 1px solid rgba(0,0,0,0.15)
     }
 }
 .btn{
-    border: 1px solid #686280;
-    color:#686280;
+    border: 1px solid var(--dark);
+    color: var(--dark);
     text-decoration: none;
     background-color: none;
     padding: 8px 14px;
@@ -100,11 +111,12 @@ a{
     @include border-radius(4px);
 
     &:hover{
-	background-color: #686280;
-	color: #FFFFFF;
+	background-color: var(--yellow);
+	border: 1px solid var(--yellow);
+	// color: var(--);
     }
     &:focus{
-	box-shadow: 0 0 0 .2rem yellow;
+	box-shadow: 0 0 0 .2rem var(--yellow);
     }
 }
 

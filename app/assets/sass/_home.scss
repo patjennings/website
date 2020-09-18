@@ -8,7 +8,7 @@
 	}
 	blockquote p{
 	    display: flex;
-	    color: blue;
+	    color: var(--blue);
 	    
 	    img{
 		width: 320px;
@@ -24,7 +24,7 @@
     .intro{
 	margin-left: 56px;
 	height: 100vh; // pour éviter que ça ne saute avant que js ne resize la hauteur dynamiquement.
-	color: #FFF;
+	color: var(--white);
 	display: flex;
 
 	background: #000;
@@ -82,13 +82,13 @@
 	    
 	    h1{
 		a{
-		    color: #FFF;
+		    color: var(--white);
 		    text-decoration: none;
 		    border-bottom: none;
 
 		    &:hover{
-			color: #000;
-			background: yellow;
+			color: var(--dark);
+			background: var(--yellow);
 		    }
 		}
 		.small{
@@ -138,15 +138,15 @@
 	    }
 	    p{
 		a{
-		    color: #FFF;
+		    color: var(--white);
 		    text-decoration: none;
 		    border-bottom: 1px solid #FFF;
 		    font-size: 1.1rem;
 
 		    &:hover{
-			color: #000;
-			background: yellow;
-			border-bottom: 1px solid yellow;
+			color: var(--dark);
+			background: var(--yellow);
+			border-bottom: 1px solid var(--yellow);
 		    }
 		}
 	    }
@@ -171,11 +171,11 @@
 		line-height: 1.25rem;
 		
 		a{
-		    color: #FFF;
+		    color: var(--white);
 		    border-bottom: 1px solid #FFF;
 
 		    &:hover{
-			color: #000;
+			color: var(--dark);
 		    }
 		}
 		&.hidden{
@@ -211,7 +211,7 @@
 	.overlay{
 	    width: 100vw;
 	    height: 100vh;
-	    background-color: #000;
+	    background-color: var(--dark);
 	    opacity: 0.5;
 	    position: absolute;
 	    top: 0;

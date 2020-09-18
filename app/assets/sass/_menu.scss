@@ -19,12 +19,12 @@
 	    transition: all 0.15s ease-in-out;
 	    position: absolute;
 	    font-size: 32px;
-	    right: 12px;
+	    right: 14px;
 	    top: 16px;
 	    
 	    &:hover{
 		// transform: scale(1.15, 1.15);
-		color: yellow;
+		color: var(--yellow);
 	    }
 	}
 	#close-ico{
@@ -50,7 +50,7 @@
 
 		&:hover{
 		    // transform: scale(1.15, 1.15);
-		    color: yellow;
+		    color: var(--yellow);
 		}
 	    }
 	    #menu-ico{
@@ -89,7 +89,7 @@
 
 	    &:hover{
 		background: none;
-		color: yellow;
+		color: var(--yellow);
 	    }
 	}
 	
