@@ -16,4 +16,11 @@ Le principe est relativement simple, et l'écran principal se présente de la fa
 
 Il est prévu de construire un écran de synthèse, où les données de chaque projet seront affichées de façon à percevoir les tâches accomplies, les utilisateurs les plus actifs, etc. Des capacités d'exports dans différents formats (csv, json) sont également prévues.
 
+> La démo est disponible ici : <https://pisteurdetemps.thomasguesnon.net>
+> Les identifiants sont :
+> - identifiant : `demo`
+> - mot de passe : `000000`
+> 
+> La base de donnée est réinitialisée régulièrement
+
 - [Code source](https://framagit.org/patjennings/time-tracker)

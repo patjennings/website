@@ -27,7 +27,7 @@ En parallèle, je passe du temps à concevoir mes outils, quand je ne trouve pas
 ### C'est en cours ###
 
 - [PisteurDeTemps]({{site.url}}/pisteur-temps "Pisteur de temps"), un gestionnaire de temps passé
-- [Tyto](http://tyto.thomasguesnon.net "Tyto") est un outil de visualisation de données, basé sur markdown et la cartographie
+- [Tyto]({{site.url}}/tyto "Tyto") est un outil de visualisation de données, basé sur markdown et la cartographie
 - [SVGSpecs]({{site.url}}/articles/2019/03/06/2019-03-07-inkscape.html#spécification-dinterface "SVG Specs") permet de récupérer des spécifications graphiques
 <br/><br/>
 

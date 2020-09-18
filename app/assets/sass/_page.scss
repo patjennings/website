@@ -115,7 +115,9 @@ article{
 
     blockquote{
 	border-left: 4px solid var(--gray);
-	p{
+	margin-left: 0;
+	
+	p, ul, li{
 	    margin-left: 2rem;
 	    font-style: italic;
 	    color: var(--gray);
