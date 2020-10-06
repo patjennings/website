@@ -6,7 +6,7 @@ permalink: /contact
 Pour se rencontrer, pour parler d'un projet ou pour discuter.
 
 - Le plus efficace, c'est le mail : [hello@thomasguesnon.fr](mailto:hello@thomasguesnon.fr)
-- [La clé public](https://platform.thomasguesnon.net/gpg/thomasguesnon.asc), pour les échanges sécurisés
+- [La clé publique](https://platform.thomasguesnon.net/gpg/thomasguesnon.asc), pour les échanges sécurisés
 - Et il y a encore [plus d'infos dans le cv](https://platform.thomasguesnon.net/cv/cv-thomasguesnon.pdf)
 
 #### Ailleurs sur le web ####

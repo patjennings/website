@@ -182,6 +182,18 @@ article{
 		} 
 	    }
 	}
+
+	.back-work{
+	    a{
+		border: 1px solid var(--white);
+		color: var(--white);
+
+		&:hover{
+		    color: var(--dark);
+		    border: 1px solid var(--yellow);
+		}
+	    }
+	}
     }    
 }
 

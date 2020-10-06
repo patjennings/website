@@ -1,15 +1,48 @@
 @font-face {
-    font-family: circular;
+    font-family: 'NittiNormal';
     font-style: normal;
-    font-weight: 500;
-    font-display: auto; // https://css-tricks.com/almanac/properties/f/font-display/
-    src:url("fonts/CircularAir-Book.woff") format("woff");
-    // src:url("fonts/NowAlt-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-display: auto;
+    src: url('fonts/NittiBasic-Normal.eot');
+    src: url('fonts/NittiBasic-Normal.eot?#iefix') format('embedded-opentype'),
+         url('fonts/NittiBasic-Normal.woff') format('woff'),
+         url('fonts/NittiBasic-Normal.woff2') format('woff2'),
+         url('fonts/NittiBasic-Normal.ttf') format('truetype'),
+         url('fonts/NittiBasic-Normal.svg#NittiBasic-Normal') format('svg');
 }
 @font-face {
-    font-family: circular;
+    font-family: 'NittiBold';
     font-style: normal;
     font-weight: 700;
     font-display: auto;
-    src:url("fonts/CircularAir-Bold.woff") format("woff");
+    src: url('fonts/Nitti-Bold.eot');
+    src: url('fonts/Nitti-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Nitti-Bold.woff') format('woff'),
+         url('fonts/Nitti-Bold.woff2') format('woff2'),
+         url('fonts/Nitti-Bold.ttf') format('truetype'),
+         url('fonts/Nitti-Bold.svg#Nitti-Bold') format('svg');
+}
+@font-face {
+    font-family: 'FivoExtraBlack';
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url('fonts/FivoSansModern-ExtBlack.eot');
+    src: url('fonts/FivoSansModern-ExtBlack.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FivoSansModern-ExtBlack.woff') format('woff'),
+         url('fonts/FivoSansModern-ExtBlack.woff2') format('woff2'),
+         url('fonts/FivoSansModern-ExtBlack.ttf') format('truetype'),
+         url('fonts/FivoSansModern-ExtBlack.svg#FivoSansModern-ExtBlack') format('svg');
+}
+@font-face {
+    font-family: 'FivoHeavy';
+    font-style: normal;
+    font-weight: 800;
+    font-display: auto;
+    src: url('fonts/FivoSansModern-Heavy.eot');
+    src: url('fonts/FivoSansModern-Heavy.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FivoSansModern-Heavy.woff') format('woff'),
+         url('fonts/FivoSansModern-Heavy.woff2') format('woff2'),
+         url('fonts/FivoSansModern-Heavy.ttf') format('truetype'),
+         url('fonts/FivoSansModern-Heavy.svg#FivoSansModern-Heavy') format('svg');
 }

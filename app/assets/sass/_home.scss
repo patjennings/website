@@ -26,10 +26,11 @@
 	height: 100vh; // pour éviter que ça ne saute avant que js ne resize la hauteur dynamiquement.
 	color: var(--white);
 	display: flex;
-
+	// justify-content: center;
+	align-items: center;
 	background: #000;
 	
-	transition: all 0.25s ease-in;
+	// transition: all 0.25s ease-in;
 
 	.slides{
 	    position: absolute;
@@ -77,77 +78,91 @@
 	}
 	
 	.intro--content{
-	    margin: auto 0 auto 64px;
+	    // margin: auto;
+	    width: 100vw;
 	    z-index:3;
-	    
-	    h1{
-		a{
-		    color: var(--white);
-		    text-decoration: none;
-		    border-bottom: none;
 
-		    &:hover{
-			color: var(--dark);
-			background: var(--yellow);
+	    // padding: 0 256px;
+
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    height: 100vh;
+	  
+	    a{
+		color: var(--white);
+		text-decoration: none;
+		border-bottom: none;
+		background: none;
+		display: block;
+		text-align: center;
+		width: 100vw;
+		// height: 544px;
+		// padding: 224px 32px;
+
+		#bubbleAnimation{
+			transform: scale(2, 2);
+			@include animation('helloHover reverse 0.35s cubic-bezier(1, 0, 1, 1)');
+		}
+		
+		&:hover{
+		    color: var(--dark);
+		    // background: var(--yellow);
+
+		    #bubbleAnimation{
+			transform: scale(2, 2);
+			@include animation('helloHover 0.5s cubic-bezier(0,0,0,1)');
 		    }
 		}
-		.small{
-		    margin-left: 0.75rem;
-		    
-		    .task{
-			font-size: 2rem;
-			color: rgba(255,255,255,0.5);
-			
-			&:nth-child(2){
-			    @include animation('tasks 1s cubic-bezier(0.5, 0, 0.5, 1)');
-			}
-			&:nth-child(4){
-			    @include animation('tasks 1.5s cubic-bezier(0.5, 0, 0.5, 1)');
-			}
-			&:nth-child(6){
-			    @include animation('tasks 2s cubic-bezier(0.5, 0, 0.5, 1)');
-			}
 
+		@include keyframes(helloHover){
+		    0%{
+			transform: scale(0, 0);
 		    }
-
-		    .hash{
-			font-size: 1.45rem;
-			font-weight: 900;
-			margin-right: 0.125rem;
-			color: rgba(255,255,255,0.25);
-
-			&:nth-child(1){
-			    @include animation('tasks 0.5s cubic-bezier(0.5, 0, 0.5, 1)');
-			}
-			&:nth-child(3){
-			    @include animation('tasks .75s cubic-bezier(0.5, 0, 0.5, 1)');
-			}
-			&:nth-child(5){
-			    @include animation('tasks 1s cubic-bezier(0.5, 0, 0.5, 1)');
-			}
-		    }
-		    @include keyframes(tasks){
-			0%{
-			    opacity: 0;
-			}
-			100%{
-			    opacity: 1;
-			}
+		    100%{
+			transform: scale(2, 2);
 		    }
 		}
+		
+		.hello{
+		    display: block;
+		    font-size: 128px;
+		    line-height: 96px;
+		    font-family: var(--font-family-sans);
+		    font-weight: 900;
+		}
+		.sentence{
+		    display: block;
+		    margin-top: 0;
+		    font-size: 28px;
+		    font-weight: 400;
+		    font-family: var(--font-family-monospace);
+		}
+		#bubbleAnimation{
+		    opacity: 0.95;
+		    transition: all 0.35s ease-in-out;
+		    position: absolute;
+		    top: calc(50vh - 270px);
+		    left: calc(50vw - 270px);
+		    z-index:-999;
+		    transform: scale(0,0);
+		}
+
+		
 	    }
-	    p{
-		a{
-		    color: var(--white);
-		    text-decoration: none;
-		    border-bottom: 1px solid #FFF;
-		    font-size: 1.1rem;
-
-		    &:hover{
-			color: var(--dark);
-			background: var(--yellow);
-			border-bottom: 1px solid var(--yellow);
-		    }
+	    
+	    // link
+	    #intro-link{
+		display:block;
+		padding: 1rem;
+		border: 1px solid #FFF;
+		width: auto;
+		margin-top: 8vh;
+		
+		&:hover{
+		    background: var(--yellow);
+		    border: 1px solid var(--yellow);
 		}
 	    }
 	    
@@ -193,7 +208,8 @@
 	    animation-delay: 2s;
 	    position: absolute;
 	    bottom: 64px;
-	    margin: 0 auto 0 64px;
+	    // margin: 0 auto 0 64px;
+	    left: calc(50vw + 56px - 15px);
 
 	    @keyframes moreContent {
 		0% {

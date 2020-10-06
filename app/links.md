@@ -3,6 +3,9 @@ layout: page
 title: Liens
 permalink: /links
 ---
+###### 06/10/2020 ######
+- Testeur de solidité des mots de passe <https://password.kaspersky.com/fr/>, basé sur <https://haveibeenpwned.com/Passwords>
+
 ###### 29/08/2020 ######
 - developper a été pwned : l'article, <https://www.journalduhacker.net/s/ej67zq/i_have_been_powned>, les réactions <https://metrodore.fr/i-have-been-powned.html>
 
