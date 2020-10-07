@@ -22,7 +22,7 @@
     }
 
     .intro{
-	margin-left: 56px;
+	// margin-left: 56px;
 	height: 100vh; // pour éviter que ça ne saute avant que js ne resize la hauteur dynamiquement.
 	color: var(--white);
 	display: flex;
@@ -209,7 +209,7 @@
 	    position: absolute;
 	    bottom: 64px;
 	    // margin: 0 auto 0 64px;
-	    left: calc(50vw + 56px - 15px);
+	    left: calc(50vw - 15px);
 
 	    @keyframes moreContent {
 		0% {
