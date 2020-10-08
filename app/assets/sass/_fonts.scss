@@ -1,3 +1,5 @@
+///////////////////////////
+// Nitti Basic (monospace)
 @font-face {
     font-family: 'NittiNormal';
     font-style: normal;
@@ -22,6 +24,8 @@
          url('fonts/Nitti-Bold.ttf') format('truetype'),
          url('fonts/Nitti-Bold.svg#Nitti-Bold') format('svg');
 }
+//////////////
+// Fivo Sans
 @font-face {
     font-family: 'FivoExtraBlack';
     font-style: normal;
@@ -45,4 +49,55 @@
          url('fonts/FivoSansModern-Heavy.woff2') format('woff2'),
          url('fonts/FivoSansModern-Heavy.ttf') format('truetype'),
          url('fonts/FivoSansModern-Heavy.svg#FivoSansModern-Heavy') format('svg');
+}
+
+/////////////////////
+// iA Writer Quattro
+@font-face {
+    font-family: 'iAWriterQuattro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url('fonts/iAWriterQuattroS-Regular.eot');
+    src: url('fonts/iAWriterQuattroS-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/iAWriterQuattroS-Regular.woff') format('woff'),
+         url('fonts/iAWriterQuattroS-Regular.woff2') format('woff2'),
+         url('fonts/iAWriterQuattroS-Regular.ttf') format('truetype'),
+         url('fonts/iAWriterQuattroS-Regular.svg#iAWriterQuattroS-Regular') format('svg');
+}
+@font-face {
+    font-family: 'iAWriterQuattro';
+    font-style: italic;
+    font-weight: 400;
+    font-display: auto;
+    src: url('fonts/iAWriterQuattroS-Italic.eot');
+    src: url('fonts/iAWriterQuattroS-Italic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/iAWriterQuattroS-Italic.woff') format('woff'),
+         url('fonts/iAWriterQuattroS-Italic.woff2') format('woff2'),
+         url('fonts/iAWriterQuattroS-Italic.ttf') format('truetype'),
+         url('fonts/iAWriterQuattroS-Italic.svg#iAWriterQuattroS-Italic') format('svg');
+}
+@font-face {
+    font-family: 'iAWriterQuattro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: auto;
+    src: url('fonts/iAWriterQuattroS-Bold.eot');
+    src: url('fonts/iAWriterQuattroS-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/iAWriterQuattroS-Bold.woff') format('woff'),
+         url('fonts/iAWriterQuattroS-Bold.woff2') format('woff2'),
+         url('fonts/iAWriterQuattroS-Bold.ttf') format('truetype'),
+         url('fonts/iAWriterQuattroS-Bold.svg#iAWriterQuattroS-Bold') format('svg');
+}
+@font-face {
+    font-family: 'iAWriterQuattro';
+    font-style: italic;
+    font-weight: 700;
+    font-display: auto;
+    src: url('fonts/iAWriterQuattroS-BoldItalic.eot');
+    src: url('fonts/iAWriterQuattroS-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/iAWriterQuattroS-BoldItalic.woff') format('woff'),
+         url('fonts/iAWriterQuattroS-BoldItalic.woff2') format('woff2'),
+         url('fonts/iAWriterQuattroS-BoldItalic.ttf') format('truetype'),
+         url('fonts/iAWriterQuattroS-BoldItalic.svg#iAWriterQuattroS-BoldItalic') format('svg');
 }

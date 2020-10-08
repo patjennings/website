@@ -7,64 +7,37 @@
 
 
 @font-face {
-  font-family: 'FivoSansModern-ExtBlack-Oblique';
-  src: url('FivoSansModern-ExtBlack-Oblique.eot?') format('eot'),
-       url('FivoSansModern-ExtBlack-Oblique.woff2') format('woff2'),
-       url('FivoSansModern-ExtBlack-Oblique.woff') format('woff'),
-       url('FivoSansModern-ExtBlack-Oblique.ttf')  format('truetype'),
-       url('FivoSansModern-ExtBlack-Oblique.svg#FivoSansModern-ExtBlack-Oblique') format('svg');
+  font-family: 'iAWriterQuattroS-BoldItalic';
+  src: url('iAWriterQuattroS-BoldItalic.eot?') format('eot'),
+       url('iAWriterQuattroS-BoldItalic.woff2') format('woff2'),
+       url('iAWriterQuattroS-BoldItalic.woff') format('woff'),
+       url('iAWriterQuattroS-BoldItalic.ttf')  format('truetype'),
+       url('iAWriterQuattroS-BoldItalic.svg#iAWriterQuattroS-BoldItalic') format('svg');
 }
 
 @font-face {
-  font-family: 'FivoSansModern-ExtBlack';
-  src: url('FivoSansModern-ExtBlack.eot?') format('eot'),
-       url('FivoSansModern-ExtBlack.woff2') format('woff2'),
-       url('FivoSansModern-ExtBlack.woff') format('woff'),
-       url('FivoSansModern-ExtBlack.ttf')  format('truetype'),
-       url('FivoSansModern-ExtBlack.svg#FivoSansModern-ExtBlack') format('svg');
+  font-family: 'iAWriterQuattroS-Bold';
+  src: url('iAWriterQuattroS-Bold.eot?') format('eot'),
+       url('iAWriterQuattroS-Bold.woff2') format('woff2'),
+       url('iAWriterQuattroS-Bold.woff') format('woff'),
+       url('iAWriterQuattroS-Bold.ttf')  format('truetype'),
+       url('iAWriterQuattroS-Bold.svg#iAWriterQuattroS-Bold') format('svg');
 }
 
 @font-face {
-  font-family: 'FivoSansModern-Heavy-Oblique';
-  src: url('FivoSansModern-Heavy-Oblique.eot?') format('eot'),
-       url('FivoSansModern-Heavy-Oblique.woff2') format('woff2'),
-       url('FivoSansModern-Heavy-Oblique.woff') format('woff'),
-       url('FivoSansModern-Heavy-Oblique.ttf')  format('truetype'),
-       url('FivoSansModern-Heavy-Oblique.svg#FivoSansModern-Heavy-Oblique') format('svg');
+  font-family: 'iAWriterQuattroS-Italic';
+  src: url('iAWriterQuattroS-Italic.eot?') format('eot'),
+       url('iAWriterQuattroS-Italic.woff2') format('woff2'),
+       url('iAWriterQuattroS-Italic.woff') format('woff'),
+       url('iAWriterQuattroS-Italic.ttf')  format('truetype'),
+       url('iAWriterQuattroS-Italic.svg#iAWriterQuattroS-Italic') format('svg');
 }
 
 @font-face {
-  font-family: 'FivoSansModern-Heavy';
-  src: url('FivoSansModern-Heavy.eot?') format('eot'),
-       url('FivoSansModern-Heavy.woff2') format('woff2'),
-       url('FivoSansModern-Heavy.woff') format('woff'),
-       url('FivoSansModern-Heavy.ttf')  format('truetype'),
-       url('FivoSansModern-Heavy.svg#FivoSansModern-Heavy') format('svg');
-}
-
-@font-face {
-  font-family: 'NittiBasic-Normal';
-  src: url('NittiBasic-Normal.eot?') format('eot'),
-       url('NittiBasic-Normal.woff2') format('woff2'),
-       url('NittiBasic-Normal.woff') format('woff'),
-       url('NittiBasic-Normal.ttf')  format('truetype'),
-       url('NittiBasic-Normal.svg#NittiBasic-Normal') format('svg');
-}
-
-@font-face {
-  font-family: 'Nitti-Bold';
-  src: url('Nitti-Bold.eot?') format('eot'),
-       url('Nitti-Bold.woff2') format('woff2'),
-       url('Nitti-Bold.woff') format('woff'),
-       url('Nitti-Bold.ttf')  format('truetype'),
-       url('Nitti-Bold.svg#Nitti-Bold') format('svg');
-}
-
-@font-face {
-  font-family: 'pajeweic-icon';
-  src: url('pajeweic-icon.eot?') format('eot'),
-       url('pajeweic-icon.woff2') format('woff2'),
-       url('pajeweic-icon.woff') format('woff'),
-       url('pajeweic-icon.ttf')  format('truetype'),
-       url('pajeweic-icon.svg#pajeweic-icon') format('svg');
+  font-family: 'iAWriterQuattroS-Regular';
+  src: url('iAWriterQuattroS-Regular.eot?') format('eot'),
+       url('iAWriterQuattroS-Regular.woff2') format('woff2'),
+       url('iAWriterQuattroS-Regular.woff') format('woff'),
+       url('iAWriterQuattroS-Regular.ttf')  format('truetype'),
+       url('iAWriterQuattroS-Regular.svg#iAWriterQuattroS-Regular') format('svg');
 }

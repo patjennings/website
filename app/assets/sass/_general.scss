@@ -84,8 +84,8 @@ ul{
 
 // links & buttons
 a{
-    text-decoration: underline;
-    // border-bottom: 1px solid #686280;
+    text-decoration: none;
+    border-bottom: 1px solid var(--dark);
     background: none;
     color: inherit;
 

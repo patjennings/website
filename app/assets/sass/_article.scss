@@ -1,0 +1,26 @@
+.layout-article{
+    article{
+	// background: #333;
+	// color: #FFF;
+	// background: rgb(255,255,225);
+	.page-header{
+	    // margin-top: 5rem;
+	    h1.page-title{
+		font-size: 3.5rem;
+		// color: #FFF;
+	    }
+	}
+	p, ul li{
+	    // font-family: Elena;
+	    font-family: iAWriterQuattro;
+	    font-size: 1rem;
+	    line-height: 1.8rem;
+	}
+	img{
+	    width: 100%;
+	    // margin-left: -176px;
+	    // margin-bottom: 4rem;
+	}
+    }
+
+}
