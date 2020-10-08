@@ -1,3 +1,7 @@
+.layout-page, .layout-project, .layout-references, .layout-default{
+    background: var(--dark);
+    color: var(--light);
+}
 article{
     margin-left: 56px;
     header{
@@ -6,7 +10,7 @@ article{
     .page-header{
 	height: auto;
 	h1.page-title{
-	    color: var(--dark);
+	    color: var(--light);
 	    margin-top: 4rem;
 	    margin-bottom: 3rem;
 	    font-size: 2.5rem;
@@ -198,11 +202,7 @@ article{
 }
 
 
-.layout-home{
-    h3:first-child{
-	margin-bottom: 3rem;
-    }
-}
+
 
 // references
 table{
@@ -220,6 +220,8 @@ table{
 	}
     }
 }
+
+
 
 
 

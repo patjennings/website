@@ -7,14 +7,27 @@
 	    // margin-top: 5rem;
 	    h1.page-title{
 		font-size: 3.5rem;
-		// color: #FFF;
+		color: var(--dark);
+		margin-bottom: 0.5rem;
+	    }
+	    .page-meta{
+		margin-top: 0.5rem;
+		font-size: 0.875rem;
+		font-family: var(--font-family-sans);
+		color: #999;
+		font-weight: 900;
+		text-transform: uppercase;
+		letter-spacing: 0.125rem;
 	    }
 	}
 	p, ul li{
 	    // font-family: Elena;
-	    font-family: iAWriterQuattro;
+	    font-family: var(--font-family-serif);
 	    font-size: 1rem;
 	    line-height: 1.8rem;
+	}
+	a{
+	    border-bottom: 1px solid var(--dark);
 	}
 	img{
 	    width: 100%;

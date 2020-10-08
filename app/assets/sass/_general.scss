@@ -85,7 +85,7 @@ ul{
 // links & buttons
 a{
     text-decoration: none;
-    border-bottom: 1px solid var(--dark);
+    border-bottom: 1px solid var(--light);
     background: none;
     color: inherit;
 
@@ -98,8 +98,8 @@ a{
     }
 }
 .btn{
-    border: 1px solid var(--dark);
-    color: var(--dark);
+    border: 1px solid var(--light);
+    color: var(--light);
     text-decoration: none;
     background-color: none;
     padding: 8px 14px;
@@ -142,7 +142,7 @@ code, kbd, pre, samp{
 table{
     border-collapse: collapse;
     tr{
-	border-bottom: 1px solid var(--gray-light);
+	border-bottom: 1px solid var(--dark-l);
 
 	th, td{
 	    padding: 1rem 0.5rem 1rem 0;
