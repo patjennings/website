@@ -1,0 +1,47 @@
+<div class="home-container container-fluid" id="presentation">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg">
+	<div class="content" id="hello">
+	  <h3>Je suis designer</h3>
+	  <p>Mon travail consiste à résoudre des problèmes visuels, ergonomiques et fonctionnels sur des interfaces homme-machine, afin d'aider un utilisateur à se servir d'un produit et à y trouver confort et efficacité.</p>
+	  <a type="button" class="btn btn-outline-primary" href="/projets">Voir les projets</a>
+	</div>
+      </div>
+      <div class="col-lg">
+	<div class="content" id="illustration">
+	  <img src="assets/images/illustration-home.png" width="256"/>
+	</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="home-container container">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2">
+      <div class="content" id="hello">
+        <h3 id="cest-en-cours">C’est en cours</h3>
+        <ul>
+          <li><a href="https://www.thomasguesnon.fr/pisteur-temps" title="Pisteur de temps">PisteurDeTemps</a>, un gestionnaire de temps passé</li>
+          <li><a href="https://www.thomasguesnon.fr/tyto" title="Tyto">Tyto</a> est un outil de visualisation de données, basé sur markdown et la cartographie</li>
+          <li><a href="https://www.thomasguesnon.fr/articles/2019/03/06/2019-03-07-inkscape.html#spécification-dinterface" title="SVG Specs">SVGSpecs</a> permet de récupérer des spécifications graphiques</li>
+        </ul>
+
+        <h3 id="articles">Articles</h3>
+        <p>Quelques réflexions, sur le design et d’autres sujets.</p>
+	<ul>
+	  {% for article in site.articles reversed %}
+	  <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a><sup>{{ article.date | date: "%d/%m/%Y" }}</sup></li>
+	  {% endfor %}
+	</ul>
+
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+
+

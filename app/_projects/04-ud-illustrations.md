@@ -9,6 +9,7 @@ project_weight: 4
 project_bg: "#EBF6F8"
 project_font: "#1435AB"
 layout_type: "light"
+fields: illustration, motion
 ---
 Des illustrations qui évoquent de façon directe, ou plus métaphorique, certains aspects de la pratique de design.
 <br/><br/>

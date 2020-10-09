@@ -9,6 +9,7 @@ project_weight: 35
 project_bg: "#202d40"
 project_font: "#ffffff"
 layout_type: "dark"
+fields: ui
 ---
 
 Un *design system* pour un EFB (Electronic Flight Bag) disponible sur tablette. Les usagers, des pilotes, co-pilotes ou personnel navigant, voient leur valise de cartes et de procédures disponibles dans une unique application. Une documentation graphique conséquente est produite pour les équipes de développement du client.

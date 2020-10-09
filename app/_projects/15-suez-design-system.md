@@ -9,6 +9,7 @@ project_weight: 15
 project_bg: "#FFFFFF"
 project_font: "#333333"
 layout_type: "light"
+fields: ui
 ---
 Suez propose à ses clients une solution de supervision des infrastructures d'eau ― régulation, assainissement, etc. Cette solution regroupe plusieurs outils de différentes natures ; l'enjeu de ce projet est de trouver un langage visuel et fonctionnel qui soit cohérent pour l'utilisateur, sur l'ensemble de la plateforme. 
 

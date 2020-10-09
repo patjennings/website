@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div id="mosaique">
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+	<div class="col-md">
+	  <div class="filters">
+	    <select name="fields" id="fields">
+	      <option value="0">Tout</option>
+	      <option value="1">UI</option>
+	      <option value="2">UX</option>
+	      <option value="3">Motion</option>
+	      <option value="3">Illustration</option>
+	    </select>
+	  </div>
+	</div>
+	<div class="col-md">
+	  <div class="filters-actions">
+	    <div id="filters-actions--reset">Tout voir</div>
+	  </div>
+	</div>
+      </div>
+    </div>
+  </header>
+  <ul>
+    {% for p in site.projects %}
+    <li class="mosaic-item {{p.fields | split: ','}}">
+      <a href="{{p.permalink | relative}}" style="background-image: url({{p.project_thumbnail}});"><div class="card">	      
+	  <div class="card--title">{{p.title | escape}}</div>
+	</div>	    
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+

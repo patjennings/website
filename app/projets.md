@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: projects
 title: thomas guesnon
 permalink: /projets
 ---
-{% include mosaique.html %}
+

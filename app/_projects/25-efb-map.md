@@ -9,6 +9,7 @@ project_weight: 25
 project_bg: "#131313"
 project_font: "#FFFFFF"
 layout_type: "dark"
+fields: ui, ux
 ---
 
 La cartographie aérienne pose des problèmes très intéressants à résoudre : il s'agit de rendre lisible des informations de forme et de nature diverses : les routes aériennes, les aéroports, les balises de différentes types. Le principal enjeu de ce travail est d'ajouter à ces éléments des données météo, une typologie d'information à part entière, qui varie dans le temps. 

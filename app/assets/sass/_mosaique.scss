@@ -1,6 +1,107 @@
 #mosaique{
     margin-left: 56px;
     width: 100vw;
+
+    header{
+	padding: 1rem;
+	width: 80vw;
+	// display: flex;
+	flex-direction: row;
+	
+	.filters{
+	    position: relative;
+	    border: 1px solid var(--light);
+	    background-color: var(--dark);
+	    // width: 25vw;
+
+	    select#fields{
+		display: none;
+	    }
+	    .select-selected {
+		border: 1px solid var(--light);
+
+		/* Style the arrow inside the select element: */
+		&:after {
+		    position: absolute;
+		    content: "";
+		    top: 14px;
+		    right: 10px;
+		    width: 0;
+		    height: 0;
+		    border: 6px solid transparent;
+		    border-color: #fff transparent transparent transparent;
+		}
+		&.select-arrow-active:after {
+		    border-color: transparent transparent #fff transparent;
+		    top: 7px;
+		}
+	    }
+
+	    /* Point the arrow upwards when the select box is open (active): */
+	    
+	    /* style the items (options), including the selected item: */
+	    .select-items div,.select-selected {
+		color: #ffffff;
+		border: 1px solid var(--light);
+		background-color: var(--dark);
+		padding: 8px 14px;
+		border: 1px solid var(--light);
+		border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+		cursor: pointer;
+	    }
+
+	    /* Style items (options): */
+	    .select-items {
+		position: absolute;
+		background-color: var(--dark);
+		top: 100%;
+		left: 0;
+		right: 0;
+		z-index: 99;
+
+
+
+		div{
+		    @include transition(all, 0.15s, ease-in-out);
+		    &:hover{
+			background-color: var(--yellow);
+			color: var(--dark);
+		    }
+		    &.same-as-selected {
+			color: var(--yellow);
+		    }
+		}
+	    }
+
+	    /* Hide the items when the select box is closed: */
+	    .select-hide {
+		display: none;
+	    }
+
+	    
+	}
+	.filters-actions{
+	    width: 25vw;
+	    padding: 8px 14px;
+	    margin-left: 1rem;
+	    
+	    #filters-actions--reset{
+		cursor: pointer;
+		@include transition(all, 0.35s, cubic-bezier(.35,0,.17,1));
+		
+		&:hover{
+		    color: var(--yellow);
+		}
+		&.visible{
+		    opacity: 1;
+		}
+		&.hidden{
+		    opacity: 0;
+		}
+	    }
+		
+	}
+    }
     
     ul{
 	display: flex;
@@ -11,7 +112,15 @@
 	
 	li{
 	    list-style-type: none;
-	    display: block;
+	    opacity: 1;
+	    @include transition(all, 0.35s, cubic-bezier(.35,0,.17,1));
+	    
+	    &.visible{
+		display: block;
+	    }
+	    &.hidden{
+		display: none;
+	    }
 
 	    &:before {
 		content: ""; /* on affiche une chaîne de caractère */

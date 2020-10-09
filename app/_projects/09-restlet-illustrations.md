@@ -9,6 +9,7 @@ project_weight: 9
 project_bg: "#FFFFFF"
 project_font: "#333333"
 layout_type: "light"
+fields: illustration
 ---
 Ces illustrations accompagnent la communication de la startup Restlet. Restlet produit des outils de gestion d'APIs, et utilise ces images sur son site web, dans sa documentation ou dans ses applications.
 <br/><br/>
