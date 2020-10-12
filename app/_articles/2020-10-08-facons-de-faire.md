@@ -11,13 +11,13 @@ Cet article contient quelques-uns des principes qui guident ma pratique de desig
 
 Je suis designer, et ma pratique première est le design graphique. Depuis que j'ai commencé à travailler, en 2007, c'est avant tout pour l'écran que je conçois (que je *designe*). Pour des sites web d'abord, puis pour des applications. Cette pratique s'est etoffée, au fil des projets et des expériences, de réflexions autour des contextes d'utilisation, des usages, des utilisateurs, et le design d'expérience utilisateur (*UX design*) fait désormais partie intégrante de ma pratique. Il serait d'ailleurs plus exact de dire qu'il la traverse,  à la manière d'un fil rouge plutôt que d'une compétence isolée que l'on peut solliciter en dehors du reste.
 
-(une image la compréhension, non formaliste) -> dessin illustration qui donne à voir autant sûreté du geste qu'aide à la conception (prise de notes)
+![Notes](/assets/images/blog/facons-notes.jpg)
 
 Le métier du designer est de rendre lisible et compréhensible une information à un public donné. C'est ma ligne de mire lorsque je travaille, et la typographie, le rôle des couleurs et les principes de mise en page conceptualisés et affinés depuis plus d'un siècle par les maîtres du design graphique sont les piliers de ma pratique. C'est cet héritage de rigueur que j'injecte dans les projets auxquels je participe, dans le but de rendre une interface solide dans son utilisation, et pérenne.
 
-(mise en page, typo, interface)
+![Design graphique](/assets/images/blog/facons-graphicdesign.jpg)
 
-## Programme et contrainte ##
+## La relation design / programmation ##
 
 Bien que je sois intéressé et sensible à une pratique de [design d'auteur](https://duckduckgo.com/?q=grapus&t=lm&iax=images&ia=images), mon travail est plutôt issu d'une approche programmatique. Certains designers comme [Arnaud Mercier](https://arnaud.area17.com/), le [studio Lust](https://lust.nl/#projects-3465) ou [Karl Gerstner](http://indexgrafik.fr/karl-gerstner/) ont montré la voie et cultivé des façons de faire qui s'appuient sur le langage informatique. Le design d'interface, central dans mon travail, est par essence une conception dynamique : le projet n'est pas figé à un moment donné dans un objet physique, une affiche, un livre, une chaise. Il est plutôt un jeu de règles, le but n'étant pas tant de créer des écrans de façon statique que de documenter cette conception, et de donner une première impulsion. En édictant des règles qui seront ensuite interprétées, et modifiées au fil de l'eau, par moi ou par d'autres acteurs, je m'inscris dans cet héritage d'une pratique inspirée par la programmation informatique.
 
@@ -33,7 +33,7 @@ Sur ce terrain de jeu fertile qu'est le projet, avec ses multiples contraintes, 
 
 C'est à cela que que je réponds lorsque je crée des films <lien> ou des illustrations <lien> qui vont permettre de porter une vision. Je m'aide de ma connaissance profonde et élargie des programmes et des interfaces graphiques pour proposer des visions qui soient à la fois réalistes et innovantes, et ma connaissance des usages me permet d'illustrer de façon pertinente certains aspects de l'expérience utilisateur.
 
-[gif animation interface]
+![Design graphique](/assets/images/blog/facons-ia.gif)
 
 Par delà la vision prospective, l'idée de mouvement est capitale dans une interface graphique. Il éclaire le sens d'une information ou d'une action, et c'est un outil de design. Et le design lui-même est est une pratique _en mouvement_, qui doit pouvoir être repris, retravaillé, affiné sans cesse. C'est une pratique dont on pourrait dire qu'elle n'a pas de fin : on n'effectue jamais que des instantanés à des moments-clés (d'un projet), le design étant cette pratique qui accompagne l'usage, qui révèle les problèmes et planche dessus, en se proposant de les résoudre dans une réflexion continue.
 
