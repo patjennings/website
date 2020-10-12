@@ -3,6 +3,10 @@ layout: page
 title: Liens
 permalink: /links
 ---
+
+###### 12/10/2020 ######
+- sur l'écriture inclusive : ignorance du neutre et de sa présence discrète, qui dégonfle en partie le problème de la visibilité des sexes dans la la langue <https://blogs.mediapart.fr/irma-afnani/blog/011117/lecriture-inclusive-occulterait-elle-le-neutre-grammatical-francais>
+
 ###### 06/10/2020 ######
 - Testeur de solidité des mots de passe <https://password.kaspersky.com/fr/>, basé sur <https://haveibeenpwned.com/Passwords>
 
