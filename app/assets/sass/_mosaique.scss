@@ -163,12 +163,16 @@
 		    display: flex; /* contexte sur le parent */
 		    padding: 32px;
 
-		    .card--title{
+		    .card--content{
 			margin: auto;
 			color: #FFF;
 			position:relative;
 			top: 16px;
 			@include transition(all, 0.4s, cubic-bezier(0,0,0,1));
+
+			.card--client{
+			    opacity: 0.5;
+			}
 		    }
 		}
 
@@ -179,7 +183,7 @@
 		    .card{
 			opacity: 1;
 
-			.card--title{
+			.card--content{
 			    top: 0;
 			}
 		    }

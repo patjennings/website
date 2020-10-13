@@ -1,6 +1,7 @@
 ---
 layout: project
 title:  Cartographie aérienne
+client: Thales
 release-date: 2016
 permalink: /projects/efb-white-map
 excerpt_separator: <!--more-->
@@ -10,6 +11,7 @@ project_bg: "#eeeeee"
 project_font: "#080b10"
 layout_type: "light"
 fields: ui
+promoted: false
 ---
 La représentation des informations à différents niveaux de zoom constitue le principal enjeu de cet exercice.
 <br/><br/>

@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Icones pour Air Liquide
+client: Air Liquide
 release-date: 2018
 permalink: /projects/kxiop-icones
 excerpt_separator: <!--more-->
@@ -10,6 +11,7 @@ project_bg: "#e9f3fd"
 project_font: "#078cd6"
 layout_type: "light"
 fields: illustration
+promoted: false
 ---
 Jeu d'illustrations destinées à représenter différents types d'outillage de chantier, sur un site de e-commerce.
 <br/><br/>

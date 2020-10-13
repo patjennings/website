@@ -29,7 +29,11 @@ layout: default
     {% for p in site.projects %}
     <li class="mosaic-item {{p.fields | split: ','}}">
       <a href="{{p.permalink | relative}}" style="background-image: url({{p.project_thumbnail}});"><div class="card">	      
-	  <div class="card--title">{{p.title | escape}}</div>
+	  <div class="card--content">
+	    <div class="card--title">{{p.title | escape}}</div>
+	    <div class="card--client">{{p.client | escape}}</div>
+	  </div>
+
 	</div>	    
       </a>
     </li>

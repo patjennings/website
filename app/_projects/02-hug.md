@@ -1,6 +1,7 @@
 ---
 layout: project
-title:  Hug
+title:  Application domotique
+client: Hug
 release-date: 2016
 permalink: /projects/hug
 excerpt_separator: <!--more-->
@@ -10,6 +11,7 @@ project_bg: "#f3f3f3"
 project_font: "#0d3731"
 layout_type: "light"
 fields: ux, ui, illustration
+promoted: false
 ---
 Hug propose, grâce à des capteurs placés dans les éléments de la maison<!--more-->, de contrôler la configuration et la programmation de ceux-ci grâce à une application mobile.
 <br/><br/>

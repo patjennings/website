@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Un design system
+client: Thales
 release-date: 2016
 permalink: /projects/efb-design-system
 excerpt_separator: <!--more-->
@@ -10,6 +11,7 @@ project_bg: "#202d40"
 project_font: "#ffffff"
 layout_type: "dark"
 fields: ui
+promoted: true
 ---
 
 Un *design system* pour un EFB (Electronic Flight Bag) disponible sur tablette. Les usagers, des pilotes, co-pilotes ou personnel navigant, voient leur valise de cartes et de procédures disponibles dans une unique application. Une documentation graphique conséquente est produite pour les équipes de développement du client.

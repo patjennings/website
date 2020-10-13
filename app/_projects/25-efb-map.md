@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Météo aérienne
+client: Thales
 release-date: 2014
 permalink: /projects/efb-map
 excerpt_separator: <!--more-->
@@ -10,6 +11,7 @@ project_bg: "#131313"
 project_font: "#FFFFFF"
 layout_type: "dark"
 fields: ui, ux
+promoted: false
 ---
 
 La cartographie aérienne pose des problèmes très intéressants à résoudre : il s'agit de rendre lisible des informations de forme et de nature diverses : les routes aériennes, les aéroports, les balises de différentes types. Le principal enjeu de ce travail est d'ajouter à ces éléments des données météo, une typologie d'information à part entière, qui varie dans le temps. 

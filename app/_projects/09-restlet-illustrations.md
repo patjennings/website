@@ -1,6 +1,7 @@
 ---
 layout: project
-title:  Illustrations pour Restlet
+title:  Illustrations
+client: Restlet
 release-date: 2016
 permalink: /projects/restlet-illustrations
 excerpt_separator: <!--more-->
@@ -10,6 +11,7 @@ project_bg: "#FFFFFF"
 project_font: "#333333"
 layout_type: "light"
 fields: illustration
+promoted: true
 ---
 Ces illustrations accompagnent la communication de la startup Restlet. Restlet produit des outils de gestion d'APIs, et utilise ces images sur son site web, dans sa documentation ou dans ses applications.
 <br/><br/>

@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Identité graphique pour Restlet
+client: Restlet
 release-date: 2016
 permalink: /projects/restlet-identity
 excerpt_separator: <!--more-->
@@ -10,6 +11,7 @@ project_bg: "#FFFFFF"
 project_font: "#333333"
 layout_type: "light"
 fields: ui, illustration
+promoted: false
 ---
 Restlet produit des outils de gestion d'APIs. L'identité graphique de cette startup est refondu en 2015, afin de consolider sa présence et d'harmoniser l'aspect visuel de ses différents outils.
 <br/><br/>
