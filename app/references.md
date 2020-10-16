@@ -6,6 +6,11 @@ permalink: /references
 
 | Année | Client | Projet et nature de la participation | Expertise
 |:--|:--|:--|:--|
+| 2020 | ![](/assets/images/logo/uvasc.svg) | Conception d'une application médicale | *UI, UX, documentation* |
+| 2020 | ![](/assets/images/logo/cobuy.svg)  | Conception d'une application de support aux achats| *UI, UX, documentation* |
+| 2020 | ![](/assets/images/logo/messageur.svg) | Conception de supports de communication imprimés | *Design graphique, illustration*|
+| 2020 |  ![](/assets/images/logo/cliniquesport.svg) | Création de logotype pour la clinique du Sport, la clinique de l'arthrose et la clinique du pied de Bordeaux-Mérignac | *Design graphique* |
+| 2019 | ![](/assets/images/logo/scality.svg) | Création d'une interface de gestion de serveurs de stockage&nbsp;<sup>1</sup>| |
 | 2018 | ![](/assets/images/logo/thales.svg) | Conception d'un outil de surveillance d'un espace aérien. Scénarisation et production d'un film de simulation d'usages de l'outil&nbsp;<sup>1</sup> | *UI, motion, CesiumJS, cartographie* |
 | 2018 | ![](/assets/images/logo/suez.svg) | Design system pour un ensemble d'applications de supervision des réseaux d'eau, utilisé dans plusieurs pays&nbsp;<sup>1</sup> | *UI, spécifications&nbsp;<sup>4</sup>* |
 | 2018 | ![renault](/assets/images/logo/renault.svg) | élaboration des écrans destinés à être embarqués dans les prototypes Ez-Go (Salon de Genève 2018), Ez-Pro (Salon de Francort). Conception des animations embarquées sur les éléments LED des véhicules&nbsp;<sup>1</sup> | *UI, motion, HTML, CSS, Javascript* |
