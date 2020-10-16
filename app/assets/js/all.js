@@ -39,7 +39,7 @@ window.onload = function(){
     }
     if(homeLayout){
 	bubblesAnim = new spriteAnimation(bubbles.src, bubbles.container, bubbles.width, bubbles.height, bubbles.columns, bubbles.frames, bubbles.fps);
-	computersAnim = new spriteAnimation(computers.src, computers.container, computers.width, computers.height, computers.columns, computers.frames, computers.fps);
+	// computersAnim = new spriteAnimation(computers.src, computers.container, computers.width, computers.height, computers.columns, computers.frames, computers.fps);
     }
     
     window.onresize = function() {
