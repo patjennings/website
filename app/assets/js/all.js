@@ -26,7 +26,16 @@ const computers = {
     fps : 24
 }
 
-window.onload = function(){
+
+window.onload = function(e){
+    // hide loader
+    const loadingStatus = document.getElementById("loading-status"); 
+    loadingStatus.setAttribute("class", "hidden");   
+    // const pageBody = document.getElementsByTagName("BODY");
+    const pageBody = document.querySelector(".is-loading")
+    pageBody.classList.remove("is-loading")
+    // console.log(pageBody.classList);
+    
     const homeLayout = document.querySelector(".layout-home")
     const projectsLayout = document.querySelector(".layout-projects")
     const introPresentation = document.getElementById("intro-presentation")

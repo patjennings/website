@@ -85,8 +85,6 @@ class spriteAnimation {
 	    this.width,
 	    this.height
 	);
-
-	console.log("it plays "+this.tickCount);
     }
     
     loop(){
@@ -104,7 +102,6 @@ class spriteAnimation {
     }
 
     stop(){
-	console.log("animation stoppée");
     	cancelAnimationFrame(this.loop);
     }
 }
