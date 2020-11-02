@@ -112,20 +112,6 @@ article{
 	    }
 	}
     }
-
-    blockquote{
-	border-left: 4px solid var(--gray);
-	margin-left: 0;
-	
-	p, ul, li{
-	    margin-left: 2rem;
-	    font-style: italic;
-	    color: var(--gray);
-	}
-    }
-    .small{
-	margin-bottom: 2rem;
-    }
 }
 
 // couleur de fond de la nav interne aux articles

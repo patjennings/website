@@ -26,6 +26,26 @@
 	    font-size: 1rem;
 	    line-height: 1.8rem;
 	}
+	blockquote{
+	    // border-left: 4px solid var(--gray);
+	    margin: 3rem 6rem;
+	    text-align: center;
+	    border-top: 1px solid var(--gray-light);
+	    // border-bottom: 1px solid var(--gray-light);
+	    
+	    p, ul, li{
+		font-family: var(--font-family-sans);
+		font-size: 1.25rem;
+		font-weight: 800;
+		// margin-left: 2rem;
+		color: var(--gray);
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+	    }
+	}
+	.small{
+	    margin-bottom: 2rem;
+	}
 	a{
 	    border-bottom: 1px solid var(--dark);
 	}
