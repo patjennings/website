@@ -23,7 +23,9 @@ Bien que je sois intéressé et sensible à une pratique de [design d'auteur](ht
 
 > Le design consiste en un jeu de règles, le but n'étant pas tant de produire des écrans que de documenter leur conception
 
-Le design d'interface, central dans mon travail, est par essence une conception dynamique : le projet n'est pas figé à un moment donné dans un objet physique, une affiche, un livre, une chaise. Il est plutôt un jeu de règles, le but n'étant pas tant de produire des écrans de façon statique que de documenter cette conception, et de donner une première impulsion. En édictant des règles qui seront ensuite interprétées, et modifiées au fil de l'eau, par moi ou par d'autres acteurs, je m'inscris dans cet héritage d'une pratique inspirée par la programmation informatique.
+Dans cette perspective, la pratique du code prend naturellement une place essentielle. Je ne passe pas mes journées à coder, même si j'y ai souvent recours pour créer ou pour prototyper. Mais de cet attrait pour le point de vue de l'ingénieur, j'en garde : la factorisation des problèmes, une pensée en système, la vue globale puis la gestion des exceptions, notamment. 
+
+Cette orientation invite à penser le design d'interface comme une conception par essence dynamique. Le projet n'est pas figé à un moment donné dans un objet physique, une affiche, un livre, une chaise. Il est plutôt un jeu de règles, le but n'étant pas tant de produire des écrans de façon statique que de documenter cette conception, et de donner une première impulsion. En édictant des règles qui seront ensuite interprétées, et modifiées au fil de l'eau, par moi ou par d'autres acteurs, je m'inscris dans cet héritage d'une pratique inspirée par la programmation informatique.
 
 ## Documenter ##
 
