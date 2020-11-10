@@ -29,7 +29,7 @@ Cette orientation invite à penser le design d'interface comme une conception pa
 
 ## Documenter ##
 
-Le déroulement d'un projet de création d'application peut se synthétiser de cette façon : d'abord, l'équipe produit (*product management*) réfléchit avec un ou plusieurs designers : il définissent ensemble la direction du projet. Ces orientations sont ensuite développées, les problèmes rencontrés sont soulevés, puis résolus. Puis, des spécifications d'interface sont édictées, et sont transmises à l'équipe technique qui sera en charge de rendre ce projet réel et utilisable. J'ai constaté au cours de mon parcours un trou d'air à ce moment d'un projet : toute la phase de conception a du mal à être transmise efficacement aux intervenants techniques, et une grande partie des idées s'affaiblit. Elles finissent parfois par avoir perdu de leur substance dans le produit final.
+Le déroulement d'un projet de création d'application peut se synthétiser de cette façon : d'abord, l'équipe produit réfléchit avec un ou plusieurs designers : il définissent ensemble la direction du projet. Ces orientations sont ensuite développées, les problèmes rencontrés sont soulevés, puis résolus. Puis, des spécifications d'interface sont édictées, et sont transmises à l'équipe technique qui sera en charge de rendre ce projet réel et utilisable. J'ai constaté au cours de mon parcours un trou d'air à ce moment d'un projet : toute la phase de conception a du mal à être transmise efficacement aux intervenants techniques, et une grande partie des idées s'affaiblit. Elles finissent parfois par avoir perdu de leur substance dans le produit final.
 
 > Mon but est de créer un système qui puisse être réalisable, et de le documenter
 
@@ -41,7 +41,7 @@ Sur ce terrain de jeu fertile qu'est le projet, avec ses multiples contraintes, 
 
 > Le mouvement est un outil de design qui éclaire le sens d’une information ou d’une action
 
-C'est à cela que que je réponds lorsque je crée des films <lien> ou des illustrations <lien> qui vont permettre de porter une vision. Je m'aide de ma connaissance profonde et élargie des programmes et des interfaces graphiques pour proposer des visions qui soient à la fois réalistes et innovantes, et ma connaissance des usages me permet d'illustrer de façon pertinente certains aspects de l'expérience utilisateur.
+C'est à cela que que je réponds lorsque je crée des [films](https://www.thomasguesnon.fr/projects/motion) ou des illustrations qui vont permettre de porter une vision. Je m'aide de ma connaissance profonde et élargie des programmes et des interfaces graphiques pour proposer des visions qui soient à la fois réalistes et innovantes, et ma connaissance des usages me permet d'illustrer de façon pertinente certains aspects de l'expérience utilisateur.
 
 ![Design graphique](/assets/images/blog/facons-ia.gif)
 
