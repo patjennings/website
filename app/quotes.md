@@ -4,6 +4,9 @@ title: "''"
 permalink: /quotes
 ---
 
+_Sell your expertise and you have a limited repertoire. Sell your ignorance and you have an unlimited repertoire. He was selling his ignorance and his desire to learn about a subject. The journey of not knowing to knowing was his work.”_
+<br/>— Richard Saul Wurman on Charles Eames
+
 _– Qu'est-ce que vous leur direz, au paradis ?
 <br/>– Remboursez-moi, je n'ai rien compris._
 <br/>— Jean Cocteau
