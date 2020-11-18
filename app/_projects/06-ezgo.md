@@ -3,7 +3,7 @@ layout: project
 title:  EZ Go
 client: Renault
 release-date: 2018
-permalink: /projects/ez-go
+permalink: /projets/ez-go
 excerpt_separator: <!--more-->
 project_thumbnail: /assets/images/projects-thumbnails/thumb-5.jpg
 project_weight: 6
@@ -20,13 +20,13 @@ Ces animations sont conçues pour être diffusées sur une grille de LED allant 
 *Réalisé pour [Use Design](http://www.use-design.com) en 2018*
 
 
-<video src="/assets/images/projects/ez-go-a/20191209-1505.m4v" autoplay loop width="1280"></video>
-<video src="/assets/images/projects/ez-go-a/montage.m4v" autoplay loop muted width="1280"></video>
-<video src="/assets/images/projects/ez-go-a/20191209-1358.m4v" autoplay loop width="1280"></video>
-<video src="/assets/images/projects/ez-go-a/20191209-1505.m4v" autoplay loop width="1280"></video>
-<video src="/assets/images/projects/ez-go-a/20191209-1524.m4v" autoplay loop width="1280"></video>
-<video src="/assets/images/projects/ez-go-a/20191209-1531.m4v" autoplay loop width="1280"></video>
+<video src="/assets/images/projets/ez-go-a/20191209-1505.m4v" autoplay loop width="1280"></video>
+<video src="/assets/images/projets/ez-go-a/montage.m4v" autoplay loop muted width="1280"></video>
+<video src="/assets/images/projets/ez-go-a/20191209-1358.m4v" autoplay loop width="1280"></video>
+<video src="/assets/images/projets/ez-go-a/20191209-1505.m4v" autoplay loop width="1280"></video>
+<video src="/assets/images/projets/ez-go-a/20191209-1524.m4v" autoplay loop width="1280"></video>
+<video src="/assets/images/projets/ez-go-a/20191209-1531.m4v" autoplay loop width="1280"></video>
 De pair avec ce robot-taxi, une application est conçue afin d'y réserver une place, et de configurer son voyage.
-![ez-go-app-1](/assets/images/projects/ez-go-a/ezgo-app-1.jpg)
-![ez-go-app-2](/assets/images/projects/ez-go-a/ezgo-app-2.jpg)
-![ez-go-app-3](/assets/images/projects/ez-go-a/ezgo-app-3.jpg)
+![ez-go-app-1](/assets/images/projets/ez-go-a/ezgo-app-1.jpg)
+![ez-go-app-2](/assets/images/projets/ez-go-a/ezgo-app-2.jpg)
+![ez-go-app-3](/assets/images/projets/ez-go-a/ezgo-app-3.jpg)

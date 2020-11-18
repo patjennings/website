@@ -2,7 +2,7 @@
 layout: project
 title: Rimes Feed Manager
 release-date: 2015
-permalink: /projects/rimes-feed-manager
+permalink: /projets/rimes-feed-manager
 excerpt_separator: <!--more-->
 project_thumbnail: /assets/images/projects-thumbnails/thumb-11.jpg
 project_weight: 12

@@ -3,7 +3,7 @@ layout: project
 title: Design system
 client: Suez
 release-date: 2017
-permalink: /projects/suez-design-system
+permalink: /projets/suez-design-system
 excerpt_separator: <!--more-->
 project_thumbnail: /assets/images/projects-thumbnails/thumb-14.jpg
 project_weight: 15
@@ -17,17 +17,17 @@ Suez propose à ses clients une solution de supervision des infrastructures d'ea
 
 Un _design system_ a donc été élaboré pour répondre à cet objectif, qui traite de la question de la typographie, de la représentation cartographique, des icones. Ce dernier point constitue un aspect particulier qui demande un travail _ad hoc_ : les icones ont besoin d'être dessinées, car on ne trouve pas dans les librairies d'icones courantes des représentations qui répondent à ces besoins métier. Dernier aspect, crucial dans les logiciels de supervision : la couleur, qui doit à la fois permettre de discriminer les composantes du système, et de pouvoir alerter l'utilisateur sur l'état d'un de ses éléments.
 
-![pixels](/assets/images/projects/suez/suez-2.jpg)
-![pixels](/assets/images/projects/suez/suez-5.jpg)
+![pixels](/assets/images/projets/suez/suez-2.jpg)
+![pixels](/assets/images/projets/suez/suez-5.jpg)
 
-![pixels](/assets/images/projects/suez/suez-1.jpg)
+![pixels](/assets/images/projets/suez/suez-1.jpg)
 
-![pixels](/assets/images/projects/suez/suez-6.jpg)
+![pixels](/assets/images/projets/suez/suez-6.jpg)
 
-![pixels](/assets/images/projects/suez/suez-8.jpg)
-![pixels](/assets/images/projects/suez/suez-7.jpg)
+![pixels](/assets/images/projets/suez/suez-8.jpg)
+![pixels](/assets/images/projets/suez/suez-7.jpg)
 
-![pixels](/assets/images/projects/suez/suez-9.jpg)
+![pixels](/assets/images/projets/suez/suez-9.jpg)
 
 
-![pixels](/assets/images/projects/suez/suez-0.jpg)
+![pixels](/assets/images/projets/suez/suez-0.jpg)

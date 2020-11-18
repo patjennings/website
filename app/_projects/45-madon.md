@@ -3,7 +3,7 @@ layout: project
 title:  Madon typeface
 client: Personnel
 release-date: 2015
-permalink: /projects/madon-typeface
+permalink: /projets/madon-typeface
 excerpt_separator: <!--more-->
 project_thumbnail: /assets/images/projects-thumbnails/thumb-20.jpg
 project_weight: 45
@@ -15,9 +15,9 @@ promoted: false
 ---
 Madon est un projet de police de caractère, principalement conçue pour fonctionner<!--more--> dans des interfaces graphiques de dispositifs embarqués, e.g. tableau de bord ou _dispositif d'affichage tête-haute_ (HUD) i.e.
 
-![](/assets/images/projects/madon/madon-0.jpg)
-![](/assets/images/projects/madon/madon-4.jpg)
-![](/assets/images/projects/madon/madon-1.jpg)
-![](/assets/images/projects/madon/madon-2.jpg)
-![](/assets/images/projects/madon/madon-5.jpg)
-![](/assets/images/projects/madon/madon-3.jpg)
+![](/assets/images/projets/madon/madon-0.jpg)
+![](/assets/images/projets/madon/madon-4.jpg)
+![](/assets/images/projets/madon/madon-1.jpg)
+![](/assets/images/projets/madon/madon-2.jpg)
+![](/assets/images/projets/madon/madon-5.jpg)
+![](/assets/images/projets/madon/madon-3.jpg)

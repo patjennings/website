@@ -3,7 +3,7 @@ layout: project
 title:  Motion
 client: Divers
 release-date: 2017
-permalink: /projects/motion
+permalink: /projets/motion
 excerpt_separator: <!--more-->
 project_thumbnail: /assets/images/projects-thumbnails/thumb-7.jpg
 project_weight: 8

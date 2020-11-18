@@ -3,7 +3,7 @@ layout: project
 title:  Restlet Studio
 client: Restlet
 release-date: 2016
-permalink: /projects/restlet-website
+permalink: /projets/restlet-website
 excerpt_separator: <!--more-->
 project_thumbnail: /assets/images/projects-thumbnails/thumb-restlet.jpg
 project_weight: 9
@@ -17,10 +17,10 @@ Restlet est une startup qui propose des outils de création et de gestion d'APIs
 <br/><br/>
 *Réalisé pour [Use Design](http://www.use-design.com) en 2016*
 
-![restlet-webapps](/assets/images/projects/restlet-webapps/restlet-apps-0.jpg)
-![restlet-webapps](/assets/images/projects/restlet-webapps/restlet-apps-1.jpg)
-![restlet-webapps](/assets/images/projects/restlet-webapps/restlet-apps-2.jpg)
-![restlet-webapps](/assets/images/projects/restlet-webapps/restlet-apps-3.jpg)
-![restlet-webapps](/assets/images/projects/restlet-webapps/restlet-apps-4.jpg)
-![restlet-webapps](/assets/images/projects/restlet-webapps/restlet-apps-5.jpg)
-![restlet-webapps](/assets/images/projects/restlet-webapps/restlet-apps-6.jpg)
+![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-0.jpg)
+![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-1.jpg)
+![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-2.jpg)
+![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-3.jpg)
+![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-4.jpg)
+![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-5.jpg)
+![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-6.jpg)

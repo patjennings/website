@@ -3,7 +3,7 @@ layout: project
 title:  Avionics 2020 - Thales
 client: Thales
 release-date: 2013
-permalink: /projects/avionics-2020
+permalink: /projets/avionics-2020
 excerpt_separator: <!--more-->
 project_thumbnail: /assets/images/projects-thumbnails/thumb-19.jpg
 project_weight: 40
@@ -17,13 +17,13 @@ Ce projet de tableau de bord réalisé pour Thales tente d'intégrer toutes les 
 <br/><br/>
 *Réalisé pour [Use Design](http://www.use-design.com) en 2013*
 
-![](/assets/images/projects/avionics2020/proteus-1.jpg)
-![](/assets/images/projects/avionics2020/proteus-2.jpg)
-![](/assets/images/projects/avionics2020/proteus-3.jpg)
-![](/assets/images/projects/avionics2020/proteus-4.jpg)
-![](/assets/images/projects/avionics2020/proteus-5.jpg)
-![](/assets/images/projects/avionics2020/proteus-6.jpg)
-![](/assets/images/projects/avionics2020/proteus-7.jpg)
-![](/assets/images/projects/avionics2020/proteus-8.jpg)
-![](/assets/images/projects/avionics2020/proteus-9.jpg)
-![](/assets/images/projects/avionics2020/proteus-10.jpg)
+![](/assets/images/projets/avionics2020/proteus-1.jpg)
+![](/assets/images/projets/avionics2020/proteus-2.jpg)
+![](/assets/images/projets/avionics2020/proteus-3.jpg)
+![](/assets/images/projets/avionics2020/proteus-4.jpg)
+![](/assets/images/projets/avionics2020/proteus-5.jpg)
+![](/assets/images/projets/avionics2020/proteus-6.jpg)
+![](/assets/images/projets/avionics2020/proteus-7.jpg)
+![](/assets/images/projets/avionics2020/proteus-8.jpg)
+![](/assets/images/projets/avionics2020/proteus-9.jpg)
+![](/assets/images/projets/avionics2020/proteus-10.jpg)
