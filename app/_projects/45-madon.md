@@ -5,7 +5,7 @@ client: Personnel
 release-date: 2015
 permalink: /projets/madon-typeface
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projects-thumbnails/thumb-20.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-20.jpg
 project_weight: 45
 project_bg: "#000000"
 project_font: "#FFFFFF"

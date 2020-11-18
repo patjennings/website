@@ -5,7 +5,7 @@ client: Renault
 release-date: 2018
 permalink: /projets/ez-go
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projects-thumbnails/thumb-5.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-5.jpg
 project_weight: 6
 project_bg: "#000000"
 project_font: "#FFFFFF"

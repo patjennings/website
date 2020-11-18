@@ -5,7 +5,7 @@ client: Thales
 release-date: 2014
 permalink: /projets/efb-map
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projects-thumbnails/thumb-16.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-16.jpg
 project_weight: 25
 project_bg: "#131313"
 project_font: "#FFFFFF"

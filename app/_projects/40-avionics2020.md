@@ -5,7 +5,7 @@ client: Thales
 release-date: 2013
 permalink: /projets/avionics-2020
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projects-thumbnails/thumb-19.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-19.jpg
 project_weight: 40
 project_bg: "#101010"
 project_font: "#FFFFFF"

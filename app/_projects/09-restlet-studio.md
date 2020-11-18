@@ -5,7 +5,7 @@ client: Restlet
 release-date: 2016
 permalink: /projets/restlet-website
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projects-thumbnails/thumb-restlet.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-restlet.jpg
 project_weight: 9
 project_bg: "#D9D6E1"
 project_font: "#333333"

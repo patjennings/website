@@ -5,7 +5,7 @@ client: Divers
 release-date: 2018
 permalink: /projets/pixels
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projects-thumbnails/thumb-15.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-15.jpg
 project_weight: 20
 project_bg: "#FFFFFF"
 project_font: "#333333"

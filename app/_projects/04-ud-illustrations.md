@@ -5,7 +5,7 @@ client: Use Design
 release-date: 2018
 permalink: /projets/ud-illustrations
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projects-thumbnails/thumb-3.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-3.jpg
 project_weight: 4
 project_bg: "#EBF6F8"
 project_font: "#1435AB"

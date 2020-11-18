@@ -5,7 +5,7 @@ client: Air Liquide
 release-date: 2018
 permalink: /projets/kxiop-icones
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projects-thumbnails/thumb-17.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-17.jpg
 project_weight: 30
 project_bg: "#e9f3fd"
 project_font: "#078cd6"

@@ -5,7 +5,7 @@ client: Thales
 release-date: 2016
 permalink: /projets/efb-design-system
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projects-thumbnails/thumb-18.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-18.jpg
 project_weight: 35
 project_bg: "#202d40"
 project_font: "#ffffff"

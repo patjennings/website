@@ -4,7 +4,7 @@ title:  Enoch Hardon + Wild Animals + Chaviré
 release-date: 2015
 permalink: /projets/enoch-hardon
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projects-thumbnails/thumb-2.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-2.jpg
 project_weight: 3
 project_bg: "#2a2b33"
 project_font: "#FFFFFF"

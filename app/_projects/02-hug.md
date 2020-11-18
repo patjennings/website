@@ -5,7 +5,7 @@ client: Hug
 release-date: 2016
 permalink: /projets/hug
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projects-thumbnails/thumb-1.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-1.jpg
 project_weight: 2
 project_bg: "#f3f3f3"
 project_font: "#0d3731"
