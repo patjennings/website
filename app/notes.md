@@ -3,6 +3,9 @@ layout: page
 title: Notes
 permalink: /notes
 ---
+###### 13/01/2021 ######
+- Henri Bergeron, invité aux matins de France Culture, le 12/01/2021. Sur la confiance envers les autorités sanitaires pendant la crise du Covid, il évoque la prépondérance de la *pensée de la stratégie*, celle qui conceptualise, à haut-niveau, au détriment de la *pensée de la mise en oeuvre*, qui intègre la contrainte, est bassement opérationnelle. "L'intendance suivra". Pour rétablir (ou établir) l'importance et la noblesse de la mise en oeuvre, et la considérer comme primordiale dans un schéma d'action. Pas comme une attente ("on conceptualise et on dégage des schémas d'action, puis on attend que les [développeurs, ouvriers, artisans] travaillent pour voir le résultat."), qui permet bien souvent de ne découvrir que l'absence d'intelligence au moment de la mise en oeuvre. Résultat pauvre.
+
 ###### 07/10/2019 ######
 - L'art, le discours, l'acte, le dispositif, l'artiste, la contradiction, sa maîtrise : [Vincent Macaigne et Les intermittent·es du désordre](https://lundi.am/Vincent-Macaigne-n-a-pas-joue-au-Theatre-de-la-Colline)
 
