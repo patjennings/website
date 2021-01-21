@@ -3,12 +3,12 @@ layout: project
 title:  Restlet Studio
 client: Restlet
 release-date: 2016
-permalink: /projets/restlet-website
+permalink: /projets/restlet-studio
 excerpt_separator: <!--more-->
 project_thumbnail: /assets/images/projets-thumbnails/thumb-restlet.jpg
 project_weight: 9
-project_bg: "#D9D6E1"
-project_font: "#333333"
+project_bg: "#f3f3f3"
+project_font: "#0d3731"
 layout_type: "light"
 fields: ui, ux
 promoted: false

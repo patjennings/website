@@ -7,7 +7,7 @@ permalink: /projets/restlet-identity
 excerpt_separator: <!--more-->
 project_thumbnail: /assets/images/projets-thumbnails/thumb-10.jpg
 project_weight: 11
-project_bg: "#FFFFFF"
+project_bg: "#f3f3f3"
 project_font: "#333333"
 layout_type: "light"
 fields: ui, illustration
