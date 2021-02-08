@@ -68,6 +68,7 @@
 	article{
 	    margin-left: 16px;
 	    margin-right: 56px;
+	    margin-top: 1.5rem;
 
 	    blockquote{
 		margin: 3rem 0;    
@@ -75,6 +76,14 @@
 	}
 	
 	
+    }
+    .layout-projects{
+	#mosaique{
+	    header{
+		margin-top: 3rem;
+		margin-left: 0;
+	    }   
+	}
     }
 
     // menu
@@ -102,6 +111,11 @@
 	    }
 
 	}
+    }
+    #logo{
+	left: 31px;
+	top: 30px;
+	position :absolute;
     }
 }
 // réglages mobile en mode portrait

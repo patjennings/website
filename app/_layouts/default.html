@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: "fr" }}">
 
   {% include head.html %}
 
   <body class="layout-{{ page.layout }} {{page.layout}}-{{page.layout_type}} is-loading" style="background-color: {{page.project_bg}};">
+    <div id="logo"></div>
     <div id="site-menu">
       {% include menu.html %}
     </div>
