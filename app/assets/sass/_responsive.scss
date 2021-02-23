@@ -1,7 +1,42 @@
+@media (min-width: 1920px) {
+
+    .layout-home{
+	.intro{
+	    .intro--content{
+		a{
+		    width: 35vw;
+		}
+	    }
+	}
+    }
+}
+@media (min-width: 960px) {
+
+    .layout-home{
+	.intro{
+	    .intro--content{
+		a{
+		    width: 50vw;
+		}
+	    }
+	}
+    }
+}
+
+@media (max-width: 1080px) {
+    ul#markdown-toc{
+	display: none;
+    } 
+}
+
 @media (max-width: 575px) {
+    // .layout-home .intro .intro--content a{
+    // 	width: 100vw;
+    // }
     html,body{
 	overflow-x: hidden;
     }
+    
     .layout-home{
 	.intro{
 	    margin-left: 0;
@@ -14,6 +49,14 @@
 		margin: auto 0 auto 0;
 
 		a{
+		    width: 90vw;
+		    padding-left: 32px;
+
+		    p{
+			font-size: 1.35rem;
+			line-height: 1.875rem;
+		    }
+		    
 		    .hello{
 			font-size: 64px;
 			line-height: 2.65rem;
@@ -120,6 +163,9 @@
 }
 // réglages mobile en mode portrait
 @media (max-height: 480px) {
+    .layout-home .intro .intro--content a{
+	width: 100vw;
+    }
     #site-menu{
 	.menu-main{
 	    .menu{

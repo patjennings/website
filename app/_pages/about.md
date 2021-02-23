@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello, je suis designer 
+title: À propos de Thomas Guesnon
 permalink: /about
 ---
 
@@ -11,13 +11,13 @@ J'aide les parties prenantes à définir leur vision d'un projet d'application.
 
 J'ai travaillé, notamment, pour des projets aéronautiques, de transport, pour la santé, l'éducation ou l'automobile.
 
+Je vis et travaille à Quimper, Finistère, Bretagne.
+
 <div style="width:100%; text-align:center; margin:3rem 0;">
 <a type="button" class="btn btn-outline-primary" href="/references">Consulter les références</a>
 </div>
 
-En parallèle, je passe du temps à concevoir mes outils, quand je ne trouve pas ce que je cherche ailleurs. J'ai ainsi conçu un [set d'icônes](http://platform.thomasguesnon.net/pajeweic/) que j'utilise dans les interfaces que je conçois. J'ai également créé un outil, [SVGSpecs](https://framagit.org/patjennings/svg-specifications "SVG Speccs"), permettant de communiquer des spécifications graphiques sur des interfaces graphiques à destination des développeurs front-end.
 
-Je vis et travaille à Quimper, Finistère, Bretagne.
 
 <img src="/assets/images/profile-pic-2020.jpg" style="width: 128px; margin: 0 auto 3rem auto; display: block; border-radius: 96px;"/>
 
