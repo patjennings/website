@@ -1,16 +1,40 @@
 ///////////////////////////
 // Nitti Basic (monospace)
+// @font-face {
+//     font-family: 'NittiNormal';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-display: auto;
+//     src: url('fonts/NittiBasic-Normal.eot');
+//     src: url('fonts/NittiBasic-Normal.eot?#iefix') format('embedded-opentype'),
+//          url('fonts/NittiBasic-Normal.woff') format('woff'),
+//          url('fonts/NittiBasic-Normal.woff2') format('woff2'),
+//          url('fonts/NittiBasic-Normal.ttf') format('truetype'),
+//          url('fonts/NittiBasic-Normal.svg#NittiBasic-Normal') format('svg');
+// }
 @font-face {
-    font-family: 'NittiNormal';
+    font-family: 'CircularAir';
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    src: url('fonts/NittiBasic-Normal.eot');
-    src: url('fonts/NittiBasic-Normal.eot?#iefix') format('embedded-opentype'),
-         url('fonts/NittiBasic-Normal.woff') format('woff'),
-         url('fonts/NittiBasic-Normal.woff2') format('woff2'),
-         url('fonts/NittiBasic-Normal.ttf') format('truetype'),
-         url('fonts/NittiBasic-Normal.svg#NittiBasic-Normal') format('svg');
+    src: url('fonts/Circular_Air-Book.eot');
+    src: url('fonts/Circular_Air-Book.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Circular_Air-Book.woff') format('woff'),
+         url('fonts/Circular_Air-Book.woff2') format('woff2'),
+         url('fonts/Circular_Air-Book.ttf') format('truetype'),
+         url('fonts/Circular_Air-Book.svg#Circular_Air-Book') format('svg');
+}
+@font-face {
+    font-family: 'CircularAir';
+    font-style: normal;
+    font-weight: 700;
+    font-display: auto;
+    src: url('fonts/Circular_Air-Bold.eot');
+    src: url('fonts/Circular_Air-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Circular_Air-Bold.woff') format('woff'),
+         url('fonts/Circular_Air-Bold.woff2') format('woff2'),
+         url('fonts/Circular_Air-Bold.ttf') format('truetype'),
+         url('fonts/Circular_Air-Bold.svg#Circular_Air-Bold') format('svg');
 }
 @font-face {
     font-family: 'NittiBold';
@@ -101,3 +125,30 @@
          url('fonts/TiemposText-BoldItalic.ttf') format('truetype'),
          url('fonts/TiemposText-BoldItalic.svg#TiemposText-BoldItalic') format('svg');
 }
+///////////////////////////
+// Nitti Basic (monospace)
+@font-face {
+    font-family: 'Nitti';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url('fonts/NittiBasic-Normal.eot');
+    src: url('fonts/NittiBasic-Normal.eot?#iefix') format('embedded-opentype'),
+         url('fonts/NittiBasic-Normal.woff') format('woff'),
+         url('fonts/NittiBasic-Normal.woff2') format('woff2'),
+         url('fonts/NittiBasic-Normal.ttf') format('truetype'),
+         url('fonts/NittiBasic-Normal.svg#NittiBasic-Normal') format('svg');
+}
+@font-face {
+    font-family: 'Nitti';
+    font-style: normal;
+    font-weight: 700;
+    font-display: auto;
+    src: url('fonts/Nitti-Bold.eot');
+    src: url('fonts/Nitti-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Nitti-Bold.woff') format('woff'),
+         url('fonts/Nitti-Bold.woff2') format('woff2'),
+         url('fonts/Nitti-Bold.ttf') format('truetype'),
+         url('fonts/Nitti-Bold.svg#Nitti-Bold') format('svg');
+}
+

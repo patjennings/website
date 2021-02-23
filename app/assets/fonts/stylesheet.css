@@ -7,41 +7,28 @@
 
 
 @font-face {
-  font-family: 'TiemposText-BoldItalic';
-  src: url('TiemposText-BoldItalic.eot?') format('eot'),
-       url('TiemposText-BoldItalic.woff2') format('woff2'),
-       url('TiemposText-BoldItalic.woff') format('woff'),
-       url('TiemposText-BoldItalic.otf')  format('opentype'),
-       url('TiemposText-BoldItalic.ttf')  format('truetype'),
-       url('TiemposText-BoldItalic.svg#TiemposText-BoldItalic') format('svg');
+  font-family: 'CircularAirPro-Bold';
+  src: url('Circular_Air-Bold.eot?') format('eot'),
+       url('Circular_Air-Bold.woff2') format('woff2'),
+       url('Circular_Air-Bold.woff') format('woff'),
+       url('Circular_Air-Bold.ttf')  format('truetype'),
+       url('Circular_Air-Bold.svg#CircularAirPro-Bold') format('svg');
 }
 
 @font-face {
-  font-family: 'TiemposText-Bold';
-  src: url('TiemposText-Bold.eot?') format('eot'),
-       url('TiemposText-Bold.woff2') format('woff2'),
-       url('TiemposText-Bold.woff') format('woff'),
-       url('TiemposText-Bold.otf')  format('opentype'),
-       url('TiemposText-Bold.ttf')  format('truetype'),
-       url('TiemposText-Bold.svg#TiemposText-Bold') format('svg');
+  font-family: 'CircularAirPro-Book';
+  src: url('Circular_Air-Book.eot?') format('eot'),
+       url('Circular_Air-Book.woff2') format('woff2'),
+       url('Circular_Air-Book.woff') format('woff'),
+       url('Circular_Air-Book.ttf')  format('truetype'),
+       url('Circular_Air-Book.svg#CircularAirPro-Book') format('svg');
 }
 
 @font-face {
-  font-family: 'TiemposText-RegularItalic';
-  src: url('TiemposText-RegularItalic.eot?') format('eot'),
-       url('TiemposText-RegularItalic.woff2') format('woff2'),
-       url('TiemposText-RegularItalic.woff') format('woff'),
-       url('TiemposText-RegularItalic.otf')  format('opentype'),
-       url('TiemposText-RegularItalic.ttf')  format('truetype'),
-       url('TiemposText-RegularItalic.svg#TiemposText-RegularItalic') format('svg');
-}
-
-@font-face {
-  font-family: 'TiemposText-Regular';
-  src: url('TiemposText-Regular.eot?') format('eot'),
-       url('TiemposText-Regular.woff2') format('woff2'),
-       url('TiemposText-Regular.woff') format('woff'),
-       url('TiemposText-Regular.otf')  format('opentype'),
-       url('TiemposText-Regular.ttf')  format('truetype'),
-       url('TiemposText-Regular.svg#TiemposText-Regular') format('svg');
+  font-family: 'CircularAirPro-Light';
+  src: url('Circular_Air-Light.eot?') format('eot'),
+       url('Circular_Air-Light.woff2') format('woff2'),
+       url('Circular_Air-Light.woff') format('woff'),
+       url('Circular_Air-Light.ttf')  format('truetype'),
+       url('Circular_Air-Light.svg#CircularAirPro-Light') format('svg');
 }

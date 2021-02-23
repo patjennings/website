@@ -37,6 +37,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:name:output_ext
+  docs:
+    output: true
+    permalink: /:collection/:name:output_ext
   articles:
     output: true
     permalink: /:collection/:year/:month/:day/:name:output_ext

@@ -53,12 +53,17 @@
 	  <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a><sup>{{ article.date | date: "%d/%m/%Y" }}</sup></li>
 	  {% endfor %}
 	</ul>
-
+	<h3>
+	  Documentation
+	</h3>
+	<p>Des ressources sur des sujets techniques</p>
+	<ul>
+	  {% for doc in site.docs %}
+	  <li><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></li>
+          {% endfor %}
+	</ul>
+	<a type="button" class="btn btn-outline-primary" href="/docs">Voir toutes les ressources</a>
       </div>
     </div>
   </div>
-
-  
 </div>
-
-
