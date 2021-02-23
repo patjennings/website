@@ -2,7 +2,7 @@
 title: Mutt, configuration
 layout: article
 author: Thomas
-tags: mutt, email
+tags: mutt email
 excerpt_separator: <!--more-->
 ---
 * table of contents
@@ -109,7 +109,7 @@ sudo apt-get install mail-notifier
 Ensuite, on ajoute les dossiers qu'on veut observer
 Ici, on sait que `fetchmail` récupère, transmet à `maildrop` qui ajoute aux dossiers qui vont bien dans le `~/Maildir`. Donc, on veut écouter `~/Maildir/{compte}/INBOX`. C'est celui-ci qu'on ajoute donc.
 
-![mail notification](../assets/images/2019-05-17_11-07-49.png)
+![mail notification](../assets/images/docs/2019-05-17_11-07-49.png)
 
 
 ## Créer un nouveau dossier dans le maildir ##

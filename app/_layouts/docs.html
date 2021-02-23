@@ -1,10 +1,12 @@
 ---
 layout: page
 ---
+<p>Des ressources sur des sujets techniques
+</p>
 <ul>
   {% for p in site.docs %}
   <li>
-    <a href="{{p.url | relative_url}}">{{p.title | escape}}</a>
+    <a href="{{p.url | relative_url}}">{{p.title | escape}}</a><span class="tags">{{p.tags | join: ', '  | uniq }}</span>
   </li>
   {% endfor %}
 </ul>

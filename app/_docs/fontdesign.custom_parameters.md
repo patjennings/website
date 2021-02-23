@@ -2,7 +2,7 @@
 title: FontForge/Glyphs, paramètres personnalisés
 layout: article
 author: Thomas
-tags: typographie, fontforge, glyphs
+tags: typographie fontforge glyphs
 excerpt_separator: <!--more-->
 ---
 * table of contents

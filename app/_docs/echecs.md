@@ -2,7 +2,7 @@
 title: Sur les échecs
 layout: article
 author: Thomas
-tags: echecs, jeu
+tags: echecs jeu
 excerpt_separator: <!--more-->
 ---
 * table of contents

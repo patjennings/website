@@ -27,8 +27,15 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-archives
 
 permalink: pretty
+
+jekyllarchives:
+  enabled: tags
+  layout: archive
+  permalinks:
+    tag: '/tag/:name/'
 
 sass:
   sass_dir: assets/sass
@@ -59,11 +66,12 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+# jekyll_admin:
+#   hidden_links:
+#     - posts
+#     - pages
+#     - staticfiles
+#     - datafiles
+#     - configuration
 
-jekyll_admin:
-  hidden_links:
-    - posts
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration
+
