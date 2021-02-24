@@ -116,7 +116,9 @@ Problème sur `4.d5 Cd4`, je libère la case `d4`, qu'il vient occuper avec son 
 - <https://www.chess.com/openings/French-Defense>
 - <https://www.chess.com/openings/Reti-Opening>
 
-### Défense sicilienne (défense noirs, attaque blancs) ###
+### Défense sicilienne ###
+
+> défense noirs, attaque blancs
 
 La sicilienne répond à `1.e4`. Les noirs prennent le contrôle de `d4` avec un pion de côté.
 Pour les blancs, on jouera ensuite `2.Cf3`. Ensuite, noirs jouents `2. …Cc6` ou `2. …d6`. `Cc6` permet de défendre `e4` si le pion reine des blancs attaquent le pion noir `c5` en `d4`.

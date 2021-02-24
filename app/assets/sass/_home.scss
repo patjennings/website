@@ -2,9 +2,9 @@
     background: var(--dark);
     color: var(--light);
 
-    h3:first-child{
-	margin-bottom: 3rem;
-    }
+    // h3:first-child{
+    // 	margin-bottom: 3rem;
+    // }
 
     #presentation{
 	background: #252b31;
@@ -79,6 +79,10 @@
     
     .content{
 	padding: 48px 0;
+
+	a{
+	    border-bottom: 1px solid var(--gray);
+	}
 	
 	img[alt="hello"]{
 	    width: 48px;
@@ -171,6 +175,7 @@
 	  
 	    a{
 		color: var(--white);
+		font-family: var(--font-family-serif);
 		text-decoration: none;
 		border-bottom: none;
 		background: none;
@@ -182,8 +187,8 @@
 		// padding: 224px 32px;
 
 		p{
-		    font-size: 2rem;
-		    line-height: 2.5rem;
+		    font-size: 2.5rem;
+		    line-height: 3rem;
 		}
 
 		#bubblesAnimation{

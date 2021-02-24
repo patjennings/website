@@ -1,6 +1,6 @@
 
 html{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 body{
@@ -36,7 +36,7 @@ h6{font-size: 1.2rem;}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-top: 3rem;
     margin-bottom: 1rem;
-    font-family: var(--font-family-head);
+    font-family: var(--font-family-serif);
     font-weight: 900;
 }
 
@@ -55,6 +55,15 @@ p, pre code, ul{
     font-size: 1rem;
     line-height: 1.7rem;
     margin-bottom: 2rem;
+}
+
+// pour les retours à la ligne dans un bloc de code
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
 sup {
@@ -96,7 +105,7 @@ ul{
 // links & buttons
 a{
     text-decoration: none;
-    border-bottom: 1px solid var(--light);
+    border-bottom: 1px solid var(--dark);
     background: none;
     color: inherit;
 
@@ -108,7 +117,7 @@ a{
 	border-bottom: 1px solid rgba(0,0,0,0.15)
     }
 }
-.btn, select{
+a.btn, select{
     border: 1px solid rgba(255,255,255,0.25);
     color: var(--light);
     text-decoration: none;
@@ -132,7 +141,7 @@ a{
     }
 }
 .project-light{
-    .btn, select{
+    a.btn, select{
 	border: 1px solid rgba(0,0,0,0.25);
 	color: var(--dark);
 
@@ -154,6 +163,16 @@ code, kbd, pre, samp{
     line-height: 1.5rem;
 }
 
+blockquote{
+    border-left: 4px solid var(--gray);
+    margin: 1rem 0 2rem 0;
+    padding: 1rem 1.5rem;
+    p{
+	margin: 0;
+	color: var(--gray);
+    }
+}
+
 /* Layout */
 .container-fluid{
     padding-right: 0;
@@ -162,11 +181,11 @@ code, kbd, pre, samp{
 table{
     border-collapse: collapse;
     tr{
-	border-bottom: 1px solid var(--dark-l);
+	border-bottom: 1px solid var(--gray-lighter);
 
 	th, td{
 	    padding: 1rem 0.5rem 1rem 0;
-	    vertical-align: middle;
+	    vertical-align: top;
 	    font-size: 1rem;
 	    line-height: 1.6rem;
 

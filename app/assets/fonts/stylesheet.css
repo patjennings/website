@@ -7,28 +7,37 @@
 
 
 @font-face {
-  font-family: 'CircularAirPro-Bold';
-  src: url('Circular_Air-Bold.eot?') format('eot'),
-       url('Circular_Air-Bold.woff2') format('woff2'),
-       url('Circular_Air-Bold.woff') format('woff'),
-       url('Circular_Air-Bold.ttf')  format('truetype'),
-       url('Circular_Air-Bold.svg#CircularAirPro-Bold') format('svg');
+  font-family: '';
+  src: url('WorkSans-BoldItalic.eot?') format('eot'),
+       url('WorkSans-BoldItalic.woff2') format('woff2'),
+       url('WorkSans-BoldItalic.woff') format('woff'),
+       url('WorkSans-BoldItalic.ttf')  format('truetype'),
+       url('WorkSans-BoldItalic.svg#') format('svg');
 }
 
 @font-face {
-  font-family: 'CircularAirPro-Book';
-  src: url('Circular_Air-Book.eot?') format('eot'),
-       url('Circular_Air-Book.woff2') format('woff2'),
-       url('Circular_Air-Book.woff') format('woff'),
-       url('Circular_Air-Book.ttf')  format('truetype'),
-       url('Circular_Air-Book.svg#CircularAirPro-Book') format('svg');
+  font-family: '';
+  src: url('WorkSans-Bold.eot?') format('eot'),
+       url('WorkSans-Bold.woff2') format('woff2'),
+       url('WorkSans-Bold.woff') format('woff'),
+       url('WorkSans-Bold.ttf')  format('truetype'),
+       url('WorkSans-Bold.svg#') format('svg');
 }
 
 @font-face {
-  font-family: 'CircularAirPro-Light';
-  src: url('Circular_Air-Light.eot?') format('eot'),
-       url('Circular_Air-Light.woff2') format('woff2'),
-       url('Circular_Air-Light.woff') format('woff'),
-       url('Circular_Air-Light.ttf')  format('truetype'),
-       url('Circular_Air-Light.svg#CircularAirPro-Light') format('svg');
+  font-family: '';
+  src: url('WorkSans-Italic.eot?') format('eot'),
+       url('WorkSans-Italic.woff2') format('woff2'),
+       url('WorkSans-Italic.woff') format('woff'),
+       url('WorkSans-Italic.ttf')  format('truetype'),
+       url('WorkSans-Italic.svg#') format('svg');
+}
+
+@font-face {
+  font-family: '';
+  src: url('WorkSans-Regular.eot?') format('eot'),
+       url('WorkSans-Regular.woff2') format('woff2'),
+       url('WorkSans-Regular.woff') format('woff'),
+       url('WorkSans-Regular.ttf')  format('truetype'),
+       url('WorkSans-Regular.svg#') format('svg');
 }

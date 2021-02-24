@@ -1,9 +1,14 @@
 .layout-references{
     table{
 	tr{
+	    border-bottom: 1px solid var(--dark-l);
 	    td{
+		vertical-align: middle;
 		img{
 		    filter: contrast(175%) brightness(300%);
+		    margin: 0 !important;
+		height: 96px !important;
+		width: 96px !important;
 		}
 	    }
 	}

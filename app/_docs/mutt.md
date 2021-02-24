@@ -8,13 +8,7 @@ excerpt_separator: <!--more-->
 * table of contents
 {:toc}
 
-- <https://gitlab.com/muttmua/mutt/wikis/home>
-- <https://gitlab.com/muttmua/mutt/wikis/MailConcept>
-- <http://cedricduval.free.fr/mutt/fr/sitehtml/manual-3.html>
-- <https://kofno.wordpress.com/2009/08/09/how-fetchmail-and-mutt-saved-me-from-email-mediocrity/>
-- <https://lukeross.github.io/MuttrcBuilder/>
-- <http://www.davep.org/mutt/muttrc/>
-- <https://wiki.archlinux.org/index.php/Mutt#IMAP>
+## Principe ##
 
 ``` text
 MUA -> MTA -------------> MRA ------> MDA --------------> MUA
@@ -25,38 +19,38 @@ mutt > sendmail/postfix > fetchmail > maildrop/procmail > mutt (qui lit le maild
 
 ### `~/.fetchmailrc` (Fetchmail) ###
 
-Le fichier de conf de fetchmail, qui récupère les mails, et les stocke dans `/var/mail/patjennings`
+Le fichier de conf de fetchmail, qui récupère les mails, et les stocke dans `/var/mail/{{user}}
 
 ``` conf
 set daemon 60
 set logfile fetchmail.log
 
 poll ssl0.ovh.net protocol pop3:
-     username "b*****@thom*****non.fr" password "xxXxXXx" is "bonjour" here keep mda "/usr/bin/maildrop";
-     username "h****o@thom*****non.fr" password "xxXxXXx" is "hello" here mda "/usr/bin/maildrop";
+     username "adresse1@company.fr" password "xxXxXXx" is "adresse1" here keep mda "/usr/bin/maildrop";
+     username "adresse2@company.fr" password "xxXxXXx" is "adresse2" here mda "/usr/bin/maildrop";
 ```
 
-> Sur "b*****@thom*****non.fr", l'option keep après `is {name} here` sert à laisser les mails sur le servueur une fois ramenés sur la machine.
+> Sur `adresse1@company.fr`, l'option keep après `is {name} here` sert à laisser les mails sur le servueur une fois ramenés sur la machine.
 
 ### `~/.mailfilter` (Maildrop) ###
 
-La conf de maildrop, qui prend les mails à partir du `/var/mail/patjennings`, et les répartit dans le `~/Maildir`
+La conf de maildrop, qui prend les mails à partir du `/var/mail/{{user}}`, et les répartit dans le `~/Maildir`
 
 ``` conf
 DEFAULT="$HOME/Maildir/"
-BONJOUR="$DEFAULT/bonjour/INBOX/"
-HELLO="$DEFAULT/hello/INBOX/"
+ADRESSE1="$DEFAULT/adresse1/INBOX/"
+ADRESSE2="$DEFAULT/adresse2/INBOX/"
 
 logfile "$HOME/maildrop.log"
 
-if (/^(To|Cc|Bcc|Delivered-To):.*bonjour@thomasguesnon.fr/)
+if (/^(To|Cc|Bcc|Delivered-To):.*adresse1@company.fr/)
 {
-  to $BONJOUR
+  to $ADRESSE1
 }
 
 if (/^(To|Cc|Bcc|Delivered-To):.*hello@thomasguesnon.fr/)
 {
-  to $HELLO
+  to $ADRESSE1
 }
 
 to $DEFAULT
@@ -88,8 +82,8 @@ logfile        ~/.msmtp.log
 account        ovh
 host           ssl0.ovh.net
 port           465
-from           bonjour@thomasguesnon.fr
-user           bonjour@thomasguesnon.fr
+from           adresse1@thomasguesnon.fr
+user           adresse1@thomasguesnon.fr
 password       xxXxXXx
 timeout	       15
 
@@ -109,10 +103,9 @@ sudo apt-get install mail-notifier
 Ensuite, on ajoute les dossiers qu'on veut observer
 Ici, on sait que `fetchmail` récupère, transmet à `maildrop` qui ajoute aux dossiers qui vont bien dans le `~/Maildir`. Donc, on veut écouter `~/Maildir/{compte}/INBOX`. C'est celui-ci qu'on ajoute donc.
 
-![mail notification](../assets/images/docs/2019-05-17_11-07-49.png)
+## Créer un nouveau dossier ##
 
-
-## Créer un nouveau dossier dans le maildir ##
+Pour créer un nouveau dossier dans le maildir
 
 ``` bash
 cd ~/Maildir/someAccount
@@ -205,7 +198,7 @@ to $SPAMS
 #### Détacher un attachement ####
 Dans l'affichage de la structure du message, taper `D` sur l'attachement qu'on veut détacher.
 
-#### Déplacer plusieurs messages vers un dossier ####
+#### Déplacer plusieurs messages ####
 - tag messages : `t` pour tagger un message, `ESC t` pour tagger tout un thread
 - tell mutt to apply a function to tagged messages. press `;` 
 
@@ -249,3 +242,12 @@ budget AND FY14 OR FY15 AND date:”2015-09-01″..”2015-09-02″
 sur cette ligne de commande, on peut rechercher d'autres critères de recherche avec `?` (ou `man notmuch-search-terms` hors de `mutt`) 
 
 > Voir <https://notmuchmail.org/notmuch-mutt/>
+
+## Liens ##
+- <https://gitlab.com/muttmua/mutt/wikis/home>
+- <https://gitlab.com/muttmua/mutt/wikis/MailConcept>
+- <http://cedricduval.free.fr/mutt/fr/sitehtml/manual-3.html>
+- <https://kofno.wordpress.com/2009/08/09/how-fetchmail-and-mutt-saved-me-from-email-mediocrity/>
+- <https://lukeross.github.io/MuttrcBuilder/>
+- <http://www.davep.org/mutt/muttrc/>
+- <https://wiki.archlinux.org/index.php/Mutt#IMAP>

@@ -1,34 +1,37 @@
-@media (min-width: 1920px) {
 
-    .layout-home{
-	.intro{
-	    .intro--content{
-		a{
-		    width: 35vw;
+// @media (min-width: 960px) {
+
+//     .layout-home{
+// 	.intro{
+// 	    .intro--content{
+// 		a{
+// 		    width: 50vw;
+// 		}
+// 	    }
+// 	}
+//     }
+// }
+
+// réglages mobile en mode portrait
+@media (min-width) and (max-height: 480px) {
+    .layout-home .intro .intro--content a{
+	width: 100vw;
+    }
+    #site-menu{
+	.menu-main{
+	    .menu{
+		hr{
+		    margin: 0.25rem 0 !important;
 		}
+	    }
+	    
+	    footer{
+		display: none;
 	    }
 	}
     }
 }
-@media (min-width: 960px) {
-
-    .layout-home{
-	.intro{
-	    .intro--content{
-		a{
-		    width: 50vw;
-		}
-	    }
-	}
-    }
-}
-
-@media (max-width: 1080px) {
-    ul#markdown-toc{
-	display: none;
-    } 
-}
-
+// The zero
 @media (max-width: 575px) {
     // .layout-home .intro .intro--content a{
     // 	width: 100vw;
@@ -160,23 +163,121 @@
 	top: 30px;
 	position :absolute;
     }
-}
-// réglages mobile en mode portrait
-@media (max-height: 480px) {
-    .layout-home .intro .intro--content a{
-	width: 100vw;
-    }
-    #site-menu{
-	.menu-main{
-	    .menu{
-		hr{
-		    margin: 0.25rem 0 !important;
-		}
+    .layout-project{
+	article{
+	    img, video, .vimeo-insert{
+		width: 150%;
+		margin-left: -25%;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
 	    }
-	    
-	    footer{
-		display: none;
+	    .post-nav{
+		visibility: hidden;
 	    }
 	}
     }
+    ul#markdown-toc{
+	display: none;
+    } 
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) {
+    .layout-project{
+	article{
+	    img, video, .vimeo-insert{
+		width: 150%;
+		margin-left: -25%;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+	    }
+	    .post-nav{
+		visibility: visible;
+	    }
+	}
+    }
+    ul#markdown-toc{
+	display: none;
+    } 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+    .layout-project, .layout-article{
+	article{
+	    img, video, .vimeo-insert{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+	    }	
+	}
+    }
+    ul#markdown-toc{
+	display: none;
+    } 
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {
+    .layout-home{
+	.intro{
+	    .intro--content{
+		a{
+		    width: 50vw;
+		}
+	    }
+	}
+    }
+    ul#markdown-toc{
+	display: none;
+    } 
+    .layout-project, .layout-article{
+	article{
+	    img, video, .vimeo-insert{
+		width: 1280px;
+		margin-left: -335px;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+	    }	
+	}
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1280px)  {
+    .layout-home{
+	.intro{
+	    .intro--content{
+		a{
+		    width: 50vw;
+		}
+	    }
+	}
+    }
+    .layout-project, .layout-article{
+	article{
+	    img, video, .vimeo-insert{
+		width: 1280px;
+		margin-left: -260px;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+	    }	
+	}
+    }
+    ul#markdown-toc{
+	display: block;
+    } 
+}
+// @media (min-width: 1920px) {
+
+//     .layout-home{
+// 	.intro{
+// 	    .intro--content{
+// 		a{
+// 		    width: 35vw;
+// 		}
+// 	    }
+// 	}
+//     }
+// }
