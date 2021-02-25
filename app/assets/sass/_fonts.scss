@@ -193,6 +193,28 @@
     src: url('fonts/klim/Signifier_Test/signifier-test-bold.woff') format('woff'),
 }
 @font-face {
+    font-family: 'Signifier';
+    font-style: italic;
+    font-weight: 400;
+    font-display: auto;
+    // src: url('fonts/Circular_Air-Book.eot');
+    src: url('fonts/klim/Signifier_Test/signifier-test-regular-italic.woff') format('woff'),
+}
+@font-face {
+    font-family: 'Signifier';
+    font-style: italic;
+    font-weight: 700;
+    font-display: auto;
+    // src: url('fonts/Circular_Air-Book.eot');
+    src: url('fonts/klim/Signifier_Test/signifier-test-bold-italic.woff') format('woff'),
+}
+
+
+
+
+
+
+@font-face {
     font-family: 'Newzald';
     font-style: normal;
     font-weight: 400;
