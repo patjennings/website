@@ -159,14 +159,17 @@
 		}
 	    }
 	}
-	
+
+
+	/////////////////////
+	// Phrase d'intro
+	/////////////////////
 	.intro--content{
 	    // margin: auto;
 	    width: 100vw;
 	    z-index:3;
 
 	    // padding: 0 256px;
-
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center;
@@ -181,64 +184,204 @@
 		background: none;
 		display: block;
 		padding-left: 80px;
-		// text-align: center;
 		width: 90vw;
-		// height: 544px;
-		// padding: 224px 32px;
 
+		.sentence{
+		    .strong{
+			font-weight: 700;
+		    }
+		    p{
+			margin-top: 0;
+			margin-bottom: 0;
+
+			@include animation('startSentence 1.5s ease-out');
+			// animation-delay: 0.5s;
+			
+			&:nth-child(1){
+			    animation-delay: 0.5s;
+			}
+			&:nth-child(2){
+			    animation-delay: 0.6s;
+			}
+			&:nth-child(3){
+			    animation-delay: 0.7s;
+			}
+			&:nth-child(4){
+			    margin-top: 40px;
+			    animation-delay: 0.85s;
+			}
+			&:nth-child(5){
+			    animation-delay: 1s;
+			}
+		    }
+		}
+
+		.highlighterWrapper{
+		   position: absolute;
+		   top: 370px;
+		   left: 72px;
+		   width: inherit;
+		   overflow: hidden;
+		   // margin-top: 40px;
+		   
+		   .highlighter{
+		       position: relative;
+		       top: 0;
+		       left: 0;
+		       background: var(--yellow);
+		       height: 48px;
+		       // mix-blend-mode: difference;
+		       // transform: scale(1, 1); /* Equal to scaleX(2) scaleY(0.5) */
+		       transform-origin: left;
+		   }
+
+		    #highlighter-1{
+			width: 621px;
+		    }
+		    #highlighter-2{
+			width: 668px;
+		    }
+		    #highlighter-3{
+			width: 477px;
+			// animation-delay: 0.075s;
+		    }
+		    #highlighter-4{
+			margin-top: 40px;
+			width: 721px;
+			// animation-delay: 0.085s;
+		    }
+		    #highlighter-5{
+			width: 477px;
+			// animation-delay: 0.095s;
+		    }
+		}
+
+
+		#highlighterIntro{
+		    z-index: 10;
+		    mix-blend-mode: difference;
+		    
+		    .highlighter{
+			transform:  translateX(100%) scale(0, 1);
+			@include animation('startHighlighter 1s ease-in-out');
+		    }
+		    #highlighter-1{
+			// width: 71%;
+			animation-delay: 0.15s;
+		    }
+		    #highlighter-2{
+			// width: 74%;
+			animation-delay: 0.25s;
+		    }
+		    #highlighter-3{
+			// width: 55%;
+			animation-delay: 0.35s;
+		    }
+		    #highlighter-4{
+			margin-top: 40px;
+			// width: 83%;
+			animation-delay: 0.5s;
+		    }
+		    #highlighter-5{
+			// width: 54%;
+			animation-delay: 0.65s;
+		    }
+		}
+		#highlighterHover{
+		    z-index: -10;
+		    .highlighter{
+			transform: translateX(100%) scale(0, 1);
+			@include animation('hoverHighlighterOut .2s ease-out');
+		    }
+		    
+		}
+
+		&:hover{
+		    color: var(--dark);
+
+		    #highlighterHover{
+			.highlighter{
+			    animation-delay: 0s;
+			    transform: translateX(0%) scale(1, 1);
+			    @include animation('hoverHighlighter .25s cubic-bezier(0.5, 0, 0.5, 1)');
+			}
+		    }
+		}
+
+		@include keyframes(startHighlighter){
+		    0%{
+			transform: translateX(0%) scale(0, 1);
+		    }
+		   
+		    50%{
+			transform: translateX(0%) scale(1, 1);
+			// transform-origin: right;
+		    }
+		    100%{
+			transform: translateX(100%) scale(0, 1);
+		    }
+		}
+		@include keyframes(hoverHighlighter){
+		    0%{
+			transform: translateX(0%) scale(0, 1);
+		    }
+		    100%{
+			transform: translateX(0%) scale(1, 1);
+		    }		 
+		}
+		@include keyframes(hoverHighlighterOut){
+		    0%{
+			transform: translateX(0%) scale(1, 1);
+		    }
+		    100%{
+			transform: translateX(100%) scale(0, 1);
+		    }		 
+		}
+		@include keyframes(startSentence){
+		    0%{
+			opacity: 0;
+		    }
+		    100%{
+			opacity: 100%;
+		    }
+		}
 		p{
 		    font-size: 2.5rem;
 		    line-height: 3rem;
 		}
 
-		#bubblesAnimation{
-			transform: scale(3, 3);
-			@include animation('helloHover reverse 0.15s cubic-bezier(1, 0, 1, 1)');
-		}
-		
-		&:hover{
-		    color: var(--dark);
-		    // background: var(--yellow);
-
-		    #bubblesAnimation{
-			transform: scale(3, 3);
-			@include animation('helloHover 0.5s cubic-bezier(0,0,0,1)');
-		    }
+		// les paramètres lorsque l'animation est joué sur la phrase de présentation
+		&.isPlayingIntro{
+		    
 		}
 
-		@include keyframes(helloHover){
-		    0%{
-			transform: scale(0, 0);
-		    }
-		    100%{
-			transform: scale(2, 2);
-		    }
-		}
+		// les paramètres lorsque l'animation est terminé sur la présentation (= hover actif)  
+
+		    
+
+		    
+	
 		
-		.hello{
-		    display: block;
-		    font-size: 128px;
-		    line-height: 96px;
-		    font-family: var(--font-family-sans);
-		    font-weight: 900;
-		}
-		.sentence{
-		    display: block;
-		    margin-top: 0;
-		    font-size: 28px;
-		    font-weight: 400;
-		    font-family: var(--font-family-sans);
-		}
-		#bubblesAnimation{
-		    opacity: 0.95;
-		    transition: all 0.35s ease-in-out;
-		    position: absolute;
-		    top: calc(50vh - 270px);
-		    // left: calc(50vw - 270px);
-		    left: 192px;
-		    z-index:-999;
-		    transform: scale(0,0);
-		}
+		// @include keyframes(helloHover){
+		//     0%{
+		// 	transform: scale(0, 0);
+		//     }
+		//     100%{
+		// 	transform: scale(2, 2);
+		//     }
+		// }
+		
+		
+		// #bubblesAnimation{
+		//     opacity: 0.95;
+		//     transition: all 0.35s ease-in-out;
+		//     position: absolute;
+		//     top: calc(50vh - 270px);
+		//     // left: calc(50vw - 270px);
+		//     left: 192px;
+		//     z-index:-999;
+		//     transform: scale(0,0);
+		// }
 
 		
 	    }

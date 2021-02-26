@@ -5,16 +5,17 @@ import mosaique from "./my/mosaique.js";
 import customSelect from "./my/customSelect.js";
 import menu from "./my/menu.js";
 import {introHandler, introImagesSlider} from "./my/intro.js";
+import {presentationHandler} from "./my/presentation.js";
 
-const bubbles = {
-    src: "assets/images/bubblesAnimation.svg",
-    container: "bubblesAnimation",
-    width: 540,
-    height : 540,
-    columns : 9,
-    frames : 90,
-    fps : 30
-}
+// const bubbles = {
+//     src: "assets/images/bubblesAnimation.svg",
+//     container: "bubblesAnimation",
+//     width: 540,
+//     height : 540,
+//     columns : 9,
+//     frames : 90,
+//     fps : 30
+// }
 
 const computers = {
     src: "assets/images/computersAnimation.png",
@@ -31,14 +32,12 @@ window.onload = function(e){
     // hide loader
     const loadingStatus = document.getElementById("loading-status"); 
     loadingStatus.setAttribute("class", "hidden");   
-    // const pageBody = document.getElementsByTagName("BODY");
     const pageBody = document.querySelector(".is-loading")
     pageBody.classList.remove("is-loading")
-    // console.log(pageBody.classList);
     
     const homeLayout = document.querySelector(".layout-home")
     const projectsLayout = document.querySelector(".layout-projects")
-    const introPresentation = document.getElementById("intro-presentation")
+
     let bubblesAnim, computersAnim;
     menu();
 
@@ -47,21 +46,14 @@ window.onload = function(e){
 	customSelect();
     }
     if(homeLayout){
-	bubblesAnim = new spriteAnimation(bubbles.src, bubbles.container, bubbles.width, bubbles.height, bubbles.columns, bubbles.frames, bubbles.fps);
-	// computersAnim = new spriteAnimation(computers.src, computers.container, computers.width, computers.height, computers.columns, computers.frames, computers.fps);
+	presentationHandler();
     }
     
     window.onresize = function() {
 	projectsLayout !== null ? mosaique() : null;
 	homeLayout !== null ? introHandler() : null;
+	homeLayout !== null ? presentationHandler() : null;
     }
-
-    introPresentation.addEventListener("mouseover", function(){
-	// bubblesAnim.loop();
-    });
-    introPresentation.addEventListener("mouseout", function(){
-	bubblesAnim.stop();
-    });
     
     homeLayout !== null ? introImagesSlider() : null;
 }
