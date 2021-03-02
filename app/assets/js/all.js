@@ -2,8 +2,8 @@
 import spriteAnimation from "./my/spriteAnimation.js";
 // import {bubbleImage, bubbleLoop, bubbleStop} from "./my/bubbleAnimation.js";
 import mosaique from "./my/mosaique.js";
-import customSelect from "./my/customSelect.js";
-import menu from "./my/menu.js";
+// import customSelect from "./my/customSelect.js";
+import {menuHandler} from "./my/menu.js";
 import {introHandler, introImagesSlider} from "./my/intro.js";
 import {presentationHandler} from "./my/presentation.js";
 
@@ -32,18 +32,18 @@ window.onload = function(e){
     // hide loader
     const loadingStatus = document.getElementById("loading-status"); 
     loadingStatus.setAttribute("class", "hidden");   
-    const pageBody = document.querySelector(".is-loading")
-    pageBody.classList.remove("is-loading")
+    const pageBody = document.querySelector(".is-loading");
+    pageBody.classList.remove("is-loading");
     
-    const homeLayout = document.querySelector(".layout-home")
-    const projectsLayout = document.querySelector(".layout-projects")
+    const homeLayout = document.querySelector(".layout-home");
+    const projectsLayout = document.querySelector(".layout-projects");
 
     let bubblesAnim, computersAnim;
-    menu();
+    menuHandler();
 
     if(projectsLayout){
 	mosaique();
-	customSelect();
+	// customSelect();
     }
     if(homeLayout){
 	presentationHandler();
@@ -56,4 +56,7 @@ window.onload = function(e){
     }
     
     homeLayout !== null ? introImagesSlider() : null;
+
+
 }
+

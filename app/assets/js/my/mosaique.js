@@ -1,7 +1,7 @@
 export default function mosaique() // Gestion des cells de la mosaïque
 {
     const body = document.body;
-    const docWidth = window.innerWidth-56; // largeur totale
+    const docWidth = window.innerWidth; // largeur totale
     
     const step = 256; // responsive step
     const o = Math.floor(docWidth/step); // l'operateur de division

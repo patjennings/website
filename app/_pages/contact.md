@@ -3,11 +3,14 @@ layout: page
 title: Contactez-moi
 permalink: /contact
 ---
-Pour se rencontrer, pour parler d'un projet ou pour discuter.
 
-- Le plus efficace, c'est le mail : [hello@thomasguesnon.fr](mailto:hello@thomasguesnon.fr)
-- [La clé publique](https://platform.thomasguesnon.net/gpg/thomasguesnon.asc), pour les échanges sécurisés
-- Et il y a encore [plus d'infos dans le cv](https://platform.thomasguesnon.net/cv/cv-thomasguesnon.pdf)
+Thomas Guesnon<br/>
+19, rue Charles Le Goffic, 29000 Quimper
+
+<i class="ico ico-medium">phone</i>&nbsp;<a href="tel:+33608551355">+33608551355</a><br/>
+<i class="ico ico-medium">letter</i>&nbsp;[hello@thomasguesnon.fr](mailto:hello@thomasguesnon.fr)
+
+Pour les échanges sécurisés, vous trouverez également ma [La clé publique](https://platform.thomasguesnon.net/gpg/thomasguesnon.asc).
 
 #### Ailleurs sur le web ####
 

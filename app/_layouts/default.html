@@ -3,13 +3,27 @@
 
   {% include head.html %}
 
-  <body class="layout-{{ page.layout }} {{page.layout}}-{{page.layout_type}} is-loading" style="background-color: {{page.project_bg}};">
-    <div id="logo"></div>
+  <body class="layout-{{ page.layout }} {{page.layout}}-{{page.layout_type}} is-loading">
+    <div id="site-menu-trigger">
+      <div id="mn-bar-1" class="hamburger"></div>
+      <div id="mn-bar-2" class="hamburger"></div>
+      <div id="mn-bar-3" class="hamburger"></div>
+
+      <!-- les rollovers -->
+      <div id="mn-bar-4" class="cross"></div>
+      <div id="mn-bar-5" class="cross"></div>
+    </div>
+    <a id="logo" href="{{site.url}}">
+      <div></div>
+      <div></div>
+    </a>
     <div id="site-menu">
       {% include menu.html %}
     </div>
 
     {{ content }}
+    
     {% include loader.html %}
+    {% include overlay.html %}
   </body>
 </html>

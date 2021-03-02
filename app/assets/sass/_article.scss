@@ -4,16 +4,15 @@
 	// color: #FFF;
 	// background: rgb(255,255,225);
 	.page-header{
-	    margin-top: 2rem;
+	    // margin-top: 2rem;
 	    margin-bottom: 2.5rem;
 	    height: auto;
 	    
 	    h1.page-title{
-		font-size: 3.5rem;
-		color: var(--dark);
+		// font-size: 3.5rem;
 		margin-bottom: 1rem;
-		line-height: 4.25rem;
-		margin-top: 4rem;
+
+		// margin-top: 4rem;
 		// margin-bottom: 3rem;
 		// font-size: 2.5rem;
 
@@ -106,11 +105,11 @@
     .post-nav{
 	position: fixed;
 	top: 0;
-	width: calc(100% - 56px);
+	width: 100vw;
 	height: 100vh;
-	left: 56px;
+	left: 0;
 	pointer-events: none;
-	z-index: 998;
+	z-index: 990;
 	visibility: visible;
 	
 	.post-nav-item{

@@ -16,6 +16,7 @@ promoted: false
 Hug propose, grâce à des capteurs placés dans les éléments de la maison<!--more-->, de contrôler la configuration et la programmation de ceux-ci grâce à une application mobile.
 <br/><br/>
 *Réalisé pour [Use Design](http://www.use-design.com) en 2016*
+
 ![](/assets/images/projets/hug/hug-3.jpg)
 ![](/assets/images/projets/hug/hug-1.jpg)
 ![](/assets/images/projets/hug/hug-4.jpg)
