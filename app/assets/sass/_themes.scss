@@ -1,0 +1,87 @@
+///////////////////
+// light settings
+///////////////////
+.project-light, .layout-article{
+    background: var(--light);
+    color: var(--dark);
+    a{
+	border-bottom: 1px solid var(--dark);
+    }
+    a.btn, select{
+	border: 1px solid rgba(0,0,0,0.25);
+	color: var(--dark);
+
+	&:hover{
+	    background-color: var(--yellow);
+	    border: 1px solid var(--yellow);
+	}
+    }
+
+    h1.page-title, p{
+	color: var(--dark);
+    }
+    p.meta{
+	color: var(--dark);
+    }
+    #site-menu-trigger{
+	div{
+	    background: var(--dark);
+	}
+    }
+    #logo{
+	& div{
+	    background-color: var(--dark);
+
+	    & + div{
+		background-color: var(--orange);
+	    }
+	}
+    }
+    blockquote{   
+	p{
+	    color: var(--gray);
+	}
+    }
+}
+.project-dark, .layout-page, .layout-projects, .layout-references{
+    background: var(--dark);
+    color: var(--light);
+    a{
+	border-bottom: 1px solid var(--gray);
+    }
+    a.btn, select{
+	border: 1px solid rgba(255,255,255,0.25);
+	color: var(--light);
+
+	&:hover{
+	    background-color: var(--yellow);
+	    border: 1px solid var(--yellow);
+	    color: var(--dark);
+	}
+    }
+    h1.page-title, p{
+	color: var(--light);
+    }
+    p.meta{
+	color: var(--light);
+    }
+    #site-menu-trigger{
+	div{
+	    background: var(--light);
+	}
+    }
+    #logo{
+	& div{
+	    background-color: var(--light);
+
+	    & + div{
+		background-color: var(--yellow);
+	    }
+	}
+    }
+    blockquote{   
+	p{
+	    color: var(--gray);
+	}
+    }
+}

@@ -11,7 +11,7 @@ J'aide les parties prenantes à définir leur vision d'un projet d'application.
 
 J'ai travaillé, notamment, pour des projets aéronautiques, de transport, pour la santé, l'éducation ou l'automobile.
 
-Je vis et travaille à Quimper, Finistère, Bretagne.
+> Et il y a encore [plus d'infos dans le cv](https://platform.thomasguesnon.net/cv/cv-thomasguesnon.pdf)
 
 <div style="width:100%; text-align:center; margin:3rem 0;">
 <a type="button" class="btn btn-outline-primary" href="/references">Consulter les références</a>
@@ -20,8 +20,3 @@ Je vis et travaille à Quimper, Finistère, Bretagne.
 
 
 <img src="/assets/images/profile-pic-2020.jpg" style="width: 128px; margin: 0 auto 3rem auto; display: block; border-radius: 96px;"/>
-
-<div style="width:100%; text-align:center; margin:3rem 0;">
-<a type="button" class="btn btn-outline-primary" href="/contact" style="margin-right: 0;">Contactez-moi</a>
-</div>
-

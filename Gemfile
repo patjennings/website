@@ -19,7 +19,8 @@ gem "minima", "~> 2.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem 'jekyll-feed'
+  gem 'jekyll-archives'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -32,4 +33,4 @@ gem 'jekyll-redirect-from'
 
 gem 'jekyll-admin', group: :jekyll_plugins
 
-gem 'jekyll-archives'
+

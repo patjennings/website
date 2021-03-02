@@ -7,11 +7,13 @@
 @import "variables";
 @import "mixins";
 
-@import "general";
-@import "home";
-@import "menu";
-@import "article";
-@import "mosaique";
-@import "references";
-
-@import "responsive";
+@import "general";       // les paramètres html de base
+@import "components";    // les composants (boutons, tags, pills, etc.)
+@import "layout";        // les règles de positionnement, de marges, etc.
+@import "themes";        // params de couleurs, en fonction du template
+@import "home";          // spécifique à la home
+@import "menu";          // le menu, le logo, l'overlay
+@import "article";       // tout ce qui est propre à la page article et à la page projet
+@import "mosaique";      // la mosaique de projets (projects/)
+@import "references";    // la page références
+@import "responsive";    // toutes les règles au redimensionnement

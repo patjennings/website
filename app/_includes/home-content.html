@@ -1,17 +1,8 @@
 <div class="home-container container-fluid" id="presentation">
-
   <div class="container">
-    <!-- <div class="row"> -->
-    <!--   <div class="col-lg"> -->
-    <!-- 	<div class="content" id="illustration"> -->
-    <!-- 	  <\!-- <img src="assets/images/illustration-home.png" width="256"/> -\-> -->
-    <!-- 	  <\!-- <canvas id="computersAnimation"></canvas> -\-> -->
-    <!-- 	  <video src="assets/images/computers.mp4" autoplay loop> -->
-    <!-- 	</div> -->
-    <!--   </div> -->
-    <!-- </div> -->
+    <h3 id="projets">Projets</h3>
     <div class="row" id="projects-promoted">
-      
+
       {% for p in site.projects %}
       {% if p.promoted == true %}
       <div class="col-lg">

@@ -1,12 +1,10 @@
 #mosaique{
-    margin-left: 56px;
     width: 100vw;
-    padding-top: 64px;
+    padding-top: 80px;
 
     header{
 	padding: 1rem;
 	width: 80vw;
-	// display: flex;
 	flex-direction: row;
 
 	margin-left: 12rem;
@@ -190,30 +188,8 @@
 			    top: 0;
 			}
 		    }
-		}
-
-		
-	    }
-	}
-
-	ul{
-	    // margin-left: 1rem;
-	}
-    }
-}
-
-// mobile
-@media (max-width: 575px) {
-    #mosaique{
-	margin-left: 0;
-
-	ul{
-	    li{
-		width: 100% !important;
+		}		
 	    }
 	}
     }
 }
-
-// tablet, laptop and up
-@media (min-width: 576px) {}
