@@ -48,17 +48,23 @@
 	
 	.menu-main{
 	    padding: 0;
-	    // display: flex;
-	    
-	    
+	    // display: flex;	    
 	    ul.menu{
 		flex-direction: column;
 		padding-left: 0;
 		
 		li{
+		    width: 100%;
+		    
 		    a{
 			text-align:center;
 			margin-right: 0;
+			height: 48px;
+
+			.menu-item--image,
+			.menu-item--video{
+			    display: none;
+			}
 			
 			img{
 			    display: none;
@@ -68,6 +74,8 @@
 			    text-transform: uppercase;
 			    letter-spacing: 2px;
 			    // font-weight: 700;
+			    top: 0;
+			    left: 24px;
 
 			    .ico{
 				display: none;

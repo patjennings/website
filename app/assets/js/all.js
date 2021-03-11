@@ -2,7 +2,7 @@
 import spriteAnimation from "./my/spriteAnimation.js";
 // import {bubbleImage, bubbleLoop, bubbleStop} from "./my/bubbleAnimation.js";
 import mosaique from "./my/mosaique.js";
-// import customSelect from "./my/customSelect.js";
+import customSelect from "./my/customSelect.js";
 import {menuHandler} from "./my/menu.js";
 import {introHandler, introImagesSlider} from "./my/intro.js";
 import {presentationHandler} from "./my/presentation.js";
@@ -37,16 +37,19 @@ window.onload = function(e){
     
     const homeLayout = document.querySelector(".layout-home");
     const projectsLayout = document.querySelector(".layout-projects");
+    const referencesLayout = document.querySelector(".layout-references");
 
     let bubblesAnim, computersAnim;
     menuHandler();
 
     if(projectsLayout){
 	mosaique();
-	// customSelect();
     }
     if(homeLayout){
 	presentationHandler();
+    }
+    if(referencesLayout){
+	customSelect();
     }
     
     window.onresize = function() {
