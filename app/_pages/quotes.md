@@ -4,6 +4,8 @@ title: "''"
 permalink: /quotes
 ---
 
+_l'homme est une entreprise qui a contre elle le temps, la nécessité, la fortune, et l'imbécile et toujours croissante primauté du nombre (…) Les hommes tueront l'homme._ ― Marguerite Yourcenar, _in L'Œuvre au noir_
+
 _Sell your expertise and you have a limited repertoire. Sell your ignorance and you have an unlimited repertoire. He was selling his ignorance and his desire to learn about a subject. The journey of not knowing to knowing was his work.”_
 <br/>— Richard Saul Wurman on Charles Eames
 
