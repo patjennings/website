@@ -20,5 +20,4 @@ export default function mosaique() // Gestion des cells de la mosaïque
 	item.setAttribute("style", "width:"+s+"px; height:"+s+"px;")
 	item.classList.add("visible");
     });
-    console.log("mosaique resized");
 }

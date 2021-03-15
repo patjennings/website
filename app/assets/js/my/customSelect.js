@@ -3,7 +3,7 @@ import {filterReferences, resetReferences} from "./references.js";
 let defaultValue;
 
 export default function customSelect(){
-    console.log("this is it");
+    // console.log("this is it");
     var ll, selectElem, a, b, c;
     
     /* Look for any elements with the class "custom-select": */
@@ -37,7 +37,7 @@ export default function customSelect(){
 	    c.addEventListener("click", function(e) {
 		/* When an item is clicked, update the original select box,
 		   and the selected item: */
-		console.log("salut");
+		// console.log("salut");
 		var y, s, h, sl, yl;
 		s = this.parentNode.parentNode.getElementsByTagName("select")[0];
 		defaultValue = s[0].innerHTML;

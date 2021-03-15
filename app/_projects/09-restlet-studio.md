@@ -17,10 +17,10 @@ Restlet est une startup qui propose des outils de création et de gestion d'APIs
 <br/><br/>
 *Réalisé pour [Use Design](http://www.use-design.com) en 2016*
 
-![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-0.jpg)
-![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-1.jpg)
-![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-2.jpg)
-![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-3.jpg)
-![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-4.jpg)
-![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-5.jpg)
-![restlet-webapps](/assets/images/projets/restlet-webapps/restlet-apps-6.jpg)
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-0.jpg" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-1.jpg" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-2.jpg" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-3.jpg" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-4.jpg" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-5.jpg" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-6.jpg" loading="lazy"/>

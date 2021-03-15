@@ -4,8 +4,6 @@ export function introHandler() // Gestion des cells de la mosaïque
     const docHeight = window.innerHeight;
     const introElem = document.querySelector(".intro");
     introElem.setAttribute("style", "width: "+docWidth+"px; height: "+docHeight+"px")
-
-    console.log("intro resized");
 }
 export function introImagesSlider(){
     let s = 1; // active element
@@ -41,7 +39,5 @@ export function introImagesSlider(){
 	activeSlidesText = document.getElementById("slide-details-"+s);
 	activeSlide = document.getElementById("slide-"+s);
 	display(activeSlidesText, activeSlide);
-
-	console.log("slide has changed");
     }
 }

@@ -3,7 +3,7 @@ export function filterReferences(filter){
     // const items = document.querySelectorAll("td")[4];
     // console.log(items);
     const filterLowercase = filter.toLowerCase();
-    console.log(rows);
+    // console.log(rows);
 
     items.forEach(item => {
 	// item.setAttribute("style", "width:"+s+"px; height:"+s+"px;")

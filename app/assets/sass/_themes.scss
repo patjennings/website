@@ -29,13 +29,13 @@
 	}
     }
     #logo{
-	& div{
-	    background-color: var(--dark);
+	// & div{
+	//     background-color: var(--dark);
 
-	    & + div{
-		background-color: var(--indigo);
-	    }
-	}
+	//     & + div{
+	// 	background-color: var(--indigo);
+	//     }
+	// }
     }
     blockquote{   
 	p{
@@ -71,13 +71,13 @@
 	}
     }
     #logo{
-	& div{
-	    background-color: var(--light);
+	// & div{
+	//     background-color: var(--light);
 
-	    & + div{
-		background-color: var(--yellow);
-	    }
-	}
+	//     & + div{
+	// 	background-color: var(--yellow);
+	//     }
+	// }
     }
     blockquote{   
 	p{
