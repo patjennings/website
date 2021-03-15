@@ -8,7 +8,6 @@ export function menuHandler() // Gestion du menu
     menuTrigger = document.getElementById("site-menu-trigger");
     overlay = document.getElementById("overlay");
     logo = document.getElementById("logo");
-    console.log(logo);
     
     menu.setAttribute("class", "hidden");
     overlay.setAttribute("class", "hidden");

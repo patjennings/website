@@ -204,6 +204,8 @@
 		    p{
 			margin-top: 0;
 			margin-bottom: 0;
+			color: var(--light);
+			transition: color 0.25s linear;
 
 			@include animation('startSentence 1.5s ease-out');
 			// animation-delay: 0.5s;
@@ -309,7 +311,12 @@
 		}
 
 		&:hover{
-		    color: var(--dark);
+		    .sentence{
+			p{
+			    color: var(--dark);
+			}
+		    }
+
 
 		    #highlighterHover{
 			.highlighter{
