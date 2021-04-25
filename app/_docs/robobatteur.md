@@ -18,7 +18,7 @@ Le principal général du dispositif est de pouvoir disposer deux baguettes, qui
 
 ![Robobatteur image](/assets/images/robotbatteur_5624.jpg)
 
-Le robobatteur est constitué d'un volume en bois (du tasseau en pin), qui supporte les deux servomoteurs, la carte Arduino Uno et la planche de branchements. Sur chaque servomoteur, une baguette est fixée grâce à du scotch légèrement élastique, qui sert d'habitude pour les travaux électriques : l'élasticité permet de ne pas trop forcer sur le servomoteur lors de la frappe.
+Le robobatteur est constitué d'un volume en bois (du tasseau en pin), qui supporte les deux servomoteurs, la carte Arduino Uno et la planche de branchements. Sur chaque servomoteur, une baguette est fixée grâce à du scotch légèrement élastique, habituellement utilisé pour les travaux électriques : l'élasticité permet de ne pas trop forcer sur le servomoteur lors de la frappe.
 
 ![Robobatteur image](/assets/images/robotbatteur_5629.jpg)
 
@@ -75,7 +75,7 @@ void loop() {
   delay(tempoDelay);
 }
 ```
-## Problèmes et évolutions ##
+## Problèmes ##
 
 #### Redémarrage intempestif de la carte ####
 
@@ -91,13 +91,14 @@ Au délà d'un certain tempo, la conception présentée ici a des limites. Le se
 
 L'idée serait sûrement de pouvoir ajouter deux servomoteurs en plus. Deux baguettes se relairaient alors pour frapper alternativement chaque élément, dans les cas où le tempo est trop rapide. Cela nécessite quelques ajustements dans le code.
 
-Mais comme il est fort probable que ce soit moi qui ne parvienne pas à contrôler correctement les servomoteurs. La solution ne nécessite peut-être pas de revoir le dispositif entièrement, mais de mieux contrôler la course des servomoteurs avec le code.
+Mais il est fort probable que ce soit moi qui ne parvienne pas à contrôler correctement les servomoteurs : la solution ne nécessite peut-être pas de revoir le dispositif entièrement, mais de mieux contrôler la course des servomoteurs avec le code.
 
-#### Contrôle midi ####
+## Évolutions ##
+#### Messages MIDI ####
 
 Une fois résolus les problèmes de redémarrage intempestif et de frappes rapprochées, il serait très intéressant de pouvoir contrôler le robobatteur grâce à un signal MIDI.
 
-Dnas l'idée : un séquenceur, sur lequel est programmé une séquence de batterie, envoie ses messages MIDI à la carte Arduino via un pin 5 broches. La carte retranscrit ces messages en frappes de batteries grâce aux servomoteurs. Il y aura toujours un problème physique à un moment, qui ne pourra pas nous permettre de retranscrire des triples croches à un tempo de 240 : mais gérer des doubles croches jusqu'à 200-210 bpm parait atteignable.
+Dans l'idée : un séquenceur, sur lequel est programmé une séquence de batterie, envoie ses messages MIDI à la carte Arduino via un pin 5 broches. La carte retranscrit ces messages en frappes de batteries grâce aux servomoteurs. Il y aura toujours un problème physique à un moment, qui ne pourra pas nous permettre de retranscrire des triples croches à un tempo de 240 : mais gérer des doubles croches jusqu'à 200-210 bpm parait atteignable.
 
 
 #### Démarrer, arrêter ####
