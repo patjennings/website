@@ -26,9 +26,6 @@
 	}
 	
 	#projects-promoted{
-
-	    
-	    
 	    .col-lg{
 		margin-bottom: 2rem;
 	    }
@@ -83,6 +80,11 @@
 
 		&:hover{
 		    background: var(--yellow);
+
+		    p{
+			color: var(--dark);
+		    }
+
 		}
 	    }
 	}
