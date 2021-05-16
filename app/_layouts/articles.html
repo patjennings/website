@@ -1,0 +1,10 @@
+---
+layout: page
+---
+<ul>
+  {% for p in site.articles reversed %}
+  <li>
+    <a href="{{p.url | relative_url}}">{{p.title | escape}}</a><sup>{{ p.date | date: "%d/%m/%Y" }}</sup>
+  </li>
+  {% endfor %}
+</ul>
