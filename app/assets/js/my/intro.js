@@ -5,6 +5,46 @@ export function introHandler() // Gestion des cells de la mosaïque
     const introElem = document.querySelector(".intro");
     introElem.setAttribute("style", "width: "+docWidth+"px; height: "+docHeight+"px")
 }
+export function adaptImagesSize() // Gestion des cells de la mosaïque
+{
+    const slidesElements = document.querySelectorAll(".slide--element");
+    const docWidth = window.innerWidth; // largeur totale
+    console.log("resize element");
+    
+    slidesElements.forEach(slideElement => {
+	const docWidth = window.innerWidth;
+	const docHeight = window.innerHeight;
+	const elemWidth = slideElement.clientWidth;
+	const elemHeight = slideElement.clientHeight;
+	const elemRatio = elemWidth/elemHeight;
+	const docRatio = docWidth/docHeight;
+
+	slideElement.setAttribute("width", docWidth+"px");
+
+	// console.log("const docWidth = "+docWidth);
+	// console.log("const docHeight = "+docHeight);
+	// console.log("const elemWidth = "+elemWidth);
+	// console.log("const elemHeight = "+elemHeight);
+	// console.log("const elemRatio = "+elemRatio);
+	// console.log("const docRatio = "+docRatio);
+
+	
+
+	if(docRatio > elemRatio){
+	    const topPosition = (docHeight/2)-(elemHeight/2);
+	    slideElement.removeAttribute("height");
+	    slideElement.setAttribute("width", docWidth+"px");
+	    slideElement.setAttribute("style", "position: absolute; top:"+topPosition+"px;");
+	} else {
+
+	    const leftPosition = (docWidth/2)-(elemWidth/2);
+	    slideElement.removeAttribute("width");
+	    slideElement.setAttribute("height", docHeight+"px");
+	    slideElement.setAttribute("style", "position: absolute; left:"+leftPosition+"px;");
+	}
+
+    });
+}
 export function introImagesSlider(){
     let s = 1; // active element
     const tempo = 5000;
@@ -12,8 +52,9 @@ export function introImagesSlider(){
     const slides = document.querySelectorAll(".slide");
     
     const slidesLength = slides.length;
-    s = Math.floor(Math.random()*slidesLength)+1 // randomize active item
-
+    // s = Math.floor(Math.random()*slidesLength)+1 // randomize active item
+    s = 5;
+    
     let activeSlidesText = document.getElementById("slide-details-"+s);
     let activeSlide = document.getElementById("slide-"+s);
 

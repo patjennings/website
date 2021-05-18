@@ -4,7 +4,7 @@ import spriteAnimation from "./my/spriteAnimation.js";
 import mosaique from "./my/mosaique.js";
 import customSelect from "./my/customSelect.js";
 import {menuHandler} from "./my/menu.js";
-import {introHandler, introImagesSlider} from "./my/intro.js";
+import {introHandler, adaptImagesSize, introImagesSlider} from "./my/intro.js";
 import {presentationHandler} from "./my/presentation.js";
 
 // const bubbles = {
@@ -47,6 +47,7 @@ window.onload = function(e){
     }
     if(homeLayout){
 	presentationHandler();
+	adaptImagesSize();
     }
     if(referencesLayout){
 	customSelect();
@@ -56,6 +57,7 @@ window.onload = function(e){
 	projectsLayout !== null ? mosaique() : null;
 	homeLayout !== null ? introHandler() : null;
 	homeLayout !== null ? presentationHandler() : null;
+	homeLayout !== null ? adaptImagesSize() : null;
     }
     
     homeLayout !== null ? introImagesSlider() : null;

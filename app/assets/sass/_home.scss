@@ -121,9 +121,10 @@
 	height: 100vh; // pour éviter que ça ne saute avant que js ne resize la hauteur dynamiquement.
 	color: var(--white);
 	display: flex;
-	// justify-content: center;
+	justify-content: center;
 	align-items: center;
 	background: #000;
+
 	
 	// transition: all 0.25s ease-in;
 
@@ -132,6 +133,7 @@
 	    top: 0;
 	    left: 0;
 	    z-index: 0;
+	    	overflow: hidden;
 	    
 	    width: 100vw;
 	    height: 100vh;
@@ -145,23 +147,28 @@
 		height: 100%;
 	    	transition: all 0.75s ease-in-out;
 
+		img{
+		    // height: 100%;
+		    // left: calc(0 - )
+		}
+
 		&#slide-1{
-		    background-image: url(/assets/images/intro-1.jpg);
+		    // background-image: url(/assets/images/intro-1.jpg);
 		}
 		&#slide-2{
-		    background-image: url(/assets/images/intro-2.jpg);
+		    // background-image: url(/assets/images/intro-2.jpg);
 		}
 		&#slide-3{
-		    background-image: url(/assets/images/intro-3.jpg);
+		    // background-image: url(/assets/images/intro-3.jpg);
 		}
 		&#slide-4{
-		    background-image: url(/assets/images/intro-4.jpg);
+		    // background-image: url(/assets/images/intro-4.jpg);
 		}
 		&#slide-5{
-		    background-image: url(/assets/images/intro-5.jpg);
+		    // background-image: url(/assets/images/intro-5.jpg);
 		}
 		&#slide-6{
-		    background-image: url(/assets/images/intro-6.jpg);
+		    // background-image: url(/assets/images/intro-6.jpg);
 		}
 
 		&.hidden{
