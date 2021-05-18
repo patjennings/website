@@ -12,21 +12,23 @@ export function adaptImagesSize() // Gestion des cells de la mosaïque
     console.log("resize element");
     
     slidesElements.forEach(slideElement => {
+
 	const docWidth = window.innerWidth;
 	const docHeight = window.innerHeight;
+	slideElement.setAttribute("width", docWidth+"px");
 	const elemWidth = slideElement.clientWidth;
 	const elemHeight = slideElement.clientHeight;
 	const elemRatio = elemWidth/elemHeight;
 	const docRatio = docWidth/docHeight;
 
-	slideElement.setAttribute("width", docWidth+"px");
 
-	// console.log("const docWidth = "+docWidth);
-	// console.log("const docHeight = "+docHeight);
-	// console.log("const elemWidth = "+elemWidth);
-	// console.log("const elemHeight = "+elemHeight);
-	// console.log("const elemRatio = "+elemRatio);
-	// console.log("const docRatio = "+docRatio);
+
+	console.log("const docWidth = "+docWidth);
+	console.log("const docHeight = "+docHeight);
+	console.log("const elemWidth = "+elemWidth);
+	console.log("const elemHeight = "+elemHeight);
+	console.log("const elemRatio = "+elemRatio);
+	console.log("const docRatio = "+docRatio);
 
 	
 
