@@ -14,21 +14,21 @@ Il est frappant de constater que la réflexion UX qui est mise en place pour cha
 
 Quand la typographie se mêle intimement au travail d’interaction et d’interface utilisateur, des entreprises en font la tête de pont de leur identité. Google dispose d’une famille de caractère en 6 graisses et couvrant plusieurs alphabets (latin, chinois simple, chinois traditionnel, japonais, coréen, thaï, devanagari). Aujourd’hui, la reconnaissance visuelle d’un outil Google (que ce soit un système Android ou un service comme Google Documents) est immédiate, et la Roboto y tient un rôle prépondérant.
 
-![La police Roboto pour Google](/assets/images/blog/images_typo_1.jpg "La police Roboto")
+![La police Roboto pour Google](/assets/images/blog/images_typo_1.webp "La police Roboto")
 <div class="small">La police de caractère Roboto pour Google, et son utilisation dans une interface Android.</div>
 
 ### La gratuité au détriment de la singularité ###
 
 La majorité des interfaces se retrouve aujourd’hui nourrie visuellement par des frameworks et librairies d’icones libres d’utilisation. Les plus visibles sont les composants fournis de base dans iOs ou Android, par Apple et Google. Les applications web ne sont pas en reste, et beaucoup de développeurs s’aident aujourd’hui de Bootstrap pour les aider dans leur développements d’interface. Et des outils comme FontAwesome, pour les icônes, sont aussi très prisés. Les coûts réduits entrainés par ces méthodes sont évidemment obligatoires pour un grand nombre d’entreprises. Les jours de développement baissent et les chefs sont contents. Mais un problème subsiste : comment manifester visuellement la spécifité du produit nouvellement conçu ? Car en dépit de la baisse de coût, l’usage en front-end d’un framework prêt à l’emploi fait ressembler l’interface nouvellement conçue à des centaines d’autres.
 
-![Apigee, Mashape & Cloudflare](/assets/images/blog/images_typo_4.jpg)
+![Apigee, Mashape & Cloudflare](/assets/images/blog/images_typo_4.webp)
 <div class="small">Ces trois produits ont une clientèle similaire, et utilisent de surcroit la même famille de caractères, en l’occurence l’Open Sans, ce qui ne favorise pas l’identification. (CloudFlare, Mashape et Apigee).</div>
 
 La typographie ne déroge pas à la règle et des plateformes comme Google Fonts ou Typekit (pour les plus célèbres), qui permettent d’utiliser des polices relativement bien dessinées et gratuites (ou peu onéreuses), sont largement utilisées. Du côté des plus solides, on peut noter la multiplication de l’utilisation de l’Open Sans, de la Source Sans ou de la Lato. La Proxima Nova habille depuis quelques temps beaucoup de sites et d’applications (un exemple chez Apiary.io), talonnée par la Montserrat, ersatz googlesque des Proxima Nova ou Gotham. Mais ces polices sont libres, et ne possèdent pas le coffre et la robustesse de familles complètes. Beaucoup souffrent de problème de cohérence graphique, d’approches, de hinting… Et les graisses manquent souvent. Pour finir, elles pâlissent vite et subissent la saturation dûe à l’utilisation accrue de Google Fonts et de Typekit.
 
 Alors pourquoi ne pas contrebalancer l’utilisation de composants marqués du sceau de la standardisation, par l’usage d’une police de caractère idoine, signature omniprésente autant que soutien ergonomique fidèle. La lisibilité et la souplesse d’utilisation seront assurés grâce différentes graisses, voire aux autres styles de la famille.
 
-![](/assets/images/blog/images_typo_2.jpg)
+![](/assets/images/blog/images_typo_2.webp)
 <div class="small">Un exemple de famille complète : le Nitti & le Nitti Grotesk, par Bold Monday. Cette famille propose des caractères à largeur fixe — ou monospace — et à largeur proportionnelle. Ajouté au nombre de graisses disponibles, elle offre à l’utilisateur une grande liberté d’utilisation tout en préservant une cohérence visuelle.</div>
 
 Les contraintes de lisibilité évoluent, mais la prolifération des devices amènent aussi un autre problème à régler : la reconnaissance, l’image de marque, l’ADN, l’identité… Comme il est peu recommandé de coller un gros logo visible en permanence sur une application smartphone (ce que semblent parfois croire certains commanditaires), il nous faudra trouver d’autres moyens de démarquer notre service. Alors, ne peut-on pas se servir ce qui constitue 90% de toute interface ? La typographie, les lettres ! HP est reconnaissable par l’utilisation de la Futura, Apple l’est par l’utilisation d’une version adaptée de la Myriad (après l’avoir longtemps été en utilisant une adaptation du Garamond).
@@ -41,7 +41,7 @@ La choix du caractère répond également à des problématiques de lecture bien
 
 Quand Adrian Frutiger fût mandaté dans les années 70 pour actualiser la signalétique de l’aéroport de Orly, ses tests sur la lisibilité des antiques (l’Helvetica ou ses avatars) avait révélé à quel point celle-ci souffrait de problèmes de reconnaissance à longue distance, dans un temps de lecture réduit (l’avion va partir, l’usager en retard et il cherche la porte d’embarquement, l’information doit donc lui sauter aux yeux). C’est à cette occasion que Frutiger propose le caractère Frutiger. Alors que ces travaux sont reconnus et que cette intervention a amélioré des façon significative le confort visuel des usagers, il est frappant de constater comment Apple intègre de nouveau un caractère « antique » (l’Helvetica), 50 ans après les conclusions de Frutiger. Un tel retour en arrière est difficilement explicable, d’autant que les contraintes de lisibilité sont loin d’être inexistantes sur un smartphone doté d’un écran de 9 pouces. Sous couvert d’harmonisation, Apple a même poussé le vice jusqu’à intégrer l’Helvetica dans les interfaces pour Mac OSX (depuis la version 10.10 « Yosemite »).
 
-![](http://www.thomasguesnon.fr/data/files/images/blog/images_typo_3.jpg)
+![](http://www.thomasguesnon.fr/data/files/images/blog/images_typo_3.webp)
 <div class="small">Dans les années 1970, sous la direction d’Adrian Frutiger, l’aéroport de Roissy se dote d’un nouveau caractère pour sa signalétique : le Frutiger. Ce caractère, dont la conception s’appuie sur des études de lisibilité, améliore la qualité de prise d’information des usagers.</div>
 
 ### Une réponse toujours pertinente ###

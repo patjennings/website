@@ -5,7 +5,7 @@ client:
 release-date: 2021
 permalink: /projets/systeme-solaire
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projets-thumbnails/thumb-syssol.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-syssol.webp
 project_weight: 16
 project_bg: "#FFFFFF"
 project_font: "#333333"

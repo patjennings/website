@@ -19,4 +19,4 @@ J'ai travaillé, notamment, pour des projets aéronautiques, de transport, pour 
 
 
 
-<img src="/assets/images/profile-pic-2020.jpg" style="width: 128px; margin: 0 auto 3rem auto; display: block; border-radius: 96px;"/>
+<img src="/assets/images/profile-pic-2020.webp" style="width: 128px; margin: 0 auto 3rem auto; display: block; border-radius: 96px;"/>

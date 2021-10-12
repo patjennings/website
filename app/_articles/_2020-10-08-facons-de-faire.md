@@ -9,13 +9,13 @@ excerpt_separator: <!--more-->
 
 Cet article contient quelques-uns des principes qui guident ma pratique de designer. Il n'est ni un manifeste ni un compte-rendu exhaustif de ce que je fais ; c'est un panorama au sein duquel j'essaie d'exposer mes façons de faire, la manière dont j'envisage mon métier au sein d'un projet, et au sein de la société.
 
-![Notes](/assets/images/blog/facons-notes.jpg)
+![Notes](/assets/images/blog/facons-notes.webp)
 
 Je suis designer, et ma pratique première est le design graphique. Depuis que j'ai commencé à travailler, en 2007, c'est avant tout pour l'écran que je conçois (que je *designe*). Pour des sites web d'abord, puis pour des applications. Cette pratique s'est etoffée, au fil des projets et des expériences, de réflexions autour des contextes d'utilisation, des usages, des utilisateurs, et le design d'expérience utilisateur (*UX design*) fait désormais partie intégrante de ma pratique. Il serait d'ailleurs plus exact de dire qu'il la traverse, à la manière d'un fil rouge plutôt que d'une compétence isolée que l'on peut solliciter en dehors du reste.
 
 Le métier du designer est de rendre lisible et compréhensible une information à un public donné. C'est ma ligne de mire lorsque je travaille, et la typographie, le rôle des couleurs et les principes de mise en page conceptualisés et affinés depuis plusieurs siècles par les maîtres du design graphique sont les piliers de ma pratique. C'est cet héritage de rigueur que j'injecte dans les projets auxquels je participe, dans le but de rendre une interface solide dans son utilisation, et pérenne.
 
-![Design graphique](/assets/images/blog/facons-graphicdesign.jpg)
+![Design graphique](/assets/images/blog/facons-graphicdesign.webp)
 
 ## La relation design / programmation ##
 

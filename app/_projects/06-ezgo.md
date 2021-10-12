@@ -5,7 +5,7 @@ client: Renault
 release-date: 2018
 permalink: /projets/ez-go
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projets-thumbnails/thumb-5.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-5.webp
 project_weight: 6
 project_bg: "#000000"
 project_font: "#FFFFFF"
@@ -27,6 +27,6 @@ Ces animations sont conçues pour être diffusées sur une grille de LED allant 
 <video src="/assets/images/projets/ez-go-a/20191209-1524.m4v" autoplay loop width="1280"></video>
 <video src="/assets/images/projets/ez-go-a/20191209-1531.m4v" autoplay loop width="1280"></video>
 De pair avec ce robot-taxi, une application est conçue afin d'y réserver une place, et de configurer son voyage.
-![ez-go-app-1](/assets/images/projets/ez-go-a/ezgo-app-1.jpg)
-![ez-go-app-2](/assets/images/projets/ez-go-a/ezgo-app-2.jpg)
-![ez-go-app-3](/assets/images/projets/ez-go-a/ezgo-app-3.jpg)
+![ez-go-app-1](/assets/images/projets/ez-go-a/ezgo-app-1.webp)
+![ez-go-app-2](/assets/images/projets/ez-go-a/ezgo-app-2.webp)
+![ez-go-app-3](/assets/images/projets/ez-go-a/ezgo-app-3.webp)

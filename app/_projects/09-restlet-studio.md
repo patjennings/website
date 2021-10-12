@@ -5,7 +5,7 @@ client: Restlet
 release-date: 2016
 permalink: /projets/restlet-studio
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projets-thumbnails/thumb-restlet.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-restlet.webp
 project_weight: 9
 project_bg: "#f3f3f3"
 project_font: "#0d3731"
@@ -17,10 +17,10 @@ Restlet est une startup qui propose des outils de création et de gestion d'APIs
 <br/><br/>
 *Réalisé pour [Use Design](http://www.use-design.com) en 2016*
 
-<img src="/assets/images/projets/restlet-webapps/restlet-apps-0.jpg" loading="lazy"/>
-<img src="/assets/images/projets/restlet-webapps/restlet-apps-1.jpg" loading="lazy"/>
-<img src="/assets/images/projets/restlet-webapps/restlet-apps-2.jpg" loading="lazy"/>
-<img src="/assets/images/projets/restlet-webapps/restlet-apps-3.jpg" loading="lazy"/>
-<img src="/assets/images/projets/restlet-webapps/restlet-apps-4.jpg" loading="lazy"/>
-<img src="/assets/images/projets/restlet-webapps/restlet-apps-5.jpg" loading="lazy"/>
-<img src="/assets/images/projets/restlet-webapps/restlet-apps-6.jpg" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-0.webp" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-1.webp" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-2.webp" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-3.webp" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-4.webp" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-5.webp" loading="lazy"/>
+<img src="/assets/images/projets/restlet-webapps/restlet-apps-6.webp" loading="lazy"/>

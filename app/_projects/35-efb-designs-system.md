@@ -5,7 +5,7 @@ client: Thales
 release-date: 2016
 permalink: /projets/efb-design-system
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projets-thumbnails/thumb-18.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-18.webp
 project_weight: 35
 project_bg: "#202d40"
 project_font: "#ffffff"
@@ -18,12 +18,12 @@ Un *design system* pour un EFB (Electronic Flight Bag) disponible sur tablette. 
 <br/><br/>
 *Réalisé pour [Use Design](http://www.use-design.com) en 2014*
 
-![athena-2](/assets/images/projets/athena/athena-2.jpg)
-![athena-4](/assets/images/projets/athena/athena-4.jpg)
-![athena-5](/assets/images/projets/athena/athena-5.jpg)
-![athena-6](/assets/images/projets/athena/athena-6.jpg)
-![athena-7](/assets/images/projets/athena/athena-7.jpg)
-![athena-8](/assets/images/projets/athena/athena-8.jpg)
-![athena-1](/assets/images/projets/athena/athena-1.jpg)
-![athena-9](/assets/images/projets/athena/athena-9.jpg)
-![athena-10](/assets/images/projets/athena/athena-10.jpg)
+![athena-2](/assets/images/projets/athena/athena-2.webp)
+![athena-4](/assets/images/projets/athena/athena-4.webp)
+![athena-5](/assets/images/projets/athena/athena-5.webp)
+![athena-6](/assets/images/projets/athena/athena-6.webp)
+![athena-7](/assets/images/projets/athena/athena-7.webp)
+![athena-8](/assets/images/projets/athena/athena-8.webp)
+![athena-1](/assets/images/projets/athena/athena-1.webp)
+![athena-9](/assets/images/projets/athena/athena-9.webp)
+![athena-10](/assets/images/projets/athena/athena-10.webp)

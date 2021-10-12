@@ -21,7 +21,7 @@ Cet article retrace une présentation faite en début d'année. Elle met en pers
 
 ### 2.Extrait de l'article
 
-![Article Presse Citron](/assets/images/blog/conv-article.png)
+![Article Presse Citron](/assets/images/blog/conv-article.webp)
 
 ### 3. Quelques thèmes
 - Problèmes posés par les changements abordés
@@ -144,7 +144,7 @@ Cet article retrace une présentation faite en début d'année. Elle met en pers
 
 ### 14. Un exemple
 
-![Piste aéroport circulaire](/assets/images/blog/conv-airport.jpg)
+![Piste aéroport circulaire](/assets/images/blog/conv-airport.webp)
 
 - Exemple : piste d'aéroport circulaire.
 - Cas d'espèce d'une attitude de designer, qui a vu une idée surgir, et l'a attrapé pour en faire quelque chose.
@@ -182,4 +182,4 @@ Cet article retrace une présentation faite en début d'année. Elle met en pers
 - La convivialité, Ivan Illich, 1973
 - L'obsolescence de l'homme - I, Günther Anders, 1956
 
-![Références](/assets/images/blog/conv-books.jpg)
+![Références](/assets/images/blog/conv-books.webp)

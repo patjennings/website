@@ -5,7 +5,7 @@ client: Divers
 release-date: 2017
 permalink: /projets/motion
 excerpt_separator: <!--more-->
-project_thumbnail: /assets/images/projets-thumbnails/thumb-7.jpg
+project_thumbnail: /assets/images/projets-thumbnails/thumb-7.webp
 project_weight: 8
 project_bg: "#000000"
 project_font: "#cccccc"

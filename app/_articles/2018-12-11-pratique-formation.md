@@ -10,7 +10,7 @@ cover: spectacle.gif
 Ce matin, je tombe, sur Instagram, sur une citation de Carolina de Bartolo, sur le fil de Eye Magazine. 
 > Chaque extension produit une sorte d'amputation. J'imagine que la question devient alors : l'extension vaut-elle l'amputation ?<!--more-->
 
-![Every extension also produces an amputation of some kind. I guess the question just becomes: is the extension worth the amputation? Carolina de Bartolo](/assets/images/blog/45827030_345895609529964_7878153873529316170_n.jpg "Every extension also produces an amputation of some kind. I guess the question just becomes: is the extension worth the amputation? Carolina de Bartolo")
+![Every extension also produces an amputation of some kind. I guess the question just becomes: is the extension worth the amputation? Carolina de Bartolo](/assets/images/blog/45827030_345895609529964_7878153873529316170_n.webp "Every extension also produces an amputation of some kind. I guess the question just becomes: is the extension worth the amputation? Carolina de Bartolo")
 
 [Le post](https://www.instagram.com/p/BrOgphzlfcp/)
 
