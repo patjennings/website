@@ -5,7 +5,7 @@ cache:
     - vendor/
 
 before_script:
-  - gem install bundler
+  - gem install bundler -v 2.2.26
   - bundle install --path vendor
   - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
   - eval $(ssh-agent -s)
