@@ -6,9 +6,9 @@ permalink: /references
 
 | Année | Client | Projet et nature de la participation | Expertise
 |:--|:--|:--|:--|
+| 2020 | Adria | Création d'une application de veille de textes réglementaires, dans le secteur de l'agroalimentaire | *UI, UX, documentation* |
 | 2020 | ![](/assets/images/logo/uvasc.svg) | Conception d'une application médicale | *UI, UX, documentation* |
 | 2020 | ![](/assets/images/logo/cobuy.svg)  | Conception d'une application de support aux achats| *UI, UX, documentation* |
-| 2020 | ![](/assets/images/logo/messageur.svg) | Conception de supports de communication imprimés | *Design graphique, illustration*|
 | 2020 |  ![](/assets/images/logo/cliniquesport.svg) | Création de logotype pour la clinique du Sport, la clinique de l'arthrose et la clinique du pied de Bordeaux-Mérignac | *Design graphique* |
 | 2019 | ![](/assets/images/logo/scality.svg) | Création d'une interface de gestion de serveurs de stockage&nbsp;<sup>1</sup>| *UI* |
 | 2018 | ![](/assets/images/logo/thales.svg) | Conception d'un outil de surveillance d'un espace aérien. Scénarisation et production d'un film de simulation d'usages de l'outil&nbsp;<sup>1</sup> | *UI, motion, CesiumJS, cartographie* |
