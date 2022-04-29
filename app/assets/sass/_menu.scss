@@ -299,10 +299,10 @@ a#logo{
     position: fixed;
     text-decoration: none;
     border-bottom: none;
-    top: 26px;
+    top: 20px;
     left: 80px;
-    width: 168px;
-    height: 22px;
+    width: 136px;
+    height: 40px;
     z-index: 998;
     background-size: cover;
 
@@ -320,7 +320,7 @@ a#logo{
     // 	}
     // }
     &.open{
-	background-image: url(/assets/images/logo-dark.png);
+	background-image: url(/assets/images/logo-light-mono.png);
 	// & div{
 	//     background-color: var(--light);
 
