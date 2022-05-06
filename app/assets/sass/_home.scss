@@ -335,6 +335,32 @@
 		
 		    }
 		}
+		// remove for mobile devices
+		// https://stackoverflow.com/questions/38636982/disable-hover-css-on-mobile
+		@media (not hover) {
+		    #highlighterHover{
+			.highlighter{
+			    transform: translateX(100%) scale(0, 1);
+			}
+			
+		    }
+
+		    &:hover{
+			.sentence{
+			    p{
+				color: var(--light);
+			    }
+			}
+
+
+			#highlighterHover{
+			    .highlighter{
+				transform: none;
+			    }
+			    
+			}
+		    }
+		}
 
 		@include keyframes(startHighlighter){
 		    0%{
