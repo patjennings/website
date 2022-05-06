@@ -55,7 +55,7 @@ export function introImagesSlider(){
     
     const slidesLength = slides.length;
     // s = Math.floor(Math.random()*slidesLength)+1 // randomize active item
-    s = 5;
+    s = 6;
     
     let activeSlidesText = document.getElementById("slide-details-"+s);
     let activeSlide = document.getElementById("slide-"+s);
