@@ -8,43 +8,58 @@ export function introHandler() // Gestion des cells de la mosaïque
 export function adaptImagesSize() // Gestion des cells de la mosaïque
 {
     const slidesElements = document.querySelectorAll(".slide--element");
-    const docWidth = window.innerWidth; // largeur totale
-    console.log("resize element");
+    // const docWidth = window.innerWidth; // largeur totale
+    // console.log("resize element");
+
+    const docWidth = window.innerWidth;
+    const docHeight = window.innerHeight;
+    // slideElement.setAttribute("width", docWidth+"px");
+    // const elemWidth = slideElement.clientWidth;
+    // const elemHeight = slideElement.clientHeight;
+    const elemWidth = 2560;
+    const elemHeight = 1440;
+    const elemRatio = elemWidth/elemHeight;
+    const docRatio = docWidth/docHeight;
     
     slidesElements.forEach(slideElement => {
 
-	const docWidth = window.innerWidth;
-	const docHeight = window.innerHeight;
-	slideElement.setAttribute("width", docWidth+"px");
-	const elemWidth = slideElement.clientWidth;
-	const elemHeight = slideElement.clientHeight;
-	const elemRatio = elemWidth/elemHeight;
-	const docRatio = docWidth/docHeight;
-
-
-
-	console.log("const docWidth = "+docWidth);
-	console.log("const docHeight = "+docHeight);
-	console.log("const elemWidth = "+elemWidth);
-	console.log("const elemHeight = "+elemHeight);
-	console.log("const elemRatio = "+elemRatio);
-	console.log("const docRatio = "+docRatio);
-
 	
+	// console.log("const docHeight = "+docHeight);
+	// console.log("const elemWidth = "+elemWidth);
+	// console.log("const elemHeight = "+elemHeight);
+	// console.log("const elemRatio = "+elemRatio);
+	// console.log("const docRatio = "+docRatio);
 
-	if(docRatio > elemRatio){
-	    const topPosition = (docHeight/2)-(elemHeight/2);
-	    slideElement.removeAttribute("height");
-	    slideElement.setAttribute("width", docWidth+"px");
-	    slideElement.setAttribute("style", "position: absolute; top:"+topPosition+"px;");
-	} else {
+	let updatedHeight;
+	let updatedWidth;
+	let updatedLeft;
+	let updatedTop;
 
-	    const leftPosition = (docWidth/2)-(elemWidth/2);
-	    slideElement.removeAttribute("width");
-	    slideElement.setAttribute("height", docHeight+"px");
-	    slideElement.setAttribute("style", "position: absolute; left:"+leftPosition+"px;");
+	if(docRatio < elemRatio){
+	    
+	    console.log("docRatio < elemRatio");
+	    updatedHeight = docHeight;
+	    updatedWidth = docHeight*elemRatio;
+	    updatedLeft = (docWidth/2)-(updatedWidth/2);
+	    updatedTop = 0;
+
+	    // console.log(docWidth+"/2 - "+elemWidth+"/2");
+	    // console.log('largeur viewport: '+docWidth+', hauteur viewport: '+docHeight+', ratio: '+docRatio+', largeur image:'+updatedWidth+', hauteur image: '+updatedHeight+', ratio: '+elemRatio+'');
+	    
+	} else if(docRatio > elemRatio){
+	    console.log("docRatio > elemRatio");
+	    
+	    updatedWidth = docWidth;
+	    updatedHeight = docWidth/elemRatio;
+	    updatedLeft = 0;
+	    updatedTop = (docHeight/2)-(updatedHeight/2);
+
+	    // console.log('largeur viewport: '+docWidth+', hauteur viewport: '+docHeight+', ratio: '+docRatio+', largeur image:'+updatedWidth+', hauteur image: '+updatedHeight+', ratio: '+elemRatio+'');
 	}
-
+	slideElement.removeAttribute("height");
+	slideElement.setAttribute("width", updatedWidth+"px");
+	slideElement.setAttribute("height", updatedHeight+"px");
+	slideElement.setAttribute("style", "position: absolute; top:"+updatedTop+"px; left:"+updatedLeft+"px;");
     });
 }
 export function introImagesSlider(){

@@ -354,17 +354,3 @@
 // 	}
 //     }
 // }
-
-
-@media (not hover) {
-    a#intro-presentation{
-	&:hover{
-	    .sentence{
-		p{
-		    color: var(--light);
-		}
-		
-	    }
-	}
-    }
-}
