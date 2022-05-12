@@ -9,9 +9,9 @@
       {% if p.promoted == true %}
       <div class="col-lg">
 	<a href="{{p.permalink | relative}}" class="card">
-	    <div class="card--thumb" style="background-image: url({{p.project_thumbnail}});"></div>
-	    <div class="card--title">{{p.title | escape}}</div>
-	    <div class="card--client">{{p.client | escape}}</div>
+	  <div class="card--thumb" style="background-image: url({{p.project_thumbnail}});"></div>
+	  <div class="card--title">{{p.title | escape}}</div>
+	  <div class="card--client">{{p.client | escape}}</div>
 	</a>
       </div>
       {% endif %}
@@ -19,16 +19,15 @@
 
       <div class="col-lg">
 	<a href="/projets" class="card--more">
-	    <i class="ico ico-large" id="menu-ico">plus</i>
-	    <p>Plus de projets</p>
+	  <i class="ico ico-large" id="menu-ico">plus</i>
+	  <p>Plus de projets</p>
 	</a>
-      </div>
-      
+      </div>      
     </div>
   </div>
-      <div class="row" id="">
-      <video src="/assets/images/computers.mp4" autoplay loop muted playsinline width="320" style="margin: 0 auto;"/>
-    </div>
+  <div class="row" id="">
+    <video src="/assets/images/computers.mp4" autoplay loop muted playsinline width="320" style="margin: 0 auto;"/>
+  </div>
 </div>
 
 <div class="home-container container">
