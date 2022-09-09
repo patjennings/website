@@ -81,9 +81,15 @@
 	//     }
 	// }
     }
-    blockquote{   
+    blockquote{
+	border-left-color: var(--yellow);
+	background: #363727;
 	p{
-	    color: var(--gray);
+	    color: var(--yellow);
+
+	    a{
+		border-bottom-color: var(--yellow);
+	    }
 	}
     }
 }
