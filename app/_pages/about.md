@@ -17,10 +17,4 @@ J'ai travaillé, notamment, pour des projets aéronautiques, de transport, pour 
 <a type="button" class="btn btn-outline-primary" href="/references">Consulter les références</a>
 </div>
 
-
-
 <img src="/assets/images/profile-pic-2020.webp" style="width: 128px; margin: 0 auto 3rem auto; display: block; border-radius: 96px;"/>
-
-Thomas Guesnon est salarié de la Société Coopérative d’Intérêt Collectif (SCIC) Chrysalide.<br/>
-Siège social : 1 Alez Ar Waremm - 29000 Quimper - Tél. : 02.98.66.09.99<br/>
-Siret : 443 903 562 00066 - APE : 7830Z TVA INTRACOM : FR26 443903562

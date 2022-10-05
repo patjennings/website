@@ -16,9 +16,18 @@
     overflow: hidden;
 
     // @include animation('menuOut .15s ease-in-out');
+    .legal{
+	position: absolute;
+	left: 5rem;
+	bottom: 2rem;
+	a{
+	    color: var(--white) !important;
+	    border-bottom: 1px solid var(--white) !important;
+	}
+    }
 
     .menu-main{
-	padding: 72px 32px 32px 32px;
+	padding: 72px 32px 72px 32px;
 	
 	ul.menu{
 	    list-style-type: none;
