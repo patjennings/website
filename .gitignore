@@ -4,3 +4,4 @@ node_modules/*
 app/.sass-cache/
 app/.sass-cache/*
 web/
+.DS_Store
