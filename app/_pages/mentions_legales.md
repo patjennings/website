@@ -5,15 +5,9 @@ permalink: /legal
 ---
 
 ## Le site internet
-Le site internet [www.thomasguesnon.fr](https://www.thomasguesnon.fr) est la propriété de Thomas Guesnon. Thomas Guesnon est salarié de la Société Coopérative d’Intérêt Collectif (SCIC) [Chrysalide](https://www.cae29.coop/).
+Le site internet [www.thomasguesnon.fr](https://www.thomasguesnon.fr) est la propriété de Thomas Guesnon.
 
-- Raison sociale : Chrysalide
-- Siège social : 1 Alez ar waremm - 29000 QUIMPER
-- Tél. 02.98.66.09.99
-- N° Siret 443 903 562 00066 - APE 7830Z - RCS Quimper 2002 B 450
-- N° TVA FR 26 443 903 562 - TVA acquittée sur les débits
-- Capital social : 35 460€
-- Site internet et graphisme réalisés par Thomas Guesnon
+- N° Siret 508 765 757 00036
 - Site hébergé par [OVH](https://www.ovhcloud.com/fr/)
 
 ## Usage des Données
