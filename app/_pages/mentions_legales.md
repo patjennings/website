@@ -13,7 +13,7 @@ Le site internet [www.thomasguesnon.fr](https://www.thomasguesnon.fr) est la pro
 ## Usage des Données
 Quand vous visitez ce site, sont stockées les informations suivantes : 
 - le site web à partir duquel vous êtes arrivés
-- les parties du sites que vous visitez
+- les parties du site que vous visitez
 - la date et la durée de votre visite
 - votre adresse IP anonymisée
 - des informations sur le matériel (type de votre terminal — ordinateur, tablette, téléphone — votre système d'exploitation, la résolution de votre écran, le pays dans lequel vous effectuez votre visite, et votre navigateur web) que vous avez utilisé pendant votre visite. 
