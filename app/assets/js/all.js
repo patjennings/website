@@ -54,10 +54,10 @@ window.onload = function(e){
     }
     
     window.onresize = function() {
-	projectsLayout !== null ? mosaique() : null;
-	homeLayout !== null ? introHandler() : null;
-	homeLayout !== null ? presentationHandler() : null;
-	homeLayout !== null ? adaptImagesSize() : null;
+	      projectsLayout !== null ? mosaique() : null;
+	      homeLayout !== null ? introHandler() : null;
+	      homeLayout !== null ? presentationHandler() : null;
+	      homeLayout !== null ? adaptImagesSize() : null;
     }
     
     homeLayout !== null ? introImagesSlider() : null;
