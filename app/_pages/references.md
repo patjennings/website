@@ -86,7 +86,7 @@ permalink: /references
 
 <br/><br/>
 <small>
-<sup>1</sup>&nbsp;Réalisé pour [Use Design](http://www.use-design.com)<br/>
+<sup>1</sup>&nbsp;Réalisé pour [Use Design](http://www.use.design)<br/>
 <sup>2</sup>&nbsp;Réalisé pour Hyptique<br/>
 <sup>3</sup>&nbsp;Réalisé pour [Metropolitan Influence](http://www.metropolitan-influence.com)<br/>
 <sup>4</sup>&nbsp;Spécifications graphiques pour l'équipe de développement
