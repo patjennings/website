@@ -11,6 +11,8 @@ Thomas Guesnon<br/>
 
 Pour les échanges sécurisés, vous trouverez également ma [La clé publique](https://platform.thomasguesnon.net/gpg/thomasguesnon.asc).
 
+Et, le [bon vieux CV](https://platform.thomasguesnon.net/cv/cv-thomasguesnon.pdf)
+
 #### Ailleurs sur le web ####
 
 - [LinkedIn](https://www.linkedin.com/in/thomas-guesnon/)
