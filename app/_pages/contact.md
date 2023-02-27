@@ -16,9 +16,9 @@ Et, [le CV](https://platform.thomasguesnon.net/cv/)
 #### Ailleurs sur le web ####
 
 - [LinkedIn](https://www.linkedin.com/in/thomas-guesnon/)
+- [Gitlab](https://gitlab.com/patjennings)
 - [Dribbble](https://dribbble.com/patjennings)
 - [Instagram](https://www.instagram.com/thomas.guesnon/)
 - [Mastodon](https://mastodon.social/@patjennings)
-- [Git](https://framagit.org/patjennings)
 
 
