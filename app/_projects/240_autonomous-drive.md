@@ -1,6 +1,8 @@
 ---
 client : Renault
 title : Autonomous drive
+lang : fr
+ref : autonomous-drive
 release : 2015
 permalink : /projects/autonomous-drive
 project_thumbnail : /assets/images/projets-thumbnails/sncf_mass_transit_thumb.png

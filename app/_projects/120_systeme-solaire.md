@@ -1,6 +1,8 @@
 ---
 client : Perso
 title : Système solaire
+lang : fr
+ref : systeme-solaire
 release : 2021
 permalink : /projects/systeme-solaire
 project_thumbnail : /assets/images/projets-thumbnails/systeme_solaire_thumb.png

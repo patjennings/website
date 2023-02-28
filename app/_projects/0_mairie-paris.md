@@ -1,6 +1,8 @@
 ---
 client : Mairie de Paris
 title : Échange et suivi des usagers des services sociaux
+lang : fr
+ref : mairie-paris
 release : 2014
 permalink : /projects/mairie-paris
 project_thumbnail : /assets/images/projets-thumbnails/mdp_thumb.png
@@ -10,5 +12,5 @@ project_fg : #FFFFFF
 layout : project
 isInteraction : true
 isMotion : false
-promoted : false
+promoted : true
 ---

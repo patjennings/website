@@ -1,6 +1,8 @@
 ---
 client : Uvasc
 title : Capture
+lang : fr
+ref : uvasc-capture
 release : 2020
 permalink : /projects/uvasc-capture
 project_thumbnail : /assets/images/projets-thumbnails/uvasc_app_thumb.png
@@ -10,5 +12,5 @@ project_fg : #FFFFFF
 layout : project
 isInteraction : true
 isMotion : false
-promoted : false
+promoted : true
 ---

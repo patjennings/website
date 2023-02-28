@@ -1,6 +1,8 @@
 ---
 client : Mooltitunes
 title : Mooltitunes
+lang : fr
+ref : mooltitunes
 release : 2013
 permalink : /projects/mooltitunes
 project_thumbnail : /assets/images/projets-thumbnails/mooltitunes_thumb.png

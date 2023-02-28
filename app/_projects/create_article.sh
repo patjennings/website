@@ -4,7 +4,8 @@ len=$(echo $json | jq length)
 for i in $( seq 0 $(($len - 1)) ); do
     client=$(echo $json | jq -r .[$i].client)
     title=$(echo $json | jq -r .[$i].title)
-    titleraw=$(echo $json | jq -r .[$i].title_raw)
+    lang=$(echo $json | jq -r .[$i].lang)
+    ref=$(echo $json | jq -r .[$i].ref)
     release=$(echo $json | jq -r .[$i].release)
     permalink=$(echo $json | jq -r .[$i].permalink)
     project_thumbnail=$(echo $json | jq -r .[$i].project_thumbnail)
@@ -16,12 +17,14 @@ for i in $( seq 0 $(($len - 1)) ); do
     isMotion=$(echo $json | jq -r .[$i].isMotion)
     promoted=$(echo $json | jq -r .[$i].promoted)
 
-    file="${project_weight}_${titleraw}.md" 
+    file="${project_weight}_${ref}.md" 
 
     touch $file
     echo "---" >> $file
     echo "client : ${client}" >> $file
     echo "title : ${title}" >> $file
+    echo "lang : ${lang}" >> $file
+    echo "ref : ${ref}" >> $file
     echo "release : ${release}" >> $file
     echo "permalink : ${permalink}" >> $file
     echo "project_thumbnail : ${project_thumbnail}" >> $file

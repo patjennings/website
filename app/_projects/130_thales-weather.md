@@ -1,6 +1,8 @@
 ---
 client : Thales
 title : Weather
+lang : fr
+ref : thales-weather
 release : 2015
 permalink : /projects/thales-weather
 project_thumbnail : /assets/images/projets-thumbnails/thales_meteo_thumb.png

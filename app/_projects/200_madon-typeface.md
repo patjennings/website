@@ -1,6 +1,8 @@
 ---
 client : Perso
 title : Madon
+lang : fr
+ref : madon-typeface
 release : 2013
 permalink : /projects/madon-typeface
 project_thumbnail : /assets/images/projets-thumbnails/madon_font_thumb.png

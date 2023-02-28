@@ -1,6 +1,8 @@
 ---
 client : Scality
 title : Interfaces de supervision de volumes de stockage
+lang : fr
+ref : scality
 release : 2019
 permalink : /projects/scality
 project_thumbnail : /assets/images/projets-thumbnails/scality_thumb.png

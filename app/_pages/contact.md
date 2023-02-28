@@ -2,6 +2,8 @@
 layout: page
 title: Contactez-moi
 permalink: /contact
+lang: fr
+ref: contact
 ---
 
 Thomas Guesnon<br/>

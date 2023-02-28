@@ -1,6 +1,8 @@
 ---
 client : Renault
 title : Ez-Go
+lang : fr
+ref : renault-ezgo
 release : 2018
 permalink : /projects/renault-ezgo
 project_thumbnail : /assets/images/projets-thumbnails/renault_ezgo_thumb.png

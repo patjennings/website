@@ -1,6 +1,8 @@
 ---
 client : Thales
 title : Proteus - interface de pilotage
+lang : fr
+ref : thales-proteus
 release : 2013
 permalink : /projects/thales-proteus
 project_thumbnail : /assets/images/projets-thumbnails/proteus_thumb.png

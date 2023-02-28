@@ -1,6 +1,8 @@
 ---
 client : Perso
 title : Réseau neuronal
+lang : fr
+ref : network
 release : 2022
 permalink : /projects/network
 project_thumbnail : /assets/images/projets-thumbnails/pasteur_3d_thumb.png

@@ -1,6 +1,8 @@
 ---
 client : Thales
 title : AOC
+lang : fr
+ref : thales-aoc
 release : 2015
 permalink : /projects/thales-aoc
 project_thumbnail : /assets/images/projets-thumbnails/thales_aoc_thumb.png

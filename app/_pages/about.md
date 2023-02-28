@@ -2,6 +2,8 @@
 layout: page
 title: Bonjour 
 permalink: /about
+lang: fr
+ref: about
 ---
 
 **Je m'appelle Thomas Guesnon, et je suis designer. Mon travail consiste à résoudre des problèmes visuels, ergonomiques et fonctionnels sur des interfaces utilisateur, afin d'aider un utilisateur à se servir d'un produit et à y trouver confort et efficacité.**

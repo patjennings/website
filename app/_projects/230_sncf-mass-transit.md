@@ -1,6 +1,8 @@
 ---
 client : SNCF
 title : Mass Transit
+lang : fr
+ref : sncf-mass-transit
 release : 2017
 permalink : /projects/sncf-mass-transit
 project_thumbnail : /assets/images/projets-thumbnails/renault_autonomous_thumb.png

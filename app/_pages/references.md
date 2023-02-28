@@ -2,6 +2,8 @@
 layout: references
 title: Références
 permalink: /references
+lang: fr
+ref: references
 ---
 
 | Année     | Client                                              | Projet et nature de la participation                                                                                                                                                                                                          | Expertise                                                                |

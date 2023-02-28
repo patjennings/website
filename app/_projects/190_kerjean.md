@@ -1,6 +1,8 @@
 ---
 client : Hyptique
 title : Kerjean
+lang : fr
+ref : kerjean
 release : 2010
 permalink : /projects/kerjean
 project_thumbnail : /assets/images/projets-thumbnails/kerjean_thumb.png

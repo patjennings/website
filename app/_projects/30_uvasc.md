@@ -1,6 +1,8 @@
 ---
 client : Uvasc
 title : Web app
+lang : fr
+ref : uvasc
 release : 2020
 permalink : /projects/uvasc
 project_thumbnail : /assets/images/projets-thumbnails/uvasc_thumb.png

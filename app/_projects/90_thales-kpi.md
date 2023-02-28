@@ -1,6 +1,8 @@
 ---
 client : Thales
 title : KPI
+lang : fr
+ref : thales-kpi
 release : 2016
 permalink : /projects/thales-kpi
 project_thumbnail : /assets/images/projets-thumbnails/thales_kpi_thumb.png

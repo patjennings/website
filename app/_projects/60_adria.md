@@ -1,6 +1,8 @@
 ---
 client : Adria
 title : Icones d'application
+lang : fr
+ref : adria
 release : 2020
 permalink : /projects/adria
 project_thumbnail : /assets/images/projets-thumbnails/adria_thumb.png

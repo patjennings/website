@@ -1,6 +1,8 @@
 ---
 client : Rstlet
 title : Studio
+lang : fr
+ref : restlet-studio
 release : 2013
 permalink : /projects/restlet-studio
 project_thumbnail : /assets/images/projets-thumbnails/restlet_studio_thumb.png

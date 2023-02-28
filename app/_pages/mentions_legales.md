@@ -2,6 +2,8 @@
 layout: page
 title: Mentions légales
 permalink: /legal
+lang: fr
+ref: legal
 ---
 
 ## Le site internet

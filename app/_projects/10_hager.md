@@ -1,6 +1,8 @@
 ---
 client : Hager
 title : Animations d'explication
+lang : fr
+ref : hager
 release : 2021
 permalink : /projects/hager
 project_thumbnail : /assets/images/projets-thumbnails/hager_thumb.png

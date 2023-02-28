@@ -1,6 +1,8 @@
 ---
 client : SNCF
 title : Cabin
+lang : fr
+ref : sncf-cabin
 release : 2022
 permalink : /projects/sncf-cabin
 project_thumbnail : /assets/images/projets-thumbnails/sncf_future_thumb.png
