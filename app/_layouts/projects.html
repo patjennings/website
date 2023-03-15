@@ -2,9 +2,10 @@
 layout: default
 ---
 
+{% assign projects=site.projects | where:"lang", page.lang %}
 <div id="mosaique">
   <ul>
-    {% for p in site.projects %}
+    {% for p in projects %}
     <li class="mosaic-item {{p.fields | split: ','}}">
       <a href="{{p.permalink | relative}}" style="background-image: url({{p.project_thumbnail}});"><div class="card">	      
 	  <div class="card--content">
