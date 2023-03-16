@@ -38,6 +38,20 @@
                     <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
                 </li>
                 {% endfor %}
+
+                {% assign articles=site.articles | where:"ref", page.ref | sort: 'lang' %}
+                {% for article in articles %}
+                <li>
+                    <a href="{{ article.url }}" class="{{ article.lang }}">{{ article.lang }}</a>
+                </li>
+                {% endfor %}
+
+                {% assign docs=site.docs | where:"ref", page.ref | sort: 'lang' %}
+                {% for doc in docs %}
+                <li>
+                    <a href="{{ doc.url }}" class="{{ doc.lang }}">{{ doc.lang }}</a>
+                </li>
+                {% endfor %}
             </ul>
         </div>
         
