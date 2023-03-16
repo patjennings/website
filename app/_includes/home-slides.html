@@ -17,13 +17,22 @@
   </div>
   <div class="overlay"></div>
   <div class="intro--content">
-    <a href="{{site.url}}/projets" id="intro-presentation">
+    <a href="{{site.url}}/{{ page.lang }}/work" id="intro-presentation">
       <div class="sentence" id="sentence-desktop">
-	<p class="strong">Thomas&nbsp;Guesnon&nbsp;est&nbsp;designer.</p>
-	<p>Il&nbsp;conçoit&nbsp;des&nbsp;applications</p>
-	<p>et&nbsp;des&nbsp;animations.</p>
-	<p>Il&nbsp;s'occupe&nbsp;d'interaction,&nbsp;de&nbsp;mouvement</p>
-	<p>et&nbsp;d'expérience&nbsp;utilisateur.</p>
+
+          {% if page.lang == "fr" %}
+	        <p class="strong">Thomas&nbsp;Guesnon&nbsp;est&nbsp;designer.</p>
+	        <p>Il&nbsp;conçoit&nbsp;des&nbsp;applications</p>
+	        <p>et&nbsp;des&nbsp;animations.</p>
+	        <p>Il&nbsp;s'occupe&nbsp;d'interaction,&nbsp;de&nbsp;mouvement</p>
+	        <p>et&nbsp;d'expérience&nbsp;utilisateur.</p>
+          {% elsif page.lang == "en" %}
+	        <p class="strong">Thomas&nbsp;Guesnon&nbsp;is&nbsp;designer.</p>
+	        <p>He&nbsp;designs&nbsp;applications</p>
+          <p>and&nbsp;animations</p>
+	        <p>He's&nbsp;focused&nbsp;on&nbsp;interactions,&nbsp;motion</p>
+          <p>and&nbsp;user&nbsp;experience</p>
+          {% endif %}
       </div>
 
       <div class="sentence" id="sentence-mobile">

@@ -4,7 +4,7 @@ title : Capture
 lang : fr
 ref : uvasc-capture
 release : 2020
-permalink : /projects/uvasc-capture
+permalink : /fr/projects/uvasc-capture
 project_thumbnail : /assets/images/projets-thumbnails/uvasc_app_thumb.png
 project_weight : 50
 project_bg : #222222

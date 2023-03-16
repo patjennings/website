@@ -4,7 +4,7 @@ title : Réseau neuronal
 lang : fr
 ref : network
 release : 2022
-permalink : /projects/network
+permalink : /fr/projects/network
 project_thumbnail : /assets/images/projets-thumbnails/pasteur_3d_thumb.png
 project_weight : 210
 project_bg : #222222

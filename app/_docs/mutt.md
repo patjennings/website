@@ -4,6 +4,8 @@ layout: article
 author: Thomas
 tags: mutt email
 excerpt_separator: <!--more-->
+ref : mutt_config
+lang: fr
 ---
 * table of contents
 {:toc}

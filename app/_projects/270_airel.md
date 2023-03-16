@@ -4,7 +4,7 @@ title : Interface Glosair
 lang : fr
 ref : airel
 release : 2016
-permalink : /projects/airel
+permalink : /fr/projects/airel
 project_thumbnail : /assets/images/projets-thumbnails/airel_thumb.png
 project_weight : 270
 project_bg : #222222

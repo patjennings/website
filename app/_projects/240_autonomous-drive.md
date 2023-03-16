@@ -4,7 +4,7 @@ title : Autonomous drive
 lang : fr
 ref : autonomous-drive
 release : 2015
-permalink : /projects/autonomous-drive
+permalink : /fr/projects/autonomous-drive
 project_thumbnail : /assets/images/projets-thumbnails/sncf_mass_transit_thumb.png
 project_weight : 240
 project_bg : #222222

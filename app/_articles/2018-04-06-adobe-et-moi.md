@@ -6,6 +6,8 @@ categories: article
 cover:
 excerpt_separator: <!--more-->
 author: Thomas
+ref: adobe_moi
+lang: fr
 ---
 J'ai un problème avec Adobe. En fait, j'ai un problème avec les outils qui veulent nous empêcher de penser aux outils en nous disant qu'ils sont la réponse ultime, indépassable, à cette question. J'ai donc aussi un problème avec ces nouveaux outils aux prétentions hégémoniques ― Sketch, InVision, et tout le bazar<!--more-->. Mais j'ai surtout un problème avec cette idée qu'un outil est le marqueur d'une pratique. L'outil est au service du designer, tout le monde le répète à l'envi, la main sur le coeur, mais ce mantra ne traduit pas ce qui se passe effectivement dans une pratique commune de designer. Sous l'effet d'une demande accrue de matière graphique, de productivité, de choses à donner à voir, de propositions en quatre pistes pour que le client ait le choix, l'outil prend le dessus et, associé à la course au temps, impose son joug au designer. Il impose ses voies, modèle la pensée, inocule des réflexes standardisés, conditionne même son discours.
 

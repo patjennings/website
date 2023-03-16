@@ -2,7 +2,7 @@
 layout: project
 title: Pajeweic
 release-date: 2019
-permalink: /pajeweic
+permalink: /fr/pajeweic
 excerpt_separator: <!--more-->
 lang: fr
 ref: pajeweic

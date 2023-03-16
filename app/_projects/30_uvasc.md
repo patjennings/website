@@ -4,7 +4,7 @@ title : Web app
 lang : fr
 ref : uvasc
 release : 2020
-permalink : /projects/uvasc
+permalink : /fr/projects/uvasc
 project_thumbnail : /assets/images/projets-thumbnails/uvasc_thumb.png
 project_weight : 30
 project_bg : #222222

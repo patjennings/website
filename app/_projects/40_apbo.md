@@ -4,7 +4,7 @@ title : Outil de suivi de production laitière
 lang : fr
 ref : apbo
 release : 2021
-permalink : /projects/apbo
+permalink : /fr/projects/apbo
 project_thumbnail : /assets/images/projets-thumbnails/apbo_thumb.png
 project_weight : 40
 project_bg : #222222

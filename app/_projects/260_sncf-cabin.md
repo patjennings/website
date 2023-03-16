@@ -4,7 +4,7 @@ title : Cabin
 lang : fr
 ref : sncf-cabin
 release : 2022
-permalink : /projects/sncf-cabin
+permalink : /fr/projects/sncf-cabin
 project_thumbnail : /assets/images/projets-thumbnails/sncf_future_thumb.png
 project_weight : 260
 project_bg : #222222

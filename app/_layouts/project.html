@@ -2,48 +2,50 @@
 layout: default
 ---
 <article class="project h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="container page-header" aria-label="Header">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2">
-        <header>
-          <h1 class="page-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-	  <p class="page-meta">
-            {{ page.client }}
+    <div class="container page-header" aria-label="Header">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <header>
+                    <h1 class="page-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+	                  <p class="page-meta">
+                        {{ page.client }}
 
-          </p>
-        </header>
-      </div>
-    </div>
-  </div>
-
-  <div class="container page-content" aria-label="Content">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2">
-        <div class="e-content" itemprop="articleBody">
-          {{ content }}
+                    </p>
+                </header>
+            </div>
         </div>
-	<div class="back-work">
-	  <a type="button" class="btn btn-outline-primary" href="/projets"><i class="ico ico-medium">grid</i>Retour aux projets</a>
-	</div>
-        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-      </div>
     </div>
-  </div>
-  <div class="post-nav">
-    <div class="post-nav-item post-nav--prev">
-      {% if page.previous %}
-      <div class="post-nav-item--inner">
-	<a href="{{page.previous.url}}"><i class="ico ico-medium">arrowleft</i><br/>{{page.previous.title}}</a>
-      </div>
-      {% endif %}
-    </div>
-    <div class="post-nav-item post-nav--next">
-      {% if page.next %}
-      <div class="post-nav-item--inner">
-	<a href="{{page.next.url}}"><i class="ico ico-medium">arrowright</i><br/>{{page.next.title}}</a>
-      </div>
-      {% endif %}
-    </div>
-  </div>
 
+    <div class="container page-content" aria-label="Content">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="e-content" itemprop="articleBody">
+                    {{ content }}
+                </div>
+	              <div class="back-work">
+	                  <a type="button" class="btn btn-outline-primary" href="{{ site.url}}/{{ page.lang }}/work"><i class="ico ico-medium">grid</i>Retour aux projets</a>
+	              </div>
+                <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+            </div>
+        </div>
+    </div>
+
+<!--
+    <div class="post-nav">
+        <div class="post-nav-item post-nav--prev">
+            {% if page.previous %}
+            <div class="post-nav-item--inner">
+	              <a href="{{page.previous.url}}"><i class="ico ico-medium">arrowleft</i><br/>{{page.previous.title}}</a>
+            </div>
+            {% endif %}
+        </div>
+        <div class="post-nav-item post-nav--next">
+            {% if page.next %}
+            <div class="post-nav-item--inner">
+	              <a href="{{page.next.url}}"><i class="ico ico-medium">arrowright</i><br/>{{page.next.title}}</a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+-->
 </article>

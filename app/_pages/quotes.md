@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "''"
-permalink: /quotes
+permalink: /fr/quotes
 lang: fr
 ref: quotes
 ---

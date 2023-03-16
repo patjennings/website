@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Ressources techniques
-permalink: /docs
+permalink: /fr/docs
 lang: fr
 ref: docs
 ---

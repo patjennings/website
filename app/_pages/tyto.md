@@ -2,7 +2,7 @@
 layout: project
 title: Tyto
 release-date: 2019
-permalink: /tyto
+permalink: /fr/tyto
 excerpt_separator: <!--more-->
 lang: fr
 ref: tyto

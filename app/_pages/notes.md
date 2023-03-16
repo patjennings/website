@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Notes
-permalink: /notes
+permalink: /fr/notes
 lang: fr
 ref: notes
 ---

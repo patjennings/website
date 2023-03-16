@@ -4,7 +4,7 @@ title : Ez-Pro
 lang : fr
 ref : renault-ez-pro
 release : 2018
-permalink : /projects/renault-ez-pro
+permalink : /fr/projects/renault-ez-pro
 project_thumbnail : /assets/images/projets-thumbnails/renault_ezpro_thumb.png
 project_weight : 220
 project_bg : #222222

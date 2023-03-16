@@ -4,7 +4,7 @@ title : Vidéo
 lang : fr
 ref : cobuy-motion
 release : 2021
-permalink : /projects/cobuy-motion
+permalink : /fr/projects/cobuy-motion
 project_thumbnail : /assets/images/projets-thumbnails/cobuy_video_thumb.png
 project_weight : 110
 project_bg : #222222

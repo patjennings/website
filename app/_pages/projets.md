@@ -1,7 +1,8 @@
 ---
 layout: projects
-title: thomas guesnon
-permalink: /projets
+title: Projets
+permalink: /fr/work
 lang: fr
 ref: projets
 ---
+    

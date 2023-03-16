@@ -4,6 +4,8 @@ layout: article
 author: Thomas
 tags: arduino musique electronique
 excerpt_separator: <!--more-->
+ref : robobatteur
+lang: fr
 ---
 * table of contents
 {:toc}

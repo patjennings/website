@@ -6,6 +6,8 @@ categories: article
 excerpt_separator: <!--more-->
 author: Thomas
 cover: spectacle.gif
+ref: pratique_formation
+lang: fr
 ---
 Ce matin, je tombe, sur Instagram, sur une citation de Carolina de Bartolo, sur le fil de Eye Magazine. 
 > Chaque extension produit une sorte d'amputation. J'imagine que la question devient alors : l'extension vaut-elle l'amputation ?<!--more-->

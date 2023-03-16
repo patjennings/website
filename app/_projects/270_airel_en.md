@@ -1,0 +1,16 @@
+---
+client : Airel
+title : Interface Glosair
+lang : en
+ref : airel
+release : 2016
+permalink : /en/projects/airel
+project_thumbnail : /assets/images/projets-thumbnails/airel_thumb.png
+project_weight : 270
+project_bg : #222222
+project_fg : #FFFFFF
+layout : project
+isInteraction : true
+isMotion : true
+promoted : false
+---

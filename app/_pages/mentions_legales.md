@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mentions légales
-permalink: /legal
+permalink: /fr/legal
 lang: fr
 ref: legal
 ---

@@ -1,50 +1,57 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "fr" }}">
+<html lang="{{ page.lang }}">
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body class="layout-{{ page.layout }} {{page.layout}}-{{page.layout_type}} is-loading">
-    <div id="site-menu-trigger">
-      <div id="mn-bar-1" class="hamburger"></div>
-      <div id="mn-bar-2" class="hamburger"></div>
-      <div id="mn-bar-3" class="hamburger"></div>
+    <body class="layout-{{ page.layout }} {{page.layout}}-{{page.layout_type}} is-loading {{page.lang}}">
+        <div id="site-menu-trigger">
+            <div id="mn-bar-1" class="hamburger"></div>
+            <div id="mn-bar-2" class="hamburger"></div>
+            <div id="mn-bar-3" class="hamburger"></div>
 
-      <!-- les rollovers -->
-      <div id="mn-bar-4" class="cross"></div>
-      <div id="mn-bar-5" class="cross"></div>
-    </div>
+            <!-- les rollovers -->
+            <div id="mn-bar-4" class="cross"></div>
+            <div id="mn-bar-5" class="cross"></div>
+        </div>
 
-    <!-- temporaire -->
-    <div class="lang-selector">
-        <ul>
-            {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-            {% for post in posts %}
-            <li>
-                <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-            </li>
-            {% endfor %}
+        <div class="lang-selector">
+            <ul>
+                {% assign projects=site.projects | where:"ref", page.ref | sort: 'lang' %}
+                {% for project in projects %}
+                <li>
+                    <a href="{{ project.url }}" class="{{ project.lang }}">{{ project.lang }}</a>
+                </li>
+                {% endfor %}
 
-            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-            {% for page in pages %}
-            <li>
-                <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-    <!-- temporaire -->
-    
-    <a id="logo" href="{{site.url}}">
-      <div></div>
-      <div></div>
-    </a>
-    <div id="site-menu">
-      {% include menu.html %}
-    </div>
+                {% if page.layout == 'home' %}
+                <li>
+                    <a href="{{ site.url }}/fr" class="fr">fr</a>
+                </li>
+                <li>
+                    <a href="{{ site.url }}/en" class="en">en</a>
+                </li>
+                {% endif %}
 
-    {{ content }}
-    
-    {% include loader.html %}
-    {% include overlay.html %}
-  </body>
+                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                {% for page in pages %}
+                <li>
+                    <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <a id="logo" href="{{site.url}}/{{page.lang}}">
+            <div></div>
+            <div></div>
+        </a>
+        <div id="site-menu">
+            {% include menu.html %}
+        </div>
+
+        {{ content }}
+        
+        {% include loader.html %}
+        {% include overlay.html %}
+    </body>
 </html>

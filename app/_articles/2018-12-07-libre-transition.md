@@ -6,6 +6,8 @@ categories: article
 cover: 
 author: Thomas
 excerpt_separator: <!--more-->
+ref: libre_transition
+lang: fr
 ---
 Cet article constitue une introduction sur un changement que je suis en train d'opérer dans mon outillage informatique,<!--more--> dans le cadre d'une pratique de designer. Je m'intéresse depuis plusieurs années, et de façon croissante, à l'environnement Linux, en me demandant si oui ou non cet environnement pourrait constituer un environnement de travail complet, qu'il soit professionnel (design, développement) ou personnel (musique principalement).
 

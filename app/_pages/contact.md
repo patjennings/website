@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contactez-moi
-permalink: /contact
+permalink: /fr/contact
 lang: fr
 ref: contact
 ---

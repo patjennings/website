@@ -4,7 +4,7 @@ title : Proteus - interface de pilotage
 lang : fr
 ref : thales-proteus
 release : 2013
-permalink : /projects/thales-proteus
+permalink : /fr/projects/thales-proteus
 project_thumbnail : /assets/images/projets-thumbnails/proteus_thumb.png
 project_weight : 70
 project_bg : #222222
