@@ -16,7 +16,7 @@
 
         <div class="lang-selector">
             <ul>
-                {% assign projects=site.projects | where:"ref", page.ref | sort: 'lang' %}
+                {% assign projects=site.projects | where:"ref", page.ref | sort: 'lang' | reverse %}
                 {% for project in projects %}
                 <li>
                     <a href="{{ project.url }}" class="{{ project.lang }}">{{ project.lang }}</a>
@@ -32,21 +32,21 @@
                 </li>
                 {% endif %}
 
-                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' | reverse %}
                 {% for page in pages %}
                 <li>
                     <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
                 </li>
                 {% endfor %}
 
-                {% assign articles=site.articles | where:"ref", page.ref | sort: 'lang' %}
+                {% assign articles=site.articles | where:"ref", page.ref | sort: 'lang' | reverse %}
                 {% for article in articles %}
                 <li>
                     <a href="{{ article.url }}" class="{{ article.lang }}">{{ article.lang }}</a>
                 </li>
                 {% endfor %}
 
-                {% assign docs=site.docs | where:"ref", page.ref | sort: 'lang' %}
+                {% assign docs=site.docs | where:"ref", page.ref | sort: 'lang' | reverse %}
                 {% for doc in docs %}
                 <li>
                     <a href="{{ doc.url }}" class="{{ doc.lang }}">{{ doc.lang }}</a>

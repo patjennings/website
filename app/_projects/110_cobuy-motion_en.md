@@ -12,5 +12,6 @@ project_fg : #FFFFFF
 layout : project
 isInteraction : false
 isMotion : true
+layout_type: "light"
 promoted : false
 ---
