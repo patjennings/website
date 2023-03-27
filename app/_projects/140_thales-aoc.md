@@ -5,7 +5,7 @@ lang : fr
 ref : thales-aoc
 release : 2015
 permalink : /fr/projects/thales-aoc
-project_thumbnail : /assets/images/projets-thumbnails/thales_aoc_thumb.png
+project_thumbnail : /assets/images/projets-thumbnails/thales_aoc_thumb.webp
 project_weight : 140
 project_bg : #222222
 project_fg : #FFFFFF

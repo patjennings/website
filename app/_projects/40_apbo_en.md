@@ -5,7 +5,7 @@ lang : en
 ref : apbo
 release : 2021
 permalink : /en/projects/apbo
-project_thumbnail : /assets/images/projets-thumbnails/apbo_thumb.png
+project_thumbnail : /assets/images/projets-thumbnails/apbo_thumb.webp
 project_weight : 40
 project_bg : #222222
 project_fg : #FFFFFF

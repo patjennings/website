@@ -5,7 +5,7 @@ lang : fr
 ref : thales-weather
 release : 2015
 permalink : /fr/projects/thales-weather
-project_thumbnail : /assets/images/projets-thumbnails/thales_meteo_thumb.png
+project_thumbnail : /assets/images/projets-thumbnails/thales_meteo_thumb.webp
 project_weight : 130
 project_bg : #222222
 project_fg : #FFFFFF

@@ -5,7 +5,7 @@ lang : en
 ref : renault-ezgo
 release : 2018
 permalink : /en/projects/renault-ezgo
-project_thumbnail : /assets/images/projets-thumbnails/renault_ezgo_thumb.png
+project_thumbnail : /assets/images/projets-thumbnails/renault_ezgo_thumb.webp
 project_weight : 100
 project_bg : #222222
 project_fg : #FFFFFF

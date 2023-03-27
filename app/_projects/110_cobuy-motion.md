@@ -5,7 +5,7 @@ lang : fr
 ref : cobuy-motion
 release : 2021
 permalink : /fr/projects/cobuy-motion
-project_thumbnail : /assets/images/projets-thumbnails/cobuy_video_thumb.png
+project_thumbnail : /assets/images/projets-thumbnails/cobuy_video_thumb.webp
 project_weight : 110
 project_bg : #222222
 project_fg : #FFFFFF

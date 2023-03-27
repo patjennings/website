@@ -6,7 +6,7 @@ lang: en
 ref: about
 ---
 
-**My name is Thomas Guesnon, i'm a designer. My work is about solving visual, ergonomic and functional problems. It helps people using products by giving them comfort and efficiency.**
+**My name is Thomas Guesnon, i'm a designer. My work is about solving visual, ergonomic and functional problems on digital applications. It helps people using products by giving them comfort and efficiency.**
 
 I use my skills to design web or native applications, create prototypes or video animations, organize information and document design process. I help stakeholders defining a vision for their digital application.
 

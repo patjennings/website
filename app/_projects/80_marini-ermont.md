@@ -5,7 +5,7 @@ lang : fr
 ref : marini-ermont
 release : 2022
 permalink : /fr/projects/marini-ermont
-project_thumbnail : /assets/images/projets-thumbnails/marini_thumb.png
+project_thumbnail : /assets/images/projets-thumbnails/marini_thumb.webp
 project_weight : 80
 project_bg : #222222
 project_fg : #FFFFFF

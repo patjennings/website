@@ -5,7 +5,7 @@ lang : fr
 ref : sncf-mass-transit
 release : 2017
 permalink : /fr/projects/sncf-mass-transit
-project_thumbnail : /assets/images/projets-thumbnails/renault_autonomous_thumb.png
+project_thumbnail : /assets/images/projets-thumbnails/renault_autonomous_thumb.webp
 project_weight : 230
 project_bg : #222222
 project_fg : #FFFFFF

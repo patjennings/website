@@ -5,7 +5,7 @@ lang : fr
 ref : mairie-paris
 release : 2014
 permalink : /fr/projects/mairie-paris
-project_thumbnail : /assets/images/projets-thumbnails/mdp_thumb.png
+project_thumbnail : /assets/images/projets-thumbnails/mdp_thumb.webp
 project_weight : 0
 project_bg : #222222
 project_fg : #FFFFFF

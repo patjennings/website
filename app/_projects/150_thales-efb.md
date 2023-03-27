@@ -5,7 +5,7 @@ lang : fr
 ref : thales-efb
 release : 2014
 permalink : /fr/projects/thales-efb
-project_thumbnail : /assets/images/projets-thumbnails/thales_efb_thumb.png
+project_thumbnail : /assets/images/projets-thumbnails/thales_efb_thumb.webp
 project_weight : 150
 project_bg : #222222
 project_fg : #FFFFFF

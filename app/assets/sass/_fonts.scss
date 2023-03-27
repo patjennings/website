@@ -4,12 +4,8 @@
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    src: url('fonts/NittiBasic-Normal.eot');
-    src: url('fonts/NittiBasic-Normal.eot?#iefix') format('embedded-opentype'),
-         url('fonts/NittiBasic-Normal.woff') format('woff'),
-         url('fonts/NittiBasic-Normal.woff2') format('woff2'),
-         url('fonts/NittiBasic-Normal.ttf') format('truetype'),
-         url('fonts/NittiBasic-Normal.svg#NittiBasic-Normal') format('svg');
+    src: url('fonts/NittiBasic-Normal.woff2') format('woff2'),
+         url('fonts/NittiBasic-Normal.woff') format('woff');
     // unicode-range: U+0021-007e;
     font-display: swap;
 }
@@ -18,12 +14,8 @@
     font-style: normal;
     font-weight: 700;
     font-display: auto;
-    src: url('fonts/Nitti-Bold.eot');
-    src: url('fonts/Nitti-Bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Nitti-Bold.woff') format('woff'),
-         url('fonts/Nitti-Bold.woff2') format('woff2'),
-         url('fonts/Nitti-Bold.ttf') format('truetype'),
-         url('fonts/Nitti-Bold.svg#Nitti-Bold') format('svg');
+    src: url('fonts/Nitti-Bold.woff2') format('woff2'),
+         url('fonts/Nitti-Bold.woff') format('woff');
     // unicode-range: U+0021-007e;
     font-display: swap;
 }
@@ -35,23 +27,9 @@
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    // src: url('fonts/Circular_Air-Book.eot');
     src: 
-         url('fonts/signifier-web-regular.woff') format('woff'),
          url('fonts/signifier-web-regular.woff2') format('woff2'),
-         url('fonts/signifier-web-regular.ttf') format('truetype');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Signifier';
-    font-style: normal;
-    font-weight: 700;
-    font-display: auto;
-    // src: url('fonts/Circular_Air-Book.eot');
-    src: 
-         url('fonts/signifier-web-bold.woff') format('woff'),
-         url('fonts/signifier-web-bold.woff2') format('woff2'),
-         url('fonts/signifier-web-bold.ttf') format('truetype');
+         url('fonts/signifier-web-regular.woff') format('woff');
     font-display: swap;
 }
 @font-face {
@@ -60,10 +38,8 @@
     font-weight: 400;
     font-display: auto;
     // src: url('fonts/Circular_Air-Book.eot');
-    src: url('fonts/signifier-web-regular-italic.eot?#iefix') format('embedded-opentype'),
-         url('fonts/signifier-web-regular-italic.woff') format('woff'),
-         url('fonts/signifier-web-regular-italic.woff2') format('woff2'),
-         url('fonts/signifier-web-regular-italic.ttf') format('truetype');
+    src: url('fonts/signifier-web-regular-italic.woff2') format('woff2'),
+         url('fonts/signifier-web-regular-italic.woff') format('woff');
     font-display: swap;
 }
 @font-face {
@@ -71,10 +47,8 @@
     font-style: italic;
     font-weight: 700;
     font-display: auto;
-    src: url('fonts/signifier-web-bold-italic.eot?#iefix') format('embedded-opentype'),
-         url('fonts/signifier-web-bold-italic.woff') format('woff'),
-         url('fonts/signifier-web-bold-italic.woff2') format('woff2'),
-         url('fonts/signifier-web-bold-italic.ttf') format('truetype');
+    src: url('fonts/signifier-web-bold-italic.woff2') format('woff2'),
+         url('fonts/signifier-web-bold-italic.woff') format('woff');
     font-display: swap;
 }
 @font-face {
@@ -82,11 +56,8 @@
     font-style: normal;
     font-weight: 900;
     font-display: auto;
-    // src: url('fonts/Circular_Air-Book.eot');
-    src: url('fonts/signifier-web-black.eot?#iefix') format('embedded-opentype'),
-         url('fonts/signifier-web-black.woff') format('woff'),
-         url('fonts/signifier-web-black.woff2') format('woff2'),
-         url('fonts/signifier-web-black.ttf') format('truetype');
+    src:     url('fonts/signifier-web-black.woff2') format('woff2'),
+         url('fonts/signifier-web-black.woff') format('woff');
     font-display: swap;
 }
 
@@ -96,10 +67,8 @@
     font-weight: 900;
     font-display: auto;
     // src: url('fonts/Circular_Air-Book.eot');
-    src: url('fonts/signifier-web-black-italic.eot?#iefix') format('embedded-opentype'),
-         url('fonts/signifier-web-black-italic.woff') format('woff'),
-         url('fonts/signifier-web-black-italic.woff2') format('woff2'),
-         url('fonts/signifier-web-black-italic.ttf') format('truetype');
+      src:   url('fonts/signifier-web-black-italic.woff2') format('woff2'),
+         url('fonts/signifier-web-black-italic.woff') format('woff');
     font-display: swap;
 }
 
@@ -111,19 +80,16 @@
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    // src: url('fonts/Circular_Air-Book.eot');
-    src: url('fonts/WorkSans-Regular.woff') format('woff');
-    // unicode-range: U+65-90, U+97-122;
+    src: url('fonts/WorkSans-Regular.woff2') format('woff2');
+    unicode-range: U+65-90, U+97-122;
     font-display: swap;
-							
 }
 @font-face {
     font-family: 'WorkSans';
     font-style: normal;
     font-weight: 700;
     font-display: auto;
-    // src: url('fonts/Circular_Air-Book.eot');
-    src: url('fonts/WorkSans-Bold.woff') format('woff');
-    // unicode-range: U+65-90, U+97-122;
+    src: url('fonts/WorkSans-Bold.woff2') format('woff2');
+    unicode-range: U+65-90, U+97-122;
     font-display: swap;
 }

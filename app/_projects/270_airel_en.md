@@ -5,7 +5,7 @@ lang : en
 ref : airel
 release : 2016
 permalink : /en/projects/airel
-project_thumbnail : /assets/images/projets-thumbnails/airel_thumb.png
+project_thumbnail : /assets/images/projets-thumbnails/airel_thumb.webp
 project_weight : 270
 project_bg : #222222
 project_fg : #FFFFFF

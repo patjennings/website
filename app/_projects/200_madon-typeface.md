@@ -5,7 +5,7 @@ lang : fr
 ref : madon-typeface
 release : 2013
 permalink : /fr/projects/madon-typeface
-project_thumbnail : /assets/images/projets-thumbnails/madon_font_thumb.png
+project_thumbnail : /assets/images/projets-thumbnails/madon_font_thumb.webp
 project_weight : 200
 project_bg : #222222
 project_fg : #FFFFFF
