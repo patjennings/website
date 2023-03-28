@@ -4,6 +4,8 @@ layout: article
 author: Thomas
 tags: typographie fontforge glyphs
 excerpt_separator: <!--more-->
+ref : fonforge_glyphs
+lang: fr
 ---
 * table of contents
 {:toc}

@@ -1,0 +1,39 @@
+---
+layout: article
+title: On Inkscape
+date:   2019-03-06 17:32:00 +0200
+categories: article
+cover: inkscape-melted.gif
+author: Thomas
+excerpt_separator: <!--more-->
+ref: inkscape
+lang: en
+---
+
+Depuis maintenant six mois, j'utilise Inkscape comme outil principal de conception (d'interfaces). Cet outil succède dans mon set à Illustrator et à Sketch. Passer à Inkscape m'a, comme je m'en doutais, poussé à repenser mes façons de procéder avec l'outillage logiciel<!--more-->. Ce changement va de pair avec le changement d'OS (Mac OS vers Linux Mint). Et, comme je l'expliquais dans un [autre article ](https://www.thomasguesnon.net/articles/2018/12/17/2018-12-07-libre-transition.html), l'environnement Linux/Unix pousse à adopter une vision de l'outil informatique composé d'une myriade de logiciels et de fonctions, que l'on peut combiner en fonction de notre besoin, plutôt que de deux ou trois _softs-mastodonte_ dans lequel on devrait tout trouver. 
+
+Par exemple, j'utilise pas mal ImageMagick, en ligne de commande, en conjonction avec un soft d'édition bitmap comme Gimp (que j'utilise de façon assez sommaire). Là où, dans l'environnement Adobe, j'aurais tout cherché à l'intérieur de Photoshop (édition, script d'action). Je trouve ce changement de point de vue salvateur.
+
+Dans Inkscape, ce qui est très intéressant, c'est que c'est fondamentalement un éditeur SVG. Contrairement aux deux prédecésseurs sus-mentionnés (I\*\*\*\*\*\*\*or et Sk\*\*\*h), on peut bidouiller la structure du document qu'on est en train de manipuler. C'est intéressant à plus d'un titre, et j'y ai souvent recours.
+
+On peut, par exemple, utiliser Inkscape pour ce qu'il sait bien faire (éditer des tracés, avoir des réponses visuelles immédiates ― choix d'une couleur, d'une police de caractère), puis passer à une édition directe du code XML pour procéder à des opérations d'éditions massives, comme modifier une police dans tout le document, ou remplacer toutes les occurences d'une couleur par une autre couleur. 
+
+Ensuite, si on veut avoir les mains plus libres, et faire des opérations de rechercher/remplacer, avec des expressions régulières par exemple, on préférera passer sur son éditeur préféré. On sauvegarde, et on fait `Fichier > Recharger` pour voir le résultat dans Inkscape.
+
+Inkscape et les logiciels ouverts permettent d'envisager un dépassement du flux de production classique "je-manipule-dans-le-soft-et-je-fais-un-bel-export". Il n'est qu'une partie de la boite à outils, et ne sort pas nécessairement le produit final du travail de design, le "livrable", disons. Car le format SVG, en permettant une exploitation immédiate, permet d'envisager pleins de possibilités. Exemple.
+
+### Spécification d'interface ###
+
+Le principe, que beaucoup de boites développent d'ailleurs (Zeplin, Avocode, InVision), de prendre un fichier en entrée (sketch, psd, illustrator, que-sais-je) et d'en sortir de la spec pour les développeurs, est très intéressant. Encore une fois, SVG permet directement de faire cela.
+
+Pour un projet, j'ai eu besoin de faire ça. Passer de la doc visuelle à un développeur. En plus, ledit projet ne permettait pas d'utiliser les services mentionnés, car il y avait un besoin de confidentialité important, et tout le monde est, à raison, un peu parano avec les services *"dans-le-cloud"* ― moi le premier.
+
+Alors, j'ai développé un petit outil en javascript, SVGSpecs, qui permet de prendre un svg venu d'Inkscape, et d'en extraire les specs dans une page html qu'on met où on veut. Là on trouve le [repository du projet](https://framagit.org/patjennings/svg-specifications), et là [un exemple](http://platform.thomasguesnon.net/svg-specs/).
+
+![UI dans Inkscape](/assets/images/blog/svg-inkscape-20190307.webp "UI dans Inkscape")
+<div class="small">Dans Inkscape</div>
+
+![UI dans SVGSpecs](/assets/images/blog/svg-specs-20190307.webp "UI dans SVGSpecs")
+<div class="small">Dans SVGSpecs</div>
+
+L'outil `svg-specs` est perfectible, mais il illustre, il me semble, l'idée qu'un outil ouvert tel qu'Inkscape, offre un grand potentiel d'exploitation.

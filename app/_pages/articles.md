@@ -1,5 +1,7 @@
 ---
 layout: articles
 title: Articles
-permalink: /articles
+permalink: /fr/articles
+lang: fr
+ref: articles
 ---

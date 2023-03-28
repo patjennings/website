@@ -6,6 +6,8 @@ categories: article
 cover: vue-1916_sv-verdun.gif
 author: Thomas
 excerpt_separator: <!--more-->
+ref: police_caractere
+lang: fr
 ---
 
 Quand l’on propose une solution visuelle pour une interface utilisateur, on parle souvent de couleurs, d’occupations de l’espace, de grilles<!--more-->. Le problème de la texture, ou de la non-texture, alimente également beaucoup les conversations autour de l’esprit graphique d’une interface – la fameuse question épineuse du flat design vs skeuomorphisme. Mais les échanges autour de la typographie sont en revanche extrêmement rares. Méconnaissance ou désintérêt ? Sûrement un peu des deux. Alors, le designer acquis à la cause de la typographie devrait prendre le temps d’expliquer pourquoi elle est importante.

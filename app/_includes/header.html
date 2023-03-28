@@ -1,24 +1,74 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper">
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><h1>{{ site.title | escape }}</h1></a>
-    {% if page_paths %}
-      <nav class="site-nav">
+    <!-- for mobile -->
+    <div id="site-menu--mobile-trigger">
+        <div id="mn-bar-1" class="hamburger"></div>
+        <div id="mn-bar-2" class="hamburger"></div>
+        <div id="mn-bar-3" class="hamburger"></div>
 
-            <ul>
-            {% for path in page_paths %}
-              {% assign my_page = site.pages | where: "path", path | first %}
-              {% if my_page.title %}
-              <li>
-                  <a class="nav-link active" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-              </li>
-              {% endif %}
+        <!-- les rollovers -->
+        <div id="mn-bar-4" class="cross"></div>
+        <div id="mn-bar-5" class="cross"></div>
+    </div>
+    <!-- end for mobile -->
+
+    <div class="lang-selector">
+        <ul>
+            {% assign projects=site.projects | where:"ref", page.ref | sort: 'lang' | reverse %}
+            {% for project in projects %}
+            <li>
+                <a href="{{ project.url }}" class="{{ project.lang }}">{{ project.lang }}</a>
+            </li>
             {% endfor %}
-            </ul>
 
-      </nav>
-    {% endif %}
-  </div>
+            {% if page.layout == 'home' %}
+            <li>
+                <a href="{{ site.url }}/fr" class="fr">fr</a>
+            </li>
+            <li>
+                <a href="{{ site.url }}/en" class="en">en</a>
+            </li>
+            {% endif %}
+
+            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' | reverse %}
+            {% for page in pages %}
+            <li>
+                <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+            </li>
+            {% endfor %}
+
+            {% assign articles=site.articles | where:"ref", page.ref | sort: 'lang' | reverse %}
+            {% for article in articles %}
+            <li>
+                <a href="{{ article.url }}" class="{{ article.lang }}">{{ article.lang }}</a>
+            </li>
+            {% endfor %}
+
+            {% assign docs=site.docs | where:"ref", page.ref | sort: 'lang' | reverse %}
+            {% for doc in docs %}
+            <li>
+                <a href="{{ doc.url }}" class="{{ doc.lang }}">{{ doc.lang }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <a id="logo" href="{{site.url}}/{{page.lang}}">
+        <div></div>
+        <div></div>
+    </a>
+
+    <div id="site-nav">
+        <ul class="nav--items">
+            {% for item in site.data.nav.navigation[page.lang] %}
+            {% if page.url contains item[1].url %}
+            {% assign class = 'active' %}
+            {% else %}
+            {% assign class = 'inactive' %}
+            {% endif %}
+            <li class="{{class}}"><a href="{{ item[1].url | relative_url }}">{{ item[1].name }}</a></li>
+            {% endfor %}
+        </ul>
+        <p>{{ item[1].url }}</p> 
+    </div>
 </header>

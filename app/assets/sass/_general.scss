@@ -12,7 +12,7 @@ body{
     overflow-y: scroll;
 
     &.is-loading{
-	overflow-y: hidden;
+	      overflow-y: hidden;
     }
 }
 
@@ -40,9 +40,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 900;
 }
 
-// h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
-//     font-weight: 700;
-// }
 
 h6, .h6{
     font-weight: 600;
@@ -80,19 +77,19 @@ ul{
     padding-left: 0;
     
     li{
-	line-height: 1.8rem;
-	list-style-type: none;
+	      line-height: 1.8rem;
+	      list-style-type: none;
 
-	&:before {
-	    content: "⎯"; /* on affiche une chaîne de caractère */
-	    margin-left: -21px;
-	    margin-right: 15px;
-	}
+	      &:before {
+	          content: "⎯"; /* on affiche une chaîne de caractère */
+	          margin-left: -21px;
+	          margin-right: 15px;
+	      }
     }
     
 
     ul{
-	margin-left: 1rem;
+	      margin-left: 1rem;
     }
 }
 
@@ -107,9 +104,9 @@ a{
     @include transition(all, 0.25s, ease-out);
     
     &:hover{
-	background: var(--yellow);
-	color: var(--dark);
-	border-bottom: 1px solid rgba(0,0,0,0.15)
+	      background: var(--yellow);
+	      color: var(--dark);
+	      border-bottom: 1px solid rgba(0,0,0,0.15)
     }
 }
 
@@ -129,11 +126,11 @@ a.btn, select{
     // @include border-radius(4px);
 
     &:hover{
-	background-color: var(--yellow);
-	border: 1px solid var(--yellow);
+	      background-color: var(--yellow);
+	      border: 1px solid var(--yellow);
     }
     &:focus{
-	box-shadow: 0 0 0 .2rem var(--yellow);
+	      box-shadow: 0 0 0 .2rem var(--yellow);
     }
 }
 
@@ -153,7 +150,7 @@ blockquote{
     margin: 1rem 0 2rem 0;
     padding: 1rem 1.5rem;
     p{
-	margin: 0;
+	      margin: 0;
     }
 }
 
@@ -165,23 +162,52 @@ blockquote{
 table{
     border-collapse: collapse;
     tr{
-	border-bottom: 1px solid var(--gray-lighter);
+	      border-bottom: 1px solid var(--gray-lighter);
 
-	th, td{
-	    padding: 1rem 0.5rem 1rem 0;
-	    vertical-align: top;
-	    font-size: 1rem;
-	    line-height: 1.6rem;
+	      th, td{
+	          padding: 1rem 0.5rem 1rem 0;
+	          vertical-align: top;
+	          font-size: 1rem;
+	          line-height: 1.6rem;
 
-	}
-	// td:first-child{
-	//     opacity: 0.65;
-	//     // color: blue;
-	// }
+	      }
     }
 }
 
+footer{
+    padding: 2rem 3rem;
+    background: var(--dark);
+    display: flex;
+    justify-content: space-between;
+    #ecoindex-badge{
+        a{
+            &:hover{
+                background: none;
+            }   
+        }
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        margin: 0;
+        li{
+            margin-left: 3rem;
 
+            &:before{
+                content: "";
+            }
+            a{
+                color: var(--white);
+                border-bottom: 0 !important;
+                &:hover{
+                    background: none;
+                    color: var(--yellow);
+                }
+            }
+        }
+    }
+}
 
 
 

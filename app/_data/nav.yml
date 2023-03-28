@@ -1,12 +1,42 @@
-toc:
-  - title: Navigation
-    pages:
-      - title: Projets
-        url: /projets/
-      - title: Articles
-        url: /articles/
-      - title: Notes
-        url: /notes/
-      - title: À propos	
-        url: /about/
-
+navigation:
+  fr:
+    work:
+      name: "Projets"
+      url: "/fr/work"
+    references:
+      name: "Références"
+      url: "/fr/references"
+    about:
+      name: "À propos"
+      url: "/fr/about"
+    contact:
+      name: "Contact"
+      url: "/fr/contact"
+  en:
+    work:
+      name: "Projects"
+      url: "/en/work"
+    references:
+      name: "References"
+      url: "/en/references"
+    about:
+      name: "About"
+      url: "/en/about"
+    contact:
+      name: "Contact"
+      url: "/en/contact"
+links:
+  fr:
+    client:
+      name: "Espace client"
+      url: "https://client.thomasguesnon.net"
+    legal:
+      name: "Mentions légales"
+      url: "/fr/legal"
+  en:
+    client:
+      name: "Client access"
+      url: "https://client.thomasguesnon.net"
+    legal:
+      name: "Legal notice"
+      url: "/en/legal"

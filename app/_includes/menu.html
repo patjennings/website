@@ -1,74 +1,14 @@
-<!-- <div class="header"> -->
-<!--   <i class="ico ico-large" id="menu-ico">menu</i> -->
-<!--   <i class="ico ico-large" id="close-ico">cross</i> -->
-<!-- </div> -->
-<div class="menu-main">
-  <ul class="menu">
-    <li>
-      <a class="menu-item" href="{{site.url}}/projets" id="item-projets">
-	<div class="menu-item--image">
-	  <!-- <img src="/assets/images/door-static.jpg"/> -->
-	</div>
-	<div class="menu-item--video">
-	  <video class="item-video" src="/assets/images/hover-1.mp4"/>
-	</div>
-	<p class="label">Projets</p>
-      </a>
-    </li>
-    <li>
-      <a class="menu-item" href="{{site.url}}/about" id="item-about">
-	<div class="menu-item--image">
-	  <!-- <img src="/assets/images/door-static.jpg"/> -->
-	</div>
-	<div class="menu-item--video">
-	  <video class="item-video" src="/assets/images/hover-1.mp4"/>
-	</div>
-	<p class="label">À propos</p>
-      </a>
-      
-    </li>
-    <li>
-      <a class="menu-item" href="{{site.url}}/references" id="item-references">
-	<div class="menu-item--image">
-	  <!-- <img src="/assets/images/door-static.jpg"/> -->
-	</div>
-	<div class="menu-item--video">
-	  <video class="item-video" src="/assets/images/hover-1.mp4"/>
-	</div>
-	<p class="label">Références</p>
-      </a>
-    </li>
-    <li>
-      <a class="menu-item" href="{{site.url}}/contact" id="item-contact">
-	<div class="menu-item--image">
-	  <!-- <img src="/assets/images/door-static.jpg"/> -->
-	</div>
-	<div class="menu-item--video">
-	  <video class="item-video" src="/assets/images/hover-1.mp4"/>
-	</div>
-	<p class="label">Contact</p>
-      </a>
-    </li>
-    <li>
-      <a class="menu-item" href="https://client.thomasguesnon.net/login" class="menu-item" id="item-login">
-	<div class="menu-item--image">
-	  <!-- <img src="/assets/images/door-static.jpg"/> -->
-	</div>
-	<div class="menu-item--video">
-	  <video class="item-video" src="/assets/images/hover-1.mp4"/>
-	</div>
-	<p class="label">Accès client <i class="ico ico-medium">external_link</i></p>	 
-      </a>      
-    </li>
-  </ul>
-  <div class="legal">
-    <a href="{{site.url}}/legal">Mentions légales</a>
-  </div>
-  <!-- <footer> -->
-    <!--   <ul> -->
-      <!--     <li><p class="made-by"><img class="cc" src="/assets/images/logo/cc-by.svg" width="18" title="Creative Commons : Attribution"/><img class="cc" src="/assets/images/logo/cc-nc.svg" width="18" title="Creative Commons : Non commercial"/><img class="cc" src="/assets/images/logo/cc-sa.svg" width="18"title="Creative Commons : Share alike"/><br/>&nbsp;Thomas Guesnon, 2007-2021</p></li> -->
-      <!--   </ul> -->
-    
-    <!-- </footer> -->
-
+<!-- Mobile menu -->
+<div id="site-menu--mobile">
+    <div class="menu-main--mobile">
+        <ul class="menu">
+            {% for item in site.data.nav.navigation[page.lang] %}
+            <li>
+                <a class="menu-item" href="{{ item[1].url | relative_url }}" id="item-projets">
+	                  {{ item[1].name }}
+                </a>
+            </li>
+            {% endfor %}
+    </div>
 </div>
+

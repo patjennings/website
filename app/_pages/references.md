@@ -1,7 +1,9 @@
 ---
 layout: references
 title: Références
-permalink: /references
+permalink: /fr/references
+lang: fr
+ref: references
 ---
 
 | Année     | Client                                              | Projet et nature de la participation                                                                                                                                                                                                          | Expertise                                                                |

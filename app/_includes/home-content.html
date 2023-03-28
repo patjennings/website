@@ -1,57 +1,77 @@
 <div class="home-container container-fluid" id="presentation">
-  <div class="container">
+    <div class="container">
 
-    <h3 id="projets">Projets</h3>
 
-    <div class="row" id="projects-promoted">
+        {% if page.lang == "fr" %}
+        <h3 id="projets">Projets</h3>
+        {% elsif page.lang == "en" %}
+        <h3 id="projets">Projects</h3>
+        {% endif %}
 
-      {% for p in site.projects %}
-      {% if p.promoted == true %}
-      <div class="col-lg">
-	<a href="{{p.permalink | relative}}" class="card">
-	  <div class="card--thumb" style="background-image: url({{p.project_thumbnail}});"></div>
-	  <div class="card--title">{{p.title | escape}}</div>
-	  <div class="card--client">{{p.client | escape}}</div>
-	</a>
-      </div>
-      {% endif %}
-      {% endfor %}
+        <div class="row" id="projects-promoted">
+{% assign projects = site.projects | where: "lang", {{page.lang}} %}
+            {% for project in projects %}
+            {% if project.promoted == true %}
+            <div class="col-lg">
+	              <a href="{{project.permalink | relative}}" class="card">
+	                  <div class="card--thumb" style="background-image: url({{project.project_thumbnail}});"></div>
+	                  <div class="card--title">{{project.title | escape}}</div>
+	                  <div class="card--client">{{project.client | escape}}</div>
+	              </a>
+            </div>
+            {% endif %}
+            {% endfor %}
 
-      <div class="col-lg">
-	<a href="/projets" class="card--more">
-	  <i class="ico ico-large" id="menu-ico">plus</i>
-	  <p>Plus de projets</p>
-	</a>
-      </div>      
+            <div class="col-lg">
+	              <a href="work" class="card--more">
+	                  <i class="ico ico-large" id="menu-ico">plus</i>
+                    {% if page.lang == "fr" %}
+                    <p>Plus de projets</p>
+                    {% elsif page.lang == "en" %}
+                    <p>More projects</p>
+                    {% endif %}
+	              </a>
+            </div>      
+        </div>
     </div>
-  </div>
-  <div class="row" id="">
-    <video src="/assets/images/computers.mp4" autoplay loop muted playsinline width="320" style="margin: 0 auto;"/>
-  </div>
 </div>
 
 <div class="home-container container">
-  <div class="row">
-    <div class="col-lg-8 offset-lg-2">
-      <div class="content" id="hello">
-        <h3 id="articles">Articles</h3>
-        <p>Quelques réflexions, sur le design et d’autres sujets.</p>
-	<ul>
-	  {% for article in site.articles reversed %}
-	  <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a><sup>{{ article.date | date: "%d/%m/%Y" }}</sup></li>
-	  {% endfor %}
-	</ul>
-	<h3>
-	  Documentation
-	</h3>
-	<p>Des ressources sur des sujets techniques</p>
-	<ul>
-	  {% for doc in site.docs %}
-	  <li><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></li>
-          {% endfor %}
-	</ul>
-	<a type="button" class="btn btn-outline-primary" href="/docs">Voir toutes les ressources</a>
-      </div>
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            <div class="content" id="hello">
+
+                {% if page.lang == "fr" %}
+                <h3 id="articles">Articles</h3>
+                <p>Quelques réflexions, sur le design et d’autres sujets.</p>
+                {% elsif page.lang == "en" %}
+                <h3 id="articles">Articles</h3>
+                <p>Ideas and thoughts on design and other topics.</p>
+                {% endif %}
+	              <ul>
+                    {% assign articles = site.articles | where: "lang", {{page.lang}} %}
+	                  {% for article in articles reversed %}
+	                  <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a><sup>{{ article.date | date: "%d/%m/%Y" }}</sup></li>
+	                  {% endfor %}
+	              </ul>
+
+                {% if page.lang == "fr" %}
+                <h3 id="articles">Documentation</h3>
+	              <p>Des ressources sur des sujets techniques</p>
+                {% elsif page.lang == "en" %}
+                <h3 id="articles">Docs</h3>
+	              <p>Resources on technical aspects</p>
+                {% endif %}
+
+	              <ul>
+                    {% assign docs = site.docs | where: "lang", {{page.lang}} %}
+	                  {% for doc in docs reversed %}
+	                  <li><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a><sup>{{ doc.date | date: "%d/%m/%Y" }}</sup></li>
+	                  {% endfor %}
+	              </ul>
+
+	              <a type="button" class="btn btn-outline-primary" href="/docs">View all resources</a>
+            </div>
+        </div>
     </div>
-  </div>
 </div>

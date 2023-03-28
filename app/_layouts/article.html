@@ -2,43 +2,28 @@
 layout: default
 ---
 <article class="article h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-    {% if page.cover %}
-    <div class="page-cover">
-      <div class="page-cover-image" style="background-image: url({{site.path_articles_covers}}{{ page.cover }});"></div>
-    </div>
-    {% else %}
-    <div class="page-cover no-image">
-    </div>
-    {% endif %}
-
-    <div class="container page-header {% if page.cover %}cover{% else %}no-cover{% endif %}" aria-label="Header">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <header>
-            <h1 class="page-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-            <p class="page-meta">
-              <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                  Le {% assign date_format = site.minima.date_format | default: "%d/%m/%Y" %}
-                  {{ page.date | date: date_format }}</time>{% if page.author %}, <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">par {{ page.author }}</span></span>
-              {% endif %}
-            </p>
-          </header>
+    <div class="container page-header" aria-label="Header">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <header>
+                    <h1 class="page-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+                    <p class="page-meta">
+                        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                            Le {% assign date_format = site.minima.date_format | default: "%d/%m/%Y" %}
+                            {{ page.date | date: date_format }}</time>{% if page.author %} 
+                        {% endif %}
+                    </p>
+                </header>
+            </div>
         </div>
-      </div>
     </div>
-
     <div class="container page-content" aria-label="Content">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="e-content" itemprop="articleBody">
-            {{ content }}
-          </div>
-
-          {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
-
-          <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="e-content" itemprop="articleBody">
+                    {{ content }}
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 </article>

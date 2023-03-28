@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Contactez-moi
-permalink: /contact
+permalink: /fr/contact
+lang: fr
+ref: contact
 ---
 
 Thomas Guesnon<br/>
@@ -20,5 +22,4 @@ Et, [le CV](https://platform.thomasguesnon.net/cv/)
 - [Dribbble](https://dribbble.com/patjennings)
 - [Instagram](https://www.instagram.com/thomas.guesnon/)
 - [Mastodon](https://mastodon.social/@patjennings)
-
 
