@@ -177,6 +177,15 @@ table{
 footer{
     padding: 2rem 3rem;
     background: var(--dark);
+    display: flex;
+    justify-content: space-between;
+    #ecoindex-badge{
+        a{
+            &:hover{
+                background: none;
+            }   
+        }
+    }
     ul{
         display: flex;
         flex-direction: row;
