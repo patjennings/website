@@ -7,7 +7,7 @@ ref: contact
 ---
 
 Thomas Guesnon<br/>
-19, rue Charles Le Goffic, 29000 Quimper
+Quimper
 
 <i class="ico ico-medium">letter</i>&nbsp;[bonjour@thomasguesnon.fr](mailto:bonjour@thomasguesnon.fr)
 
