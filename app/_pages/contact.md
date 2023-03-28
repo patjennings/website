@@ -23,4 +23,3 @@ Et, [le CV](https://platform.thomasguesnon.net/cv/)
 - [Instagram](https://www.instagram.com/thomas.guesnon/)
 - [Mastodon](https://mastodon.social/@patjennings)
 
-

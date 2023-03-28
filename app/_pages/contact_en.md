@@ -22,5 +22,3 @@ And, [the CV](https://platform.thomasguesnon.net/cv/)
 - [Dribbble](https://dribbble.com/patjennings)
 - [Instagram](https://www.instagram.com/thomas.guesnon/)
 - [Mastodon](https://mastodon.social/@patjennings)
-
-

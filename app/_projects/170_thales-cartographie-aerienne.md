@@ -4,7 +4,7 @@ title : Maps
 lang : fr
 ref : thales-cartographie-aerienne
 release : 2015
-permalink : /fr/projects/thales-cartographie-aerienne
+permalink : /fr/work/thales-cartographie-aerienne
 project_thumbnail : /assets/images/projets-thumbnails/thales_navigation_thumb.webp
 project_weight : 170
 project_bg : #222222

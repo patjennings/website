@@ -4,7 +4,7 @@ title : Studio
 lang : fr
 ref : restlet-studio
 release : 2013
-permalink : /fr/projects/restlet-studio
+permalink : /fr/work/restlet-studio
 project_thumbnail : /assets/images/projets-thumbnails/restlet_studio_thumb.webp
 project_weight : 180
 project_bg : #222222

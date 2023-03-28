@@ -4,7 +4,7 @@ title : Design system
 lang : fr
 ref : thales-design-system
 release : 2014
-permalink : /fr/projects/thales-design-system
+permalink : /fr/work/thales-design-system
 project_thumbnail : /assets/images/projets-thumbnails/thales_design_system_thumb.webp
 project_weight : 160
 layout : project

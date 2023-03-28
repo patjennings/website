@@ -4,7 +4,7 @@ title : Asphalt production management
 lang : en
 ref : marini-ermont
 release : 2022
-permalink : /en/projects/marini-ermont
+permalink : /en/work/marini-ermont
 project_thumbnail : /assets/images/projets-thumbnails/marini_thumb.webp
 project_weight : 80
 project_bg : #222222
@@ -15,3 +15,5 @@ isMotion : true
 layout_type: "light"
 promoted : true
 ---
+
+![incoming](/assets/images/incoming-en.webp)

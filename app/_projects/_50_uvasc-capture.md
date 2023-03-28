@@ -1,10 +1,10 @@
 ---
 client : Uvasc
 title : Capture
-lang : en
+lang : fr
 ref : uvasc-capture
 release : 2020
-permalink : /en/projects/uvasc-capture
+permalink : /fr/work/uvasc-capture
 project_thumbnail : /assets/images/projets-thumbnails/uvasc_app_thumb.webp
 project_weight : 50
 project_bg : #222222
@@ -15,3 +15,5 @@ isMotion : false
 layout_type: "light"
 promoted : true
 ---
+
+![incoming](/assets/images/incoming-fr.webp)

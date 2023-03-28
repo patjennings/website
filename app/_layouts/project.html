@@ -5,12 +5,21 @@ layout: default
     <div class="container page-header" aria-label="Header">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
-                <header>
-                    <h1 class="page-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-	                  <p class="page-meta">
-                        {{ page.client }}
-
-                    </p>
+                <header class="container-fluid project-info">
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="meta-title">Projet</div>
+                            <div class="meta-value">{{ page.title }}</div>
+                        </div>
+                        <div class="col-md">
+                            <div class="meta-title">Client</div>
+                            <div class="meta-value">{{ page.client }}</div>
+                        </div>
+                        <div class="col-md">
+                            <div class="meta-title">Année</div>
+                            <div class="meta-value">{{ page.release }}</div>
+                        </div>
+                    </div>
                 </header>
             </div>
         </div>
@@ -29,23 +38,4 @@ layout: default
             </div>
         </div>
     </div>
-
-<!--
-    <div class="post-nav">
-        <div class="post-nav-item post-nav--prev">
-            {% if page.previous %}
-            <div class="post-nav-item--inner">
-	              <a href="{{page.previous.url}}"><i class="ico ico-medium">arrowleft</i><br/>{{page.previous.title}}</a>
-            </div>
-            {% endif %}
-        </div>
-        <div class="post-nav-item post-nav--next">
-            {% if page.next %}
-            <div class="post-nav-item--inner">
-	              <a href="{{page.next.url}}"><i class="ico ico-medium">arrowright</i><br/>{{page.next.title}}</a>
-            </div>
-            {% endif %}
-        </div>
-    </div>
--->
 </article>

@@ -4,7 +4,7 @@ title : Proteus - aircraft flying interface
 lang : en
 ref : thales-proteus
 release : 2013
-permalink : /en/projects/thales-proteus
+permalink : /en/work/thales-proteus
 project_thumbnail : /assets/images/projets-thumbnails/proteus_thumb.webp
 project_weight : 70
 project_bg : #222222

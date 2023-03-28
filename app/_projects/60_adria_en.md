@@ -4,7 +4,7 @@ title : Icones d'application
 lang : en
 ref : adria
 release : 2020
-permalink : /en/projects/adria
+permalink : /en/work/adria
 project_thumbnail : /assets/images/projets-thumbnails/adria_thumb.webp
 project_weight : 60
 project_bg : #222222
@@ -15,3 +15,5 @@ isMotion : false
 layout_type: "light"
 promoted : false
 ---
+
+![incoming](/assets/images/incoming-en.webp)

@@ -4,7 +4,7 @@ title : Weather
 lang : fr
 ref : thales-weather
 release : 2015
-permalink : /fr/projects/thales-weather
+permalink : /fr/work/thales-weather
 project_thumbnail : /assets/images/projets-thumbnails/thales_meteo_thumb.webp
 project_weight : 130
 project_bg : #222222
@@ -13,7 +13,7 @@ layout : project
 isInteraction : true
 isMotion : false
 layout_type: "dark"
-promoted : false
+promoted : true
 ---
 La cartographie aérienne pose des problèmes très intéressants à résoudre : il s'agit de rendre lisible des informations de forme et de nature diverses : les routes aériennes, les aéroports, les balises de différentes types. Le principal enjeu de ce travail est d'ajouter à ces éléments des données météo, une typologie d'information à part entière, qui varie dans le temps. 
 <br/><br/>

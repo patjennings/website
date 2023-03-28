@@ -1,12 +1,12 @@
 ---
-client : Renault
-title : Autonomous drive
+client : SNCF
+title : Mass Transit
 lang : en
-ref : autonomous-drive
-release : 2015
-permalink : /en/projects/autonomous-drive
+ref : sncf-mass-transit
+release : 2017
+permalink : /en/work/sncf-mass-transit
 project_thumbnail : /assets/images/projets-thumbnails/sncf_mass_transit_thumb.webp
-project_weight : 240
+project_weight : 230
 project_bg : #222222
 project_fg : #FFFFFF
 layout : project
@@ -15,3 +15,5 @@ isMotion : true
 layout_type: "light"
 promoted : false
 ---
+
+![incoming](/assets/images/incoming-en.webp)

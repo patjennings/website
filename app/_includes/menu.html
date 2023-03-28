@@ -1,27 +1,14 @@
-<!-- <div class="header"> -->
-<!--   <i class="ico ico-large" id="menu-ico">menu</i> -->
-<!--   <i class="ico ico-large" id="close-ico">cross</i> -->
-<!-- </div> -->
-<div class="menu-main">
-    <ul class="menu">
-        {% for item in site.data.nav.navigation[page.lang] %}
-        <li>
-            <a class="menu-item" href="{{ item[1].url | relative_url }}" id="item-projets">
-	              <div class="menu-item--image">
-	                  <!-- <img src="/assets/images/door-static.jpg"/> -->
-	              </div>
-	              <div class="menu-item--video">
-	                  <video class="item-video" src="/assets/images/hover-1.mp4"/>
-	              </div>
-	              <p class="label">{{ item[1].name }}</p>
-            </a>
-        </li>
-        {% endfor %}
-
-
-        <ul>
-            {% for menu in site.t[page.lang] %}
-            <li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+<!-- Mobile menu -->
+<div id="site-menu--mobile">
+    <div class="menu-main--mobile">
+        <ul class="menu">
+            {% for item in site.data.nav.navigation[page.lang] %}
+            <li>
+                <a class="menu-item" href="{{ item[1].url | relative_url }}" id="item-projets">
+	                  {{ item[1].name }}
+                </a>
+            </li>
             {% endfor %}
-        </ul>
+    </div>
 </div>
+

@@ -4,7 +4,7 @@ title : Weather
 lang : en
 ref : thales-weather
 release : 2015
-permalink : /en/projects/thales-weather
+permalink : /en/work/thales-weather
 project_thumbnail : /assets/images/projets-thumbnails/thales_meteo_thumb.webp
 project_weight : 130
 project_bg : #222222
@@ -13,7 +13,7 @@ layout : project
 isInteraction : true
 isMotion : false
 layout_type: "dark"
-promoted : false
+promoted : true
 ---
 Aerial cartography gives interesting problems to solve, as it needs to render informations with various nature and shape. Aerial routes, airports, many types of beacons. On top of this, a layer with weather data is displayed, with informations that vary over time.
 

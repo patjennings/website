@@ -4,7 +4,7 @@ title : Solar system
 lang : en
 ref : systeme-solaire
 release : 2021
-permalink : /en/projects/systeme-solaire
+permalink : /en/work/systeme-solaire
 project_thumbnail : /assets/images/projets-thumbnails/systeme_solaire_thumb.webp
 project_weight : 120
 project_bg : #222222

@@ -4,68 +4,14 @@
     {% include head.html %}
 
     <body class="layout-{{ page.layout }} {{page.layout}}-{{page.layout_type}} is-loading {{page.lang}}">
-        <div id="site-menu-trigger">
-            <div id="mn-bar-1" class="hamburger"></div>
-            <div id="mn-bar-2" class="hamburger"></div>
-            <div id="mn-bar-3" class="hamburger"></div>
+        {% include header.html %}
 
-            <!-- les rollovers -->
-            <div id="mn-bar-4" class="cross"></div>
-            <div id="mn-bar-5" class="cross"></div>
-        </div>
-
-        <div class="lang-selector">
-            <ul>
-                {% assign projects=site.projects | where:"ref", page.ref | sort: 'lang' | reverse %}
-                {% for project in projects %}
-                <li>
-                    <a href="{{ project.url }}" class="{{ project.lang }}">{{ project.lang }}</a>
-                </li>
-                {% endfor %}
-
-                {% if page.layout == 'home' %}
-                <li>
-                    <a href="{{ site.url }}/fr" class="fr">fr</a>
-                </li>
-                <li>
-                    <a href="{{ site.url }}/en" class="en">en</a>
-                </li>
-                {% endif %}
-
-                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' | reverse %}
-                {% for page in pages %}
-                <li>
-                    <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-                </li>
-                {% endfor %}
-
-                {% assign articles=site.articles | where:"ref", page.ref | sort: 'lang' | reverse %}
-                {% for article in articles %}
-                <li>
-                    <a href="{{ article.url }}" class="{{ article.lang }}">{{ article.lang }}</a>
-                </li>
-                {% endfor %}
-
-                {% assign docs=site.docs | where:"ref", page.ref | sort: 'lang' | reverse %}
-                {% for doc in docs %}
-                <li>
-                    <a href="{{ doc.url }}" class="{{ doc.lang }}">{{ doc.lang }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        
-        <a id="logo" href="{{site.url}}/{{page.lang}}">
-            <div></div>
-            <div></div>
-        </a>
-        <div id="site-menu">
-            {% include menu.html %}
-        </div>
+        {% include menu.html %}
 
         {{ content }}
-        <div id="ecoindex-badge" data-theme="dark"></div>
-        <script src="https://cdn.jsdelivr.net/gh/cnumr/ecoindex_badge@2/assets/js/ecoindex-badge.js" defer></script>       
+
+        {% include footer.html %}
+
         {% include loader.html %}
         {% include overlay.html %}
     </body>

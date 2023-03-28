@@ -3,15 +3,30 @@ navigation:
     work:
       name: "Projets"
       url: "/fr/work"
-    about:
-      name: "À propos"
-      url: "/fr/about"
     references:
       name: "Références"
       url: "/fr/references"
+    about:
+      name: "À propos"
+      url: "/fr/about"
     contact:
       name: "Contact"
       url: "/fr/contact"
+  en:
+    work:
+      name: "Projects"
+      url: "/en/work"
+    references:
+      name: "References"
+      url: "/en/references"
+    about:
+      name: "About"
+      url: "/en/about"
+    contact:
+      name: "Contact"
+      url: "/en/contact"
+links:
+  fr:
     client:
       name: "Espace client"
       url: "https://client.thomasguesnon.net"
@@ -19,18 +34,6 @@ navigation:
       name: "Mentions légales"
       url: "/fr/legal"
   en:
-    work:
-      name: "Projects"
-      url: "/en/work"
-    about:
-      name: "About"
-      url: "/en/about"
-    references:
-      name: "References"
-      url: "/en/references"
-    contact:
-      name: "Contact"
-      url: "/en/contact"
     client:
       name: "Client access"
       url: "https://client.thomasguesnon.net"

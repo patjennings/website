@@ -4,7 +4,7 @@ title : Ez-Go
 lang : fr
 ref : renault-ezgo
 release : 2018
-permalink : /fr/projects/renault-ezgo
+permalink : /fr/work/renault-ezgo
 project_thumbnail : /assets/images/projets-thumbnails/renault_ezgo_thumb.webp
 project_weight : 100
 project_bg : #222222
