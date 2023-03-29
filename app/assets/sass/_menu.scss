@@ -83,31 +83,34 @@
 
     &.hidden{
 	      opacity: 0;
-        display:none;
+        // display:none;
+	      transition: all 0.4s cubic-bezier(.56,0,.39,1);
     }
 
     &.visible{
 	      opacity: 1;
-        display:block;
+        // display:block;
 	      max-height: 100vh;
 	      transition: all 0.4s cubic-bezier(.56,0,.39,1);
 	      height: 100vh;
     }
 
     .menu-main--mobile{
-	      padding: 72px 32px 72px 32px;
+	      // padding: 72px 32px 72px 32px;
+        padding: 2rem;
+        display: flex;
+        height: 100vh;
+        align-content: center;
+        align-items: center;
 	      ul.menu{
 	          list-style-type: none;
-	          margin: 0;
-	          display: flex;
-	          flex-direction: row;
-	          justify-content: left;
-	          flex-wrap: wrap;
-	          padding-left: 48px;
+            height: fit-content;
 
 	          li{
 		            width: 294px;
 		            margin-right: 1rem;
+                line-height: 3rem;
+
 		            &:before{
 		                content: none;
 		            }
@@ -117,8 +120,9 @@
 		                display: block;
 		                text-decoration: none;
 		                border-bottom: none;
-		                position: relative;
+		                // position: relative;
 		                overflow: hidden;
+                    font-size: 2rem;
 
 		                .menu-item--image{
 			                  position: absolute;

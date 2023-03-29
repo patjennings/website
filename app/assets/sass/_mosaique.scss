@@ -46,7 +46,7 @@
 		                width: 100%;
 		                height: 100%;
 		                display: flex; /* contexte sur le parent */
-		                padding: 32px;
+		                padding: 0;
 
 		                .card--content{
 			                  margin: auto;
@@ -54,7 +54,7 @@
 			                  position:relative;
 			                  top: 16px;
 			                  @include transition(all, 0.4s, cubic-bezier(0,0,0,1));
-
+                        padding: 0 1rem;
 			                  .card--client{
 			                      opacity: 0.5;
 			                  }
