@@ -17,7 +17,7 @@ promoted : false
 ---
 Ce projet de tableau de bord réalisé pour Thales tente d'intégrer toutes les fonctions de pilotage d'un avion de ligne dans un dispositif tactile<!--more-->. La notion d'espace tactile _seamless_ (littéralement sans bordures, continu) permet aux informations de se déplacer sur tout l'espace de l'interface. Certaines peuvent être mises en regard, là où, dans un avion de ligne en 2013, chacune est placée dans son composant, dans son espace propre.
 <br/><br/>
-*Réalisé pour [Use Design](http://www.use-design.com) en 2013*
+*Réalisé pour [Use Design](http://www.use.design)*
 
 ![](/assets/images/projets/avionics2020/proteus-1.webp)
 ![](/assets/images/projets/avionics2020/proteus-2.webp)

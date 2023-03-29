@@ -19,7 +19,7 @@ Ez Go est un prototype de robot-taxi autonome [conçu par Renault](https://www.r
 
 Ces animations sont conçues pour être diffusées sur une grille de LED allant jusqu'à huit en hauteur.
 <br/><br/>
-*Réalisé pour [Use Design](http://www.use-design.com) en 2018*
+*Réalisé pour [Use Design](http://www.use.design)*
 
 
 <video src="/assets/images/projets/ez-go-a/20191209-1505.m4v" autoplay loop width="1280"></video>

@@ -17,7 +17,7 @@ promoted : false
 ---
 La représentation des informations à différents niveaux de zoom constitue le principal enjeu de cet exercice.
 <br/><br/>
-*Réalisé pour [Use Design](http://www.use-design.com) en 2015*
+*Réalisé pour [Use Design](http://www.use.design)*
 ![map-white-2](/assets/images/projets/map-white/map-white-2.webp)
 ![map-white-2](/assets/images/projets/map-white/map-white-3.webp)
 ![map-white-2](/assets/images/projets/map-white/map-white-4.webp)

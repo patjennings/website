@@ -17,7 +17,7 @@ promoted : false
 ---
 This project aims at integrating commercial airplane feature into a digital setup. The seamless touch space lets information flowing all over the UI surface. Some can be put in front of each other, which is some improvements regarding what is an airplane user interface in 2013, where each feature is put in its isolated component.
 <br/><br/>
-*Made for [Use Design](http://www.use-design.com) in 2013*
+*Made for [Use Design](http://www.use.design)*
 
 ![](/assets/images/projets/avionics2020/proteus-1.webp)
 ![](/assets/images/projets/avionics2020/proteus-2.webp)

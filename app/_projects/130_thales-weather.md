@@ -17,7 +17,7 @@ promoted : true
 ---
 La cartographie aérienne pose des problèmes très intéressants à résoudre : il s'agit de rendre lisible des informations de forme et de nature diverses : les routes aériennes, les aéroports, les balises de différentes types. Le principal enjeu de ce travail est d'ajouter à ces éléments des données météo, une typologie d'information à part entière, qui varie dans le temps. 
 <br/><br/>
-*Réalisé pour [Use Design](http://www.use-design.com) en 2014*
+*Réalisé pour [Use Design](http://www.use.design)*
 
 ![efb-map-4](/assets/images/projets/efb-map/efb-map-4.webp)
 ![efb-map-5](/assets/images/projets/efb-map/efb-map-5.webp)

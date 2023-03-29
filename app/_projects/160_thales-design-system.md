@@ -16,7 +16,7 @@ promoted : false
 
 Un *design system* a été développé pour Thales, dans le but de donner une cohérence visuelle et ergonomique à plusieurs applications mobiles. Du contrôle de sondes d'avions de ligne à la gestion d'une sacoche de vol électronique, ce document donne des recommandations d'interfaces pour des applications utilisées par du personnel naviguant ou au sol
 <br/><br/>
-*Réalisé pour [Use Design](http://www.use-design.com) en 2014*
+*Réalisé pour [Use Design](http://www.use.design)*
 
 ![athena-2](/assets/images/projets/athena/athena-2.webp)
 ![athena-4](/assets/images/projets/athena/athena-4.webp)

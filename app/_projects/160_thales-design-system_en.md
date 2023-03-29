@@ -15,7 +15,7 @@ promoted : false
 ---
 A design system was developed for Thales, in order to give ergonomic and visual consistency over multiple tablet or mobile applications. From probes monitoring to airplane checklist or electronic flight bag, it gives user interfaces visual guidelines for applications that will be used by pilots or ground staff.
 
-*Réalisé pour [Use Design](http://www.use-design.com) en 2014*
+*Réalisé pour [Use Design](http://www.use.design)*
 
 ![athena-2](/assets/images/projets/athena/athena-2.webp)
 ![athena-4](/assets/images/projets/athena/athena-4.webp)

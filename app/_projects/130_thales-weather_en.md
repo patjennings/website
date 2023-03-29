@@ -17,7 +17,7 @@ promoted : true
 ---
 Aerial cartography gives interesting problems to solve, as it needs to render informations with various nature and shape. Aerial routes, airports, many types of beacons. On top of this, a layer with weather data is displayed, with informations that vary over time.
 
-*Réalisé pour [Use Design](http://www.use-design.com) en 2014*
+*Réalisé pour [Use Design](http://www.use.design)*
 
 ![efb-map-4](/assets/images/projets/efb-map/efb-map-4.webp)
 ![efb-map-5](/assets/images/projets/efb-map/efb-map-5.webp)
