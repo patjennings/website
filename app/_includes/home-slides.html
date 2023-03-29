@@ -27,8 +27,13 @@
       </div>
 
       <div class="sentence" id="sentence-mobile">
-	<p><strong>Thomas Guesnon est designer.</strong> Il conçoit des applications et des vidéos.</p>
-	<p>Il s'occupe d'interaction, de mouvement et d'expérience utilisateur.</p>
+          {% if page.lang == "fr" %}
+	        <p><strong>Thomas Guesnon est designer.</strong> Il conçoit des applications et des vidéos.</p>
+	        <p>Il s'occupe d'interaction, de mouvement et d'expérience utilisateur.</p>
+          {% elsif page.lang == "en" %}
+	        <p><strong>Thomas Guesnon is designer.</strong> He designs applications and animations.</p>
+	        <p>He's focused on interactions, motion and user experience.</p>
+          {% endif %}
       </div>
 
       <div id="highlighterIntro" class="highlighterWrapper">

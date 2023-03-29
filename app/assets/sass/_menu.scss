@@ -83,13 +83,13 @@
 
     &.hidden{
 	      opacity: 0;
-        // display:none;
+        display:none;
 	      transition: all 0.4s cubic-bezier(.56,0,.39,1);
     }
 
     &.visible{
 	      opacity: 1;
-        // display:block;
+        display:block;
 	      max-height: 100vh;
 	      transition: all 0.4s cubic-bezier(.56,0,.39,1);
 	      height: 100vh;

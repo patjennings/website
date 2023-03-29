@@ -5,7 +5,7 @@ import customSelect from "./my/customSelect.js";
 import {menuHandler} from "./my/menu.js";
 import {introHandler, adaptImagesSize, introImagesSlider} from "./my/intro.js";
 import {presentationHandler} from "./my/presentation.js";
-
+import scroll from './my/scroll.js';
 
 const computers = {
     src: "assets/images/computersAnimation.png",
@@ -31,16 +31,17 @@ window.onload = function(e){
 
     let bubblesAnim, computersAnim;
     menuHandler();
+    scroll();
 
     if(projectsLayout){
-	mosaique();
+	      mosaique();
     }
     if(homeLayout){
-	presentationHandler();
-	adaptImagesSize();
+	      presentationHandler();
+	      adaptImagesSize();
     }
     if(referencesLayout){
-	customSelect();
+	      customSelect();
     }
     
     window.onresize = function() {
