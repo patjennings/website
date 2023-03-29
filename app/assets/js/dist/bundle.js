@@ -86,7 +86,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ scroll)\n/* harmony export */ });\n// gestion du scroll du menu\nfunction scroll() {\n  const header = document.getElementById(\"site-header\");\n  console.log(header);\n  window.onscroll = function (e) {\n    // called when the window is scrolled.  \n    console.log(window.pageYOffset);\n  };\n}\n\n//# sourceURL=webpack://sample/./app/assets/js/src/my/scroll.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ scroll)\n/* harmony export */ });\n// gestion du scroll du menu\nfunction scroll() {\n  const header = document.getElementById(\"site-header\");\n  header.classList.add('visible');\n  let cur, prev;\n  let direction = 'down';\n  // console.log(header);\n  window.onscroll = function (e) {\n    prev = cur;\n    cur = window.pageYOffset;\n    if (prev < cur) {\n      direction = 'down';\n      header.classList.add('hidden');\n      header.classList.remove('visible');\n    } else {\n      direction = 'up';\n      header.classList.add('visible');\n      header.classList.remove('hidden');\n    }\n    console.log(direction);\n  };\n}\n\n//# sourceURL=webpack://sample/./app/assets/js/src/my/scroll.js?");
 
 /***/ }),
 

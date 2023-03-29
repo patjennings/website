@@ -9,7 +9,7 @@ ref: contact
 Thomas Guesnon<br/>
 Quimper
 
-<i class="ico ico-medium">letter</i>&nbsp;[bonjour@thomasguesnon.fr](mailto:bonjour@thomasguesnon.fr)
+[bonjour@thomasguesnon.fr](mailto:bonjour@thomasguesnon.fr)
 
 Pour les échanges sécurisés, vous trouverez également ma [La clé publique](https://platform.thomasguesnon.net/gpg/thomasguesnon.asc).
 

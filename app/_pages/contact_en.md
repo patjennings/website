@@ -9,7 +9,7 @@ ref: contact
 Thomas Guesnon<br/>
 19, rue Charles Le Goffic, 29000 Quimper
 
-<i class="ico ico-medium">letter</i>&nbsp;[bonjour@thomasguesnon.fr](mailto:bonjour@thomasguesnon.fr)
+[bonjour@thomasguesnon.fr](mailto:bonjour@thomasguesnon.fr)
 
 For secured discussion, here is my [public GPG key](https://platform.thomasguesnon.net/gpg/thomasguesnon.asc).
 

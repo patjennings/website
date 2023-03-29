@@ -1,9 +1,27 @@
+#site-header{
+	  @include transition(all, 0.15s, cubic-bezier(.35,0,.17,1));
+    position: fixed;
+    width: 100vw;
+    z-index: 998;
+    height: 5rem;
+    background: var(--dark);
+
+    &.visible{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    &.hidden{
+        opacity: 0;
+        transform: translateY(-32px);
+    }
+}
 #site-nav{
     width: 100vw;
     border-bottom: 1px solid rgba(255,255,255,0.15);
     z-index: 997;
     position: fixed;
     height: 5rem;
+    // background: var(--dark);
 
     .nav--items{
         display: flex;
@@ -46,6 +64,10 @@
 
 // light
 .project-light{
+    #site-header{
+        background: var(--light);
+        
+}
     #site-nav{
         border-bottom: 1px solid rgba(0,0,0,0.15);
 
@@ -67,7 +89,14 @@
         }
     }
 }
-
+// home{
+.layout-home{
+#site-header{
+    background: none;
+    
+}
+    
+}
 
 
 
@@ -303,6 +332,33 @@ a#logo{
 	      opacity: 0.5;
 	      color: none;
 	      background-color: transparent;
+    }
+}
+
+// lang selector
+.lang-selector{
+    position: fixed;
+    top: 0.5rem;
+    right: 2rem;
+    z-index: 999;
+
+    ul{
+        display:flex;
+        flex-direction: row;
+        li{
+            margin-right: 1rem;
+            &::before{
+                content: "";
+            }
+            a{
+                text-transform: uppercase;
+                text-decoration: none; 
+                border-bottom: none;
+                &.en:lang(en), &.fr:lang(fr), &.zh:lang(zh){
+                    font-weight: bold;
+                }
+            }
+        }
     }
 }
 
