@@ -1,7 +1,7 @@
 ///////////////////
 // light settings
 ///////////////////
-.project-light, .layout-article{
+.theme-light, .layout-article{
     background: var(--light);
     color: var(--dark);
     a{
@@ -16,7 +16,37 @@
 	          border: 1px solid var(--yellow);
 	      }
     }
+    #site-header{
+        &.menu-closed{
+            background: var(--light);
+        }
+        &.menu-open{
+            background: var(--dark-darker);
+        }
+    }
+    #site-nav{
+        border-bottom: 1px solid rgba(0,0,0,0.15);
+        .nav--items{
+            li{
+	              &:before {
+	              }
+                a{
+                    &:hover{
+                        color: var(--yellow);
+                    }
+                }
+                &.active:after{
+                    background: var(--dark);
+                }
+            }
+       }
+    }
 
+    #site-menu--mobile-trigger{
+        div{
+            background: var(--dark);
+        }
+    }
     h1.page-title, p{
 	      color: var(--dark);
     }
@@ -28,7 +58,7 @@
 	          background: var(--dark);
 	      }
     }
-    #logo{
+    a#logo{
 	      background-image: url(/assets/images/logo-dark-mono.png);
     }
     blockquote{   
@@ -37,7 +67,7 @@
 	      }
     }
 }
-.project-dark, .layout-page, .layout-projects, .layout-references, .layout-home{
+.theme-dark, .layout-page, .layout-projects, .layout-references, .layout-home{
     background: var(--dark);
     color: var(--light);
     a{
@@ -53,6 +83,19 @@
 	          color: var(--dark);
 	      }
     }
+    #site-header{
+        &.menu-closed{
+            background: var(--dark);
+        }
+        &.menu-open{
+            background: var(--dark-darker);
+        }
+    }
+    #site-menu--mobile-trigger{
+        div{
+            background: var(--light);
+        }
+    }
     h1.page-title, p{
 	      color: var(--light);
     }
@@ -64,7 +107,7 @@
 	          background: var(--light);
 	      }
     }
-    #logo{
+    a#logo{
 	      background-image: url(/assets/images/logo-light-mono.png);
     }
     blockquote{
@@ -78,4 +121,16 @@
 	          }
 	      }
     }
+}
+.layout-home{
+    #site-header{
+        &.menu-closed{
+            background: none;
+        }
+        &.menu-open{
+            background: var(--dark-darker);
+        }
+    }
+
+    
 }

@@ -71,6 +71,11 @@ sup {
     top: -0.5em;
     font-size: 0.65rem;
 }
+.muted{
+    opacity: 0.5;
+    font-size: 0.875rem;
+    
+}
 
 ul{
     margin-left: 0;
@@ -174,43 +179,31 @@ table{
     }
 }
 
-footer{
-    padding: 2rem 3rem;
+.footer{
     background: var(--dark);
-    display: flex;
-    justify-content: space-between;
-    #ecoindex-badge{
-        a{
+
+    .row{
+        padding: 3rem;
+p{
+    margin-top:0;
+    
+}
+
+        a.menu-item{
+            color: var(--white);
             border-bottom: 0 !important;
+            display: block;
+            margin-bottom: 1rem;
+
             &:hover{
                 background: none;
-            }   
-        }
-    }
-    ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        margin: 0;
-
-        li{
-            margin-left: 3rem;
-
-            &:before{
-                content: "";
-            }
-            a{
-                color: var(--white);
-                border-bottom: 0 !important;
-
-                &:hover{
-                    background: none;
-                    color: var(--yellow);
-                }
+                color: var(--yellow);
             }
         }
     }
+
 }
+
 
 
 
