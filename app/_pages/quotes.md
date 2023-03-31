@@ -5,6 +5,8 @@ permalink: /fr/quotes
 lang: fr
 ref: quotes
 ---
+"Just because you're offended doesn't mean you're right"
+<br/>- Ricky Gervais, 2020 Gloden Globes
 
 _l'homme est une entreprise qui a contre elle le temps, la nécessité, la fortune, et l'imbécile et toujours croissante primauté du nombre (…) Les hommes tueront l'homme._ ― Marguerite Yourcenar, _in L'Œuvre au noir_
 
