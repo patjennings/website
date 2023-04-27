@@ -11,7 +11,7 @@ Thomas Guesnon<br/>
 
 [bonjour@thomasguesnon.fr](mailto:bonjour@thomasguesnon.fr)
 
-For secured discussion, here is my [public GPG key](https://platform.thomasguesnon.net/gpg/thomasguesnon.asc).
+For secured discussion, here is my [public GPG key](https://platform.thomasguesnon.net/gpg/thomas.guesnon-public.asc).
 
 And, [the CV](https://platform.thomasguesnon.net/cv/)
 

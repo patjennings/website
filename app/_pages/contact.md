@@ -11,7 +11,7 @@ Quimper
 
 [bonjour@thomasguesnon.fr](mailto:bonjour@thomasguesnon.fr)
 
-Pour les échanges sécurisés, vous trouverez également ma [La clé publique](https://platform.thomasguesnon.net/gpg/thomasguesnon.asc).
+Pour les échanges sécurisés, vous trouverez également ma [La clé publique](https://platform.thomasguesnon.net/gpg/thomas.guesnon-public.asc).
 
 Et, [le CV](https://platform.thomasguesnon.net/cv/)
 
