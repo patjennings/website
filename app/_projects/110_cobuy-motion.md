@@ -15,5 +15,4 @@ isMotion : true
 layout_type: "light"
 promoted : false
 ---
-
-![incoming](/assets/images/incoming-fr.webp)
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/51VCfLF4f9w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

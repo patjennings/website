@@ -16,4 +16,9 @@ layout_type: "light"
 promoted : true
 ---
 
-![incoming](/assets/images/incoming-en.webp)
+![mairie-paris-1](/assets/images/projets/mairie-paris/mairie-paris-01.webp)
+![mairie-paris-2](/assets/images/projets/mairie-paris/mairie-paris-02.webp)
+![mairie-paris-3](/assets/images/projets/mairie-paris/mairie-paris-03.webp)
+![mairie-paris-4](/assets/images/projets/mairie-paris/mairie-paris-04.webp)
+![mairie-paris-5](/assets/images/projets/mairie-paris/mairie-paris-05.webp)
+![mairie-paris-6](/assets/images/projets/mairie-paris/mairie-paris-06.webp)

@@ -12,8 +12,12 @@ project_fg : #FFFFFF
 layout : project
 isInteraction : true
 isMotion : false
-layout_type: "light"
+layout_type: "dark"
 promoted : false
 ---
 
-![incoming](/assets/images/incoming-fr.webp)
+![kerjean-1](/assets/images/projets/kerjean/kerjean-01.webp)
+![kerjean-2](/assets/images/projets/kerjean/kerjean-02.webp)
+![kerjean-3](/assets/images/projets/kerjean/kerjean-03.webp)
+![kerjean-4](/assets/images/projets/kerjean/kerjean-04.webp)
+![kerjean-5](/assets/images/projets/kerjean/kerjean-05.webp)

@@ -8,15 +8,29 @@ layout: default
                 <header class="container-fluid project-info">
                     <div class="row">
                         <div class="col-md">
+
+                            {% if page.lang == "fr" %}
                             <div class="meta-title">Projet</div>
+                            {% elsif page.lang == "en" %}
+                            <div class="meta-title">Project</div>
+                            {% endif %}
+
                             <div class="meta-value">{{ page.title }}</div>
                         </div>
                         <div class="col-md">
+                            {% if page.lang == "fr" %}
                             <div class="meta-title">Client</div>
+                            {% elsif page.lang == "en" %}
+                            <div class="meta-title">Client</div>
+                            {% endif %}
                             <div class="meta-value">{{ page.client }}</div>
                         </div>
                         <div class="col-md">
+                            {% if page.lang == "fr" %}
                             <div class="meta-title">Année</div>
+                            {% elsif page.lang == "en" %}
+                            <div class="meta-title">Year</div>
+                            {% endif %}
                             <div class="meta-value">{{ page.release }}</div>
                         </div>
                     </div>

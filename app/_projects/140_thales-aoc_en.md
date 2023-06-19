@@ -16,4 +16,9 @@ layout_type: "light"
 promoted : false
 ---
 
-![incoming](/assets/images/incoming-en.webp)
+<video src="/assets/images/projets/aoc/aoc.mp4" autoplay loop width="1280"></video>
+![aoc-1](/assets/images/projets/aoc/aoc-01.webp)
+![aoc-2](/assets/images/projets/aoc/aoc-02.webp)
+![aoc-3](/assets/images/projets/aoc/aoc-03.webp)
+![aoc-4](/assets/images/projets/aoc/aoc-04.webp)
+![aoc-5](/assets/images/projets/aoc/aoc-05.webp)

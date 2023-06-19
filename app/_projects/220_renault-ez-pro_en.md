@@ -12,8 +12,11 @@ project_fg : #FFFFFF
 layout : project
 isInteraction : true
 isMotion : false
-layout_type: "light"
+layout_type: "dark"
 promoted : false
 ---
 
-![incoming](/assets/images/incoming-en.webp)
+![ez-pro-1](/assets/images/projets/ez-pro/ez-pro-01.webp)
+![ez-pro-2](/assets/images/projets/ez-pro/ez-pro-02.webp)
+![ez-pro-3](/assets/images/projets/ez-pro/ez-pro-03.webp)
+![ez-pro-4](/assets/images/projets/ez-pro/ez-pro-04.webp)
