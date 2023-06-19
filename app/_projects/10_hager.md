@@ -16,4 +16,4 @@ layout_type: "light"
 promoted : false
 ---
 
-![incoming](/assets/images/incoming-fr.webp)
+<video src="/assets/images/projets/hager/hager.mp4" autoplay loop muted width="1280"></video>
