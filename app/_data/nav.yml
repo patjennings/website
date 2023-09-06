@@ -27,16 +27,10 @@ navigation:
       url: "/en/contact"
 links:
   fr:
-    client:
-      name: "Espace client"
-      url: "https://client.thomasguesnon.net"
     legal:
       name: "Mentions légales"
       url: "/fr/legal"
   en:
-    client:
-      name: "Client access"
-      url: "https://client.thomasguesnon.net"
     legal:
       name: "Legal notice"
       url: "/en/legal"
