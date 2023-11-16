@@ -13,7 +13,7 @@ Thomas Guesnon<br/>
 
 For secured discussion, here is my [public GPG key](https://platform.thomasguesnon.net/gpg/thomas.guesnon-public.asc).
 
-And, [the CV](https://platform.thomasguesnon.net/cv/en)
+And, [the CV](https://platform.thomasguesnon.net/cv/en.html)
 
 #### Somewhere else on the web ####
 

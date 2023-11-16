@@ -13,7 +13,7 @@ Quimper
 
 Pour les échanges sécurisés, vous trouverez également ma [La clé publique](https://platform.thomasguesnon.net/gpg/thomas.guesnon-public.asc).
 
-Et, [le CV](https://platform.thomasguesnon.net/cv/fr)
+Et, [le CV](https://platform.thomasguesnon.net/cv/fr.html)
 
 #### Ailleurs sur le web ####
 
