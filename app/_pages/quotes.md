@@ -5,8 +5,11 @@ permalink: /fr/quotes
 lang: fr
 ref: quotes
 ---
+"Je n'ai fait celle-ci plus longue que parce que je n'ai pas eu le loisir de la faire plus courte."
+À propos d'une lettre écrite. _in_ Les Provinciales, lettre 16 — Blaise Pascal
+
 "Just because you're offended doesn't mean you're right"
-<br/>- Ricky Gervais, 2020 Gloden Globe
+<br/>- Ricky Gervais, 2020 Golden Globes
 
 _l'homme est une entreprise qui a contre elle le temps, la nécessité, la fortune, et l'imbécile et toujours croissante primauté du nombre (…) Les hommes tueront l'homme._ ― Marguerite Yourcenar, _in L'Œuvre au noir_
 
