@@ -16,8 +16,9 @@ layout_type: "dark"
 promoted : false
 ---
 
-![scality-1](/assets/images/projets/scality/scality-01.webp)
-![scality-2](/assets/images/projets/scality/scality-02.webp)
-![scality-3](/assets/images/projets/scality/scality-03.webp)
-![scality-4](/assets/images/projets/scality/scality-04.webp)
-![scality-5](/assets/images/projets/scality/scality-05.webp)
+![scality-1](/assets/images/projets/scality-1.webp)
+![scality-2](/assets/images/projets/scality-2.webp)
+![scality-3](/assets/images/projets/scality-3.webp)
+![scality-4](/assets/images/projets/scality-4.webp)
+![scality-5](/assets/images/projets/scality-5.webp)
+![scality-5](/assets/images/projets/scality-6.webp)

@@ -16,7 +16,7 @@ layout_type: "dark"
 promoted : false
 ---
 
-![ez-pro-1](/assets/images/projets/ez-pro/ez-pro-01.webp)
-![ez-pro-2](/assets/images/projets/ez-pro/ez-pro-02.webp)
-![ez-pro-3](/assets/images/projets/ez-pro/ez-pro-03.webp)
-![ez-pro-4](/assets/images/projets/ez-pro/ez-pro-04.webp)
+![ez-pro-1](/assets/images/projets/ezpro-1.webp)
+![ez-pro-2](/assets/images/projets/ezpro-2.webp)
+![ez-pro-3](/assets/images/projets/ezpro-3.webp)
+![ez-pro-4](/assets/images/projets/ezpro-4.webp)

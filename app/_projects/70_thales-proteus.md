@@ -5,7 +5,7 @@ lang : fr
 ref : thales-proteus
 release : 2013
 permalink : /fr/work/thales-proteus
-project_thumbnail : /assets/images/projets-thumbnails/proteus_thumb.webp
+project_thumbnail : /assets/images/projets-thumbnails/thales_proteus_thumb.webp
 project_weight : 70
 project_bg : #222222
 project_fg : #FFFFFF
@@ -19,13 +19,14 @@ Ce projet de tableau de bord réalisé pour Thales tente d'intégrer toutes les 
 <br/><br/>
 *Réalisé pour [Use Design](http://www.use.design)*
 
-![](/assets/images/projets/avionics2020/proteus-1.webp)
-![](/assets/images/projets/avionics2020/proteus-2.webp)
-![](/assets/images/projets/avionics2020/proteus-3.webp)
-![](/assets/images/projets/avionics2020/proteus-4.webp)
-![](/assets/images/projets/avionics2020/proteus-5.webp)
-![](/assets/images/projets/avionics2020/proteus-6.webp)
-![](/assets/images/projets/avionics2020/proteus-7.webp)
-![](/assets/images/projets/avionics2020/proteus-8.webp)
-![](/assets/images/projets/avionics2020/proteus-9.webp)
-![](/assets/images/projets/avionics2020/proteus-10.webp)
+![](/assets/images/projets/thales_proteus-1.webp)
+![](/assets/images/projets/thales_proteus-2.webp)
+![](/assets/images/projets/thales_proteus-3.webp)
+![](/assets/images/projets/thales_proteus-4.webp)
+![](/assets/images/projets/thales_proteus-11.webp)
+![](/assets/images/projets/thales_proteus-12.webp)
+![](/assets/images/projets/thales_proteus-13.webp)
+![](/assets/images/projets/thales_proteus-14.webp)
+![](/assets/images/projets/thales_proteus-21.webp)
+![](/assets/images/projets/thales_proteus-22.webp)
+![](/assets/images/projets/thales_proteus-23.webp)

@@ -16,4 +16,6 @@ layout_type: "light"
 promoted : false
 ---
 
+![ez-pro-1](/assets/images/projets/hager-1.webp)
 <video src="/assets/images/projets/hager/hager.mp4" autoplay loop muted width="1280"></video>
+![ez-pro-1](/assets/images/projets/hager-2.webp)
