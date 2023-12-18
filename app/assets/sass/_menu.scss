@@ -295,7 +295,8 @@ a#logo{
 
 
     &.menu-open{
-	      background-image: url(/assets/images/logo-light-mono.png);
+	    //   background-image: url(/assets/images/logo-light-mono.png);
+		  background-image: url(/assets/images/monogramme-light-default.svg);
     }
     &:hover{
 	      opacity: 0.5;

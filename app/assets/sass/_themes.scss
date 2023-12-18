@@ -59,8 +59,11 @@
 	      }
     }
     a#logo{
-	      background-image: url(/assets/images/logo-dark-mono.png);
-    }
+		  background-image: url(/assets/images/monogramme-dark-default.svg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 32px;
+          height: 32px;    }
     blockquote{   
 	      p{
 	          color: var(--gray);
@@ -108,7 +111,11 @@
 	      }
     }
     a#logo{
-	      background-image: url(/assets/images/logo-light-mono.png);
+		  background-image: url(/assets/images/monogramme-light-default.svg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 32px;
+          height: 32px;   
     }
     blockquote{
 	      border-left-color: var(--yellow);

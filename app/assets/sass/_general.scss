@@ -1,6 +1,8 @@
-
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+  }
 html{
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 body{
@@ -36,8 +38,8 @@ h6{font-size: 1.2rem;}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-top: 3rem;
     margin-bottom: 1rem;
-    font-family: var(--font-family-serif);
-    font-weight: 900;
+    font-family: var(--font-family-sans);
+    font-weight: 800;
 }
 
 

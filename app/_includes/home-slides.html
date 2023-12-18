@@ -10,45 +10,7 @@
   <div class="intro--content">
     <a href="{{site.url}}/{{ page.lang }}/work" id="intro-presentation">
       <div class="sentence" id="sentence-desktop">
-
-          {% if page.lang == "fr" %}
-	        <p class="strong">Thomas&nbsp;Guesnon&nbsp;est&nbsp;designer.</p>
-	        <p>Il&nbsp;conçoit&nbsp;des&nbsp;applications</p>
-	        <p>et&nbsp;des&nbsp;animations.</p>
-	        <p>Il&nbsp;s'occupe&nbsp;d'interaction,&nbsp;de&nbsp;mouvement</p>
-	        <p>et&nbsp;d'expérience&nbsp;utilisateur.</p>
-          {% elsif page.lang == "en" %}
-	        <p class="strong">Thomas&nbsp;Guesnon&nbsp;is&nbsp;designer.</p>
-	        <p>He&nbsp;designs&nbsp;applications</p>
-          <p>and&nbsp;animations</p>
-	        <p>He's&nbsp;focused&nbsp;on&nbsp;interactions,&nbsp;motion</p>
-          <p>and&nbsp;user&nbsp;experience</p>
-          {% endif %}
-      </div>
-
-      <div class="sentence" id="sentence-mobile">
-          {% if page.lang == "fr" %}
-	        <p><strong>Thomas Guesnon est designer.</strong> Il conçoit des applications et des vidéos.</p>
-	        <p>Il s'occupe d'interaction, de mouvement et d'expérience utilisateur.</p>
-          {% elsif page.lang == "en" %}
-	        <p><strong>Thomas Guesnon is designer.</strong> He designs applications and animations.</p>
-	        <p>He's focused on interactions, motion and user experience.</p>
-          {% endif %}
-      </div>
-
-      <div id="highlighterIntro" class="highlighterWrapper">
-	<div class="highlighter" id="highlighter-1"></div>
-      	<div class="highlighter" id="highlighter-2"></div>
-	<div class="highlighter" id="highlighter-3"></div>
-	<div class="highlighter" id="highlighter-4"></div>
-	<div class="highlighter" id="highlighter-5"></div>
-      </div>
-      <div id="highlighterHover" class="highlighterWrapper">
-	<div class="highlighter" id="highlighter-1"></div>
-      	<div class="highlighter" id="highlighter-2"></div>
-	<div class="highlighter" id="highlighter-3"></div>
-	<div class="highlighter" id="highlighter-4"></div>
-	<div class="highlighter" id="highlighter-5"></div>
+        {{content}}
       </div>
     </a>
   </div>

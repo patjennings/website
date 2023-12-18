@@ -1,95 +1,99 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/InterVariable.ttf) format('truetype');
+}
 // MONOSPACE
-@font-face {
-    font-family: 'Nitti';
-    font-style: normal;
-    font-weight: 400;
-    font-display: auto;
-    src: url('fonts/NittiBasic-Normal.woff2') format('woff2'),
-         url('fonts/NittiBasic-Normal.woff') format('woff');
-    // unicode-range: U+0021-007e;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Nitti';
-    font-style: normal;
-    font-weight: 700;
-    font-display: auto;
-    src: url('fonts/Nitti-Bold.woff2') format('woff2'),
-         url('fonts/Nitti-Bold.woff') format('woff');
-    // unicode-range: U+0021-007e;
-    font-display: swap;
-}
+// @font-face {
+//     font-family: 'Nitti';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-display: auto;
+//     src: url('fonts/NittiBasic-Normal.woff2') format('woff2'),
+//          url('fonts/NittiBasic-Normal.woff') format('woff');
+//     // unicode-range: U+0021-007e;
+//     font-display: swap;
+// }
+// @font-face {
+//     font-family: 'Nitti';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-display: auto;
+//     src: url('fonts/Nitti-Bold.woff2') format('woff2'),
+//          url('fonts/Nitti-Bold.woff') format('woff');
+//     // unicode-range: U+0021-007e;
+//     font-display: swap;
+// }
 
 ///////////
 // SERIF
-@font-face {
-    font-family: 'Signifier';
-    font-style: normal;
-    font-weight: 400;
-    font-display: auto;
-    src: 
-         url('fonts/signifier-web-regular.woff2') format('woff2'),
-         url('fonts/signifier-web-regular.woff') format('woff');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Signifier';
-    font-style: italic;
-    font-weight: 400;
-    font-display: auto;
-    // src: url('fonts/Circular_Air-Book.eot');
-    src: url('fonts/signifier-web-regular-italic.woff2') format('woff2'),
-         url('fonts/signifier-web-regular-italic.woff') format('woff');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Signifier';
-    font-style: italic;
-    font-weight: 700;
-    font-display: auto;
-    src: url('fonts/signifier-web-bold-italic.woff2') format('woff2'),
-         url('fonts/signifier-web-bold-italic.woff') format('woff');
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Signifier';
-    font-style: normal;
-    font-weight: 900;
-    font-display: auto;
-    src:     url('fonts/signifier-web-black.woff2') format('woff2'),
-         url('fonts/signifier-web-black.woff') format('woff');
-    font-display: swap;
-}
+// @font-face {
+//     font-family: 'Signifier';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-display: auto;
+//     src: 
+//          url('fonts/signifier-web-regular.woff2') format('woff2'),
+//          url('fonts/signifier-web-regular.woff') format('woff');
+//     font-display: swap;
+// }
+// @font-face {
+//     font-family: 'Signifier';
+//     font-style: italic;
+//     font-weight: 400;
+//     font-display: auto;
+//     // src: url('fonts/Circular_Air-Book.eot');
+//     src: url('fonts/signifier-web-regular-italic.woff2') format('woff2'),
+//          url('fonts/signifier-web-regular-italic.woff') format('woff');
+//     font-display: swap;
+// }
+// @font-face {
+//     font-family: 'Signifier';
+//     font-style: italic;
+//     font-weight: 700;
+//     font-display: auto;
+//     src: url('fonts/signifier-web-bold-italic.woff2') format('woff2'),
+//          url('fonts/signifier-web-bold-italic.woff') format('woff');
+//     font-display: swap;
+// }
+// @font-face {
+//     font-family: 'Signifier';
+//     font-style: normal;
+//     font-weight: 900;
+//     font-display: auto;
+//     src:     url('fonts/signifier-web-black.woff2') format('woff2'),
+//          url('fonts/signifier-web-black.woff') format('woff');
+//     font-display: swap;
+// }
 
-@font-face {
-    font-family: 'Signifier';
-    font-style: italic;
-    font-weight: 900;
-    font-display: auto;
-    // src: url('fonts/Circular_Air-Book.eot');
-      src:   url('fonts/signifier-web-black-italic.woff2') format('woff2'),
-         url('fonts/signifier-web-black-italic.woff') format('woff');
-    font-display: swap;
-}
+// @font-face {
+//     font-family: 'Signifier';
+//     font-style: italic;
+//     font-weight: 900;
+//     font-display: auto;
+//     // src: url('fonts/Circular_Air-Book.eot');
+//       src:   url('fonts/signifier-web-black-italic.woff2') format('woff2'),
+//          url('fonts/signifier-web-black-italic.woff') format('woff');
+//     font-display: swap;
+// }
 
-////////////////////////
-// GOOGLE //////////
-////////////////////////
-@font-face {
-    font-family: 'WorkSans';
-    font-style: normal;
-    font-weight: 400;
-    font-display: auto;
-    src: url('fonts/WorkSans-Regular.woff2') format('woff2');
-    // unicode-range: U+65-90, U+97-122;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'WorkSans';
-    font-style: normal;
-    font-weight: 700;
-    font-display: auto;
-    src: url('fonts/WorkSans-Bold.woff2') format('woff2');
-    // unicode-range: U+65-90, U+97-122;
-    font-display: swap;
-}
+// ////////////////////////
+// // GOOGLE //////////
+// ////////////////////////
+// @font-face {
+//     font-family: 'WorkSans';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-display: auto;
+//     src: url('fonts/WorkSans-Regular.woff2') format('woff2');
+//     // unicode-range: U+65-90, U+97-122;
+//     font-display: swap;
+// }
+// @font-face {
+//     font-family: 'WorkSans';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-display: auto;
+//     src: url('fonts/WorkSans-Bold.woff2') format('woff2');
+//     // unicode-range: U+65-90, U+97-122;
+//     font-display: swap;
+// }

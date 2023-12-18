@@ -12,13 +12,16 @@
 	      }
 	      
 	      #projects-promoted{
-	          .col-lg{
-		            margin-bottom: 2rem;
-	          }
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
 	          .card{
 		            display: block;
 		            background: var(--dark);
 		            border-bottom: none;
+					width: 23%;
+					margin-right: 0.5rem;
+					margin-bottom: 0.5rem;
 		            // margin-bottom: 2rem;
 		            
 		            &:hover{
@@ -149,198 +152,30 @@
 	          justify-content: center;
 	          height: 100vh;
 	          
-	          a{
-		            color: var(--white);
-		            font-family: var(--font-family-serif);
-		            text-decoration: none;
-		            border-bottom: none;
-		            background: none;
-		            display: block;
-		            padding-left: 80px;
-		            width: 90vw;
-
-		            .sentence{
-		                .strong{
-			                  font-weight: 900;
-		                }
-		                p{
-			                  margin-top: 0;
-			                  margin-bottom: 0;
-			                  color: var(--light);
-			                  transition: color 0.25s linear;
-
-			                  @include animation('startSentence 1.5s ease-out');
-			                  
-			                  &:nth-child(1){
-			                      animation-delay: 0.5s;
-			                  }
-			                  &:nth-child(2){
-			                      animation-delay: 0.6s;
-			                  }
-			                  &:nth-child(3){
-
-			                      animation-delay: 0.7s;
-			                  }
-			                  &:nth-child(4){
-			                      margin-top: 40px;
-			                      animation-delay: 0.85s;
-			                  }
-			                  &:nth-child(5){
-			                      animation-delay: 1s;
-			                  }
-		                }
-		            }
-
-		            .highlighterWrapper{
-		                position: absolute;
-		                top: 370px;
-		                left: 72px;
-		                overflow: hidden;
-		                
-		                .highlighter{
-			                  position: relative;
-			                  top: 0;
-			                  left: 0;
-			                  background: var(--yellow);
-			                  height: 48px;
-			                  transform-origin: left;
-		                }
-
-		                #highlighter-1{
-			                  width: 562px;
-		                }
-		                #highlighter-2{
-			                  width: 458px;
-		                }
-		                #highlighter-3{
-			                  width: 320px;
-		                }
-		                #highlighter-4{
-			                  margin-top: 40px;
-			                  width: 697px;
-		                }
-		                #highlighter-5{
-			                  width: 468px;
-		                }
-		            }
-
-
-		            #highlighterIntro{
-		                z-index: 10;
-		                mix-blend-mode: difference;
-		                
-		                .highlighter{
-			                  transform:  translateX(100%) scale(0, 1);
-			                  @include animation('startHighlighter 1s ease-in-out');
-		                }
-		                #highlighter-1{
-			                  animation-delay: 0.15s;
-		                }
-		                #highlighter-2{
-			                  animation-delay: 0.25s;
-		                }
-		                #highlighter-3{
-			                  animation-delay: 0.35s;
-		                }
-		                #highlighter-4{
-			                  margin-top: 40px;
-			                  animation-delay: 0.5s;
-		                }
-		                #highlighter-5{
-			                  animation-delay: 0.65s;
-		                }
-		            }
-		            #highlighterHover{
-		                z-index: -10;
-		                .highlighter{
-			                  transform: translateX(100%) scale(0, 1);
-			                  @include animation('hoverHighlighterOut .2s ease-out');
-		                }
-		                
-		            }
-
-		            &:hover{
-		                .sentence{
-			                  p{
-			                      color: var(--dark);
-			                  }
-		                }
-		                #sentence-mobile{
-			                  p{
-			                      color: var(--light);
-			                  }
-		                }
-
-		                #highlighterHover{
-			                  .highlighter{
-			                      transform: translateX(0%) scale(1, 1);
-			                      @include animation('hoverHighlighter .25s cubic-bezier(0.5, 0, 0.5, 1)');
-			                  }
-			                  
-		                }
-		            }
-
-		            @include keyframes(startHighlighter){
-		                0%{
-			                  transform: translateX(0%) scale(0, 1);
-		                }
-		                
-		                50%{
-			                  transform: translateX(0%) scale(1, 1);
-			                  // transform-origin: right;
-		                }
-		                100%{
-			                  transform: translateX(100%) scale(0, 1);
-		                }
-		            }
-		            @include keyframes(hoverHighlighter){
-		                0%{
-			                  transform: translateX(0%) scale(0, 1);
-		                }
-		                100%{
-			                  transform: translateX(0%) scale(1, 1);
-		                }		 
-		            }
-		            @include keyframes(hoverHighlighterOut){
-		                0%{
-			                  transform: translateX(0%) scale(1, 1);
-		                }
-		                100%{
-			                  transform: translateX(100%) scale(0, 1);
-		                }		 
-		            }
-		            @include keyframes(startSentence){
-		                0%{
-			                  opacity: 0;
-		                }
-		                100%{
-			                  opacity: 100%;
-		                }
-		            }
-		            p{
-		                font-size: 2.5rem;
-		                line-height: 3rem;
-		            }
-
-		            // les paramètres lorsque l'animation est joué sur la phrase de présentation
-		            &.isPlayingIntro{
-		            }
-	          }
 	          // link
-	          #intro-link{
+	          #intro-presentation{
 		            display:block;
 		            padding: 1rem;
-		            border: 1px solid #FFF;
 		            width: auto;
 		            margin-top: 8vh;
+					margin-left: 2rem;
+					text-decoration: none;
+					border: none;
 		            
 		            &:hover{
-		                background: var(--yellow);
-		                border: 1px solid var(--yellow);
+		                // background: var(--yellow);
+						background: none;
+						color: var(--yellow);
+		                // border: 1px solid var(--yellow);
 		            }
+					p{
+						margin-bottom: 0;
+						font-size: 18px;
+					}
+					h1{
+						margin-top: 0;
+					}
 	          }
-	          
-
 	      }
 	      .details{
 	          position: absolute;

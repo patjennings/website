@@ -1,7 +1,10 @@
 :root {
-    --font-family-sans: WorkSans, Helvetica, Arial, sans-serif;
-    --font-family-head: FivoHeavy, Helvetica, Arial, sans-serif;
-    --font-family-serif: Signifier, Times, serif;
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+    --font-family-sans: Inter, Helvetica, Arial, sans-serif;
+    // --font-family-sans: WorkSans, Helvetica, Arial, sans-serif;
+    // --font-family-head: FivoHeavy, Helvetica, Arial, sans-serif;
+    // --font-family-serif: Signifier, Times, serif;
     --font-family-monospace: Nitti, Liberation Mono, Courier, monospace;
     --blue: #007bff;
     --indigo: #6610f2;
