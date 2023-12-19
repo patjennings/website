@@ -1,10 +1,10 @@
 // import bubbleAnimation from "./my/bubbleAnimation.js";
-import spriteAnimation from "./my/spriteAnimation.js";
+// import spriteAnimation from "./my/spriteAnimation.js";
 import mosaique from "./my/mosaique.js";
 import customSelect from "./my/customSelect.js";
 import {menuHandler} from "./my/menu.js";
-import {introHandler, adaptImagesSize, introImagesSlider} from "./my/intro.js";
-import {presentationHandler} from "./my/presentation.js";
+// import {introHandler, adaptImagesSize, introImagesSlider} from "./my/intro.js";
+// import {presentationHandler} from "./my/presentation.js";
 import scroll from './my/scroll.js';
 
 const computers = {
@@ -37,8 +37,8 @@ window.onload = function(e){
 	      mosaique();
     }
     if(homeLayout){
-	      presentationHandler();
-	      adaptImagesSize();
+	    //   presentationHandler();
+	    //   adaptImagesSize();
     }
     if(referencesLayout){
 	      customSelect();
@@ -51,7 +51,7 @@ window.onload = function(e){
 	      homeLayout !== null ? adaptImagesSize() : null;
     }
     
-    homeLayout !== null ? introImagesSlider() : null;
+    // homeLayout !== null ? introImagesSlider() : null;
 
 
 }

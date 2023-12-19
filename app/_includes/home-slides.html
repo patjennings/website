@@ -1,25 +1,52 @@
 <div class="intro">
-  <div class="slides">
-    <div class="slide hidden" id="slide-1"><img class="slide--element" src="/assets/images/intro-slides/portfolio-laptop-phone-apbo-1.webp"/></div>
-    <div class="slide hidden" id="slide-2"><img class="slide--element" src="/assets/images/intro-slides/portfolio-ipad-efb.webp"/></div>
-    <div class="slide hidden" id="slide-3"><img class="slide--element" src="/assets/images/intro-slides/portfolio-desktop-scality.webp"/></div>
-    <div class="slide hidden" id="slide-4"><img class="slide--element" src="/assets/images/intro-slides/portfolio-ipad-iphone-z35b.webp"/></div>
-    <div class="slide hidden" id="slide-5"><video class="slide--element" loop autoplay muted playsinline><source src="/assets/images/intro-slides/intro-movie-576.mp4" type="video/mp4"/></video></div>
-  </div>
-  <div class="overlay"></div>
-  <div class="intro--content">
-    <a href="{{site.url}}/{{ page.lang }}/work" id="intro-presentation">
-      <div class="sentence" id="sentence-desktop">
-        {{content}}
-      </div>
-    </a>
-  </div>
-  <div class="more"><i class="ico ico-arrow"></i></div>
-  <div class="details">
-    <p class="slide-details hidden" id="slide-details-1">Application responsive pour les éleveurs de lait - pour APBO</p>
-    <p class="slide-details hidden" id="slide-details-2">Sacoche de vol électronique - pour Thales</p>
-    <p class="slide-details hidden" id="slide-details-3">Supervision de data center - pour Scality</p>
-    <p class="slide-details hidden" id="slide-details-4">Gestion d'une flotte de véhicule de livraison autonomes - pour Renault</p>
-    <p class="slide-details hidden" id="slide-details-5">Extraits d'animation, issus de films et d'interfaces</p>
-  </div>
+
+    <!-- Slides on desktop -->
+    <div class="slides slides--desktop">
+        <div class="slide" id="slide-1">
+            <div class="slide--image"></div>
+            <p class="slide--title">Interaction & expérience utilisateur</p>
+        </div>
+        <div class="slide" id="slide-2">
+            <div class="slide--image"></div>
+            <p class="slide--title">Design d'information & cartographie</p>
+        </div>
+        <div class="slide" id="slide-3">
+            <div class="slide--image"></div>
+            <p class="slide--title">Sites web & application</p>
+        </div>
+        <div class="slide" id="slide-4">
+            <div class="slide--image"></div>
+            <p class="slide--title">Motion & 3D</p>
+        </div>
+
+        <div class="separator" id="separator-1"></div>
+        <div class="separator" id="separator-2"></div>
+        <div class="separator" id="separator-3"></div>
+    </div>
+
+    <!-- Slides on mobile -->
+    <div class="slides slides--mobile">
+        <div class="slide" id="slide-1">
+            <div class="slide--image"></div>
+        </div>
+        <div class="slide" id="slide-2">
+            <div class="slide--image"></div>
+        </div>
+        <div class="slide" id="slide-3">
+            <div class="slide--image"></div>
+        </div>
+        <div class="slide" id="slide-4">
+            <div class="slide--image"></div>
+        </div>
+    </div>
+
+    <!-- Intro sentence (i'm a designer) -->
+    <div class="intro--content">
+        <a href="{{site.url}}/{{ page.lang }}/work" id="intro-presentation">
+            <div class="sentence">
+                {{content}}
+            </div>
+        </a>
+    </div>
+</div>
 </div>
