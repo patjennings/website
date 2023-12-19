@@ -161,7 +161,8 @@
 					position: absolute;
 					left: 2rem;
 					bottom: 0;
-					font-size: 1.25rem;
+					font-size: 1rem;
+					transition: all 0.25s ease-in-out;
 
 					&.hidden {
 						opacity: 0;
@@ -174,16 +175,22 @@
 
 				.slide--details {
 					position: absolute;
-					bottom: 25%;
+					top: 55%;
 					transition: all 0.25s ease-in-out;
 
 					width: 20vw;
 
-					h3{
+					h3.title {
 						font-weight: 500;
 					}
-					p{
+
+					p.description {
 						font-size: 1.15rem;
+					}
+
+					p.caption {
+						// font
+						opacity: 0.75;
 					}
 
 					&.hidden {
@@ -194,6 +201,20 @@
 					&.visible {
 						opacity: 1;
 						left: 3rem;
+					}
+				}
+
+				&#slide-3 {
+					.slide--details {
+
+						h3.title,
+						p.description {
+							color: var(--dark);
+						}
+						p.caption{
+							color: var(--dark);
+							opacity: 0.45;
+						}
 					}
 				}
 
@@ -264,11 +285,12 @@
 			flex-direction: column;
 			height: 15vh;
 			transition: opacity 0.25s ease-in-out;
-			
-			&.highlighted{
+
+			&.highlighted {
 				opacity: 1;
 			}
-			&.dimmed{
+
+			&.dimmed {
 				opacity: 0.1;
 			}
 

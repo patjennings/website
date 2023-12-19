@@ -16,11 +16,10 @@ layout_type: "light"
 promoted : false
 ---
 
-![](/assets/images/projets/archimed-1.webp)
+![](/assets/images/projets/archimed-5.webp)
 ![](/assets/images/projets/archimed-2.webp)
 ![](/assets/images/projets/archimed-3.webp)
 ![](/assets/images/projets/archimed-4.webp)
-![](/assets/images/projets/archimed-5.webp)
 ![](/assets/images/projets/archimed-6.webp)
 ![](/assets/images/projets/archimed-7.webp)
 ![](/assets/images/projets/archimed-13.webp)

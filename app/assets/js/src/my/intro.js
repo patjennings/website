@@ -33,6 +33,7 @@ export function adaptSliderImagesSize() // Gestion des cells de la mosaïque
 
 	}
 }
+
 export function hoverSliderImage() {
 	document.addEventListener('mousemove', e => {
 
@@ -44,49 +45,16 @@ export function hoverSliderImage() {
 
 		if (e.pageY > docHeight / 2) {
 			dimeHeading()
+			resetEverything(slidesElements);
+			hideEverything(slidesElements)
 			if (e.pageX < docWidth * 0.25) {
-				resetEverything(slidesElements);
-				hideEverything(slidesElements)
-				slidesElements[0].classList.remove('hidden');
-				slidesElements[0].classList.add('visible');
-				slidesElements[0].parentNode.setAttribute('style', 'left:0; width:100vw;');
-				slidesElements[0].setAttribute('style', 'background-position:0 center;')
-				const details = slidesElements[0].parentNode.querySelector('.slide--details');
-				details.classList.remove('hidden');
-				details.classList.add('visible');
+				enhanceSlide(slidesElements[0])
 			} else if (e.pageX > docWidth * 0.25 && e.pageX < docWidth * 0.5) {
-
-				resetEverything(slidesElements);
-				hideEverything(slidesElements)
-				slidesElements[1].classList.remove('hidden');
-				slidesElements[1].classList.add('visible');
-				slidesElements[1].parentNode.setAttribute('style', 'left:0; width:100vw;');
-				slidesElements[1].setAttribute('style', 'background-position:0 center;')
-				const details = slidesElements[1].parentNode.querySelector('.slide--details');
-				details.classList.remove('hidden');
-				details.classList.add('visible');
+				enhanceSlide(slidesElements[1])
 			} else if (e.pageX > docWidth * 0.5 && e.pageX < docWidth * 0.75) {
-				resetEverything(slidesElements);
-				hideEverything(slidesElements)
-				slidesElements[2].classList.remove('hidden');
-				slidesElements[2].classList.add('visible');
-				slidesElements[2].parentNode.setAttribute('style', 'left:0; width:100vw;');
-				slidesElements[2].setAttribute('style', 'background-position:0 center;')
-				const details = slidesElements[2].parentNode.querySelector('.slide--details');
-				details.classList.remove('hidden');
-				details.classList.add('visible');
-				// slidesElements[2].querySelector('.slide--details').classList.add('visible');
-
+				enhanceSlide(slidesElements[2])
 			} else if (e.pageX > docWidth * 0.75) {
-				resetEverything(slidesElements);
-				hideEverything(slidesElements)
-				slidesElements[3].classList.remove('hidden');
-				slidesElements[3].classList.add('visible');
-				slidesElements[3].parentNode.setAttribute('style', 'left:0; width:100vw;');
-				slidesElements[3].setAttribute('style', 'background-position:0 center;')
-				const details = slidesElements[3].parentNode.querySelector('.slide--details');
-				details.classList.remove('hidden');
-				details.classList.add('visible');
+				enhanceSlide(slidesElements[3])
 			}
 		} else {
 			highlightHeading();
@@ -108,12 +76,12 @@ function resetEverything(elem) {
 		e.classList.remove('visible');
 		e.parentNode.removeAttribute('style');
 		e.setAttribute('style', e.getAttribute('style') + '; opacity: 0.5');
-		let dtls = e.parentNode.querySelector('.slide--details');
-		// console.log(dtls);
-		console.log(e.parentNode.querySelector('.slide--details'));
-		dtls.classList.remove('visible');
-		dtls.classList.add('hidden');
-
+		let details = e.parentNode.querySelector('.slide--details');
+		details.classList.remove('visible');
+		details.classList.add('hidden');
+		const title = e.parentNode.querySelector('.slide--title');
+		title.classList.add('visible');
+		title.classList.remove('hidden');
 	});
 }
 
@@ -125,12 +93,24 @@ function hideEverything(elem) {
 		e.parentNode.setAttribute('style', 'opacity: 0');
 	});
 }
-function highlightHeading(){
+function enhanceSlide(slide) {
+	slide.classList.remove('hidden');
+	slide.classList.add('visible');
+	slide.parentNode.setAttribute('style', 'left:0; width:100vw;');
+	slide.setAttribute('style', 'background-position:0 center;')
+	const details = slide.parentNode.querySelector('.slide--details');
+	const title = slide.parentNode.querySelector('.slide--title');
+	details.classList.remove('hidden');
+	details.classList.add('visible');
+	title.classList.remove('visible');
+	title.classList.add('hidden');
+}
+function highlightHeading() {
 	const heading = document.getElementById('intro--heading')
 	heading.classList.remove('dimmed')
 	heading.classList.add('highlighted')
 }
-function dimeHeading(){
+function dimeHeading() {
 	const heading = document.getElementById('intro--heading')
 	heading.classList.add('dimmed')
 	heading.classList.remove('highlighted')
