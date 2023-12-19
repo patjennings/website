@@ -1,6 +1,6 @@
 ---
 client : Hager
-title : Tutorial animations
+title : Charging stations management
 lang : en
 ref : hager
 release : 2021
@@ -17,5 +17,5 @@ promoted : false
 ---
 
 ![ez-pro-1](/assets/images/projets/hager-1.webp)
-<video src="/assets/images/projets/hager/hager.mp4" autoplay loop muted width="1280"></video>
+<video src="/assets/images/projets/hager.mp4" autoplay loop muted width="1280"></video>
 ![ez-pro-1](/assets/images/projets/hager-2.webp)

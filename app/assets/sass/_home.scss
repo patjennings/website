@@ -3,7 +3,7 @@
     color: var(--light);
 
     #presentation{
-	      background: var(--dark);
+	      background: var(--dark-darker);
 	      padding-top: 2rem;
 
 	      h3#projets{
@@ -17,7 +17,7 @@
 			flex-wrap: wrap;
 	          .card{
 		            display: block;
-		            background: var(--dark);
+		            // background: var(--dark);
 		            border-bottom: none;
 					width: 23%;
 					margin-right: 0.5rem;
@@ -27,15 +27,17 @@
 		            
 		            &:hover{
 		                // background: var(--yellow);
+						background: none;
 		                
 		                .card--thumb{
-			                  opacity: 0.75;
+			                //   opacity: 0.75;
 		                }
 		                .card--title{
-			                  color: var(--yellow);		
+							color: var(--light);
+							opacity: 1;
 		                }
 		                .card--client{
-			                  color: var(--yellow);		
+							color: var(--light);
 							  opacity: 0.5;
 		                }
 		            }
