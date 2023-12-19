@@ -137,19 +137,24 @@
 			height: 100vh;
 
 			.slide {
-				background-size: contains;
 				position: absolute;
-				background-position: left;
 
-				// width: 100%;
 				width: 25%;
 				height: 100%;
-				transition: opacity 0.75s ease-in-out;
+				// transition: opacity 0.25s ease-in-out;
 
-				// transition: none;
 				.slide--image {
 					height: 100vh;
 					opacity: 0.5;
+					transition: opacity 0.25s ease-out;
+
+					&.hidden {
+						opacity: 0;
+					}
+
+					&.visible {
+						opacity: 1;
+					}
 				}
 
 				.slide--title {
@@ -157,29 +162,58 @@
 					left: 2rem;
 					bottom: 0;
 					font-size: 1.25rem;
+
+					&.hidden {
+						opacity: 0;
+					}
+
+					&.visible {
+						opacity: 1;
+					}
 				}
 
-				&.hidden {
-					opacity: 0;
+				.slide--details {
+					position: absolute;
+					bottom: 25%;
+					transition: all 0.25s ease-in-out;
+
+					width: 20vw;
+
+					h3{
+						font-weight: 500;
+					}
+					p{
+						font-size: 1.15rem;
+					}
+
+					&.hidden {
+						opacity: 0;
+						left: 0;
+					}
+
+					&.visible {
+						opacity: 1;
+						left: 3rem;
+					}
 				}
 
-				&.visible {
-					opacity: 1;
-				}
 			}
-			.separator{
+
+			.separator {
 				width: 1px;
 				height: 100vh;
 				border-left: 1px solid rgba(255, 255, 255, 0.15);
 				position: absolute;
-			
-				&#separator-1{
+
+				&#separator-1 {
 					left: 25%;
 				}
-				&#separator-2{
+
+				&#separator-2 {
 					left: 50%;
 				}
-				&#separator-3{
+
+				&#separator-3 {
 					left: 75%;
 				}
 			}
@@ -187,7 +221,6 @@
 			#slide-1 {
 				.slide--image {
 					background-image: url(/assets/images/slide-1.webp);
-					background-position-x: -300px;
 				}
 
 			}
@@ -195,7 +228,6 @@
 			#slide-2 {
 				.slide--image {
 					background-image: url(/assets/images/slide-2.webp);
-					background-position-x: -200px;
 				}
 
 				left: 25%;
@@ -204,7 +236,6 @@
 			#slide-3 {
 				.slide--image {
 					background-image: url(/assets/images/slide-3.webp);
-					background-position-x: -1390px;
 				}
 
 				left:50%;
@@ -213,7 +244,6 @@
 			#slide-4 {
 				.slide--image {
 					background-image: url(/assets/images/slide-4.webp);
-					background-position-x: -1900px;
 				}
 
 				left: 75%;
@@ -233,6 +263,14 @@
 			display: flex;
 			flex-direction: column;
 			height: 15vh;
+			transition: opacity 0.25s ease-in-out;
+			
+			&.highlighted{
+				opacity: 1;
+			}
+			&.dimmed{
+				opacity: 0.1;
+			}
 
 			// link
 			#intro-presentation {
