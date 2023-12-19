@@ -7,3 +7,4 @@ app/.sass-cache/*
 web/
 .DS_Store
 .projectile
+website.code-workspace
