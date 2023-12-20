@@ -12,7 +12,7 @@ project_fg : #FFFFFF
 layout : project
 isInteraction : true
 isMotion : true
-layout_type: "light"
+layout_type: "dark"
 promoted : true
 ---
 
