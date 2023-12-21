@@ -1,7 +1,49 @@
 strings:
   fr:
+    slides-intro:
+      list:
+        - id: 1
+          title: Interaction & expérience utilisateur
+          description:
+          caption: Moon, Scality - 2019
+        - id: 2
+          title: Design d'information et cartographie
+          description:
+          caption: Mass transit, SNCF - 2017
+        - id: 3
+          title: Sites web & applications
+          description: Applications Saas, applications mobiles, systèmes embarquées, sites web
+          caption: Yoodo, Arkadin - 2016
+        - id: 4
+          title: Motion & 3D
+          description:
+          caption: Macintosh modélisation et rendu, personnel - 2022
+    home-sections:
+      section:
+        title: Projets
     footer-message:
-      content: "Design & code 🛠️ Thomas Guesnon"
+      content: "Design & code 🛠️ Thomas Guesnon - 2018-2023"
   en:
+    slides-intro:
+      list:
+        - id: 1
+          title: Interaction & user experience
+          description:
+          caption: Moon, Scality - 2019
+        - id: 2
+          title: Information design & maps
+          description:
+          caption: Mass transit, SNCF - 2017
+        - id: 3
+          title: Websites & applications
+          description: Saas applications, mobile applications, embedded systems, websites
+          caption: Yoodo, Arkadin - 2016
+        - id: 4
+          title: Motion & 3D
+          description:
+          caption: Macintosh modeling and render, personal - 2022
+    home-sections:
+      section-1:
+        title: Projects
     footer-message:
-      content: "Design & code 🛠️ Thomas Guesnon"
+      content: "Design & code 🛠️ Thomas Guesnon - 2018-2023"

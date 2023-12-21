@@ -1,13 +1,6 @@
 <div class="home-container container-fluid" id="presentation">
     <div class="container">
-
-
-        {% if page.lang == "fr" %}
-        <h3 id="projets">Projets</h3>
-        {% elsif page.lang == "en" %}
-        <h3 id="projets">Projects</h3>
-        {% endif %}
-
+        <h3 id="projets">{{site.data.strings.strings[page.lang].home-sections.section-1.title }}</h3>
         <div id="projects-promoted">
 {% assign projects = site.projects | where: "lang", {{page.lang}} %}
             {% for project in projects %}
