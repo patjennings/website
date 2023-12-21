@@ -43,7 +43,7 @@ export function hoverSliderImage() {
 
 		const slidesElements = document.querySelectorAll(".slide--image");
 
-		if (e.pageY > docHeight / 2) {
+	if (e.pageY > docHeight / 2 && e.pageY < docHeight) {
 			dimeHeading();
 			resetEverything(slidesElements);
 			hideEverything(slidesElements);
