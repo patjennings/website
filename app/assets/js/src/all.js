@@ -3,7 +3,7 @@
 import mosaique from "./my/mosaique.js";
 import customSelect from "./my/customSelect.js";
 import { menuHandler } from "./my/menu.js";
-import { adaptSliderImagesSize, hoverSliderImage } from "./my/intro.js";
+import { adaptSliderImagesSize, hoverSliderImage, clickSliderImage } from "./my/intro.js";
 // import {presentationHandler} from "./my/presentation.js";
 import scroll from './my/scroll.js';
 
@@ -40,6 +40,7 @@ window.onload = function (e) {
         //   presentationHandler();
         adaptSliderImagesSize();
         hoverSliderImage();
+        clickSliderImage();
     }
     if (referencesLayout) {
         customSelect();

@@ -31,7 +31,7 @@ export function adaptSliderImagesSize() {
 		if (docRatio < elemRatio) {
 			slideElement.setAttribute("style", "background-position:" + updatedLeft + "px center; background-size: auto " + updatedHeight + "px;");
 		} else if (docRatio > elemRatio) {
-			slideElement.setAttribute("style", "background-position:" + updatedLeft + "px center; background-size: "+ updatedWidth + "px auto;");
+			slideElement.setAttribute("style", "background-position:" + updatedLeft + "px center; background-size: " + updatedWidth + "px auto;");
 		}
 	}
 }
@@ -43,7 +43,7 @@ export function hoverSliderImage() {
 
 		const slidesElements = document.querySelectorAll(".slide--image");
 
-	if (e.pageY > docHeight / 2 && e.pageY < docHeight) {
+		if (e.pageY > docHeight / 2 && e.pageY < docHeight) {
 			dimeHeading();
 			resetEverything(slidesElements);
 			hideEverything(slidesElements);
@@ -60,17 +60,13 @@ export function hoverSliderImage() {
 			highlightHeading();
 			adaptSliderImagesSize();
 			resetEverything(slidesElements);
-			// slidesElements.forEach(se => {
-			// se.classList.remove('hidden');
-			// se.classList.add('visible');
-			// })
 		}
 	});
 }
 // tout remettre à opacité moyenne lors du rollout
 function resetEverything(elem) {
 	elem.forEach((e) => {
-		console.log(e);
+		// console.log(e);
 		e.classList.remove("hidden");
 		e.classList.remove("visible");
 		e.parentNode.removeAttribute("style");
@@ -82,6 +78,29 @@ function resetEverything(elem) {
 		title.classList.add("visible");
 		title.classList.remove("hidden");
 	});
+}
+
+export function clickSliderImage() {
+	document.addEventListener("click", e => {
+
+		const docWidth = window.innerWidth;
+		const docHeight = window.innerHeight;
+
+		const slidesElements = document.querySelectorAll(".slide--image");
+
+		if (e.pageY > docHeight / 2 && e.pageY < docHeight) {
+			console.log("ça clique !");
+			const body = document.querySelector('body')
+			console.log(docHeight);
+
+			document.querySelector('body').scrollTo(100, 100);
+			window.scrollBy({
+				top: docHeight,
+				left: 0,
+				behavior: 'smooth'
+			});
+		}
+	})
 }
 
 // tout cacher lorsqu'une slide est active
@@ -98,7 +117,7 @@ function enhanceSlide(slide) {
 	slide.classList.remove("hidden");
 	slide.classList.add("visible");
 	slide.parentNode.setAttribute("style", "left:0; width:100vw;");
-	slide.setAttribute('style', slide.getAttribute('style')+'background-position:0 center;')
+	slide.setAttribute('style', slide.getAttribute('style') + 'background-position:0 center;')
 	const details = slide.parentNode.querySelector(".slide--details");
 	const title = slide.parentNode.querySelector(".slide--title");
 	details.classList.remove("hidden");
