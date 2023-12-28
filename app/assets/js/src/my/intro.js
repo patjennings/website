@@ -31,7 +31,7 @@ export function adaptSliderImagesSize() {
 export function hoverSliderImage() {
 	const slidesElements = document.querySelectorAll(".slide--image");
 	const slidesDetailsLinks = document.querySelectorAll(".slide-details")
-	dimeHeading();
+	// dimeHeading();
 	resetEverything(slidesElements);
 	hideEverything(slidesElements);
 	enhanceSlide(slidesElements[0]);
@@ -70,11 +70,6 @@ export function clickSliderImage() {
 				left: 0,
 				behavior: 'smooth'
 			});
-
-			// if (e.pageY > docHeight / 2 && e.pageY < docHeight) {
-			// 	const body = document.querySelector('body')
-			// 	document.querySelector('body').scrollTo(100, 100);
-			// }
 		})
 	})
 }
@@ -112,17 +107,11 @@ function highlightHeading() {
 }
 
 function changeIntroMode(mode) {
-	const intro = document.querySelector('.intro');
 	const body = document.querySelector('body')
-	// console.log(body.classList);
 	if (mode == 'light') {
-		intro.classList.remove('dark')
-		intro.classList.add('light')
 		body.classList.remove('theme-dark')
 		body.classList.add('theme-light')
 	} else if (mode == 'dark') {
-		intro.classList.remove('light')
-		intro.classList.add('dark')
 		body.classList.remove('theme-light')
 		body.classList.add('theme-dark')
 	} else {

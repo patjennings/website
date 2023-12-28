@@ -175,13 +175,18 @@
 
         .slide--details {
           position: absolute;
-          top: 55%;
-          transition: all 0.25s ease-in-out;
-
+          top: 59%;
+          transition: all 0.5s cubic-bezier(0, 0, 0.26, 1);
           width: 40vw;
+          padding: 1.5rem;
+          z-index: 999;
+          backdrop-filter: blur(10px);
+          @include border-radius(4px);
 
           h3.title {
             font-weight: 500;
+            font-size: 1.5rem;
+            margin: 0;
           }
 
           p.description {
@@ -191,6 +196,7 @@
           p.caption {
             // font
             opacity: 0.75;
+            margin-bottom: 0;
           }
 
           &.hidden {
@@ -200,7 +206,7 @@
 
           &.visible {
             opacity: 1;
-            left: 3rem;
+            left: 1.5rem;
           }
         }
 
@@ -222,7 +228,6 @@
       .separator {
         width: 1px;
         height: 100vh;
-        border-left: 1px solid rgba(255, 255, 255, 0.15);
         position: absolute;
 
         &#separator-1 {
@@ -273,20 +278,53 @@
       display: flex;
       flex-direction: row;
       z-index: 999;
-	  width: 100vw;
-	  position: absolute;
-	  bottom: 0;
+      width: 100vw;
+      position: absolute;
+      bottom: 0;
 
       .slide-details {
         width: 25vw;
-		padding: 3.5rem;
-		opacity: 0.75;
+        padding: 3.5rem;
+        position: relative;
+        cursor: pointer;
+        border: none;
 
-		&:hover{
-			background: none;
-			// color: white;
-			opacity: 1;
-		}
+        &#slide-details-1 {
+          @include animation("IntroApparition 2s cubic-bezier(0.1,0,.26,1) ");
+          animation-fill-mode: backwards;
+          animation-delay: 0.5s;
+        }
+        &#slide-details-2 {
+          @include animation("IntroApparition 2s cubic-bezier(0.1,0,.26,1) ");
+          animation-fill-mode: backwards;
+          animation-delay: 0.65s;
+        }
+        &#slide-details-3 {
+          @include animation("IntroApparition 2s cubic-bezier(0.1,0,.26,1) ");
+          animation-fill-mode: backwards;
+          animation-delay: 0.65s;
+        }
+        &#slide-details-4 {
+          @include animation("IntroApparition 2s cubic-bezier(0.1,0,.26,1) ");
+          animation-fill-mode: backwards;
+          animation-delay: 0.65s;
+        }
+
+        &:hover {
+          background: none;
+          opacity: 0.5;
+        }
+      }
+      @include keyframes(IntroApparition) {
+        0% {
+          opacity: 0;
+          left: -3rem;
+        }
+
+        100% {
+          opacity: 1;
+          left: 0;
+        }
       }
     }
     /////////////////////
@@ -318,10 +356,29 @@
         text-decoration: none;
         border: none;
 
+        @include animation(
+          "IntroPresentationApparition 1s cubic-bezier(0.1,0,.26,1) "
+        );
+        // animation-fill-mode: backwards;
+        // animation-delay: 0.65s;
+
+        @include keyframes(IntroPresentationApparition) {
+          0% {
+            opacity: 0;
+            margin-left: 0;
+          }
+
+          100% {
+            opacity: 1;
+            margin-left: 2rem;
+          }
+        }
+
         &:hover {
           // background: var(--yellow);
           background: none;
-          color: var(--yellow);
+          opacity: 0.5;
+          // color: var(--yellow);
           // border: 1px solid var(--yellow);
         }
 
