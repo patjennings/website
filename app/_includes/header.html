@@ -12,7 +12,7 @@
     </div>
     <!-- end for mobile -->
 
-    <div class="lang-selector">
+    <div id="lang-selector">
         <ul>
             {% assign projects=site.projects | where:"ref", page.ref | sort: 'lang' | reverse %}
             {% for project in projects %}

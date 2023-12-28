@@ -1,12 +1,13 @@
 <div class="intro">
+
     <!-- Slides on desktop -->
 
     {% assign slides = site.data.strings.strings[page.lang].slides-intro %}
     <div class="slides slides--desktop">
         {% for slide in slides.list %}
-        <div class="slide" id={{ slide.id | prepend: "slide-" }}>
+        <div class="slide {{slide.mode}}" id={{ slide.id | prepend: "slide-" }}>
             <div class="slide--image"></div>
-            <p class="slide--title">{{slide.title}}</p>
+            <!-- <p class="slide--title">{{slide.title}}</p> -->
             <div class="slide--details hidden">
                 <h3 class="title">{{slide.title}}</h3>
                 <p class="description">{{slide.description}}</p>
@@ -18,6 +19,16 @@
         <div class="separator" id="separator-1"></div>
         <div class="separator" id="separator-2"></div>
         <div class="separator" id="separator-3"></div>
+
+
+    </div>
+
+    <!-- Slides details -->
+    <div class="slides-details">
+        {% for slide in slides.list %}
+            <!-- <div class="slide--image"></div> -->
+            <a class="slide-details {{slide.mode}}" id={{ slide.id | prepend: "slide-details-" }} >{{slide.title}}</a>
+        {% endfor %}
     </div>
 
     <!-- Slides on mobile -->

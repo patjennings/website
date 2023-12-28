@@ -1,143 +1,187 @@
 ///////////////////
 // light settings
 ///////////////////
-.theme-light, .layout-article{
-    background: var(--light);
+.theme-light,
+.layout-article {
+  background: var(--light);
+  color: var(--dark);
+  a {
+    border-bottom: 1px solid var(--dark);
+  }
+  a.btn,
+  select {
+    border: 1px solid rgba(0, 0, 0, 0.25);
     color: var(--dark);
-    a{
-	      border-bottom: 1px solid var(--dark);
-    }
-    a.btn, select{
-	      border: 1px solid rgba(0,0,0,0.25);
-	      color: var(--dark);
 
-	      &:hover{
-	          background-color: var(--yellow);
-	          border: 1px solid var(--yellow);
-	      }
+    &:hover {
+      background-color: var(--yellow);
+      border: 1px solid var(--yellow);
     }
-    #site-header{
-        &.menu-closed{
-            background: var(--light);
+  }
+  #site-header {
+    &.menu-closed {
+      background: var(--light);
+    }
+    &.menu-open {
+      background: var(--dark-darker);
+    }
+  }
+  #lang-selector {
+    ul li a {
+      color: var(--dark);
+    }
+  }
+  #site-nav {
+    // border-bottom: 1px solid rgba(0,0,0,0.15);
+    .nav--items {
+      li {
+        a {
+          color: var(--dark);
+          &:hover {
+            color: var(--yellow);
+          }
         }
-        &.menu-open{
-            background: var(--dark-darker);
+        &.active:after {
+          background: var(--dark);
         }
+      }
     }
-    #site-nav{
-        border-bottom: 1px solid rgba(0,0,0,0.15);
-        .nav--items{
-            li{
-	              &:before {
-	              }
-                a{
-                    &:hover{
-                        color: var(--yellow);
-                    }
-                }
-                &.active:after{
-                    background: var(--dark);
-                }
-            }
-       }
+  }
+  .intro {
+    .slides-details {
+      .slide-details {
+        color: var(--dark);
+        &:hover {
+          color: var(--dark);
+        }
+      }
     }
+    #intro--heading {
+      a,
+      p {
+        color: var(--dark);
+      }
+    }
+  }
 
-    #site-menu--mobile-trigger{
-        div{
-            background: var(--dark);
-        }
+  #site-menu--mobile-trigger {
+    div {
+      background: var(--dark);
     }
-    h1.page-title, p{
-	      color: var(--dark);
+  }
+  h1.page-title,
+  p {
+    color: var(--dark);
+  }
+  p.meta {
+    color: var(--dark);
+  }
+  #site-menu-trigger {
+    div {
+      background: var(--dark);
     }
-    p.meta{
-	      color: var(--dark);
+  }
+  a#logo {
+    background-image: url(/assets/images/monogramme-dark-default.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+  }
+  blockquote {
+    p {
+      color: var(--gray);
     }
-    #site-menu-trigger{
-	      div{
-	          background: var(--dark);
-	      }
-    }
-    a#logo{
-		  background-image: url(/assets/images/monogramme-dark-default.svg);
-          background-size: contain;
-          background-repeat: no-repeat;
-          width: 32px;
-          height: 32px;    }
-    blockquote{   
-	      p{
-	          color: var(--gray);
-	      }
-    }
+  }
 }
-.theme-dark, .layout-page, .layout-projects, .layout-references, .layout-home{
-    background: var(--dark-darker);
+.theme-dark,
+.layout-page,
+.layout-projects,
+.layout-references
+ {
+  background: var(--dark-darker);
+  color: var(--light);
+  a {
+    border-bottom: 1px solid var(--gray);
+  }
+  a.btn,
+  select {
+    border: 1px solid rgba(255, 255, 255, 0.25);
     color: var(--light);
-    a{
-	      border-bottom: 1px solid var(--gray);
-    }
-    a.btn, select{
-	      border: 1px solid rgba(255,255,255,0.25);
-	      color: var(--light);
 
-	      &:hover{
-	          background-color: var(--yellow);
-	          border: 1px solid var(--yellow);
-	          color: var(--dark);
-	      }
+    &:hover {
+      background-color: var(--yellow);
+      border: 1px solid var(--yellow);
+      color: var(--dark);
     }
-    #site-header{
-        &.menu-closed{
-            background: var(--dark-darker);
+  }
+  #site-header {
+    &.menu-closed {
+      background: var(--dark-darker);
+    }
+    &.menu-open {
+      background: var(--dark-darker);
+    }
+  }
+  #site-menu--mobile-trigger {
+    div {
+      background: var(--light);
+    }
+  }
+  .intro {
+    .slides-details {
+      .slide-details {
+        color: var(--light);
+        &:hover {
+          color: var(--light);
         }
-        &.menu-open{
-            background: var(--dark-darker);
-        }
+      }
     }
-    #site-menu--mobile-trigger{
-        div{
-            background: var(--light);
-        }
+    #intro--heading {
+      a,
+      p {
+        color: var(--light);
+      }
     }
-    h1.page-title, p{
-	      color: var(--light);
+  }
+  h1.page-title,
+  p {
+    color: var(--light);
+  }
+  p.meta {
+    color: var(--light);
+  }
+  #site-menu-trigger {
+    div {
+      background: var(--light);
     }
-    p.meta{
-	      color: var(--light);
-    }
-    #site-menu-trigger{
-	      div{
-	          background: var(--light);
-	      }
-    }
-    a#logo{
-		  background-image: url(/assets/images/monogramme-light-default.svg);
-          background-size: contain;
-          background-repeat: no-repeat;
-          width: 32px;
-          height: 32px;   
-    }
-    blockquote{
-	      border-left-color: var(--yellow);
-	      background: #363727;
-	      p{
-	          color: var(--yellow);
+  }
+  a#logo {
+    background-image: url(/assets/images/monogramme-light-default.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+  }
+  blockquote {
+    border-left-color: var(--yellow);
+    background: #363727;
+    p {
+      color: var(--yellow);
 
-	          a{
-		            border-bottom-color: var(--yellow);
-	          }
-	      }
+      a {
+        border-bottom-color: var(--yellow);
+      }
     }
+  }
 }
-.layout-home{
-    #site-header{
-        &.menu-closed{
-            background: none;
-        }
-        &.menu-open{
-            background: var(--dark-darker);
-        }
+.layout-home {
+  #site-header {
+    &.menu-closed {
+      background: none;
     }
-
-    
+    &.menu-open {
+      background: var(--dark-darker);
+    }
+  }
 }

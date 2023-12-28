@@ -6,18 +6,26 @@ strings:
           title: Interaction & expérience utilisateur
           description:
           caption: Moon, Scality - 2019
+          url: /projets
+          mode: dark
         - id: 2
           title: Design d'information et cartographie
           description:
           caption: Mass transit, SNCF - 2017
+          url: /projets
+          mode: dark
         - id: 3
           title: Sites web & applications
           description: Applications Saas, applications mobiles, systèmes embarquées, sites web
           caption: Yoodo, Arkadin - 2016
+          url: /projets
+          mode: light
         - id: 4
           title: Motion & 3D
           description:
           caption: Macintosh modélisation et rendu, personnel - 2022
+          url: /projets
+          mode: dark
     home-sections:
       section:
         title: Projets
