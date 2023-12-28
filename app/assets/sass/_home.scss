@@ -187,16 +187,20 @@
             font-weight: 500;
             font-size: 1.5rem;
             margin: 0;
+            margin-bottom: 1rem;
           }
 
           p.description {
             font-size: 1.15rem;
+            margin: 0;
+            margin-bottom: 1rem;
           }
 
           p.caption {
             // font
             opacity: 0.75;
-            margin-bottom: 0;
+            margin: 0;
+            margin-bottom: 1rem;
           }
 
           &.hidden {
