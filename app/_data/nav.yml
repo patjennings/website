@@ -9,9 +9,6 @@ navigation:
     about:
       name: "À propos"
       url: "/fr/about"
-    contact:
-      name: "Contact"
-      url: "/fr/contact"
   en:
     work:
       name: "Projects"
@@ -20,11 +17,8 @@ navigation:
       name: "References"
       url: "/en/references"
     about:
-      name: "About"
+      name: "About & contact"
       url: "/en/about"
-    contact:
-      name: "Contact"
-      url: "/en/contact"
 links:
   fr:
     legal:

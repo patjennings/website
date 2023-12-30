@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: Hello, 
 permalink: /en/about
 lang: en
@@ -13,8 +13,20 @@ I use my skills to design web or native applications, create prototypes or video
 I worked for various fields, such as aeronautical, transport, health, education or automotive.
 
 I have a partnership with <a href="https://www.lesoctetslibres.com/" target="blank">les Octets Libres, a development studio</a>, with whom we imagine and create turnkey digital solutions.
-<div style="width:100%; text-align:center; margin:3rem 0;">
-<a type="button" class="btn btn-outline-primary" href="/en/references">View references</a>
-</div>
 
-<img src="/assets/images/profile-pic-2023.webp" style="width: 128px; margin: 0 auto 3rem auto; display: block; border-radius: 96px;"/>
+
+### Contact
+
+[bonjour@thomasguesnon.fr](mailto:bonjour@thomasguesnon.fr)
+
+For secured discussion, here is my [public GPG key](https://platform.thomasguesnon.net/gpg/thomas.guesnon-public.asc).
+
+And, [the CV](https://platform.thomasguesnon.net/cv/en.html)
+
+#### Somewhere else on the web ####
+
+- [LinkedIn](https://www.linkedin.com/in/thomas-guesnon/)
+- [Gitlab](https://gitlab.com/patjennings)
+- [Dribbble](https://dribbble.com/patjennings)
+- [Instagram](https://www.instagram.com/thomas.guesnon/)
+- [Mastodon](https://mastodon.social/@patjennings)

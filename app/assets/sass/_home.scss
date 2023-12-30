@@ -364,6 +364,7 @@
         margin-left: 2rem;
         text-decoration: none;
         border: none;
+        width: fit-content;
 
         @include animation(
           "IntroPresentationApparition 1s cubic-bezier(0.1,0,.26,1) "
