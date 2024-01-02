@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "dark"
 promoted : false
+tags : ux
 ---
 
 ![kerjean-1](/assets/images/projets/kerjean-01.webp)

@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
-
-{% assign projects=site.projects | where:"lang", page.lang %}
+{% assign projects=site.projects | where:"lang", page.lang | where:"tags", page.tag %}
 <div id="mosaique">
 
 <div class="mosaique--nav">
   <ul>
-    <li class="active"><a href="/fr/work">Tout</a></li>
-    <li><a href="/fr/work/ux">UX</a></li>
+    <li><a href="/fr/work">Tout</a></li>
+    <li class="active"><a href="/fr/work/ux">UX</a></li>
     <li><a href="/fr/work/viz">Carto/Dataviz</a></li>
     <li><a href="/fr/work/web">Web</a></li>
     <li><a href="/fr/work/motion">Motion</a></li>
@@ -29,4 +28,3 @@ layout: default
     {% endfor %}
   </ul>
 </div>
-

@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "dark"
 promoted : false
+tags : motion
 ---
 
 <video src="/assets/images/projets/thales-aoc.mp4" autoplay loop muted width="1280"></video>

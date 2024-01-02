@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "light"
 promoted : false
+tags: ux web
 ---
 
 ![](/assets/images/projets/suez-0.webp)

@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "dark"
 promoted : false
+tags : ux viz
 ---
 
 ![](/assets/images/projets/actia-1.webp)

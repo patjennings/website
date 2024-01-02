@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : true
 layout_type: "dark"
 promoted : false
+tags : ux motion viz
 ---
 
 ![](/assets/images/projets/sncf_mass_transit-1.webp)

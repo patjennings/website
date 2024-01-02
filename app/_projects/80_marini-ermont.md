@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : true
 layout_type: "dark"
 promoted : true
+tags : viz motion
 ---
 
 ![incoming](/assets/images/incoming-fr.webp)

@@ -6,25 +6,25 @@ strings:
           title: Interaction & expérience utilisateur
           description:
           caption: Supervision des infrastructures logicielles, Thales - 2021
-          url: /projets
+          url: /fr/work/ux
           mode: dark
         - id: 2
           title: Design d'information et cartographie
           description:
           caption: Mass transit, SNCF - 2017
-          url: /projets
+          url: /fr/work/viz
           mode: dark
         - id: 3
           title: Sites web & applications
           description: Applications Saas, applications mobiles, systèmes embarquées, sites web
           caption: Yoodo, Arkadin - 2016
-          url: /projets
+          url: /fr/work/web
           mode: light
         - id: 4
           title: Motion & 3D
           description:
           caption: Macintosh modélisation et rendu, personnel - 2022
-          url: /projets
+          url: /fr/work/motion
           mode: dark
     home-sections:
       section:
@@ -38,18 +38,26 @@ strings:
           title: Interaction & user experience
           description:
           caption: Moon, Scality - 2019
+          url: /en/work/ux
+          mode: dark
         - id: 2
           title: Information design & maps
           description:
           caption: Mass transit, SNCF - 2017
+          url: /en/work/viz
+          mode: dark
         - id: 3
           title: Websites & applications
           description: Saas applications, mobile applications, embedded systems, websites
           caption: Yoodo, Arkadin - 2016
+          url: /en/work/web
+          mode: light
         - id: 4
           title: Motion & 3D
           description:
           caption: Macintosh modeling and render, personal - 2022
+          url: /en/work/motion
+          mode: dark
     home-sections:
       section-1:
         title: Projects

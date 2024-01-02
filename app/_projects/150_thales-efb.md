@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "dark"
 promoted : false
+tags : ux viz
 ---
 Une sacoche de vol électronique (ou EFB pour *Electronic Flight Bag*) est une application qui permet au pilote d'y transférer tous les documents et informations nécessaires à son vol. Il doit ainsi pouvoir consulter la documentation de l'appareil, contrôler le remplissage de kérosène de l'appareil ou  visualiser la procédure d'atterrissage à l'aéroport d'arrivée. 
 <br/><br/>

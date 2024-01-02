@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "light"
 promoted : false
+tags : ux web
 ---
 
 ![incoming](/assets/images/projets/arkadin-1.webp)

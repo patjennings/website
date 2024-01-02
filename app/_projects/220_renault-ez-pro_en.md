@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "dark"
 promoted : false
+tags : ux viz
 ---
 
 ![ez-pro-1](/assets/images/projets/ezpro-1.webp)

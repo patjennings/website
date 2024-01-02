@@ -68,11 +68,11 @@ exclude:
   - vendor/ruby/
 
 # jekyll_admin:
-#   hidden_links:
-#     - posts
-#     - pages
-#     - staticfiles
-#     - datafiles
-#     - configuration
+  # hidden_links:
+    # - posts
+    # - pages
+    # - staticfiles
+    # - datafiles
+    # - configuration
 
 

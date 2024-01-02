@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "dark"
 promoted : false
+tags : ux viz
 ---
 
 ![](/assets/images/projets/thales_rmc_hmi-1.webp)

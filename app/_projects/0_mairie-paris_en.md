@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "light"
 promoted : true
+tags: ux web
 ---
 
 ![mairie-paris-1](/assets/images/projets/mairie_paris-1.webp)

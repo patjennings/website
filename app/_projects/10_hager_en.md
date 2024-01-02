@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : true
 layout_type: "light"
 promoted : false
+tags : ux motion
 ---
 
 ![ez-pro-1](/assets/images/projets/hager-1.webp)

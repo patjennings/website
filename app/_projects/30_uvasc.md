@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "dark"
 promoted : false
+tags : ux web
 ---
 
 ![](/assets/images/projets/uvasc-1.webp)

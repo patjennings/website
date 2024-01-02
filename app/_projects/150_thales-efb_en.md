@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "dark"
 promoted : false
+tags : ux viz
 ---
 An electronic flight bag is an digital application that gives pilots all datas or documents he needs to fly. He should be able to read the airplane manual, monitor fuel needs or view the landing procedure at arrival airport.
 

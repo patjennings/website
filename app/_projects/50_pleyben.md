@@ -14,6 +14,8 @@ isInteraction : true
 isMotion : false
 layout_type: "light"
 promoted : false
+tags:
+  - web
 ---
 
 ![](/assets/images/projets/pleyben-1.webp)

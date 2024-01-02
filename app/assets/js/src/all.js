@@ -26,8 +26,10 @@ window.onload = function (e) {
     pageBody.classList.remove("is-loading");
 
     const homeLayout = document.querySelector(".layout-home");
-    const projectsLayout = document.querySelector(".layout-projects");
+    const projectsLayout = document.querySelector("[class*=layout-projects]");
     const referencesLayout = document.querySelector(".layout-references");
+
+    console.log(projectsLayout);
 
     let bubblesAnim, computersAnim;
     menuHandler();
@@ -40,7 +42,7 @@ window.onload = function (e) {
         //   presentationHandler();
         adaptSliderImagesSize();
         hoverSliderImage();
-        clickSliderImage();
+        // clickSliderImage();
     }
     if (referencesLayout) {
         customSelect();

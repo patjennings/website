@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "dark"
 promoted : false
+tags : ux
 ---
 
 ![](/assets/images/projets/ivanae-2.webp)

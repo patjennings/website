@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "dark"
 promoted : false
+tags : ux viz
 ---
 This project aims at integrating commercial airplane feature into a digital setup. The seamless touch space lets information flowing all over the UI surface. Some can be put in front of each other, which is some improvements regarding what is an airplane user interface in 2013, where each feature is put in its isolated component.
 <br/><br/>

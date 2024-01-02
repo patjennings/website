@@ -27,7 +27,7 @@
     <div class="slides-details">
         {% for slide in slides.list %}
             <!-- <div class="slide--image"></div> -->
-            <a class="slide-details {{slide.mode}}" id={{ slide.id | prepend: "slide-details-" }} >{{slide.title}}</a>
+            <a class="slide-details {{slide.mode}}" id={{ slide.id | prepend: "slide-details-" }} href={{slide.url}}>{{slide.title}}</a>
         {% endfor %}
     </div>
 

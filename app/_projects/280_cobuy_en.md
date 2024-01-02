@@ -14,6 +14,7 @@ isInteraction : true
 isMotion : false
 layout_type: "light"
 promoted : false
+tags: ux
 ---
 
 ![](/assets/images/projets/cobuy-1.webp)
