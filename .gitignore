@@ -5,7 +5,7 @@ node_modules
 app/.sass-cache/
 app/.sass-cache/*
 .vscode/*
-web/
+/web/
 .DS_Store
 .projectile
 website.code-workspace
