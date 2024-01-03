@@ -4,6 +4,7 @@ node_modules
 .sass-cache
 app/.sass-cache/
 app/.sass-cache/*
+.vscode/*
 web/
 .DS_Store
 .projectile
