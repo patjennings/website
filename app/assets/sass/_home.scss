@@ -20,32 +20,26 @@
 
       .card {
         display: block;
-        // background: var(--dark);
         border-bottom: none;
         width: 23%;
-        // margin-right: 0.5rem;
-        // margin-bottom: .5rem;
         padding: 0.5rem;
         padding-bottom: 1.5rem;
         @include border-radius(3px);
-        // margin-bottom: 2rem;
 
         &:hover {
-          background: var(--white);
-          // background: none;
-
-          .card--thumb {
-            opacity: 0.75;
-          }
+          background: var(--gray-dark);
 
           .card--title {
-            color: var(--dark);
+            color: var(--white);
             opacity: 1;
+          }
+          .card--thumb{
+              filter: brightness(110%);
           }
 
           .card--client {
-            color: var(--dark);
-            opacity: 0.5;
+            color: var(--white);
+            opacity: 0.75;
           }
         }
 
@@ -58,7 +52,6 @@
         }
 
         .card--title {
-          // padding: 1rem 1rem 0.125rem 1rem;
           @include transition(all, 0.15s, ease-in-out);
         }
 

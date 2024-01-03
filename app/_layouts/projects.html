@@ -5,15 +5,7 @@ layout: default
 {% assign projects=site.projects | where:"lang", page.lang %}
 <div id="mosaique">
 
-<div class="mosaique--nav">
-  <ul>
-    <li class="active"><a href="/fr/work">Tout</a></li>
-    <li><a href="/fr/work/ux">UX</a></li>
-    <li><a href="/fr/work/viz">Carto/Dataviz</a></li>
-    <li><a href="/fr/work/web">Web</a></li>
-    <li><a href="/fr/work/motion">Motion</a></li>
-  </ul>
-</div>
+  {% include mosaique-filter.html %}
   <ul>
     {% for p in projects %}
     <li class="mosaic-item {{p.fields | split: ','}}">

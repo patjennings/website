@@ -26,6 +26,23 @@ strings:
           caption: Macintosh modélisation et rendu, personnel - 2022
           url: /fr/work/motion
           mode: dark
+    projects-filters:
+      list:
+        - id : 0
+          title : Tout
+          url: /fr/work
+        - id: 1
+          title : UX & interaction
+          url: /fr/work/ux
+        - id: 2
+          title : Cartographie, visualisation
+          url: /fr/work/viz
+        - id: 3
+          title : Web
+          url: /fr/work/web
+        - id: 4
+          title : Motion
+          url: /fr/work/motion
     home-sections:
       section:
         title: Projets
@@ -58,6 +75,23 @@ strings:
           caption: Macintosh modeling and render, personal - 2022
           url: /en/work/motion
           mode: dark
+    projects-filters:
+      list:
+        - id : 0
+          title : All
+          url: /en/work
+        - id: 1
+          title : Interaction & UX
+          url: /en/work/ux
+        - id: 2
+          title : Maps & data visualization
+          url: /en/work/viz
+        - id: 3
+          title : Web
+          url: /en/work/web
+        - id: 4
+          title : Motion
+          url: /en/work/motion
     home-sections:
       section-1:
         title: Projects

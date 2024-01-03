@@ -1,0 +1,7 @@
+  <div class="mosaique--nav">
+    <ul>
+      {% for filter in site.data.strings.strings[page.lang].projects-filters.list %}
+      <li {% if filter.url contains page.tag or page.tag == nil %} class="active" {% endif %}><a href={{filter.url}}>{{filter.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>

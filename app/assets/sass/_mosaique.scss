@@ -6,19 +6,31 @@
     ul {
       display: flex;
       flex-direction: row;
-	  margin: 2rem 1rem;
-	  align-items: center;
-	  justify-content: left;
-	  width: 100%;
+      margin: 2rem 1rem;
+      align-items: center;
+      justify-content: left;
+      width: 100%;
       li {
-        padding: 0 0.5rem;
+        // padding: 0 0.25rem;
+        padding: 0 0.6rem;
+        display: flex;
+        flex-direction: column;
         a {
-          opacity: 0.75;
+          padding: 0.25rem 0.5rem;
+          display: inline-table;
+          @include border-radius(2rem);
+          &:hover {
+            background-color: var(--gray-dark);
+            color: var(--white);
+          }
         }
         &.active {
           a {
-            font-weight: 700;
-            opacity: 1;
+            background-color: var(--white);
+            color: var(--dark);
+            &:hover {
+              background-color: var(--gray-lighter);
+            }
           }
         }
       }
