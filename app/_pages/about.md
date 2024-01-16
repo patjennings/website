@@ -13,8 +13,6 @@ J'aide les parties prenantes à définir leur vision d'un projet d'application.
 
 J'ai travaillé, notamment, pour des projets aéronautiques, de transport, pour la santé, l'éducation ou l'automobile.
 
-Je travaille en partenariat avec <a href="https://www.lesoctetslibres.com/" target="blank">les Octets Libres, agence de développement logiciel</a>, dans l'élaboration de solutions numériques clés en mains
-
 ### Contact
 
 [bonjour@thomasguesnon.fr](mailto:bonjour@thomasguesnon.fr)

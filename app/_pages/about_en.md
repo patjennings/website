@@ -12,9 +12,6 @@ I use my skills to design web or native applications, create prototypes or video
 
 I worked for various fields, such as aeronautical, transport, health, education or automotive.
 
-I have a partnership with <a href="https://www.lesoctetslibres.com/" target="blank">les Octets Libres, a development studio</a>, with whom we imagine and create turnkey digital solutions.
-
-
 ### Contact
 
 [bonjour@thomasguesnon.fr](mailto:bonjour@thomasguesnon.fr)
