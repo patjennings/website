@@ -8,5 +8,3 @@ layout_type: "dark"
 ---
 thomas guesnon
 # ux * design d'interaction
-
-Salut, je m'appelle Thomas Guesnon
