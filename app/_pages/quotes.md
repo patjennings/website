@@ -5,6 +5,8 @@ permalink: /fr/quotes
 lang: fr
 ref: quotes
 ---
+"Typography is a hidden tool of manipulation within society. " — Neville Brody
+
 "Je n'ai fait celle-ci plus longue que parce que je n'ai pas eu le loisir de la faire plus courte."
 À propos d'une lettre écrite. _in_ Les Provinciales, lettre 16 — Blaise Pascal
 
