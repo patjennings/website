@@ -44,5 +44,6 @@ jobs:
           USER: ${{ vars.USER }}
         run: |
           echo "${{ env.HOST }}"
+          echo "$HOST"
           echo "${{ env.USER }}"
           scp -rp ./public/* "$USER"@"$HOST":/var/www/thomasguesnon.fr
