@@ -14,7 +14,6 @@ env:
   USER: ${{ vars.USER }}
   SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
   SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-  PASSWORD: ${{ secrets.PASSWORD }}
 
 jobs:
   build:
