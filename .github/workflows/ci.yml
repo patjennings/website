@@ -10,9 +10,9 @@ on:
   workflow_dispatch:
 
 env: 
-  HOST: ${{ env.HOST }}
-  USER: ${{ env.USER }}
-  SSH_KNOWN_HOSTS: ${{ env.SSH_KNOWN_HOSTS }}
+  HOST: ${{ vars.HOST }}
+  USER: ${{ vars.USER }}
+  SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
 
 jobs:
   build:
