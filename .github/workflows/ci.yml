@@ -41,15 +41,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Adding Known Hosts
+        run: ssh-keyscan -H "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
       - name: Configure SSH
         run: |
-          which ssh-agent || sudo -S apt-get update -y && sudo -S apt-get install openssh-client -y
           eval $(ssh-agent -s)
           echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add > /dev/null
-          mkdir -p ~/.ssh
-          chmod 700 ~/.ssh
-          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          chmod 644 ~/.ssh/known_hosts
       - name: Deploy Jekyll website
         run: |
           echo "$HOST"
