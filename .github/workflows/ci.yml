@@ -32,8 +32,6 @@ jobs:
           chmod 700 ~/.ssh
           echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
-        with:
-          path: ~/vendor
       - name: Build Jekyll website
         run: JEKYLL_ENV=production bundle exec jekyll build -d public
       - name: Upload files
