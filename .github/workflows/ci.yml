@@ -31,7 +31,6 @@ jobs:
           echo "$PASSWORD" | sudo -S gem install bundler -v 2.2.26
           bundle config set --local path 'vendor'
           bundle install
-          eval $(ssh-agent -s)
       - name: Build Jekyll website
         run: JEKYLL_ENV=production bundle exec jekyll build -d public
       - name: Upload files
