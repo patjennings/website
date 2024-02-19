@@ -19,7 +19,8 @@ jobs:
           SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
         run: |
           echo "$PASSWORD" | sudo -S gem install bundler -v 2.2.26
-          bundle install --path vendor
+          bundle config set --local path 'vendor'
+          bundle install
           'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
           eval $(ssh-agent -s)
           echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
