@@ -8,6 +8,13 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+
+env: 
+  HOST: ${{ vars.HOST }}
+  USER: ${{ vars.USER }}
+  SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,7 +29,6 @@ jobs:
         env:
           PASSWORD: ${{ secrets.PASSWORD }}
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
         run: |
           echo "$PASSWORD" | sudo -S gem install bundler -v 2.2.26
           bundle config set --local path 'vendor'
@@ -39,10 +45,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy Jekyll website
-        env: 
-          HOST: ${{ vars.HOST }}
-          USER: ${{ env.vars.USER }}
-          SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
         run: |
           echo "$HOST"
           echo "$USER"
