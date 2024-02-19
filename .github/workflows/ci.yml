@@ -39,4 +39,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy Jekyll website
-        run: scp -rp ./public/* "$USER"@"$HOST":/var/www/thomasguesnon.fr
+        run: |
+          echo "$USER" 
+          scp -rp ./public/* "$USER"@"$HOST":/var/www/thomasguesnon.fr
