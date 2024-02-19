@@ -42,8 +42,9 @@ jobs:
         env: 
           HOST: ${{ vars.HOST }}
           USER: ${{ vars.USER }}
+          SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
         run: |
-          echo "${{ env.HOST }}"
           echo "$HOST"
-          echo "${{ env.USER }}"
+          echo "$USER"
+          echot "$SSH_KNOWN_HOSTS"
           scp -rp ./public/* "$USER"@"$HOST":/var/www/thomasguesnon.fr
