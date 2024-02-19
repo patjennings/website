@@ -44,7 +44,6 @@ jobs:
     steps:
       - name: Get credentials
         run: |
-          which ssh-add
           echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
@@ -54,5 +53,5 @@ jobs:
         run: |
           echo "$HOST"
           echo "$USER"
-          echot "$SSH_KNOWN_HOSTS"
+          echo "$SSH_KNOWN_HOSTS"
           scp -rp ./public/* "$USER"@"$HOST":/var/www/thomasguesnon.fr
