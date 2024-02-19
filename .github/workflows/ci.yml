@@ -48,7 +48,8 @@ jobs:
           ssh-keyscan -H "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
       - name: Adding private key
-        run: |
+        run: | 
+          eval `ssh-agent -s`
           ssh-add - <<< "$SSH_PRIVATE_KEY".
       - name: Push files
         run: |
