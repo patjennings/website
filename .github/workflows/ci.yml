@@ -41,7 +41,7 @@ jobs:
       - name: Deploy Jekyll website
         env: 
           HOST: ${{ vars.HOST }}
-          USER: ${{ vars.USER }}
+          USER: ${{ env.vars.USER }}
           SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
         run: |
           echo "$HOST"
