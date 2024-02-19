@@ -39,7 +39,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy Jekyll website
-        env:
-          USER: ${{ env.USER }}
-          HOST: ${{ env.HOST }}
         run: scp -rp ./public/* "$USER"@"$HOST":/var/www/thomasguesnon.fr
