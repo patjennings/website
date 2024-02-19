@@ -49,6 +49,7 @@ jobs:
           chmod 644 ~/.ssh/known_hosts
       - name: Adding private key
         run: | 
+          sudo -S apt-get update -y && sudo -S apt-get install openssh-client -y
           eval `ssh-agent -s`
           ssh-add - <<< "$SSH_PRIVATE_KEY".
       - name: Push files
