@@ -41,6 +41,7 @@ jobs:
       - name: Deploy Jekyll website
         env: 
           HOST: ${{ vars.HOST }}
+          USER: ${{ vars.USER }}
         run: |
           echo "${{ env.HOST }}"
           echo "${{ env.USER }}"
