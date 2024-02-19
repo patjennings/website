@@ -40,6 +40,5 @@ jobs:
     steps:
       - name: Deploy Jekyll website
         run: |
-          echo "${{ env.HOST }}" 
-          echo $GITHUB_ACTION
+          echo "${{ vps-40924805.HOST }}" 
           scp -rp ./public/* "$USER"@"$HOST":/var/www/thomasguesnon.fr
