@@ -1,0 +1,30 @@
+name: Build and deploy website
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install
+        run: |
+          gem install bundler -v 2.2.26
+          bundle install --path vendor
+          'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+          eval $(ssh-agent -s)
+          echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+      - name: Build Jekyll website
+        run: JEKYLL_ENV=production bundle exec jekyll build -d public
+      - name: Upload files
+        uses: actions/upload-artifact@v4 
+        with: 
+          name: jekyll_files
+          path: public
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Jekyll website
+        run: scp -rp ./public/* "$USER"@"$HOST":/var/www/thomasguesnon.fr
