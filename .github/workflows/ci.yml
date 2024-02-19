@@ -16,6 +16,8 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ~/vendor
+      - name: Checkout
+        uses: actions/checkout@v3
       - name: Install
         env:
           PASSWORD: ${{ secrets.PASSWORD }}
