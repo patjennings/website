@@ -13,6 +13,8 @@ env:
   HOST: ${{ vars.HOST }}
   USER: ${{ vars.USER }}
   SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
+  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+  PASSWORD: ${{ secrets.PASSWORD }}
 
 jobs:
   build:
@@ -25,9 +27,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install
-        env:
-          PASSWORD: ${{ secrets.PASSWORD }}
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
           echo "$PASSWORD" | sudo -S gem install bundler -v 2.2.26
           bundle config set --local path 'vendor'
@@ -43,6 +42,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Get credentials
+        run: |
+          echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
       - name: Deploy Jekyll website
         run: |
           echo "$HOST"
