@@ -39,6 +39,6 @@ jobs:
     steps:
       - name: Deploy Jekyll website
         env:
-          USER: ${{ variables.USER }}
-          HOST: ${{ variables.HOST }}
+          USER: ${{ env.USER }}
+          HOST: ${{ env.HOST }}
         run: scp -rp ./public/* "$USER"@"$HOST":/var/www/thomasguesnon.fr
