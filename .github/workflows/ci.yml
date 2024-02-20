@@ -14,7 +14,7 @@ env:
   USER: ${{ vars.USER }}
   SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
   SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-  CI : false
+  PASSWORD: ${{ secrets.PASSWORD }}
 
 jobs:
   build:
@@ -51,7 +51,15 @@ jobs:
         run: | 
           sudo -S apt-get update -y && sudo -S apt-get install openssh-client -y
           eval `ssh-agent -s`
-          ssh-add - <<< "$SSH_PRIVATE_KEY".
-      - name: Push files
-        run: |
-          scp -rp jekyll_files "$USER"@"$HOST":/var/www/thomasguesnon.fr
+          ssh-add - <<< "$SSH_PRIVATE_KEY"
+      - name: SSH Remote Commands
+        uses: appleboy/ssh-action@v1.0.3 
+        with:
+          host: "$HOST"
+          user: "$USER"
+          key: "$SSH_PRIVATE_KEY"
+          password: "$PASSWORD"
+          script: whoami
+   #   - name: Push files
+   #     run: |
+   #       scp -rp jekyll_files "$USER"@"$HOST":/var/www/thomasguesnon.fr
