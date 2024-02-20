@@ -61,13 +61,13 @@ jobs:
       # - name: list files
       #  run: ls ${{ github.workspace }} && ls ~
       - name: Deploy project with SSH
-          uses: easingthemes/ssh-deploy@v2.1.4
-          env:
-     	     SSH_PRIVATE_KEY: ${{ env.SSH_PRIVATE_KEY }}
-            REMOTE_HOST: ${{ env.HOST }}
-            REMOTE_USER: ${{ env.USER }}
-            SOURCE: "jekyll_files"
-            TARGET: "/var/www/thomasguesnon.fr/tmp"
+        uses: easingthemes/ssh-deploy@v2.1.4
+        env:
+     	    SSH_PRIVATE_KEY: ${{ env.SSH_PRIVATE_KEY }}
+          REMOTE_HOST: ${{ env.HOST }}
+          REMOTE_USER: ${{ env.USER }}
+          SOURCE: "jekyll_files"
+          TARGET: "/var/www/thomasguesnon.fr/tmp"
       - name: SSH Remote Commands
         uses: appleboy/ssh-action@v1.0.3 
         with:
