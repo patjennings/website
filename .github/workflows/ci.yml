@@ -48,18 +48,11 @@ jobs:
           chmod 700 ~/.ssh
           ssh-keyscan -H "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
-      # - name: Adding private key
-        # run: | 
-          # sudo -S apt-get update -y && sudo -S apt-get install openssh-client -y
-          # eval `ssh-agent -s`
-          # ssh-add - <<< "$SSH_PRIVATE_KEY"
       - uses: actions/checkout@master 
       - uses: actions/download-artifact@master
         with:
           name: jekyll_files
           path: ./public
-      # - name: list files
-      #  run: ls ${{ github.workspace }} && ls ~
       - name: Deploy project with SSH
         uses: easingthemes/ssh-deploy@v2.1.4
         env:
@@ -67,15 +60,4 @@ jobs:
           REMOTE_HOST: ${{ env.HOST }}
           REMOTE_USER: ${{ env.USER }}
           SOURCE: "public/*"
-          TARGET: "/var/www/thomasguesnon.fr/tmp"
-      - name: SSH Remote Commands
-        uses: appleboy/ssh-action@v1.0.3 
-        with:
-          host: ${{ env.HOST }}
-          username: ${{ env.USER }} 
-          key: ${{ env.SSH_PRIVATE_KEY }}
-          password: ${{ env.PASSWORD }}
-          script: whoami
-      #- name: Push files
-      #  run: |
-      #    scp -rp "${{ github.workspace }}/public/*" "$USER"@"$HOST":/var/www/thomasguesnon.fr/tmp
+          TARGET: "/var/www/thomasguesnon.fr"
