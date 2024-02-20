@@ -60,14 +60,6 @@ jobs:
           path: public
       - name: list files
         run: ls ${{ github.workspace }} 
-   #   - name: SSH Remote Commands
-   #     uses: appleboy/ssh-action@v1.0.3 
-   #     with:
-   #       host: ${{ env.HOST }}
-   #       username: ${{ env.USER }} 
-   #       key: ${{ env.SSH_PRIVATE_KEY }}
-   #       password: ${{ env.PASSWORD }}
-   #       script: scp -rp "${{ github.workspace }}/public/*" "$username":"$host":/var/www/thomasguesnon.fr/tmp
-        - name: Push files
-          run: |
-            scp -rp "${{ github.workspace }}/public/*" "USER"@"$HOST":/var/www/thomasguesnon.fr/tmp
+      - name: Push files
+        run: |
+          scp -rp "${{ github.workspace }}/public/*" "USER"@"$HOST":/var/www/thomasguesnon.fr/tmp
