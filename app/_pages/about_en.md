@@ -23,7 +23,7 @@ And, [the CV](https://platform.thomasguesnon.net/cv/en.html)
 #### Somewhere else on the web ####
 
 - [LinkedIn](https://www.linkedin.com/in/thomas-guesnon/)
-- [Gitlab](https://gitlab.com/patjennings)
+- [Github](https://github.com/patjennings)
 - [Dribbble](https://dribbble.com/patjennings)
 - [Instagram](https://www.instagram.com/thomas.guesnon/)
 - [Mastodon](https://mastodon.social/@patjennings)
