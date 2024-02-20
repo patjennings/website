@@ -62,4 +62,4 @@ jobs:
         run: ls ${{ github.workspace }} 
       - name: Push files
         run: |
-          scp -rp "${{ github.workspace }}/public/*" "USER"@"$HOST":/var/www/thomasguesnon.fr/tmp
+          scp -rp "${{ github.workspace }}/public/*" "$USER"@"$HOST":/var/www/thomasguesnon.fr/tmp
