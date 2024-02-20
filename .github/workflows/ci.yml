@@ -53,6 +53,11 @@ jobs:
           sudo -S apt-get update -y && sudo -S apt-get install openssh-client -y
           eval `ssh-agent -s`
           ssh-add - <<< "$SSH_PRIVATE_KEY"
+      - uses: actions/checkout@master 
+      - uses: actions/download-artifact@master
+        with:
+          name: jekyll_files
+          path: public
       - name: SSH Remote Commands
         uses: appleboy/ssh-action@v1.0.3 
         with:
