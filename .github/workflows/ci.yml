@@ -59,7 +59,7 @@ jobs:
           name: jekyll_files
           path: public
       - name: list files
-        run: ls -1al
+        run: ls ${{ github.workspace }} 
       - name: SSH Remote Commands
         uses: appleboy/ssh-action@v1.0.3 
         with:
@@ -67,7 +67,7 @@ jobs:
           username: ${{ env.USER }} 
           key: ${{ env.SSH_PRIVATE_KEY }}
           password: ${{ env.PASSWORD }}
-          script: scp -rp ./public/* "$username":"$host":/var/www/thomasguesnon.fr
+          script: scp -rp public/* "$username":"$host":/var/www/thomasguesnon.fr/tmp
    #   - name: Push files
    #     run: |
    #       scp -rp jekyll_files "$USER"@"$HOST":/var/www/thomasguesnon.fr
