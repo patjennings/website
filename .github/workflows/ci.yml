@@ -40,6 +40,7 @@ jobs:
           path: public
   deploy:
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Adding Known Hosts
         run: |
@@ -56,7 +57,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3 
         with:
           host: ${{ env.HOST }}
-          user: ${{ env.USER }} 
+          username: ${{ env.USER }} 
           key: ${{ env.SSH_PRIVATE_KEY }}
           password: ${{ env.PASSWORD }}
           script: whoami
