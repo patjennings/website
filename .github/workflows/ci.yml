@@ -54,7 +54,4 @@ jobs:
           ssh-add - <<< "$SSH_PRIVATE_KEY".
       - name: Push files
         run: |
-          echo "$HOST"
-          echo "$USER"
-          echo "$SSH_KNOWN_HOSTS"
-          scp -rp ./public/* "$USER"@"$HOST":/var/www/thomasguesnon.fr
+          scp -rp jekyll_files "$USER"@"$HOST":/var/www/thomasguesnon.fr
