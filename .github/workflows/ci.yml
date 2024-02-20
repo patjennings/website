@@ -55,10 +55,10 @@ jobs:
       - name: SSH Remote Commands
         uses: appleboy/ssh-action@v1.0.3 
         with:
-          host: "$HOST"
-          user: "$USER"
-          key: "$SSH_PRIVATE_KEY"
-          password: "$PASSWORD"
+          host: $HOST
+          user: $USER
+          key: $SSH_PRIVATE_KEY
+          password: $PASSWORD
           script: whoami
    #   - name: Push files
    #     run: |
