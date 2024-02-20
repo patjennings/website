@@ -57,7 +57,7 @@ jobs:
       - uses: actions/download-artifact@master
         with:
           name: jekyll_files
-          path: public
+          path: ./public
       # - name: list files
       #  run: ls ${{ github.workspace }} && ls ~
       - name: Deploy project with SSH
@@ -66,7 +66,7 @@ jobs:
      	    SSH_PRIVATE_KEY: ${{ env.SSH_PRIVATE_KEY }}
           REMOTE_HOST: ${{ env.HOST }}
           REMOTE_USER: ${{ env.USER }}
-          SOURCE: "jekyll_files"
+          SOURCE: "public"
           TARGET: "/var/www/thomasguesnon.fr/tmp"
       - name: SSH Remote Commands
         uses: appleboy/ssh-action@v1.0.3 
