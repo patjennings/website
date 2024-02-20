@@ -58,6 +58,8 @@ jobs:
         with:
           name: jekyll_files
           path: public
+      - name: list files
+        run: ls -1alR
       - name: SSH Remote Commands
         uses: appleboy/ssh-action@v1.0.3 
         with:
