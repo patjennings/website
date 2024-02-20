@@ -63,7 +63,7 @@ jobs:
       - name: Deploy project with SSH
         uses: easingthemes/ssh-deploy@v2.1.4
         env:
-     	    SSH_PRIVATE_KEY: ${{ env.SSH_PRIVATE_KEY }}
+          SSH_PRIVATE_KEY: ${{ env.SSH_PRIVATE_KEY }}
           REMOTE_HOST: ${{ env.HOST }}
           REMOTE_USER: ${{ env.USER }}
           SOURCE: "public"
