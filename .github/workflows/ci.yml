@@ -59,7 +59,7 @@ jobs:
           name: jekyll_files
           path: public
       - name: list files
-        run: ls ${{ github.workspace }} 
+        run: ls ${{ github.workspace }} && ls ~
       - name: SSH Remote Commands
         uses: appleboy/ssh-action@v1.0.3 
         with:
