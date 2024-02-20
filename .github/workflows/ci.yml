@@ -54,6 +54,10 @@ jobs:
           eval `ssh-agent -s`
           ssh-add - <<< "$SSH_PRIVATE_KEY"
       - uses: actions/checkout@master 
+      - uses: actions/download-artifact@master
+        with:
+          name: jekyll_files
+          path: public
       - name: list files
         run: ls ${{ github.workspace }} 
       - name: SSH Remote Commands
