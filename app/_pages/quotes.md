@@ -5,6 +5,11 @@ permalink: /fr/quotes
 lang: fr
 ref: quotes
 ---
+"Typography is a hidden tool of manipulation within society. " — Neville Brody
+
+« Les mots que je veux laisser à mes enfants commencent par ceux-ci : « Aimez les autres comme vous vous aimez vous-mêmes ». Je voudrais également finir avec cette maxime, et finalement tout serait exprimé par elle. » 
+Takashi Nagai - Enfants aimés, 1949. 
+
 "Je n'ai fait celle-ci plus longue que parce que je n'ai pas eu le loisir de la faire plus courte."
 À propos d'une lettre écrite. _in_ Les Provinciales, lettre 16 — Blaise Pascal
 
