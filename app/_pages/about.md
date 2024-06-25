@@ -15,9 +15,7 @@ J'ai travaillé, notamment, pour des projets aéronautiques, de transport, pour 
 
 ### Contact
 
-[bonjour@thomasguesnon.fr](mailto:bonjour@thomasguesnon.fr)
-
-Pour les échanges sécurisés, vous trouverez également ma [La clé publique](https://platform.thomasguesnon.net/gpg/thomas.guesnon-public.asc).
+[thomas.guesnon@hey.com](mailto:thomas.guesnon@hey.com)
 
 Et, [le CV](https://platform.thomasguesnon.net/cv/fr.html)
 
