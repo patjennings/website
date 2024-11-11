@@ -15,7 +15,7 @@ J'ai travaillé, notamment, pour des projets aéronautiques, de transport, pour 
 
 ### Contact
 
-[thomas.guesnon@hey.com](mailto:thomas.guesnon@hey.com)
+[bonjour@thomasguesnon.fr](mailto:bonjour@thomasguesnon.fr)
 
 Et, [le CV](https://platform.thomasguesnon.net/cv/fr.html)
 
