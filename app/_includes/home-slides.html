@@ -7,10 +7,9 @@
         {% for slide in slides.list %}
         <div class="slide {{slide.mode}}" id={{ slide.id | prepend: "slide-" }}>
             <div class="slide--image"></div>
-            <!-- <p class="slide--title">{{slide.title}}</p> -->
             <div class="slide--details hidden">
                 <h3 class="title">{{slide.title}}</h3>
-                <p class="description">{{slide.description}}</p>
+                <!-- <p class="description">{{slide.description}}</p> -->
                 <p class="caption">{{slide.caption}}</p>
             </div>
         </div>
@@ -26,8 +25,8 @@
     <!-- Slides details -->
     <div class="slides-details">
         {% for slide in slides.list %}
-            <!-- <div class="slide--image"></div> -->
-            <a class="slide-details {{slide.mode}}" id={{ slide.id | prepend: "slide-details-" }} href={{slide.url}}>{{slide.title}}</a>
+        <a class="slide-details {{slide.mode}}" id={{ slide.id | prepend: "slide-details-" }}
+            href={{slide.url}}>{{slide.title}}</a>
         {% endfor %}
     </div>
 
@@ -49,11 +48,11 @@
 
     <!-- Intro sentence (i'm a designer) -->
     <div class="intro--content" id="intro--heading">
-        <a href="{{site.url}}/{{ page.lang }}/work" id="intro-presentation">
-            <div class="sentence">
-                {{content}}
-            </div>
-        </a>
+        {% if page.lang == "fr" %}
+        ux + <br /> design<br />d'interaction
+        {% elsif page.lang == "en" %}
+        ux + <br />interaction<br />design
+        {% endif %}
     </div>
 </div>
 </div>

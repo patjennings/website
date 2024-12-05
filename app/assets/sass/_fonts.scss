@@ -1,28 +1,24 @@
-@font-face {
-    font-family: 'Inter';
-    src: url(fonts/InterVariable.ttf) format('truetype');
-}
 // MONOSPACE
-// @font-face {
-//     font-family: 'Nitti';
-//     font-style: normal;
-//     font-weight: 400;
-//     font-display: auto;
-//     src: url('fonts/NittiBasic-Normal.woff2') format('woff2'),
-//          url('fonts/NittiBasic-Normal.woff') format('woff');
-//     // unicode-range: U+0021-007e;
-//     font-display: swap;
-// }
-// @font-face {
-//     font-family: 'Nitti';
-//     font-style: normal;
-//     font-weight: 700;
-//     font-display: auto;
-//     src: url('fonts/Nitti-Bold.woff2') format('woff2'),
-//          url('fonts/Nitti-Bold.woff') format('woff');
-//     // unicode-range: U+0021-007e;
-//     font-display: swap;
-// }
+@font-face {
+    font-family: 'Geist';
+    font-style: normal;
+    //font-display: auto;
+    src: url('fonts/Geist.woff2') format('woff2 supports variations'),
+         url('fonts/Geist.woff2') format('woff2-variations');
+    font-weight: 100 1000;
+    // unicode-range: U+0021-007e;
+    //font-display: swap;
+}
+@font-face {
+    font-family: 'GeistMono';
+    font-style: normal;
+    font-display: auto;
+    src: url('fonts/GeistMono.woff2') format('woff2 supports variations'),
+         url('fonts/GeistMono.woff2') format('woff2-variations');
+    font-weight: 100 1000;
+    // unicode-range: U+0021-007e;
+    font-display: swap;
+}
 
 ///////////
 // SERIF

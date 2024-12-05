@@ -6,6 +6,3 @@ ref: home
 permalink: /en
 layout_type: "dark"
 ---
-
-thomas guesnon
-# ux * interaction design

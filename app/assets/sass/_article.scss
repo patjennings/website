@@ -20,7 +20,6 @@
 	          .page-meta{
 		            margin-top: 0.5rem;
 		            font-size: 1rem;
-		            font-family: var(--font-family-sans);
 		            color: var(--gray);
 		            font-weight: 900;
 		            text-transform: uppercase;
@@ -66,7 +65,7 @@
 	          }
 
 	          p, ul li{
-		            font-family: var(--font-family-sans);
+		            //font-family: var(--font-family-sans);
 		            font-size: 1rem;
 		            line-height: 1.6rem;
 	          }

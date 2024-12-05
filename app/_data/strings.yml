@@ -47,7 +47,7 @@ strings:
       section:
         title: Projets
     footer-message:
-      content: "Design & code 🛠️ Thomas Guesnon - 2018-2023"
+      content: "Design & code 🛠️ Thomas Guesnon - 2018-2024"
   en:
     slides-intro:
       list:
@@ -96,4 +96,4 @@ strings:
       section-1:
         title: Projects
     footer-message:
-      content: "Design & code 🛠️ Thomas Guesnon - 2018-2023"
+      content: "Design & code 🛠️ Thomas Guesnon - 2018-2024"

@@ -17,14 +17,17 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      height: fit-content;
+      gap: 1rem;
 
       .card {
         display: block;
         border-bottom: none;
-        width: 23%;
-        padding: 0.5rem;
+        width: 20%;
+        padding: 1rem;
         padding-bottom: 1.5rem;
         @include border-radius(3px);
+        
 
         &:hover {
           background: var(--gray-dark);
@@ -41,6 +44,10 @@
             color: var(--white);
             opacity: 0.75;
           }
+          .card--excerpt {
+            color: var(--white);
+            opacity: 1;
+          }
         }
 
         .card--thumb {
@@ -53,12 +60,19 @@
 
         .card--title {
           @include transition(all, 0.15s, ease-in-out);
+          line-height: 1.6rem;
         }
 
         .card--client {
           color: rgba(255, 255, 255, 0.5);
           // padding: 0 1rem 1rem 1rem;
           @include transition(all, 0.15s, ease-in-out);
+          line-height: 1.6rem;
+        }
+        .card--excerpt {
+          @include transition(all, 0.15s, ease-in-out);
+          line-height: 1.6rem;
+          margin-top: 0.5rem;
         }
       }
 
@@ -178,9 +192,9 @@
 
           h3.title {
             font-weight: 500;
-            font-size: 1.5rem;
+            font-size: 1rem;
             margin: 0;
-            margin-bottom: 1rem;
+            //margin-bottom: 0.33rem;
           }
 
           p.description {
@@ -335,11 +349,15 @@
     .intro--content {
       width: 100vw;
       z-index: 3;
+      margin-left: 3rem;
 
       display: flex;
       flex-direction: column;
       height: 15vh;
       transition: opacity 0.25s ease-in-out;
+
+      //font-family: var(--font-family-sans);
+      font-size: 2rem;
 
       &.highlighted {
         opacity: 1;
@@ -349,51 +367,7 @@
         opacity: 0.1;
       }
 
-      // link
-      #intro-presentation {
-        display: block;
-        padding: 1rem;
-        width: auto;
-        margin-left: 2rem;
-        text-decoration: none;
-        border: none;
-        width: fit-content;
 
-        @include animation(
-          "IntroPresentationApparition 1s cubic-bezier(0.1,0,.26,1) "
-        );
-        // animation-fill-mode: backwards;
-        // animation-delay: 0.65s;
-
-        @include keyframes(IntroPresentationApparition) {
-          0% {
-            opacity: 0;
-            margin-left: 0;
-          }
-
-          100% {
-            opacity: 1;
-            margin-left: 2rem;
-          }
-        }
-
-        &:hover {
-          // background: var(--yellow);
-          background: none;
-          opacity: 0.5;
-          // color: var(--yellow);
-          // border: 1px solid var(--yellow);
-        }
-
-        p {
-          margin-bottom: 0;
-          font-size: 18px;
-        }
-
-        h1 {
-          margin-top: 0;
-        }
-      }
     }
 
     .details {
